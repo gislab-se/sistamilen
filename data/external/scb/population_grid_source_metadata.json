@@ -1,0 +1,15 @@
+{
+  "retrieved_at_utc": "2026-08-06T10:54:33.698262+00:00",
+  "source": "SCB Statistik på rutor, WFS",
+  "source_url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3Abefolkning_1km_2025&outputFormat=application%2Fjson&srsName=EPSG%3A3006&bbox=348758.0388%2C6635243.2554%2C594521.7503%2C6906905.0195%2CEPSG%3A3006",
+  "layer": "stat:befolkning_1km_2025",
+  "reference_year": 2025,
+  "source_crs": "EPSG:3006",
+  "derived_crs": "EPSG:4326",
+  "selection": "Befolkade 1 km-rutor vars mittpunkt ligger i DeSO 2025 för Dalarnas län.",
+  "feature_count": 4004,
+  "population_total": 285587,
+  "population_65_plus_sum": 75189,
+  "unmatched_populated_bbox_cells": 4899,
+  "privacy_note": "SCB använder statistiskt röjandeskydd. Summerade delgrupper kan därför avvika från redovisad totalbefolkning."
+}

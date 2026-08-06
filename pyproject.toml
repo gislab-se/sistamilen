@@ -1,0 +1,15 @@
+[project]
+name = "paketleveranser-dalarna-dashboard"
+version = "0.1.0"
+description = "Streamlit-dashboard för en första orientering i paketleveranser och servicepunkter i Dalarna."
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.5",
+    "pyproj>=3.7.2",
+    # Starlette 1.4 ändrade GZipResponder-signaturen; Streamlit 1.61.0
+    # anropar ännu inte den nya obligatoriska parametern.
+    "starlette>=0.46,<1.4",
+    "streamlit>=1.61.0",
+]

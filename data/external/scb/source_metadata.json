@@ -1,0 +1,32 @@
+{
+  "retrieved_at_utc": "2026-08-05T12:57:52.963762+00:00",
+  "scope": "Dalarnas län (länskod 20)",
+  "geometry": {
+    "source": "SCB Geodata, WFS",
+    "url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3ADeSO_2025&outputFormat=application%2Fjson&CQL_FILTER=lanskod%3D%2720%27",
+    "layer": "stat:DeSO_2025",
+    "source_crs": "EPSG:3006",
+    "derived_crs": "EPSG:4326",
+    "feature_count": 175
+  },
+  "population": {
+    "source": "SCB Statistikdatabasen, tabell TAB6574",
+    "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB6574/data?lang=sv&valueCodes%5BRegion%5D=20%2A&codelist%5BRegion%5D=vs_DeSO2025&valueCodes%5BAlder%5D=totalt%2C65-69%2C70-74%2C75-79%2C80-&valueCodes%5BKon%5D=1%2B2&valueCodes%5BContentsCode%5D=000007Y7&valueCodes%5BTid%5D=2024&outputFormat=csv",
+    "reference_date": "2024-12-31",
+    "unit": "antal personer",
+    "sex": "totalt (1+2)",
+    "ages": [
+      "totalt",
+      "65-69",
+      "70-74",
+      "75-79",
+      "80-"
+    ],
+    "note": "65+ är summering av fyra publicerade åldersgrupper."
+  },
+  "quality": {
+    "node_count": 236,
+    "nodes_with_exactly_one_deso": 236,
+    "unmatched_nodes": 0
+  }
+}

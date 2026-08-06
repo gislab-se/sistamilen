@@ -1,0 +1,234 @@
+---
+title: "Databehov för kartläggning av paketleveranser i Dalarna"
+subtitle: "Kort arbetsrapport för Fas 1: kartläggning"
+date: "2026-07-03"
+lang: sv
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    embed-resources: true
+    theme: cosmo
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(readxl)
+
+profile <- read.csv("../derived/kommun_paket_service_screening.csv", fileEncoding = "UTF-8-BOM")
+service <- read_excel("../rawdata/Servicepunkter_2026_Dalarna.xlsx", sheet = "sp2026")
+packages_raw <- read_excel("../rawdata/Paketvolymer_2024_Dalarna_kommun.xlsx", skip = 2)
+packages <- packages_raw[!is.na(packages_raw$Kommun) & tolower(packages_raw$Kommun) != "summa", ]
+
+n_kommuner <- length(unique(packages$Kommun))
+n_service <- nrow(service)
+n_aktorer <- length(unique(service$Aktör))
+top_screening <- profile[order(profile$preliminar_screeningrank), c(
+  "kommun",
+  "preliminar_screeningrank",
+  "b2c_tusen_per_servicepunkt",
+  "servicepunkter_per_10000_inv",
+  "kommuntyp"
+)][1:5, ]
+names(top_screening) <- c(
+  "Kommun",
+  "Screeningrank",
+  "B2C per servicepunkt, tusental",
+  "Servicepunkter per 10 000 inv.",
+  "Kommuntyp"
+)
+```
+
+## Sammanfattning
+
+Projektet behöver skilja på fyra saker: efterfrågan, tillgänglighet, sårbarhet och möjlig samordning. Dagens material räcker för en första regional screening på kommunnivå, men inte för att säkert peka ut enskilda riskplatser eller utlämningsställen.
+
+Den viktigaste begränsningen är denna:
+
+> Vi har paketvolymer per kommun, men inte per utlämningsställe, ombud, paketbox, postnummer eller rutt.
+
+Det innebär att mått som "B2C-volym per servicepunkt" bara är ett kommunalt genomsnitt. Det säger att en kommun kan vara intressant att granska, men det säger inte vilken specifik servicepunkt som har hög belastning eller vilken plats som tappar mest om ett ombud försvinner.
+
+## Uppdragets datalogik
+
+Uppdragsbeskrivningen pekar ut tre arbetsfaser:
+
+1. Kartläggning av vilka samhällen och geografier som påverkas.
+2. Situerad behovsanalys om vad nedmontering betyder för individ, näringsliv och lokalsamhälle.
+3. Utvecklingslinjer med möjliga modeller, rådighet och nyckelaktörer.
+
+För Fas 1 behöver datan framför allt hjälpa oss svara på:
+
+- vilka geografier som redan har drabbats
+- vilka geografier som ligger i riskzonen
+- vilka aktörer som är relevanta för paketleveranser
+- vilka platser som har liknande förutsättningar
+- vilka lokala och regionala värden som inte fångas av effektivitet och lönsamhet
+
+## Data vi har nu
+
+```{r}
+data_status <- data.frame(
+  Datakälla = c(
+    "Paketvolymer 2024",
+    "Servicepunkter 2026",
+    "Härledd kommunprofil"
+  ),
+  Geografi = c(
+    "Kommun",
+    "Servicepunkt med koordinat",
+    "Kommun"
+  ),
+  Innehåll = c(
+    "Paketbrev, B2C, C2X och B2B i tusental",
+    "Aktör, ombud, typ, adress, leveransfrekvens, kommun, kommuntyp, koordinater",
+    "Kommunvisa nyckeltal och preliminär screening"
+  ),
+  Begränsning = c(
+    "Inte per utlämningsställe, postnummer, rutt eller ort",
+    "Visar nuläge, inte historiska stängningar eller faktisk volym per punkt",
+    "Screening, inte färdig riskmodell"
+  )
+)
+knitr::kable(data_status)
+```
+
+Kort nuläge i materialet:
+
+- `r n_kommuner` kommuner i paketvolymfilen.
+- `r n_service` servicepunktsrader i servicepunktsfilen.
+- `r n_aktorer` aktörer i servicepunktsfilen.
+- Paketvolymerna är kommunala årsvolymer i tusental.
+
+## Vad vi kan säga med dagens data
+
+Med dagens data kan vi:
+
+- kartlägga var servicepunkter finns
+- jämföra kommuner med avseende på servicepunktstäthet
+- se vilka aktörer och typer av servicepunkter som finns i olika kommuner
+- räkna kommunala genomsnitt, till exempel B2C-volym per servicepunkt
+- identifiera kommuner som bör granskas vidare
+
+Exempel på preliminär kommunal screening:
+
+```{r}
+knitr::kable(top_screening, digits = 2)
+```
+
+## Vad vi inte kan säga än
+
+Med dagens data kan vi inte säkert säga:
+
+- vilka enskilda utlämningsställen som har högst paketvolym
+- vilka ombud eller paketboxar som är mest kritiska för lokalsamhället
+- vilka platser som tidigare haft paketservice men förlorat den
+- om Bingsjö, By eller andra problemplatser har låg faktisk tillgänglighet utan restidsanalys
+- vilka hushåll, företag eller grupper som påverkas mest av neddragningar
+- vilka rutter eller transportflöden som kan samordnas med andra samhällsflöden
+
+## Data vi behöver
+
+### 1. Paketservice: nuläge och förändring
+
+Behövs för att förstå vad som faktiskt har hänt och var sårbarheten finns.
+
+- Nuvarande servicepunkter, ombud, paketboxar, aktörer och leveransfrekvens.
+- Historiska servicepunkter: vilka har stängt, när, var och varför.
+- Platser där paketleveranser redan har upphört eller hotas, särskilt Bingsjö och By.
+- Paketvolymer på lägre nivå än kommun: helst utlämningsställe, annars postnummer, postort, rutt eller anonymiserad zon.
+- Aktörernas täckning: till exempel PostNord, DHL, Schenker, Bussgods och andra relevanta aktörer.
+
+### 2. Efterfrågan och behov
+
+Behövs för att förstå var bortfall av service får störst konsekvenser.
+
+- Befolkning per småområde, ruta eller annan finare geografi.
+- Ålder, särskilt äldre hushåll.
+- Arbetsställen och lokala företag.
+- Fritidshus och säsongsvariation.
+- Bilinnehav eller andra mått på bilberoende om tillgängligt.
+- Lokala målpunkter: butiker, skolor, vård, bibliotek, drivmedel, servicebutiker och bygdegårdar.
+
+### 3. Tillgänglighet
+
+Behövs för att skilja mellan formell service och faktisk nåbarhet.
+
+- Vägnät och restider.
+- Avstånd eller restid till närmaste paketombud/servicepunkt.
+- Kollektivtrafik: hållplatser, linjer, turtäthet och bytespunkter.
+- PIPOS eller liknande regional tillgänglighetsanalys.
+- Tätorter, småorter och landsbygdsområden.
+
+### 4. Sårbarhet
+
+Behövs för att bygga ett tydligare riskbegrepp.
+
+- Platser som är beroende av en enda servicepunkt.
+- Platser med lång restid till alternativ service.
+- Platser med låg leveransfrekvens.
+- Kommuner eller områden med hög paketvolym i relation till få servicepunkter.
+- Avlägsna kommuntyper och orter.
+- Kända neddragningar eller kommersiellt svaga områden.
+- Grupper som påverkas särskilt: äldre, småföretag och hushåll utan bil.
+
+### 5. Synergier och samordningsflöden
+
+Behövs för att se om paketservice kan kopplas till andra flöden.
+
+- Dalatrafiken: linjer, hållplatser, depåer och vändpunkter.
+- Hemtjänst: aggregerade rutter eller geografiska upptagningsområden, inte persondata.
+- Kommunala transporter: matdistribution, skolskjuts och interna transporter.
+- Tvättflöden, till exempel kopplat till Fredriksbergstvätten.
+- Maserfrakt och andra fraktaktörer: terminaler, huvudstråk och distributionsområden.
+- Befintliga lokala noder: lanthandel, drivmedel, servicepunkt, bygdegård och bibliotek.
+
+### 6. Kvalitativ data
+
+Behövs eftersom uppdraget frågar efter värden bortom effektivitet och lönsamhet.
+
+- Intervjuer med boende, företag, ombud och kommunala aktörer.
+- Platser där paketservicen har social betydelse.
+- Lokal rådighet: vilka aktörer kan faktiskt påverka en lösning?
+- Upplevt acceptabelt avstånd till paketservice.
+- Lokala idéer om samordning och nya modeller.
+
+## Minsta nästa datapaket
+
+```{r}
+next_data <- data.frame(
+  Prioritet = c(1, 2, 3, 4, 5, 6),
+  Databehov = c(
+    "Historiska och hotade servicepunkter",
+    "Paketvolymer på lägre nivå än kommun",
+    "Befolkning, arbetsställen och fritidshus på finare geografi",
+    "Restid/avstånd till närmaste servicepunkt",
+    "Kollektivtrafik och andra samhällsflöden",
+    "Kvalitativa fallstudier"
+  ),
+  Varför = c(
+    "För att skilja faktisk nedmontering från allmän sårbarhet",
+    "För att inte blanda ihop kommunalt genomsnitt med verklig belastning per plats",
+    "För att förstå vilka behov som finns runt servicepunkterna",
+    "För att mäta faktisk tillgänglighet",
+    "För att hitta möjliga synergier och samordning",
+    "För att fånga värden och konsekvenser som inte syns i tabeller"
+  )
+)
+knitr::kable(next_data)
+```
+
+## Rekommendation för app och rapport
+
+Appen bör fortsätta vara arbetsyta för analys. Den kan visa data, filter och preliminära indikatorer. Rapporten bör däremot vara den kuraterade berättelsen för kollegor: vad vi vet, vad vi inte vet och vilka data som behövs för nästa steg.
+
+Nästa appsteg bör inte vara fler allmänna diagram, utan tydligare vyer för:
+
+- riskzoner och sårbarhet
+- platskort för Bingsjö, By och andra fall
+- aktörer och datagap
+- jämförbara geografier
+- möjliga samordningsflöden

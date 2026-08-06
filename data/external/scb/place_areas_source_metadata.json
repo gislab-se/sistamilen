@@ -1,0 +1,88 @@
+{
+  "retrieved_at_utc": "2026-08-05T13:05:33.603018+00:00",
+  "source": "Statistiska centralbyrån (SCB), öppna geodata via WFS",
+  "source_page": "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/",
+  "wfs_capabilities_url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetCapabilities",
+  "scope": "Dalarnas län (länskod 20)",
+  "license": "Creative Commons CC0 1.0 Universal",
+  "license_terms": "https://www.scb.se/om-scb/om-scb.se-och-anvandningsvillkor",
+  "layers": [
+    {
+      "layer": "stat:Tatorter_2023",
+      "omradestyp": "Tätort",
+      "reference_year": 2023,
+      "url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3ATatorter_2023&outputFormat=application%2Fjson&srsName=EPSG%3A3006&CQL_FILTER=lan%3D%2720%27",
+      "raw_file": "data/external/scb/tatorter_2023_dalarna_raw.geojson",
+      "raw_sha256": "85a90f8ea94c87daf2ab889e36ce4e08efe88b50234f43d4b0dcfacc707932d8",
+      "source_crs": "EPSG:3006",
+      "feature_count": 114,
+      "source_code_field": "tatortskod",
+      "source_name_field": "tatort",
+      "valid_from_values": [
+        "2023-12-31"
+      ],
+      "valid_to_values": [
+        "2025-12-31"
+      ]
+    },
+    {
+      "layer": "stat:Smaorter_2023",
+      "omradestyp": "Småort",
+      "reference_year": 2023,
+      "url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3ASmaorter_2023&outputFormat=application%2Fjson&srsName=EPSG%3A3006&CQL_FILTER=lan%3D%2720%27",
+      "raw_file": "data/external/scb/smaorter_2023_dalarna_raw.geojson",
+      "raw_sha256": "fd902122cbb8f8514e506ca60c9a57b084828567d5b40eb13e76f9026649063d",
+      "source_crs": "EPSG:3006",
+      "feature_count": 181,
+      "source_code_field": "smaort",
+      "source_name_field": null,
+      "valid_from_values": [
+        "2023-12-31"
+      ],
+      "valid_to_values": [
+        "2025-12-31"
+      ]
+    },
+    {
+      "layer": "stat:Fritidshusomraden_2020",
+      "omradestyp": "Fritidshusområde",
+      "reference_year": 2020,
+      "url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3AFritidshusomraden_2020&outputFormat=application%2Fjson&srsName=EPSG%3A3006&CQL_FILTER=lan%3D%2720%27",
+      "raw_file": "data/external/scb/fritidshusomraden_2020_dalarna_raw.geojson",
+      "raw_sha256": "923117b7081f4f1b0d4ee2e389b12ddeac759a4a9360f638ec0afd1ed7591e4d",
+      "source_crs": "EPSG:3006",
+      "feature_count": 74,
+      "source_code_field": "fritidshus",
+      "source_name_field": null,
+      "valid_from_values": [
+        "2020-12-31"
+      ],
+      "valid_to_values": [
+        "2025-12-31"
+      ]
+    }
+  ],
+  "derived": {
+    "file": "data/derived/scb_platsomraden_dalarna.geojson",
+    "crs": "EPSG:4326",
+    "feature_count": 369,
+    "sha256": "9a2b5d70ed6777572c5ecbb674eefd6035b74da90685a02ddd1bda2b29453d4c",
+    "properties": [
+      "omradestyp",
+      "referensar",
+      "omradeskod",
+      "namn",
+      "kommunkod",
+      "kommunnamn",
+      "area_ha",
+      "kallager"
+    ]
+  },
+  "interpretation_notes": [
+    "smaort är en områdeskod; WFS-lagret saknar småortsnamn.",
+    "fritidshus är en områdeskod, inte antal fritidshus.",
+    "namn är därför tomt för småorter och fritidshusområden.",
+    "Inga syntetiska eller feltolkade antal har lagts till."
+  ],
+  "metadata_note": "Denna separata fil kompletterar source_metadata.json och ändrar inte metadata för DeSO-uttaget."
+}
