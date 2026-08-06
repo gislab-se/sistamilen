@@ -212,8 +212,8 @@ with st.container(border=True):
         },
     )
     st.caption(
-        "Prioritet: verifiera förändringsfallen, beräkna tillgänglighet till "
-        "alternativa lösningar och förankra risktrösklar, ansvar samt RUS-kopplingar."
+        "Prioritet: verifiera förändringsfallen, ersätt fågelvägsavstånd med "
+        "vägnätsbaserad restid och förankra risktrösklar, ansvar samt RUS-kopplingar."
     )
 
 with st.expander("Datatolkning", on_change="rerun") as interpretation:

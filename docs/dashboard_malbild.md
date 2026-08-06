@@ -69,8 +69,9 @@ formulär eller avgränsade körningar.
 
 ### Etapp 2 – analytisk skärpa
 
-- Bygg om Screening med befolkningsviktade mått från 1 km-rutor.
-- Lägg till tillgänglighet till första och andra nod samt alternativ aktör.
+- **Genomfört 2026-08-06:** Screening använder befolkningsviktade mått från
+  1 km-rutor till första nod, andra nod och alternativ aktör samt ett separat
+  redundansgap. Måtten visas var för sig och använder tills vidare fågelvägsavstånd.
 - Koppla urval i Screening vidare till Platsfall och bortfallsscenario.
 - Lägg till scenarioexport och sparade scenariojämförelser.
 

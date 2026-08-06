@@ -15,7 +15,8 @@ Dashboarden skiljer genomgående mellan:
 - **Lägesbild:** regional karta, nyckeltal och sammanfattad Fas 1-status.
 - **Servicenät:** filter, noder, aktörer, servicetyper, observerad redundans och QA-register.
 - **Tillgänglighet och bortfall:** nuläge och hypotetiska nodbortfall med befolkning på 1 km-rutor och DeSO-summering.
-- **Screening:** fyra separata kommunala dimensioner utan sammanslaget index.
+- **Screening:** befolkningsviktade avstånd från 1 km-rutor till första nod,
+  andra nod och alternativ aktör samt ett separat redundansgap, utan sammanslaget index.
 - **Platsfall:** Bingsjö och By, med fakta och verifieringsbehov åtskilda.
 
 Under **Underlag** finns **Geografiska lager** med DeSO och historiska

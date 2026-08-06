@@ -429,6 +429,121 @@ def make_node_map(
     )
 
 
+def make_screening_grid_map(
+    grid_geojson: dict,
+    grid_options: pd.DataFrame,
+    nodes: pd.DataFrame,
+    municipality_codes: set[str] | None,
+    metric: str,
+    metric_label: str,
+    thresholds_km: tuple[float, float, float, float],
+) -> pdk.Deck:
+    """Visa rutbaserad tillgänglighet för en vald screeningdimension."""
+    if metric not in grid_options.columns:
+        raise ValueError(f"Screeningmåttet saknas: {metric}")
+    if len(thresholds_km) != 4 or any(
+        current <= 0 or current >= following
+        for current, following in zip(thresholds_km, thresholds_km[1:])
+    ):
+        raise ValueError("Kartans avståndsgränser måste vara strikt stigande.")
+
+    lookup = grid_options.set_index("rutid").to_dict(orient="index")
+    limits = np.asarray(thresholds_km, dtype=float)
+    map_rows: list[dict[str, object]] = []
+    for feature in grid_geojson["features"]:
+        grid_id = str(feature["properties"]["rutid"])
+        values = lookup.get(grid_id)
+        if values is None:
+            continue
+        metric_value = float(values[metric])
+        class_index = int(np.searchsorted(limits, metric_value, side="left"))
+        properties = {
+            "fill_color": ACCESSIBILITY_COLORS[class_index],
+            "line_color": [255, 255, 255, 75],
+            "tooltip_title": f"1 km-ruta {grid_id}",
+            "tooltip_line_1": f"Kommun: {values.get('kommun', '–')}",
+            "tooltip_line_2": (
+                f"{metric_label}: {metric_value:.1f} km"
+            ).replace(".", ","),
+            "tooltip_line_3": (
+                f"Befolkning 2025: {format_sv(values['befolkning_2025'])}; "
+                f"65+: {format_sv(values['befolkning_65_plus_2025'])}"
+            ),
+            "tooltip_line_4": (
+                f"Första nod: {values['forsta_nod']} "
+                f"({float(values['avstand_forsta_nod_km']):.1f} km)"
+            ).replace(".", ","),
+            "tooltip_line_5": f"Aktörer där: {values['forsta_nod_aktorer']}",
+            "tooltip_line_6": (
+                f"Andra nod: {values['andra_nod']} "
+                f"({float(values['avstand_andra_nod_km']):.1f} km)"
+            ).replace(".", ","),
+            "tooltip_line_7": (
+                f"Alternativ aktör: {values['alternativ_aktor_nod']} "
+                f"({float(values['avstand_alternativ_aktor_km']):.1f} km)"
+            ).replace(".", ","),
+            "tooltip_line_8": (
+                f"Nytt aktörsalternativ: {values['nya_aktorer_vid_alternativ']}"
+            ),
+        }
+        geometry = feature["geometry"]
+        polygons = (
+            [geometry["coordinates"]]
+            if geometry["type"] == "Polygon"
+            else geometry["coordinates"]
+        )
+        for polygon in polygons:
+            map_rows.append({**properties, "polygon": polygon[0]})
+
+    grid_layer = pdk.Layer(
+        "PolygonLayer",
+        id=f"screening-1km-{metric}",
+        data=map_rows,
+        get_polygon="polygon",
+        get_fill_color="fill_color",
+        get_line_color="line_color",
+        line_width_min_pixels=0.4,
+        stroked=True,
+        filled=True,
+        pickable=True,
+        auto_highlight=True,
+    )
+    node_layer = pdk.Layer(
+        "ScatterplotLayer",
+        id="screening-servicenoder",
+        data=nodes.dropna(subset=["lon", "lat"]),
+        get_position="[lon, lat]",
+        get_fill_color=[52, 92, 125, 220],
+        get_line_color=[255, 255, 255, 230],
+        get_radius=430,
+        radius_min_pixels=3,
+        radius_max_pixels=7,
+        line_width_min_pixels=1,
+        stroked=True,
+        pickable=False,
+    )
+    return pdk.Deck(
+        map_style=None,
+        initial_view_state=_map_view(grid_options[["lon", "lat"]]),
+        layers=[
+            grid_layer,
+            _municipality_boundary_layer(municipality_codes),
+            node_layer,
+        ],
+        tooltip={
+            "html": "<b>{tooltip_title}</b><br>{tooltip_line_1}<br>"
+            "{tooltip_line_2}<br>{tooltip_line_3}<br>{tooltip_line_4}<br>"
+            "{tooltip_line_5}<br>{tooltip_line_6}<br>{tooltip_line_7}<br>"
+            "{tooltip_line_8}",
+            "style": {
+                "backgroundColor": "#26323d",
+                "color": "white",
+                "fontSize": "12px",
+            },
+        },
+    )
+
+
 def make_simulation_map(
     grid_geojson: dict,
     accessibility: pd.DataFrame,

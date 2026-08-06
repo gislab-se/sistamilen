@@ -6,9 +6,11 @@ from pathlib import Path
 import pandas as pd
 
 from dashboard_data import (
+    aggregate_grid_service_options_by_municipality,
     aggregate_grid_accessibility_to_deso,
     build_service_nodes,
     calculate_grid_accessibility,
+    calculate_grid_service_options,
     load_dashboard_data,
 )
 
@@ -169,6 +171,46 @@ class Phase1DataContractTest(unittest.TestCase):
             int(scenario_summary["berort_deso"].sum()),
             int(scenario.loc[scenario["paverkad"], "desokod"].nunique()),
         )
+
+    def test_grid_service_options_are_ordered_and_actor_distinct(self) -> None:
+        options = calculate_grid_service_options(self.population_grid, self.nodes)
+        self.assertEqual(len(options), 4_004)
+        self.assertTrue(
+            options["avstand_andra_nod_km"]
+            .ge(options["avstand_forsta_nod_km"])
+            .all()
+        )
+        self.assertTrue(
+            options["avstand_alternativ_aktor_km"]
+            .ge(options["avstand_forsta_nod_km"])
+            .all()
+        )
+        self.assertFalse(options["forsta_nod_id"].eq(options["andra_nod_id"]).any())
+        self.assertFalse(options["alternativ_aktor_nod_id"].isna().any())
+        self.assertTrue(options["nya_aktorer_vid_alternativ"].str.len().gt(0).all())
+
+    def test_grid_service_options_aggregate_population_once(self) -> None:
+        grid = self.population_grid.copy()
+        municipality_names = {
+            "2021": "Vansbro", "2023": "Malung-Sälen", "2026": "Gagnef",
+            "2029": "Leksand", "2031": "Rättvik", "2034": "Orsa",
+            "2039": "Älvdalen", "2061": "Smedjebacken", "2062": "Mora",
+            "2080": "Falun", "2081": "Borlänge", "2082": "Säter",
+            "2083": "Hedemora", "2084": "Avesta", "2085": "Ludvika",
+        }
+        grid["kommun"] = grid["kommunkod"].map(municipality_names)
+        options = calculate_grid_service_options(grid, self.nodes)
+        summary = aggregate_grid_service_options_by_municipality(options)
+        self.assertEqual(len(summary), 15)
+        self.assertEqual(int(summary["befolkning_2025"].sum()), 285_587)
+        self.assertEqual(int(summary["befolkade_rutor"].sum()), 4_004)
+        for column in [
+            "screening_forsta_nod",
+            "screening_andra_nod",
+            "screening_alternativ_aktor",
+            "screening_redundansgap",
+        ]:
+            self.assertTrue(summary[column].between(0, 100).all())
 
 
 if __name__ == "__main__":

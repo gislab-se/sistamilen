@@ -119,7 +119,7 @@ data_readiness = pd.DataFrame(
         {
             "Underlag": "SCB befolkning på 1 km-rutor 2025",
             "Läge": "Integrerat",
-            "Användning": "Bortfallssimulering, berörd befolkning och 65+",
+            "Användning": "Screening, första/andra nod, alternativ aktör, bortfall och 65+",
             "Nästa åtgärd": "Ersätt fågelvägsavstånd med vägnätsbaserad restid",
         },
         {

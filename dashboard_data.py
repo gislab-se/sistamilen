@@ -473,6 +473,232 @@ def calculate_grid_accessibility(
     return work
 
 
+def calculate_grid_service_options(
+    grid: pd.DataFrame,
+    nodes: pd.DataFrame,
+) -> pd.DataFrame:
+    """Beräkna första nod, andra nod och närmaste nod med alternativ aktör.
+
+    En alternativ aktörsnod erbjuder minst en aktör som inte finns vid rutans
+    närmaste nod. Avstånden är euklidiska i SWEREF 99 TM och ska användas som
+    transparent screening, inte som vägavstånd eller restid.
+    """
+    required_grid = {
+        "rutid",
+        "e",
+        "n",
+        "befolkning_2025",
+        "befolkning_65_plus_2025",
+    }
+    required_nodes = {"kluster_id", "e", "n", "nodnamn", "aktorer"}
+    if missing := required_grid - set(grid.columns):
+        raise ValueError(f"Rutunderlaget saknar kolumner: {sorted(missing)}")
+    if missing := required_nodes - set(nodes.columns):
+        raise ValueError(f"Nodunderlaget saknar kolumner: {sorted(missing)}")
+
+    work = grid.dropna(subset=["e", "n"]).copy().reset_index(drop=True)
+    node_work = nodes.dropna(subset=["e", "n"]).copy().reset_index(drop=True)
+    if work.empty or len(node_work) < 2:
+        raise ValueError("Rutunderlaget måste ha koordinater och nätet minst två noder.")
+
+    grid_coordinates = work[["e", "n"]].to_numpy(dtype=float)
+    node_coordinates = node_work[["e", "n"]].to_numpy(dtype=float)
+    distances = np.sqrt(
+        np.square(grid_coordinates[:, None, :] - node_coordinates[None, :, :]).sum(
+            axis=2
+        )
+    ) / 1_000
+
+    nearest_two = np.argpartition(distances, kth=1, axis=1)[:, :2]
+    nearest_two_distances = np.take_along_axis(distances, nearest_two, axis=1)
+    order = np.argsort(nearest_two_distances, axis=1)
+    nearest_two = np.take_along_axis(nearest_two, order, axis=1)
+    first_positions = nearest_two[:, 0]
+    second_positions = nearest_two[:, 1]
+    row_positions = np.arange(len(work))
+
+    node_ids = node_work["kluster_id"].astype(int).to_numpy()
+    node_names = node_work["nodnamn"].astype(str).to_numpy()
+    node_actors = node_work["aktorer"].fillna("").astype(str).to_numpy()
+    actor_sets = [
+        {actor.strip() for actor in value.split(";") if actor.strip()}
+        for value in node_actors
+    ]
+
+    alternative_positions = np.full(len(work), -1, dtype=int)
+    alternative_distances = np.full(len(work), np.nan, dtype=float)
+    for first_position in np.unique(first_positions):
+        row_mask = first_positions == first_position
+        first_actors = actor_sets[int(first_position)]
+        candidate_positions = np.asarray(
+            [
+                position
+                for position, candidate_actors in enumerate(actor_sets)
+                if position != first_position and bool(candidate_actors - first_actors)
+            ],
+            dtype=int,
+        )
+        if not len(candidate_positions):
+            continue
+        candidate_distances = distances[row_mask][:, candidate_positions]
+        local_positions = candidate_distances.argmin(axis=1)
+        alternative_positions[row_mask] = candidate_positions[local_positions]
+        alternative_distances[row_mask] = candidate_distances[
+            np.arange(int(row_mask.sum())), local_positions
+        ]
+
+    first_distances = distances[row_positions, first_positions]
+    second_distances = distances[row_positions, second_positions]
+    work["forsta_nod_id"] = node_ids[first_positions]
+    work["forsta_nod"] = node_names[first_positions]
+    work["forsta_nod_aktorer"] = node_actors[first_positions]
+    work["forsta_nod_en_aktor"] = [
+        len(actor_sets[position]) == 1 for position in first_positions
+    ]
+    work["avstand_forsta_nod_km"] = first_distances
+    work["andra_nod_id"] = node_ids[second_positions]
+    work["andra_nod"] = node_names[second_positions]
+    work["andra_nod_aktorer"] = node_actors[second_positions]
+    work["avstand_andra_nod_km"] = second_distances
+    work["redundansgap_km"] = np.maximum(second_distances - first_distances, 0)
+
+    valid_alternative = alternative_positions >= 0
+    work["alternativ_aktor_nod_id"] = pd.array(
+        [
+            node_ids[position] if valid else pd.NA
+            for position, valid in zip(alternative_positions, valid_alternative)
+        ],
+        dtype="Int64",
+    )
+    work["alternativ_aktor_nod"] = [
+        node_names[position] if valid else "Saknas i underlaget"
+        for position, valid in zip(alternative_positions, valid_alternative)
+    ]
+    work["alternativ_aktor_nod_aktorer"] = [
+        node_actors[position] if valid else ""
+        for position, valid in zip(alternative_positions, valid_alternative)
+    ]
+    work["nya_aktorer_vid_alternativ"] = [
+        "; ".join(sorted(actor_sets[position] - actor_sets[first_position]))
+        if valid else ""
+        for first_position, position, valid in zip(
+            first_positions, alternative_positions, valid_alternative
+        )
+    ]
+    work["avstand_alternativ_aktor_km"] = alternative_distances
+    work["alternativ_aktor_tillagg_km"] = np.maximum(
+        alternative_distances - first_distances, 0
+    )
+    return work
+
+
+def _weighted_quantile(
+    values: pd.Series,
+    weights: pd.Series,
+    quantile: float,
+) -> float:
+    """Beräkna viktad kvantil för ändliga värden och icke-negativa vikter."""
+    valid = values.notna() & weights.notna() & weights.gt(0)
+    if not valid.any():
+        return float("nan")
+    ordered = pd.DataFrame(
+        {"value": values.loc[valid].astype(float), "weight": weights.loc[valid].astype(float)}
+    ).sort_values("value")
+    cumulative = ordered["weight"].cumsum()
+    target = float(quantile) * float(ordered["weight"].sum())
+    return float(ordered.loc[cumulative.ge(target), "value"].iloc[0])
+
+
+def aggregate_grid_service_options_by_municipality(
+    grid_options: pd.DataFrame,
+) -> pd.DataFrame:
+    """Summera rutmått befolkningsviktat till kommun och lägg till percentiler."""
+    required = {
+        "kommunkod",
+        "befolkning_2025",
+        "befolkning_65_plus_2025",
+        "avstand_forsta_nod_km",
+        "avstand_andra_nod_km",
+        "redundansgap_km",
+        "avstand_alternativ_aktor_km",
+        "forsta_nod_en_aktor",
+    }
+    if missing := required - set(grid_options.columns):
+        raise ValueError(f"Rutresultatet saknar kolumner: {sorted(missing)}")
+
+    group_columns = ["kommunkod"]
+    if "kommun" in grid_options.columns:
+        group_columns.append("kommun")
+
+    rows: list[dict[str, object]] = []
+    for group_key, frame in grid_options.groupby(group_columns, dropna=False):
+        keys = group_key if isinstance(group_key, tuple) else (group_key,)
+        row = dict(zip(group_columns, keys))
+        population = frame["befolkning_2025"].astype(float)
+        population_total = float(population.sum())
+
+        def weighted_mean(column: str) -> float:
+            values = pd.to_numeric(frame[column], errors="coerce")
+            valid = values.notna() & population.gt(0)
+            if not valid.any():
+                return float("nan")
+            return float(np.average(values.loc[valid], weights=population.loc[valid]))
+
+        def population_share(mask: pd.Series) -> float:
+            if population_total <= 0:
+                return float("nan")
+            return float(population.loc[mask.fillna(False)].sum() / population_total)
+
+        row.update(
+            {
+                "befolkning_2025": int(population_total),
+                "befolkning_65_plus_2025": int(
+                    frame["befolkning_65_plus_2025"].sum()
+                ),
+                "befolkade_rutor": int(len(frame)),
+                "befolkningsvagt_forsta_nod_km": weighted_mean(
+                    "avstand_forsta_nod_km"
+                ),
+                "p90_forsta_nod_km": _weighted_quantile(
+                    frame["avstand_forsta_nod_km"], population, 0.9
+                ),
+                "andel_over_10_km_forsta_nod": population_share(
+                    frame["avstand_forsta_nod_km"].gt(10)
+                ),
+                "befolkningsvagt_andra_nod_km": weighted_mean(
+                    "avstand_andra_nod_km"
+                ),
+                "befolkningsvagt_redundansgap_km": weighted_mean(
+                    "redundansgap_km"
+                ),
+                "andel_over_20_km_andra_nod": population_share(
+                    frame["avstand_andra_nod_km"].gt(20)
+                ),
+                "befolkningsvagt_alternativ_aktor_km": weighted_mean(
+                    "avstand_alternativ_aktor_km"
+                ),
+                "andel_over_20_km_alternativ_aktor": population_share(
+                    frame["avstand_alternativ_aktor_km"].gt(20)
+                ),
+                "andel_befolkning_narmast_enaktorsnod": population_share(
+                    frame["forsta_nod_en_aktor"].astype(bool)
+                ),
+            }
+        )
+        rows.append(row)
+
+    result = pd.DataFrame(rows).sort_values("kommunkod").reset_index(drop=True)
+    score_sources = {
+        "screening_forsta_nod": "befolkningsvagt_forsta_nod_km",
+        "screening_andra_nod": "befolkningsvagt_andra_nod_km",
+        "screening_alternativ_aktor": "befolkningsvagt_alternativ_aktor_km",
+        "screening_redundansgap": "befolkningsvagt_redundansgap_km",
+    }
+    for score_column, source_column in score_sources.items():
+        result[score_column] = result[source_column].rank(pct=True) * 100
+    return result
+
+
 def aggregate_grid_accessibility_to_deso(
     accessibility: pd.DataFrame,
     deso_population: pd.DataFrame,
