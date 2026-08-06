@@ -82,6 +82,67 @@ formulär eller avgränsade körningar.
 - Komplettera med arbetsställen, fritidshus, kollektivtrafik och lokala intervjuer.
 - Validera RUS-kopplingar, ansvar och slutsatser med beställare och berörda aktörer.
 
+## Nästa beslutade genomförandeordning
+
+Följande steg tar vid efter den rutbaserade screeningen. Ordningen prioriterar
+ett sammanhängande arbetsflöde innan nya externa datakällor införs.
+
+### 1. Koppla Screening till Bortfall
+
+- Låt användaren välja kommun, prioriterad ruta eller nod i Screening och öppna
+  samma geografiska urval direkt i Bortfall.
+- Bevara urvalet i gemensamt sessionsläge mellan sidorna.
+- Förifyll relevanta kandidatnoder utan att starta ett scenario automatiskt.
+- Visa hur första nod, andra nod och alternativ aktör förändras efter bortfallet.
+
+**Klart när:** ett urval kan föras från Screening till Bortfall utan att
+användaren behöver återskapa geografi eller nodval och resultaten använder samma
+definitioner på båda sidorna.
+
+### 2. Skapa en transparent prioriteringslista
+
+- Flagga kommuner och 1 km-rutor separat utifrån förankringsbara villkor, till
+  exempel över 10 km till första nod, över 20 km till andra nod, över 20 km till
+  alternativ aktör, hög andel äldre och närhet till en enaktörsnod.
+- Visa råvärde, tröskel och vilken befolkning som omfattas av varje flagga.
+- Behåll dimensionerna separata; skapa ingen dold eller automatiskt viktad
+  totalsumma.
+
+**Klart när:** varje prioriterat område kan förklaras med synliga villkor och
+användaren kan ändra trösklar utan att analysen byter innebörd.
+
+### 3. Förbättra Bortfall och scenariojämförelse
+
+- Redovisa vilken andra nod och vilken alternativa aktör berörda rutor hänvisas till.
+- Stöd jämförelse av flera samtidiga bortfall och flera sparade scenarier.
+- Exportera scenarioantaganden, nyckeltal, berörda rutor och DeSO-summeringar.
+- Märk allt fortsatt som scenario; källdatan ska förbli oförändrad.
+
+**Klart när:** ett scenario kan återskapas från exporten och jämföras med både
+nuläge och ett annat scenario utan dubbelräkning av befolkning.
+
+### 4. Koppla analysen till Platsfall
+
+- Skapa ett platskort från vald kommun, ruta eller nod.
+- För över kartutsnitt, befolkning, 65+, första/andra nod, alternativ aktör och
+  relevanta bortfallsresultat.
+- Lägg till verifieringsfrågor, källreferenser och evidensstatus för platsen.
+
+**Klart när:** ett prioriterat område kan bli ett spårbart platsfall där
+beräknade resultat hålls åtskilda från verifierade händelser och lokala utsagor.
+
+### 5. Inför vägnätsbaserad restid
+
+- Hämta och versionssätt ett routningsbart vägnät, i första hand från NVDB eller
+  annan beslutad källa.
+- Beräkna restid till första nod, andra nod och alternativ aktör från samma
+  1 km-rutor som dagens baslinje.
+- Behåll fågelvägsavstånd som jämförelse och kvalitetskontroll.
+- Dokumentera färdsätt, hastighetsantaganden, avstängningar och referensdatum.
+
+**Klart när:** restidsmodellen är reproducerbar, jämförd mot fågelvägsbaslinjen
+och validerad på ett urval kända resrelationer.
+
 ## Klart för Fas 1
 
 Fas 1 kan betraktas som leveransklar när förändringsfallen är verifierade,
