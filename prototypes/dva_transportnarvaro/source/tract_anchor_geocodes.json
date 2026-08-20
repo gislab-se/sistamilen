@@ -1,0 +1,282 @@
+{
+  "gagnef-1": {
+    "query": "Färmsnäs, Gagnef kommun, Sverige",
+    "query_place": "Färmsnäs",
+    "lat": 60.5215281,
+    "lon": 14.9837337,
+    "display_name": "Färmsnäs, Gagnefs kommun, Dalarnas län, 785 42, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-2": {
+    "query": "Björbo, Gagnef kommun, Sverige",
+    "query_place": "Björbo",
+    "lat": 60.456683,
+    "lon": 14.7272515,
+    "display_name": "Björbo, Gagnefs kommun, Dalarnas län, 786 97, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-3": {
+    "query": "Djurås Centrum, Gagnef kommun, Sverige",
+    "query_place": "Djurås Centrum",
+    "lat": 60.5603155,
+    "lon": 15.1318023,
+    "display_name": "Djurås centrum, E 16, Färjbacken, Djurås, Gagnefs kommun, Dalarnas län, 785 61, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-4": {
+    "query": "Gräv, Gagnef kommun, Sverige",
+    "query_place": "Gräv",
+    "lat": 60.6166722,
+    "lon": 15.048735,
+    "display_name": "Gräv, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-5": {
+    "query": "Björka, Gagnef kommun, Sverige",
+    "query_place": "Björka",
+    "lat": 60.5324845,
+    "lon": 15.0826398,
+    "display_name": "Björka, Djurås, Gagnefs kommun, Dalarnas län, 785 60, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-6": {
+    "query": "Mjälgen, Gagnef kommun, Sverige",
+    "query_place": "Mjälgen",
+    "lat": 60.5543357,
+    "lon": 15.1097482,
+    "display_name": "Mjälgen, E 16, Näset, Kilen, Djurås, Gagnefs kommun, Dalarnas län, 785 43, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-7": {
+    "query": "Djurmo, Gagnef kommun, Sverige",
+    "query_place": "Djurmo",
+    "lat": 60.5495726,
+    "lon": 15.1895956,
+    "display_name": "Djurmo, Gagnefs kommun, Dalarnas län, 785 62, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-8": {
+    "query": "Syrholen, Gagnef kommun, Sverige",
+    "query_place": "Syrholen",
+    "lat": 60.511934,
+    "lon": 14.8072939,
+    "display_name": "Syrholen, Dala-Floda, Gagnefs kommun, Dalarnas län, 785 44, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-9": {
+    "query": "Övre Tjärna, Gagnef kommun, Sverige",
+    "query_place": "Övre Tjärna",
+    "lat": 60.6026112,
+    "lon": 15.0630233,
+    "display_name": "Övre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "gagnef-10": {
+    "query": "Rista, Gagnef kommun, Sverige",
+    "query_place": "Rista",
+    "lat": 60.5316701,
+    "lon": 15.0240634,
+    "display_name": "Rista, Gagnefs kommun, Dalarnas län, 785 43, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-1": {
+    "query": "Insjön, Leksand kommun, Sverige",
+    "query_place": "Insjön",
+    "lat": 60.6794193,
+    "lon": 15.0923237,
+    "display_name": "Insjön, Leksands kommun, Dalarnas län, 793 41, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-2": {
+    "query": "Övermo, Leksand kommun, Sverige",
+    "query_place": "Övermo",
+    "lat": 60.7267794,
+    "lon": 15.0175979,
+    "display_name": "Övermo, Tibble, Leksand, Leksands kommun, Dalarnas län, 793 35, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-3": {
+    "query": "Byggningen, Leksand kommun, Sverige",
+    "query_place": "Byggningen",
+    "lat": 60.7602284,
+    "lon": 14.976895,
+    "display_name": "Byggningen, Tallbacken 1, Leksand, Leksands kommun, Dalarnas län, 793 22, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-4": {
+    "query": "Moskogen, Leksand kommun, Sverige",
+    "query_place": "Moskogen",
+    "lat": 60.7198151,
+    "lon": 15.0069569,
+    "display_name": "Moskogen, 50, Insjövägen, Åkerö, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 33, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-5": {
+    "query": "Djura, Leksand kommun, Sverige",
+    "query_place": "Djura",
+    "lat": 60.612263,
+    "lon": 15.0054703,
+    "display_name": "Djura, Leksands kommun, Dalarnas län, 790 31, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-6": {
+    "query": "Noret, Leksand kommun, Sverige",
+    "query_place": "Noret",
+    "lat": 60.7311979,
+    "lon": 14.9973408,
+    "display_name": "Noret, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 31, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-7": {
+    "query": "Norsbro, Leksand kommun, Sverige",
+    "query_place": "Norsbro",
+    "lat": 60.7316926,
+    "lon": 15.0153359,
+    "display_name": "Norsbro, Tibble, Leksand, Leksands kommun, Dalarnas län, 793 35, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-8": {
+    "query": "Almo, Leksand kommun, Sverige",
+    "query_place": "Almo",
+    "lat": 60.755484,
+    "lon": 14.8507352,
+    "display_name": "Almo, Alvik, Leksands kommun, Dalarnas län, 793 97, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-9": {
+    "query": "Siljansnäs, Leksand kommun, Sverige",
+    "query_place": "Siljansnäs",
+    "lat": 60.7753921,
+    "lon": 14.857697,
+    "display_name": "Siljansnäs, Leksands kommun, Dalarnas län, 793 60, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "leksand-10": {
+    "query": "Laknäs, Leksand kommun, Sverige",
+    "query_place": "Laknäs",
+    "lat": 60.8357056,
+    "lon": 14.982183,
+    "display_name": "Laknäs Banäset, Tällberg, Leksands kommun, Dalarnas län, 793 94, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-1": {
+    "query": "Furudal, Rättvik kommun, Sverige",
+    "query_place": "Furudal",
+    "lat": 61.1707998,
+    "lon": 15.1366774,
+    "display_name": "Furudal, Rättviks kommun, Dalarnas län, 795 71, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-2": {
+    "query": "Vikarbyn, Rättvik kommun, Sverige",
+    "query_place": "Vikarbyn",
+    "lat": 60.9106397,
+    "lon": 15.0237761,
+    "display_name": "Vikarbyn, Rättviks kommun, Dalarnas län, 795 70, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-3": {
+    "query": "Västanå, Rättvik kommun, Sverige",
+    "query_place": "Västanå",
+    "lat": 60.982882,
+    "lon": 15.2002799,
+    "display_name": "Västanå, Ovanmyra, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-4": {
+    "query": "Rättvik, Rättvik kommun, Sverige",
+    "query_place": "Rättvik",
+    "lat": 60.8837542,
+    "lon": 15.1226783,
+    "display_name": "Rättvik, Rättviks kommun, Dalarnas län, 795 03, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-5": {
+    "query": "Backa, Rättvik kommun, Sverige",
+    "query_place": "Backa",
+    "lat": 60.9240204,
+    "lon": 15.1208281,
+    "display_name": "Backa, Rättviks kommun, Dalarnas län, 795 91, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-6": {
+    "query": "Änderåsen, Rättvik kommun, Sverige",
+    "query_place": "Änderåsen",
+    "lat": 61.0413261,
+    "lon": 15.1979355,
+    "display_name": "Änderåsen, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-7": {
+    "query": "Sjurberg, Rättvik kommun, Sverige",
+    "query_place": "Sjurberg",
+    "lat": 60.9022682,
+    "lon": 15.0674079,
+    "display_name": "Sjurberg, Rättvik, Rättviks kommun, Dalarnas län, 795 91, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "rattvik-8": {
+    "query": "Faluvägen, Rättvik kommun, Sverige",
+    "query_place": "Faluvägen",
+    "lat": 60.8576628,
+    "lon": 15.1076096,
+    "display_name": "Faluvägen, Gärdebyn, Utby, Rättvik, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-1": {
+    "query": "Dala-Järna, Vansbro kommun, Sverige",
+    "query_place": "Dala-Järna",
+    "lat": 60.5480476,
+    "lon": 14.3679875,
+    "display_name": "Järna, Vansbro kommun, Dalarnas län, 786 92, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-2": {
+    "query": "Vansbro C, Vansbro kommun, Sverige",
+    "query_place": "Vansbro C",
+    "lat": 60.5102674,
+    "lon": 14.2255613,
+    "display_name": "Vansbro, Vansbro kommun, Dalarnas län, 786 31, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-3": {
+    "query": "Skamhed, Vansbro kommun, Sverige",
+    "query_place": "Skamhed",
+    "lat": 60.5205474,
+    "lon": 14.2815562,
+    "display_name": "Skamhed, Vansbro, Vansbro kommun, Dalarnas län, 786 33, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-4": {
+    "query": "Snöån, Vansbro kommun, Sverige",
+    "query_place": "Snöån",
+    "lat": 60.5302856,
+    "lon": 14.4469395,
+    "display_name": "Snöån, Vansbro kommun, Dalarnas län, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-5": {
+    "query": "Malmsta, Vansbro kommun, Sverige",
+    "query_place": "Malmsta",
+    "lat": 60.4745489,
+    "lon": 14.4676844,
+    "display_name": "Malmsta, Vansbro kommun, Dalarnas län, 786 93, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-6": {
+    "query": "Äppelbo, Vansbro kommun, Sverige",
+    "query_place": "Äppelbo",
+    "lat": 60.4858844,
+    "lon": 14.0138529,
+    "display_name": "Äppelbo, Vansbro kommun, Dalarnas län, 786 94, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "vansbro-7": {
+    "query": "Grönalid, Vansbro kommun, Sverige",
+    "query_place": "Grönalid",
+    "lat": 60.5038009,
+    "lon": 14.2341171,
+    "display_name": "Grönalid, Bomled, Vansbro, Vansbro kommun, Dalarnas län, 786 33, Sverige",
+    "provider": "OpenStreetMap Nominatim"
+  }
+}

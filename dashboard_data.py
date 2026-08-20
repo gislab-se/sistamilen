@@ -15,7 +15,7 @@ def resolve_data_directory(project_root: Path) -> Path:
     """Hitta den primära datamappen, med den äldre projektkopian som reserv."""
     candidates = [
         project_root / "data" / "raw",
-        project_root / "karin_lovgren_dalarna" / "rawdata",
+        project_root / "underlag" / "rawdata",
     ]
     for candidate in candidates:
         if (candidate / PACKAGE_FILENAME).exists() and (
@@ -24,7 +24,7 @@ def resolve_data_directory(project_root: Path) -> Path:
             return candidate
     raise FileNotFoundError(
         "Hittade inte projektets två Excel-filer i data/raw eller "
-        "karin_lovgren_dalarna/rawdata."
+        "underlag/rawdata."
     )
 
 

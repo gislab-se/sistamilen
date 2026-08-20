@@ -14,10 +14,10 @@ Fas 1 är en skrivbords- och GIS-analys. Den ska inte framställa lokala konsekv
 
 ## Källor som denna specifikation bygger på
 
-- `karin_lovgren_dalarna/rawdata/Uppdragsbeskrivning paketleveranser_260326.docx.pdf`
-- `karin_lovgren_dalarna/docs/uppstart_2026-07-03.md`
-- `karin_lovgren_dalarna/docs/forsta_dataprofil.md`
-- `karin_lovgren_dalarna/reports/databehov_paketleveranser_dalarna.qmd`
+- `underlag/rawdata/Uppdragsbeskrivning paketleveranser_260326.docx.pdf`
+- `underlag/docs/uppstart_2026-07-03.md`
+- `underlag/docs/forsta_dataprofil.md`
+- `underlag/reports/databehov_paketleveranser_dalarna.qmd`
 - `data/raw/Paketvolymer_2024_Dalarna_kommun.xlsx`
 - `data/raw/Servicepunkter_2026_Dalarna.xlsx`
 - Dalastrategin 2030 – Tillsammans för ett hållbart Dalarna, upplaga 2026

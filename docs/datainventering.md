@@ -2,14 +2,14 @@
 
 ## Hur uppstartsanteckningarna skapades
 
-`karin_lovgren_dalarna/docs/uppstart_2026-07-03.md` är en kvalitativ
+`underlag/docs/uppstart_2026-07-03.md` är en kvalitativ
 mötesanteckning från möte med Ghada och Alexander den 3 juli 2026. Den
 formulerar projektfrågan, två analysidéer (risk- och synergizoner), tänkbara
 indikatorer, databehov och en första arbetsgång. Den är ett idé- och
 inriktningsunderlag, inte ett reproducerbart analysresultat.
 
-`karin_lovgren_dalarna/docs/forsta_dataprofil.md` skapades däremot av
-`karin_lovgren_dalarna/scripts/build_initial_commune_profile.py`. Skriptet läser
+`underlag/docs/forsta_dataprofil.md` skapades däremot av
+`underlag/scripts/build_initial_commune_profile.py`. Skriptet läser
 de två Excel-filerna, aggregerar rader kommunvis och skriver både en CSV och en
 Markdown-sammanfattning. Den första profilen räknade varje aktörs-/tjänsterad
 som en ”servicepunkt” och skapade ett viktat screeningtal. Den ska därför ses
@@ -29,9 +29,9 @@ datamodellen:
 | `data/raw/Paketvolymer_2024_Dalarna_kommun.xlsx` | 15 kommuner; Paketbrev, B2C, C2X och B2B; totalt 8 027,494 i källans tusentalsenhet | Kommun, 2024 | Enheten `tst` bör bekräftas med dataägaren; ingen lokal nodvolym |
 | `data/raw/Servicepunkter_2026_Dalarna.xlsx`, `sp2026` | 487 unika aktörs-/tjänsterader, 9 aktörer | Aktörserbjudande vid nod, 2026 | En rad är inte nödvändigtvis en egen fysisk plats |
 | Samma arbetsbok, `Kluster` | 236 unika adress-/servicenoder | Fysisk källdefinierad nod | Tre mycket närliggande nodpar kräver manuell QA, inte automatisk sammanslagning |
-| `karin_lovgren_dalarna/rawdata/Uppdragsbeskrivning paketleveranser_260326.docx.pdf` | Uppdragets bakgrund, frågor, metod och två faser | Styrande uppdragsdokument | Påståendet om Bingsjö/By är inte en verifierad händelsetidslinje |
+| `underlag/rawdata/Uppdragsbeskrivning paketleveranser_260326.docx.pdf` | Uppdragets bakgrund, frågor, metod och två faser | Styrande uppdragsdokument | Påståendet om Bingsjö/By är inte en verifierad händelsetidslinje |
 
-Excel-filerna i `data/raw` och `karin_lovgren_dalarna/rawdata` är parvis
+Excel-filerna i `data/raw` och `underlag/rawdata` är parvis
 identiska enligt SHA-256. `data/raw` används som primär sökväg; den äldre
 projektmappen är reserv och historik.
 

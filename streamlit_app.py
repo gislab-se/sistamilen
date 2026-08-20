@@ -38,6 +38,11 @@ page = st.navigation(
                 title="Platsfall",
                 icon=":material/location_on:",
             ),
+            st.Page(
+                "app_pages/waste_routes.py",
+                title="Sophämtningskarta",
+                icon=":material/recycling:",
+            ),
         ],
         "Underlag": [
             st.Page(

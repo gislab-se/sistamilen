@@ -3,6 +3,10 @@
 En lokal Streamlit-dashboard och ett reproducerbart analysunderlag för den
 inledande kartläggningen i Region Dalarnas uppdrag om paketleveranser.
 
+En fristående testkarta över möjlig transportnärvaro från DVA:s sophämtning
+finns i `prototypes/dva_transportnarvaro/index.html`. Den används för screening
+innan motsvarande analys eventuellt förs in i dashboarden.
+
 Dashboarden skiljer genomgående mellan:
 
 - 236 källdefinierade fysiska adress-/servicenoder,
