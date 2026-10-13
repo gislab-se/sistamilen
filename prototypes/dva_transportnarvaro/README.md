@@ -2,7 +2,7 @@
 
 Fristående interaktiv screeningkarta för att undersöka möjlig samordning mellan
 paketservice och Dala Vatten och Avfalls sophämtning under 2026. Prototypen är
-inte kopplad till Streamlit-appen.
+även tillgänglig som **Sophämtningskarta** i huvudappen `streamlit_app.py`.
 
 ## Öppna kartan
 

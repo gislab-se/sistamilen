@@ -1,0 +1,273 @@
+﻿address,status,precision,reason,source,lon,lat
+"68, 812 30 Storvik",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,"SCB stat:Tatorter_2023, source/scb_extra_places_raw.geojson",16.5257,60.585856
+"70, 781 60 Gustafs",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/197099458,15.6200999,60.3948414
+"70, 781 62 Gustafs",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/197099458,15.6200999,60.3948414
+"Almungevägen 17, 754 54 Uppsala",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/12083888166,17.7099926,59.8439634
+"Ambergsvägen 3, 792 91 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/36777420,14.4576226,60.9450116
+"Backbyvägen 4, 782 30 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/101877932,13.7189875,60.677028
+"Baldersvägen 13, 774 40 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/56226469,16.174624,60.1413967
+"Bangårdsgatan 11, 781 71 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/11388845,15.422211,60.4756023
+"Bangårdsgatan 13, 781 71 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/11388845,15.422211,60.4756023
+"Bataljonsvägen 18, 791 40 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/55259561,15.6516681,60.6068087
+"Bergavägen 21, 777 31 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45930598,15.4128342,60.1459185
+"Bergslagsvägen 15, 777 32 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45930594,15.4074394,60.1443614
+"Bergslagsvägen 19, 777 32 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45930594,15.4074394,60.1443614
+"Bergslagsvägen 21, 777 32 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45930594,15.4074394,60.1443614
+"Bergsskolegränd 8A, 791 30 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/25422322,15.6357672,60.6060927
+"Biskopsvägen 12, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/103737520,15.20525,60.1592541
+"Biskopsvägen 14, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/103737520,15.20525,60.1592541
+"Biskopsvägen 14, 771 81 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/15223289,15.2012357,60.1559277
+"Biskopsvägen 20, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/103737520,15.20525,60.1592541
+"Biskopsvägen 22, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/103737520,15.20525,60.1592541
+"Björkallén 69, 772 32 Grängesberg",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/46155843,15.0145338,60.0877303
+"Björkvägen 2, 790 23 Svärdsjö",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/414509158,15.9085937,60.7408421
+"Bolandsgatan 13, 753 23 Uppsala",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/302637060,17.6767813,59.8538139
+"Bragegatan 16, 784 44 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/11860722527,15.4301961,60.4976311
+"Brunnsvägen 20, 774 61 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/69352801,16.1880217,60.157749
+"Bygatan 33, 784 34 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/74771513,15.4375339,60.4785371
+"Bäck Klockars väg 6, 795 90 Rättvik",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/282957165,15.1190337,60.8472182
+"Bäckelundsgatan 1, 781 70 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/316728143,15.4128657,60.4793126
+"Bäverstigen 1, 777 34 Smedjebacken",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 2679",15.402021038065582,60.134550604436164
+"Bäverstigen 2, 777 34 Smedjebacken",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 7126",15.403230576331325,60.134949698375245
+"Centralgatan 1, 795 30 Rättvik",review,address,Postnummer avviker – kontrollera träffen,OpenStreetMap way/313487012,15.1154247,60.8887095
+"Centralvägen 6, 791 46 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/141110716,15.7417585,60.5907295
+"Dag Hammarskjölds Väg 18, 752 37 Uppsala",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/109710366,17.6386335,59.8428089
+"Dahls väg 2, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1425566692,15.6469119,60.6076257
+"Dahls väg 4, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1425566692,15.6469119,60.6076257
+"Dahls väg 6, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1425566692,15.6469119,60.6076257
+"Dahls väg 8, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1425566692,15.6469119,60.6076257
+"Dalgatan 86, 796 31 Älvdalen",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/212865359,14.0619111,61.2077557
+"Daljunkaregatan 10B, 791 37 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/22870890,15.6351527,60.6102943
+"Drottningvägen 23, 790 20 Grycksbo",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 3212",15.484461774123595,60.68740365238921
+"E4, 743 91 Storvreta",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,"SCB stat:Tatorter_2023, source/scb_extra_places_raw.geojson",17.703545,59.956743
+"Engelbrektsgatan 1, 771 30 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/14506181,15.1858386,60.1490759
+"Engelbrektsgatan 18, 774 40 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/56226646,16.1770819,60.1409383
+"Engelbrektsgatan 20, 771 30 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/14506181,15.1858386,60.1490759
+"Engelbrektsgatan 36, 791 60 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/71166181,15.6244957,60.6073795
+"Eriksgatan 22, 771 31 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/14506212,15.1860852,60.1512456
+"Fabriksvägen 11, 786 33 Vansbro",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/609609911,14.2410145,60.5037991
+"Filipstadsvägen 36, 770 10 Fredriksberg",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/260818582,14.3702873,60.1365259
+"Fisktorget Falun, Kristinegatan, 791 71 Falun",review,poi,Plats-/verksamhetsträff: Fisktorget. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim way/142923454,15.6279243,60.6069219
+"Folkaregatan 76, 775 70 Krylbo",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/servicenoder_2026.csv (medelpunkt för postortens paketnoder),16.227593908606682,60.12513329559825
+"Fredsgatan 16A, 771 30 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/14506160,15.1868641,60.1488958
+"Fredsgatan 3, 771 31 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/2011852,15.1922047,60.1522892
+"Furuvägen 12, 796 30 Älvdalen",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/182237233,14.0406059,61.2314217
+"Furuvägen 3, 796 30 Älvdalen",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/182217891,14.0385558,61.2311867
+"Gamla Bangatan 54, 771 53 Ludvika",review,poi,Plats-/verksamhetsträff: Gamla Bangatan 54. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim node/10742263732,15.21059,60.14874
+"Gamla Gruvgatan 39, 791 62 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/2460573256,15.6227392,60.6024168
+"Georg Karlssons gata 1, 781 70 Borlänge",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 5255",15.414678093950743,60.48182477844707
+"Glimmervägen 1E, 771 41 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/261442059,15.1546959,60.1342318
+"Godsvägen 16, 784 72 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/42092400,15.4733979,60.4861502
+"Grådö såg rv 70, 776 92 Hedemora",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,15.980305,60.280321
+"Gussarvsgatan 23B, 776 30 Hedemora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/268232019,15.9878026,60.2807116
+"Gyllehemsvägen 10, 784 60 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1419588449,15.4555498,60.4727417
+"Gyllehemsvägen 12A, 784 60 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/9893886,15.4516207,60.4722588
+"Gyllehemsvägen 21, 784 60 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/9893886,15.4516207,60.4722588
+"Gyllehemsvägen 35, 784 37 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/84598553,15.4624126,60.4753975
+"Gymnasiegatan 2, 733 40 Sala",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/639594477,16.6182395,59.911383
+"HJULTORGET 11, 793 41 Insjön",review,poi,Plats-/verksamhetsträff: Hjultorget. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim way/220204860,15.0899298,60.6744626
+"Hagvägen 6R, 780 67 Sälen",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48069851,13.2684306,61.1549443
+"Hagvägen 8, 780 67 Sälen",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/400388963,13.2687116,61.1557062
+"Hantverkaregatan 14, 792 31 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1157652360,14.5369913,61.0038998
+"Hedensbergsvägen 141, 752 67 Uppsala",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/80880380,17.5622774,59.8496822
+"Hedvägen 10A, 786 94 Äppelbo",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1138649173,14.0067253,60.4819139
+"Hemgatan 28, 784 73 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/44104215,15.4697345,60.5066852
+"Hemgatan 30, 784 73 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/44104215,15.4697345,60.5066852
+"Hemgatan 32, 784 73 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/44104215,15.4697345,60.5066852
+"Hemgatan 34, 784 73 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/44104215,15.4697345,60.5066852
+"Hosjöjungfrustigen 10, 791 46 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/860334500,15.7314494,60.5912062
+"Hovslagaregatan 35, 777 30 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/59164415,15.4207522,60.1435854
+"Hugo Hedströms väg 28, 781 72 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/649739090,15.4608972,60.4676624
+"Humanistgatan 4, 781 70 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/33997484,15.4164388,60.4837541
+"Hyttgatan 37C, 791 60 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4254408,15.6252528,60.6043606
+"Hyttgatan 39, 791 60 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/94498459,15.6226241,60.6065289
+"Hyttgatan 39A, 791 60 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4254408,15.6252528,60.6043606
+"Hälsinggårdsvägen 9, 791 43 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1004737379,15.68541,60.5905011
+"Hökargatan 34, 776 30 Hedemora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/268163391,15.9918545,60.2800074
+"Ingarvsvägen 9, 791 77 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/89210146,15.5986321,60.6069489
+"Ingarvsvägen 9b, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/984844187,15.5986778,60.6077277
+"Jaxtorget 7, 784 53 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/178115949,15.4029556,60.4835788
+"Johan Ahlbäcks plats 2, 777 30 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/59166863,15.4146593,60.1415957
+"Johan Ahlbäcks plats 7, 777 30 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/59166863,15.4146593,60.1415957
+"Jungfruvägen 151A, 791 34 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/142696946,15.6172862,60.6281067
+"Jungfruvägen 151C, 791 34 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/142696946,15.6172862,60.6281067
+"Järnavägen 11, 793 33 Leksand",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 7959",14.996570584956801,60.72502136789309
+"Jönshyttevägen 10, 783 32 Säter",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/18449346,15.7213,60.3448671
+"Jönshyttevägen 9, 783 32 Säter",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/3021476406,15.7157387,60.3409001
+"Kaplansgatan 19, 794 30 Orsa",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/25446361,14.6160308,61.1189501
+"Kaserngården 4, 791 40 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/4906580204,15.6503072,60.6059033
+"Kisvägen 28A, 791 51 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/8780662165,15.6298301,60.5994707
+"Koppardalsvägen 1, 774 41 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/132486081,16.1883874,60.1462135
+"Koppartorget 1, 791 43 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/371935844,15.68693,60.5928414
+"Kopparvägen 29, 791 42 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1835546394,15.6672444,60.5977222
+"Kopparvägen 29H, 791 42 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/235337268,15.6623728,60.5999358
+"Kopparvägen 31, 791 42 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/313926368,15.6663622,60.5973913
+"Kraftgatan 8, 776 33 Hedemora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45948965,15.9816733,60.2895433
+"Kristinebergsgatan 1, 792 32 Mora",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 4509",14.561553539706756,61.01049922736491
+"Kristinegatan 28, 791 60 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/22870961,15.6252088,60.6065096
+"Kronbergsparken, Nybrogatan, 791 72 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4556515,15.6209375,60.6074543
+"Kundtjänst och återvinningscentral. Öppettiderna visar ÅVC öppettider, Skyfallsvägen 20, 791 77 Falun",matched,address,Gatunamn och hela husnumret matchar; geografiskt kontrollerad mot ortankaret,OpenStreetMap Nominatim way/221522775,15.5770498,60.6132163
+"Kung Gustavs väg 1, 794 30 Orsa",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,14.626856,61.107337
+"Kyrkallén 3, 793 31 Leksand",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/202316546,14.9900292,60.7316816
+"Kyrkbyn 114B, 780 64 Lima",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,13.358301,60.941347
+"Kyrkogatan 25, 792 30 Mora",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/11080718407,14.5375931,61.0041293
+"Kyrkogatan 25C, 792 30 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1324691900,14.5380361,61.0046437
+"Kyrkogatan 27, 792 30 Mora",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/448882242,14.5373948,61.0038829
+"Kyrkogatan 27B, 792 30 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/23166481,14.5395935,61.0059828
+"Källviksvägen 5, 791 52 Falun",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 4727",15.645153809445318,60.59446847165497
+"Köpingsvägen, 737 92 Fagersta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/195657996,15.8087184,59.9839164
+"Köpmangatan 20, 774 30 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/84198878,16.1714216,60.1454819
+"Köpmangatan 20A, 774 30 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/84198878,16.1714216,60.1454819
+"Köpmangatan 20B, 774 30 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/84198878,16.1714216,60.1454819
+"LASARETTSOMRÅDET 23A, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"LASARETTSOMRÅDET 25, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"LASARETTSOMRÅDET 28B, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"LASARETTSOMRÅDET 4, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"LASARETTSOMRÅDET 5, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"LASARETTSOMRÅDET 6, 792 51 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/48955525,14.5843697,61.0155814
+"Landsvägsbacken 1, 771 92 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/436229345,15.127649,60.2067332
+"Lasarettsvägen 10, 791 82 Falun",review,address,Postnummer avviker – kontrollera träffen,OpenStreetMap node/2930829285,15.6440602,60.608512
+"Lasarettsvägen 11, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1262823178,15.6486153,60.6070857
+"Lekattvägen 4, 793 30 Leksand",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/26197314,14.9991371,60.7363676
+"Leksandsvägen 24, 793 31 Leksand",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 1181",14.997403409624665,60.73322671837225
+"Limsjöänget 9, 793 31 Leksand",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 7102",15.002600607865332,60.73772933661009
+"Lindsnäsvägen 4, 774 41 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1135720243,16.198246,60.1426609
+"Lindsnäsvägen 6A, 774 41 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1135720243,16.198246,60.1426609
+"Lindsnäsvägen 6C, 774 41 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1135720243,16.198246,60.1426609
+"Lindsnäsvägen 82, 774 82 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1135720243,16.198246,60.1426609
+"Lisagatan 32B, 782 31 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/8250428,13.711266,60.6858243
+"Lisagatan 53, 782 30 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/202974452,13.7235708,60.6800985
+"Lugnetvägen 11, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1178015138,15.652956,60.6192554
+"Malmgatan 5, 777 31 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/45928653,15.422763,60.1459943
+"Manhem, 791 31 Falun",review,poi,Plats-/verksamhetsträff: Manhem. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim way/353178022,15.6479691,60.6119884
+"Manhemsvägen 28, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/353178005,15.6465574,60.6127426
+"Markusgatan 1, 774 30 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/182614627,16.1685324,60.1446018
+"Mejselgatan 9, 781 71 Borlänge",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 3345",15.438526673359416,60.46577160537165
+"Mjälgavägen 2, 784 37 Borlänge",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 5862",15.447747914058274,60.48262727783352
+"Moravägen 14, 782 31 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4198769,13.7172925,60.6840698
+"Moravägen 14A, 782 31 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4198769,13.7172925,60.6840698
+"Moravägen 14B, 782 31 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4198769,13.7172925,60.6840698
+"Moravägen 27, 786 33 Vansbro",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/361441445,14.2343731,60.515716
+"Myntgatan 2, 791 51 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/89353823,15.6336723,60.600197
+"Myntgatan 39, 791 60 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/8628612495,15.6290626,60.6047124
+"Myntgatan 39B, 791 60 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/13319468125,15.6290805,60.6047995
+"Myntgatan 8, 791 51 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap relation/1319264,15.6329048,60.6027653
+"Märkargatan 23, 784 66 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/36597872,15.411024,60.5168088
+"Mästargatan 5, 781 71 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/11144352775,15.4326825,60.4743955
+"Mästargatan 6 A, 781 71 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/11388844,15.4303826,60.4734381
+"Målaregatan 1, 784 33 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/11838281629,15.4325402,60.4872994
+"Nissers väg 8, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1125769937,15.6409885,60.60917
+"Norra Järnvägsgatan 18, 791 35 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1562780508,15.6225042,60.6207363
+"Norra Järnvägsgatan 20B, 791 35 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1157861289,15.6239195,60.6184294
+"Nybrogatan 43, 791 73 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4556515,15.6209375,60.6074543
+"Nybrogatan 7, 791 37 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/796892951,15.6337836,60.610881
+"Nygårdsvägen 3, 781 70 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/34074824,15.4082043,60.479261
+"Ovanbrogatan 38, 784 33 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/39338404,15.4324498,60.4879912
+"Ovanbrogatan 40, 784 33 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/5598584642,15.4333195,60.4875864
+"Ovanbrogatan 5, 784 33 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/39338404,15.4324498,60.4879912
+"P-plats Stigen V, 812 93 Kungsgården",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,"SCB stat:Tatorter_2023, source/scb_extra_places_raw.geojson",16.605785,60.605857
+"Parkgatan 19, 791 31 Falun",review,address,Postnummer avviker – kontrollera träffen,OpenStreetMap node/6629192791,15.6425772,60.6068734
+"Pell Annas Väg 3, 782 34 Malung",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 66",13.731984642909989,60.67933439641302
+"Pelle Bergs backe 3c, 791 50 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/94238405,15.6449605,60.5979169
+"Permatsvägen 10, 796 31 Älvdalen",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/182217887,14.0410259,61.2280945
+"Postvägen 2, 780 67 Sälen",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 7167",13.26568239204056,61.15736478615204
+"Prostmyrsvägen 5, 776 30 Hedemora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/499123963,15.99868,60.2745842
+"Prästgärdet (Säter), 783 30 Säter",review,poi,Plats-/verksamhetsträff: Prästgärdet. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim node/5092577936,15.7470364,60.3431482
+"Psilanders väg 1, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/559793260,15.6454901,60.6092661
+"Rastplats Van, 792 92 Mora",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,14.549489,61.009109
+"Riksvägen 26, 795 32 Rättvik",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 7665",15.113896688049277,60.88693491281864
+"Riksvägen 27, 795 32 Rättvik",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 6177",15.113098058898236,60.888752190382434
+"Riksvägen, 792 77 Nusnäs",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,14.643664,60.959971
+"Ritargatan 2, 781 70 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/441126472,15.4088671,60.4754873
+"Ryckepungsvägen 2A, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/868660516,15.6054876,60.6038074
+"Ryckepungsvägen 4, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/868660516,15.6054876,60.6038074
+"Ryckepungsvägen 4A, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/868660516,15.6054876,60.6038074
+"Rällsjön, 790 21 Bjursås",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,15.446562,60.737825
+"Rättviksvägen 20A, 790 20 Grycksbo",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1246314965,15.4961254,60.6867715
+"Rättviksvägen 5, 790 20 Grycksbo",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/75783218,15.5060166,60.6806135
+"Rågåkersgatan 12, 781 74 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/11388851,15.4282945,60.462998
+"SJUKHUSOMRÅDET 10, 792 51 Mora",review,poi,"Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",OpenStreetMap Nominatim way/843006537,14.5826401,61.0164238
+"SJUKHUSOMRÅDET 15, 792 51 Mora",review,poi,"Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",OpenStreetMap Nominatim way/843006537,14.5826401,61.0164238
+"SJUKHUSOMRÅDET 23, 792 51 Mora",review,poi,"Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",OpenStreetMap Nominatim way/843006537,14.5826401,61.0164238
+"SJUKHUSOMRÅDET 26, 792 51 Mora",review,poi,"Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",OpenStreetMap Nominatim way/843006537,14.5826401,61.0164238
+"SJUKHUSOMRÅDET 29, 792 51 Mora",review,poi,"Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",OpenStreetMap Nominatim way/843006537,14.5826401,61.0164238
+"Sjukstugevägen 16B, 797 31 Särna",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/42857778,13.1257138,61.6933386
+"Sjukstugevägen 3, 770 12 Sunnansjö",matched,address,"Verksamhet och besöksadress Sjukstugevägen 3, Sunnansjö verifierade mot 1177:s kontaktkort","1177, Vårdcentral Sunnansjö, offentlig HSA-kartkoordinat",14.9557898436785,60.2160113584079
+"Skogsduvestigen 12, 784 68 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/36590811,15.3925467,60.5148741
+"Skogsrundan 8, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/222723495,15.2078583,60.1550466
+"Skogsrundan 8A, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/222723495,15.2078583,60.1550466
+"Skolvägen 1, 785 43 Mockfjärd",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1938584934,14.9666564,60.5086881
+"Skolvägen 12, 781 61 Gustafs",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,"SCB tätort 2023, centroid för Enbacka, Mora och Naglarby (postort Gustafs)",15.595524,60.409811
+"Skomakargatan 18, 781 70 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/365255298,15.4146265,60.4828614
+"Skomakargatan 22, 781 70 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/365255298,15.4146265,60.4828614
+"Skyfallsvägen 20, 791 77 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/221522775,15.5774524,60.6134519
+"Skålmyrsvägen 36, 792 50 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/24145075,14.5837075,61.007193
+"Slätta Centrum 6A, 791 74 Falun",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 3576",15.596747982040077,60.62060607040581
+"Slättavägen 1, 791 75 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/371638889,15.6031445,60.622695
+"Slättavägen, 791 75 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/26152565,15.6020675,60.623433
+"Smedsvägen 11D, 772 40 Grängesberg",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/161293419,14.9818305,60.0747509
+"Sockenvägen 139, 784 60 Borlänge",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/343898287,15.449565,60.4754177
+"Soldatvägen 3, 791 40 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/10939728123,15.6528005,60.6060683
+"Solhemsvägen 11, 776 71 Långshyttan",review,address,Postnummer avviker – kontrollera träffen,OpenStreetMap node/2379092840,16.050769,60.4581012
+"Spanskvägen 4B, 792 37 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/24054715,14.5258417,61.0012389
+"Sparbanksgatan 1, 793 31 Leksand",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1881886,14.9959485,60.7314211
+"Stampersvägen 27, 733 36 Sala",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/51974124,16.5487073,59.9076515
+"Stenuddsvägen 2C, 792 34 Mora",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/24811876,14.5460508,61.0008997
+"Stigaregatan 17, 791 73 Falun",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 2626",15.618811972563917,60.60298947970331
+"Stora Vägen, 785 43 Dala-Floda",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1125557405,14.8293938,60.5079486
+"Storgatan 16, 771 30 Ludvika",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1992149515,15.1876756,60.1516602
+"Storgatan 2, 795 30 Rättvik",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/12909769419,15.1214353,60.8818607
+"Storgatan 23, 771 30 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/14506169,15.1859941,60.1501533
+"Stortallsvägen 2A, 791 55 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/936621037,15.6101677,60.5752858
+"Sturegatan 30, 791 51 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/29293535,15.6312861,60.600328
+"Sveagatan 15, 784 33 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/925117864,15.432803,60.4874536
+"Sveagatan 3, 784 33 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/1228940387,15.4317176,60.4864439
+"Sveagatan 4, 784 33 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/4225346354,15.431794,60.4862189
+"Svärdsjögatan 19, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/352955227,15.6392382,60.6097349
+"Sälenvägen 13, 780 67 Sälen",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/119960919,13.2614723,61.1639099
+"Sälenvägen 15, 780 67 Sälen",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 1592",13.26679151113316,61.155780573802346
+"Sälenvägen 23, 780 67 Sälen",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/1243847672,13.265267,61.1579515
+"Södra Industrivägen 14, 785 61 Djurås",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1080657040,15.1352053,60.5607903
+"Södra Industrivägen 8, 785 61 Djurås",matched,address,"Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat","Servicepunkter_2026_Dalarna.xlsx, kluster 5971",15.136959202229333,60.55976410460331
+"Södra Mariegatan 18C, 791 70 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/22870955,15.6198845,60.6114593
+"Södra Mariegatan 18D, 791 70 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/22870955,15.6198845,60.6114593
+"Södra Vagnvägen 49, 782 30 Malung",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/143613570,13.7249621,60.6830876
+"Tibble Lyckavägen 2A, 793 36 Leksand",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,15.012439,60.72899
+"Timmermansvägen 21, 771 51 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/15223295,15.2061821,60.1550461
+"Torkils väg 41H, 791 52 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/40856264,15.6534616,60.5888335
+"Trotzgatan 25, 791 71 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/8845995057,15.6304324,60.6094916
+"Trotzgatan 2F, 791 30 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/201327461,15.6339354,60.6067458
+"Trotzgatan 2G, 791 30 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/201327461,15.6339354,60.6067458
+"Vansbro Medborgarhus, Norra Allégatan 30, 786 31 Vansbro",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,14.227419,60.509974
+"Vasagatan 1 A, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1617148835,15.6454139,60.6045254
+"Vasagatan 10, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1262823219,15.6459779,60.6048679
+"Vasagatan 12, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1262823219,15.6459779,60.6048679
+"Vasagatan 13B, 777 30 Smedjebacken",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/73150913,15.4123315,60.1419257
+"Vasagatan 14, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/10904947349,15.6398466,60.6084166
+"Vasagatan 16, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1262823219,15.6459779,60.6048679
+"Vasagatan 18, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/10961421428,15.6394405,60.6088462
+"Vasagatan 24, 791 31 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1262823219,15.6459779,60.6048679
+"Vasagatan 27, 791 37 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/4254531,15.6369983,60.6107015
+"Vasagatan 8, 791 31 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/509991154,15.6410078,60.6078648
+"Verkstadsvägen 26C, 774 67 Horndal",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/171487700,16.3989225,60.2929471
+"Verkstadsvägen 4, 771 53 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/19210889,15.2096682,60.1478894
+"Västermalmsvägen 13 B, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/795268372,15.600807,60.6095117
+"Västermalmsvägen 13B, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/795268372,15.600807,60.6095117
+"Västermalmsvägen 28, 791 77 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/89210133,15.5950125,60.6130899
+"Västermalmsvägen 3, 791 77 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/795268372,15.600807,60.6095117
+"Västermalmsvägen 30, 791 77 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/89210173,15.5933414,60.6130192
+"Vårdcentralen Smedjebacken, 777 32 Smedjebacken",review,poi,Plats-/verksamhetsträff: Vårdcentralen Smedjebacken. Ursprunglig adress och entré behöver verifieras,OpenStreetMap Nominatim node/10742263765,15.41159,60.14612
+"Vårdcentralen Sunnansjö, 770 12 Sunnansjö",matched,poi,"Verksamhet och besöksadress Sjukstugevägen 3, Sunnansjö verifierade mot 1177:s kontaktkort","1177, Vårdcentral Sunnansjö, offentlig HSA-kartkoordinat",14.9557898436785,60.2160113584079
+"Yxhammargatan 7, 791 73 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/11085013248,15.6201633,60.6070398
+"Älvdalen Älvdalsskolan, 796 31 Älvdalen",fallback,locality,Ingen entydig adress-/platsträff. Punkten ligger i ortens centroid eller dokumenterade ortankare och visar inte besöksadressen,data/derived/scb_platsomraden_dalarna.geojson,14.043941,61.225178
+"Älvuddsvägen 42, 785 61 Djurås",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/583176196,15.1291717,60.5525166
+"Åkrerondellen 7, 781 71 Borlänge",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/162363518,15.4363076,60.4770767
+"Åsenvägen 2, 783 30 Säter",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/1183025522,15.7497867,60.3438416
+"Åsgatan 30, 791 71 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/993282209,15.6325761,60.6063464
+"Åsgatan 43, 791 71 Falun",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/993282209,15.6325761,60.6063464
+"Åsgatan 6, 774 41 Avesta",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/64690360,16.1893618,60.1426513
+"Örjesbovägen 32, 790 20 Grycksbo",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/785827356,15.4942665,60.6859278
+"Östra Hamngatan 24, 791 71 Falun",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap node/1617035882,15.6283799,60.6071538
+"Östra Storgatan 22, 771 50 Ludvika",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/60574607,15.1936307,60.1544908
+"Övermo Backåkersvägen 1, 793 35 Leksand",matched,address,Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret,OpenStreetMap way/965149360,15.0128352,60.7213268
+"Övermo Backåkersvägen 9, 793 35 Leksand",review,street,Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition,OpenStreetMap Nominatim way/105575801,15.0150333,60.7212271

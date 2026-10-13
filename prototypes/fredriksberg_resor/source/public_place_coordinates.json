@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "source_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentral-Sunnansjo/",
+    "retrieved_at_utc": "2026-10-13T12:48:28.120558+00:00",
+    "source_sha256": "0833ee527ce3b34b7826ee833c2bebefb3afa68fcaf37df262b0038e907cb4c2",
+    "visiting_address": "Sjukstugevägen 3, Sunnansjö"
+  },
+  "addresses": {
+    "Vårdcentralen Sunnansjö, 770 12 Sunnansjö": {
+      "coordinate": [
+        14.9557898436785,
+        60.2160113584079
+      ],
+      "status": "matched",
+      "precision": "poi",
+      "geometry": "official_facility_point",
+      "place_name": "Vårdcentral Sunnansjö",
+      "reason": "Verksamhet och besöksadress Sjukstugevägen 3, Sunnansjö verifierade mot 1177:s kontaktkort",
+      "source": "1177, Vårdcentral Sunnansjö, offentlig HSA-kartkoordinat",
+      "source_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentral-Sunnansjo/"
+    },
+    "Sjukstugevägen 3, 770 12 Sunnansjö": {
+      "coordinate": [
+        14.9557898436785,
+        60.2160113584079
+      ],
+      "status": "matched",
+      "precision": "address",
+      "geometry": "official_facility_point",
+      "place_name": "Vårdcentral Sunnansjö",
+      "reason": "Verksamhet och besöksadress Sjukstugevägen 3, Sunnansjö verifierade mot 1177:s kontaktkort",
+      "source": "1177, Vårdcentral Sunnansjö, offentlig HSA-kartkoordinat",
+      "source_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentral-Sunnansjo/"
+    }
+  }
+}

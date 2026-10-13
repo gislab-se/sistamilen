@@ -9,3 +9,5 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
+.runtime/fredriksberg-browser/
+.runtime/fredriksberg-review/

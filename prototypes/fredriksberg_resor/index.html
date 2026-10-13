@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Transporter i Dalarna · Lokal granskning</title>
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="map-controls.css">
+  <link rel="stylesheet" href="routes.css">
+  <link rel="stylesheet" href="vehicles.css">
+  <script defer src="vendor/leaflet.js"></script>
+  <script defer src="data/review-data.js"></script>
+  <script defer src="data/geography.js"></script>
+  <script defer src="data/road-routes.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./index.html"><span class="brand-icon">↗</span><span>SISTA MILEN<small>DALARNA / ANALYSUNDERLAG</small></span></a>
+    <div class="side-heading">UTFORSKA TRANSPORTER</div>
+    <h2>Välj ditt utsnitt</h2>
+    <p class="side-intro">Observerade resor, platser och möjliga samband med paketservice.</p>
+    <form id="filters">
+      <label for="date">Datum</label><select id="date"><option value="">Hela veckan · 21–27 sep</option></select>
+      <label for="vehicle">Fokusera på ett fordon</label><select id="vehicle"><option value="">Alla tända fordonslager</option></select>
+      <label for="locality">Besökt ort</label><select id="locality"><option value="">Alla orter</option></select>
+      <label for="search">Sök i resorna</label><input id="search" type="search" placeholder="Adress, ort eller fordon…">
+      <div class="quick-label">SNABBVAL</div>
+      <button id="fredriksberg" class="quick-button" type="button" aria-pressed="false"><span>◎</span> Resor till / från Fredriksberg <span>↗</span></button>
+      <button id="pilot-day" class="quick-button" type="button">Pilot: Fredriksberg · 23 september ↗</button>
+      <button id="reset-filters" type="button" class="text-button">Återställ filter</button>
+    </form>
+    <div class="side-divider"></div>
+    <section class="vehicle-layers" aria-labelledby="vehicle-layer-heading">
+      <div class="vehicle-layer-heading"><h3 id="vehicle-layer-heading">Fordonslager</h3><span id="vehicle-layer-count"></span></div>
+      <div class="vehicle-layer-actions"><button id="all-vehicles" type="button">Tänd alla</button><button id="no-vehicles" type="button">Släck alla</button></div>
+      <p class="mode-hint">Namn efter vanligaste besöksorter. Varje lager visar ett fordon, inte en fast rutt eller bekräftad verksamhet.</p>
+      <div id="vehicle-layers"></div>
+    </section>
+    <div class="side-divider"></div>
+    <label class="mode-label" for="map-mode">Visa platser som</label>
+    <select id="map-mode"><option value="address">Adresspunkter</option><option value="locality">Ortankare</option></select>
+    <p class="mode-hint" id="mode-hint">Adressmatchningar visar gatunamn och husnummer. Osäkra träffar markeras separat.</p>
+    <label class="mode-label" for="route-mode">Förbindelser mellan besök</label>
+    <select id="route-mode"><option value="roads">Beräknade vägrutter · NVDB</option><option value="schematic">Schematiska resrelationer</option></select>
+    <label class="mode-label" for="map-colors">Linjer färgas efter</label>
+    <select id="map-colors"><option value="vehicle">Fordonslager</option><option value="class">Funktionell vägklass</option></select>
+    <label class="check"><input id="relations" type="checkbox" checked><span>Visa förbindelser</span></label>
+    <label class="check"><input id="direction-arrows" type="checkbox" checked><span>Visa riktningspilar</span></label>
+    <label class="check"><input id="nodes" type="checkbox"><span>Visa paketservicenoder 2026</span></label>
+    <label class="check"><input id="basemap" type="checkbox" checked><span>Bakgrundskarta · OpenStreetMap</span></label>
+    <div class="local-note"><span class="status-dot"></span> LOKAL GRANSKNINGSVERSION<p>Underlag från Excel. Vägrutter beräknas med funktionell vägklass. De visar möjliga körvägar.</p></div>
+    <a class="side-link" href="README.md">Metod och källor ↗</a>
+  </aside>
+  <main>
+    <header class="page-header"><div><div class="eyebrow">NYTT UNDERLAG / SEPTEMBER 2026</div><h1>Transporter i Dalarna<span>.</span></h1><p>Från reseloggar till en gemensam geografisk överblick.</p></div><span class="review-badge">● För granskning</span></header>
+    <section class="metrics" aria-label="Nyckeltal för valda detaljresor" aria-live="polite">
+      <article><span>DETALJRESOR</span><strong id="trip-count">—</strong><small id="period-label">21–27 september 2026</small></article>
+      <article><span>REGISTRERAD KÖRSTRÄCKA</span><strong id="distance">—</strong><small>Kilometer från detaljbladen</small></article>
+      <article><span>AKTIVA FORDON</span><strong id="vehicle-count">—</strong><small>Med resor i ditt utsnitt</small></article>
+      <article class="metric-focus"><span>RESOR VIA FREDRIKSBERG</span><strong id="fred-count">—</strong><small>Start eller stopp på orten</small></article>
+    </section>
+    <section class="map-card" aria-label="Interaktiv karta">
+      <div class="card-heading"><div><h2>Var möts transporterna?</h2><p id="map-summary">Läser lokalt underlag…</p></div><button id="fit" type="button" class="outline-button">Visa hela utsnittet ↗</button></div>
+      <div class="map-instructions"><span>Zooma med + / −, scroll eller nypgest. Dra för att flytta kartan.</span><span id="basemap-status" role="status"></span></div>
+      <div id="map" aria-label="Karta med adresspunkter" role="region" tabindex="0"></div>
+      <div class="map-legend"><span><i class="legend-point"></i> <span id="point-legend">Adress-/platsmatchning</span></span><span id="review-legend"><i class="legend-review"></i> Osäker/gatuträff</span><span id="fallback-legend"><i class="legend-fallback"></i> Ortcentroid · reserv</span><span id="schematic-legend"><i class="legend-line"></i> Resrelation · inte körväg</span><span><i class="legend-node"></i> Paketservicenod</span><span id="unmapped-label"></span></div>
+      <div id="road-legend" class="road-legend"><span><i style="background:#285b83"></i> Vägklass 0–3</span><span><i style="background:#4b887f"></i> Vägklass 4–6</span><span><i style="background:#ab8a53"></i> Vägklass 7–9</span><span>Färdriktningar visas parallellt · pilar anpassas efter zoom</span></div>
+      <div class="route-note" id="route-note" role="status"></div>
+      <div class="precision-note"><strong>Geografisk precision</strong><span id="precision-text">Adresspunkterna matchas lokalt mot kartdata. De är inte GPS-positioner. Saknade eller tvetydiga träffar visas under Datakvalitet.</span></div>
+    </section>
+    <section class="detail-card itinerary-card" aria-label="Tidsordnad reskedja">
+      <div class="card-heading"><div><h2>Ett fordon, en dag</h2><p id="itinerary-summary">Välj ett fordon och ett datum, eller öppna pilotdagen.</p></div></div>
+      <div id="itinerary-context" class="panel-intro"></div>
+      <div id="itinerary-rows" class="itinerary-rows"></div>
+    </section>
+    <section class="detail-card">
+      <div class="detail-toolbar"><div class="tabs" role="tablist" aria-label="Underlagsvyer"><button id="tab-trips" data-tab="trips" role="tab" aria-selected="true" aria-controls="panel-trips">Resor <span id="table-count"></span></button><button id="tab-quality" data-tab="quality" role="tab" aria-selected="false" aria-controls="panel-quality" tabindex="-1">Datakvalitet <span id="quality-count"></span></button><button id="tab-month" data-tab="month" role="tab" aria-selected="false" aria-controls="panel-month" tabindex="-1">Månadssummering</button></div><button id="export" type="button" class="outline-button">Ladda ned valda resor ↓</button></div>
+      <div id="panel-trips" role="tabpanel" aria-labelledby="tab-trips"><div class="table-scroll"><table><thead><tr><th>Start</th><th>Fordon</th><th>Från</th><th>Till</th><th class="numeric">km</th><th class="numeric">Restid</th><th>Kartläge</th></tr></thead><tbody id="trip-rows"></tbody></table></div><div id="trip-footer" class="table-footer"></div></div>
+      <div id="panel-quality" role="tabpanel" aria-labelledby="tab-quality" hidden><div class="panel-intro"><h3>Adressmatchningar att granska</h3><p id="qa-geography"></p><a class="trip-link" href="data/adressmatchning.csv" download>Ladda ned adressmatchningar ↓</a></div><div class="table-scroll"><table><thead><tr><th>Adress i underlaget</th><th>Kartläge</th><th>Granskningsbehov</th></tr></thead><tbody id="address-quality-rows"></tbody></table></div><div class="panel-intro"><h3>Summering och detaljblad stämmer inte överens</h3><p id="qa-intro"></p><p>Skillnaden är ett verifieringsbehov i källuttaget. Appen visar endast resor som har en faktisk detaljrad. Den skapar inga resor för att fylla luckan.</p></div><div class="table-scroll"><table><thead><tr><th>Datum</th><th>Fordon</th><th class="numeric">I summering</th><th class="numeric">Detaljrader</th><th class="numeric">Skillnad</th></tr></thead><tbody id="quality-rows"></tbody></table></div></div>
+      <div id="panel-month" role="tabpanel" aria-labelledby="tab-month" hidden><div class="panel-intro"><h3>September i ett separat perspektiv</h3><p>Hela månaden, 1–30 september 2026. Saknar adresser och detaljresor och ingår därför inte i kartan eller veckans nyckeltal. Datum-, ort- och sökfilter gäller detaljresorna; fordonsfiltret gäller även här.</p><p id="month-summary"></p></div><div class="table-scroll"><table><thead><tr><th>Fordon</th><th class="numeric">Rapporterade resor</th><th class="numeric">Körsträcka, km</th><th class="numeric">CO₂, källvärde*</th></tr></thead><tbody id="month-rows"></tbody></table></div><p class="table-footer">* Enheten för CO₂ är inte angiven i Excel-uttaget.</p></div>
+    </section>
+    <footer class="page-footer"><span>Källa: fwdpaketleveranser.zip · 8 Excel-uttag</span><span>Lokalt underlag · ingen publicering</span></footer>
+  </main>
+  <noscript>Aktivera JavaScript för att läsa underlaget och använda kartan.</noscript>
+</body>
+</html>

@@ -43,6 +43,12 @@ page = st.navigation(
                 title="Sophämtningskarta",
                 icon=":material/recycling:",
             ),
+            st.Page(
+                "app_pages/transports.py",
+                title="Transportanalys",
+                icon=":material/route:",
+                url_path="transportanalys",
+            ),
         ],
         "Underlag": [
             st.Page(

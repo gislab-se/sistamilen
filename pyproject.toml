@@ -13,3 +13,9 @@ dependencies = [
     "starlette>=0.46,<1.4",
     "streamlit>=1.61.0",
 ]
+
+[dependency-groups]
+routing = [
+    "scipy>=1.16,<2",
+    "shapely>=2.1,<3",
+]

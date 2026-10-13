@@ -3,9 +3,17 @@
 En lokal Streamlit-dashboard och ett reproducerbart analysunderlag för den
 inledande kartläggningen i Region Dalarnas uppdrag om paketleveranser.
 
+En ny fristående granskningskarta för reseunderlaget från september 2026 finns i
+[`prototypes/fredriksberg_resor/index.html`](prototypes/fredriksberg_resor/index.html).
+Den visar hela underlaget med snabbfilter för Fredriksberg, reselista,
+källavvikelser, namngivna fordonslager, NVDB-vägrutter och en separat månadssummering. Se
+[`prototypes/fredriksberg_resor/README.md`](prototypes/fredriksberg_resor/README.md)
+för start, geografisk precision och reproducerbar inläsning. Samma granskningskarta
+finns nu på **Transportanalys** i huvudappen (`app_pages/transports.py`).
+
 En fristående testkarta över möjlig transportnärvaro från DVA:s sophämtning
-finns i `prototypes/dva_transportnarvaro/index.html`. Den används för screening
-innan motsvarande analys eventuellt förs in i dashboarden.
+finns i `prototypes/dva_transportnarvaro/index.html` och på **Sophämtningskarta**
+i huvudappen. Den visar schemalagd närvaro på orter som screeningunderlag.
 
 Dashboarden skiljer genomgående mellan:
 
@@ -22,6 +30,10 @@ Dashboarden skiljer genomgående mellan:
 - **Screening:** befolkningsviktade avstånd från 1 km-rutor till första nod,
   andra nod och alternativ aktör samt ett separat redundansgap, utan sammanslaget index.
 - **Platsfall:** Bingsjö och By, med fakta och verifieringsbehov åtskilda.
+- **Sophämtningskarta:** DVA:s schema med geokodade ortankare och paketservicenoder.
+- **Transportanalys:** 20 namngivna fordonslager, detaljresor, geografisk precision,
+  beräknade NVDB-vägrutter och tidsordnad dagsvy. Lokal granskningssida med länkar
+  till sophämtning och bortfall; ingen gemensam samordningsberäkning ännu.
 
 Under **Underlag** finns **Geografiska lager** med DeSO och historiska
 platslager samt **Metod och status** med uppdragsfrågor, RUS-spårbarhet och
@@ -81,6 +93,7 @@ automatiskt funktionella upptagningsområden.
 
 - `dashboard_data.py` – datakontrakt och härledningar.
 - `dashboard_ui.py` – cachad laddning och kartfunktioner.
+- `transport_review.py` – paketerar transportkartan med lokala resurser för huvudappen.
 - `scripts/build_phase1_outputs.py` – fysiska noder och arbetsregister.
 - `scripts/fetch_scb_deso.py` – reproducerbar SCB-hämtning.
 - `scripts/fetch_scb_place_areas.py` – tätort/småort 2023 och fritidshusområde 2020.
@@ -96,16 +109,17 @@ automatiskt funktionella upptagningsområden.
 ## Testa
 
 ```powershell
-uv run python -m unittest discover -s tests -v
-uv run python -m compileall -q streamlit_app.py dashboard_data.py dashboard_ui.py app_pages scripts tests
+uv run --group routing python -m unittest discover -s tests -v
+uv run --group routing python -m compileall -q streamlit_app.py dashboard_data.py dashboard_ui.py transport_review.py app_pages scripts tests
 ```
 
 ## Kvarvarande externa beroenden
 
-- Vägnätsbaserad bilrestid kräver ett NVDB-uttag för Dalarna eller konto till
-  Trafikverkets Datautbytesportal/Lastkajen.
+- Transportanalysen använder nu det lokala NVDB-uttaget för Dalarna, daterat
+  2026-08-18, med funktionell vägklass. Bortfalls- och screeningmåtten använder
+  fortfarande raka avstånd; NVDB-ruttningen är ännu inte införd i dessa modeller.
 - Dalatrafiks statiska GTFS kräver en Trafiklab-nyckel.
 - Bingsjös och Bys serviceförändringar måste primärverifieras med kommun,
   lokal nod och berörda paketaktörer.
 
-Till dess visas raka avstånd tydligt som screeningmått, aldrig som vägrestid.
+Raka avstånd visas tydligt som screeningmått, aldrig som vägrestid.

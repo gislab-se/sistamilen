@@ -1,0 +1,12 @@
+{
+  "source": "OpenStreetMap via Overpass API",
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:180];\narea[\"ISO3166-2\"~\"^SE-(W|C|U|X)$\"][\"boundary\"=\"administrative\"]->.counties;\nnwr[\"addr:housenumber\"][\"addr:street\"](area.counties);\nout body center;",
+  "scope": "Dalarna, Uppsala, Västmanland, Gävleborg",
+  "sha256": "7edab480139033f49ec1d406ae4525630e13ca0191dfad38c13906c853e045ed",
+  "retrieved_at_utc": "2026-10-13T11:10:54.006177+00:00",
+  "osm_timestamp": "2026-10-13T11:08:28Z",
+  "elements": 122362,
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors, https://www.openstreetmap.org/copyright"
+}

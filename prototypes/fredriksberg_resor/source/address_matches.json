@@ -1,0 +1,4697 @@
+{
+  "metadata": {
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:180];\narea[\"ISO3166-2\"~\"^SE-(W|C|U|X)$\"][\"boundary\"=\"administrative\"]->.counties;\nnwr[\"addr:housenumber\"][\"addr:street\"](area.counties);\nout body center;",
+    "scope": "Dalarna, Uppsala, Västmanland, Gävleborg",
+    "sha256": "7edab480139033f49ec1d406ae4525630e13ca0191dfad38c13906c853e045ed",
+    "retrieved_at_utc": "2026-10-13T11:10:54.006177+00:00",
+    "osm_timestamp": "2026-10-13T11:08:28Z",
+    "elements": 122362,
+    "license": "ODbL 1.0",
+    "attribution": "© OpenStreetMap contributors, https://www.openstreetmap.org/copyright",
+    "additional_local_source": "data/derived/servicenoder_2026.csv",
+    "additional_geocoder": {
+      "provider": "OpenStreetMap Nominatim",
+      "cache": "source/nominatim_queries.json",
+      "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+      "queries": 398
+    }
+  },
+  "addresses": {
+    "68, 812 30 Storvik": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "70, 781 60 Gustafs": {
+      "coordinate": [
+        15.6200999,
+        60.3948414
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/197099458",
+      "source_url": "https://www.openstreetmap.org/way/197099458",
+      "display_name": "70, Rokällan, Enbacka, Säters kommun, Dalarnas län, 781 60, Sverige",
+      "postcode": "78160",
+      "osm_type": "way",
+      "osm_id": 197099458,
+      "query": "70, 781 60 Gustafs",
+      "retrieved_at_utc": "2026-10-13T11:39:26.207221+00:00"
+    },
+    "70, 781 62 Gustafs": {
+      "coordinate": [
+        15.6200999,
+        60.3948414
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/197099458",
+      "source_url": "https://www.openstreetmap.org/way/197099458",
+      "display_name": "70, Rokällan, Enbacka, Säters kommun, Dalarnas län, 781 60, Sverige",
+      "postcode": "78160",
+      "osm_type": "way",
+      "osm_id": 197099458,
+      "query": "70, 781 62 Gustafs",
+      "retrieved_at_utc": "2026-10-13T11:39:28.661727+00:00"
+    },
+    "Almungevägen 17, 754 54 Uppsala": {
+      "coordinate": [
+        17.7099926,
+        59.8439634
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/12083888166",
+      "postcode": "75454",
+      "city": "Uppsala",
+      "street": "Almungevägen",
+      "house_number": "17",
+      "osm_type": "node",
+      "osm_id": 12083888166,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/12083888166"
+    },
+    "Ambergsvägen 3, 792 91 Mora": {
+      "coordinate": [
+        14.4576226,
+        60.9450116
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/36777420",
+      "source_url": "https://www.openstreetmap.org/way/36777420",
+      "display_name": "Ambergsvägen, Stenis och Vika, Mora kommun, Dalarnas län, 792 91, Sverige",
+      "postcode": "79291",
+      "osm_type": "way",
+      "osm_id": 36777420,
+      "query": "Ambergsvägen 3, 792 91 Mora",
+      "retrieved_at_utc": "2026-10-13T11:39:29.812206+00:00"
+    },
+    "Backbyvägen 4, 782 30 Malung": {
+      "coordinate": [
+        13.7189875,
+        60.677028
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/101877932",
+      "source_url": "https://www.openstreetmap.org/way/101877932",
+      "display_name": "Backbyvägen, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 30, Sverige",
+      "postcode": "78230",
+      "osm_type": "way",
+      "osm_id": 101877932,
+      "query": "Backbyvägen 4, 782 30 Malung",
+      "retrieved_at_utc": "2026-10-13T11:39:32.212788+00:00"
+    },
+    "Baldersvägen 13, 774 40 Avesta": {
+      "coordinate": [
+        16.174624,
+        60.1413967
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/56226469",
+      "source_url": "https://www.openstreetmap.org/way/56226469",
+      "display_name": "Baldersvägen, Domarhagen, Krylbo, Avesta, Avesta kommun, Dalarnas län, 774 30, Sverige",
+      "postcode": "77430",
+      "osm_type": "way",
+      "osm_id": 56226469,
+      "query": "Baldersvägen 13, 774 40 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:39:34.699434+00:00"
+    },
+    "Bangårdsgatan 11, 781 71 Borlänge": {
+      "coordinate": [
+        15.422211,
+        60.4756023
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/11388845",
+      "source_url": "https://www.openstreetmap.org/way/11388845",
+      "display_name": "Bangårdsgatan, Södra Backa, Hångsarvet, Borlänge, Borlänge kommun, Dalarnas län, 781 27, Sverige",
+      "postcode": "78127",
+      "osm_type": "way",
+      "osm_id": 11388845,
+      "query": "Bangårdsgatan 11, 781 71 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:37:51.496631+00:00"
+    },
+    "Bangårdsgatan 13, 781 71 Borlänge": {
+      "coordinate": [
+        15.422211,
+        60.4756023
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/11388845",
+      "source_url": "https://www.openstreetmap.org/way/11388845",
+      "display_name": "Bangårdsgatan, Södra Backa, Hångsarvet, Borlänge, Borlänge kommun, Dalarnas län, 781 27, Sverige",
+      "postcode": "78127",
+      "osm_type": "way",
+      "osm_id": 11388845,
+      "query": "Bangårdsgatan 13, 781 71 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:37:53.848718+00:00"
+    },
+    "Bataljonsvägen 18, 791 40 Falun": {
+      "coordinate": [
+        15.6516681,
+        60.6068087
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/55259561",
+      "postcode": "79140",
+      "city": "Falun",
+      "street": "Bataljonsvägen",
+      "house_number": "18",
+      "osm_type": "way",
+      "osm_id": 55259561,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/55259561"
+    },
+    "Bergavägen 21, 777 31 Smedjebacken": {
+      "coordinate": [
+        15.4128342,
+        60.1459185
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45930598",
+      "source_url": "https://www.openstreetmap.org/way/45930598",
+      "display_name": "Bergavägen, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 31, Sverige",
+      "postcode": "77731",
+      "osm_type": "way",
+      "osm_id": 45930598,
+      "query": "Bergavägen 21, 777 31 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:37:27.870743+00:00"
+    },
+    "Bergslagsvägen 15, 777 32 Smedjebacken": {
+      "coordinate": [
+        15.4074394,
+        60.1443614
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45930594",
+      "source_url": "https://www.openstreetmap.org/way/45930594",
+      "display_name": "Bergslagsvägen, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 32, Sverige",
+      "postcode": "77732",
+      "osm_type": "way",
+      "osm_id": 45930594,
+      "query": "Bergslagsvägen 15, 777 32 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:37:56.276750+00:00"
+    },
+    "Bergslagsvägen 19, 777 32 Smedjebacken": {
+      "coordinate": [
+        15.4074394,
+        60.1443614
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45930594",
+      "source_url": "https://www.openstreetmap.org/way/45930594",
+      "display_name": "Bergslagsvägen, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 32, Sverige",
+      "postcode": "77732",
+      "osm_type": "way",
+      "osm_id": 45930594,
+      "query": "Bergslagsvägen 19, 777 32 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:39:37.120993+00:00"
+    },
+    "Bergslagsvägen 21, 777 32 Smedjebacken": {
+      "coordinate": [
+        15.4074394,
+        60.1443614
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45930594",
+      "source_url": "https://www.openstreetmap.org/way/45930594",
+      "display_name": "Bergslagsvägen, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 32, Sverige",
+      "postcode": "77732",
+      "osm_type": "way",
+      "osm_id": 45930594,
+      "query": "Bergslagsvägen 21, 777 32 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:39:39.902750+00:00"
+    },
+    "Bergsskolegränd 8A, 791 30 Falun": {
+      "coordinate": [
+        15.6357672,
+        60.6060927
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/25422322",
+      "source_url": "https://www.openstreetmap.org/way/25422322",
+      "display_name": "Bergsskolegränd, Elsborg, Falun, Falu kommun, Dalarnas län, 791 30, Sverige",
+      "postcode": "79130",
+      "osm_type": "way",
+      "osm_id": 25422322,
+      "query": "Bergsskolegränd 8A, 791 30 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:32.384730+00:00"
+    },
+    "Biskopsvägen 12, 771 51 Ludvika": {
+      "coordinate": [
+        15.20525,
+        60.1592541
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/103737520",
+      "source_url": "https://www.openstreetmap.org/way/103737520",
+      "display_name": "Biskopsvägen, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 103737520,
+      "query": "Biskopsvägen 12, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:36:41.725940+00:00"
+    },
+    "Biskopsvägen 14, 771 51 Ludvika": {
+      "coordinate": [
+        15.20525,
+        60.1592541
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/103737520",
+      "source_url": "https://www.openstreetmap.org/way/103737520",
+      "display_name": "Biskopsvägen, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 103737520,
+      "query": "Biskopsvägen 14, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:36:00.690169+00:00"
+    },
+    "Biskopsvägen 14, 771 81 Ludvika": {
+      "coordinate": [
+        15.2012357,
+        60.1559277
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/15223289",
+      "source_url": "https://www.openstreetmap.org/way/15223289",
+      "display_name": "Biskopsvägen, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 25, Sverige",
+      "postcode": "77125",
+      "osm_type": "way",
+      "osm_id": 15223289,
+      "query": "Biskopsvägen 14, 771 81 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:34.557220+00:00"
+    },
+    "Biskopsvägen 20, 771 51 Ludvika": {
+      "coordinate": [
+        15.20525,
+        60.1592541
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/103737520",
+      "source_url": "https://www.openstreetmap.org/way/103737520",
+      "display_name": "Biskopsvägen, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 103737520,
+      "query": "Biskopsvägen 20, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:36.060058+00:00"
+    },
+    "Biskopsvägen 22, 771 51 Ludvika": {
+      "coordinate": [
+        15.20525,
+        60.1592541
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/103737520",
+      "source_url": "https://www.openstreetmap.org/way/103737520",
+      "display_name": "Biskopsvägen, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 103737520,
+      "query": "Biskopsvägen 22, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:38.158606+00:00"
+    },
+    "Björkallén 69, 772 32 Grängesberg": {
+      "coordinate": [
+        15.0145338,
+        60.0877303
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/46155843",
+      "source_url": "https://www.openstreetmap.org/way/46155843",
+      "display_name": "Björkallén, Laritstorp, Grängesberg, Ludvika kommun, Dalarnas län, 772 32, Sverige",
+      "postcode": "77232",
+      "osm_type": "way",
+      "osm_id": 46155843,
+      "query": "Björkallén 69, 772 32 Grängesberg",
+      "retrieved_at_utc": "2026-10-13T11:39:41.771824+00:00"
+    },
+    "Björkvägen 2, 790 23 Svärdsjö": {
+      "coordinate": [
+        15.9085937,
+        60.7408421
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/414509158",
+      "source_url": "https://www.openstreetmap.org/way/414509158",
+      "display_name": "Björkvägen, Svärdsjö, Falu kommun, Dalarnas län, Sverige",
+      "postcode": "",
+      "osm_type": "way",
+      "osm_id": 414509158,
+      "query": "Björkvägen 2, 790 23 Svärdsjö",
+      "retrieved_at_utc": "2026-10-13T11:36:56.091476+00:00"
+    },
+    "Bolandsgatan 13, 753 23 Uppsala": {
+      "coordinate": [
+        17.6767813,
+        59.8538139
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/302637060",
+      "source_url": "https://www.openstreetmap.org/way/302637060",
+      "display_name": "Bolandsgatan, Boländerna, Uppsala, Uppsala kommun, Uppsala län, 753 23, Sverige",
+      "postcode": "75323",
+      "osm_type": "way",
+      "osm_id": 302637060,
+      "query": "Bolandsgatan 13, 753 23 Uppsala",
+      "retrieved_at_utc": "2026-10-13T11:39:44.440069+00:00"
+    },
+    "Bragegatan 16, 784 44 Borlänge": {
+      "coordinate": [
+        15.4301961,
+        60.4976311
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/11860722527",
+      "postcode": "78444",
+      "city": "Borlänge",
+      "street": "Bragegatan",
+      "house_number": "16",
+      "osm_type": "node",
+      "osm_id": 11860722527,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/11860722527"
+    },
+    "Brunnsvägen 20, 774 61 Avesta": {
+      "coordinate": [
+        16.1880217,
+        60.157749
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/69352801",
+      "source_url": "https://www.openstreetmap.org/way/69352801",
+      "display_name": "Brunnsvägen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 61, Sverige",
+      "postcode": "77461",
+      "osm_type": "way",
+      "osm_id": 69352801,
+      "query": "Brunnsvägen 20, 774 61 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:36:44.149320+00:00"
+    },
+    "Bygatan 33, 784 34 Borlänge": {
+      "coordinate": [
+        15.4375339,
+        60.4785371
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 3,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/74771513",
+      "postcode": "78434",
+      "city": "Borlänge",
+      "street": "Bygatan",
+      "house_number": "33",
+      "osm_type": "node",
+      "osm_id": 74771513,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/74771513"
+    },
+    "Bäck Klockars väg 6, 795 90 Rättvik": {
+      "coordinate": [
+        15.1190337,
+        60.8472182
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/282957165",
+      "source_url": "https://www.openstreetmap.org/way/282957165",
+      "display_name": "Bäck Klockars väg, Bäck, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+      "postcode": "79590",
+      "osm_type": "way",
+      "osm_id": 282957165,
+      "query": "Bäck Klockars väg 6, 795 90 Rättvik",
+      "retrieved_at_utc": "2026-10-13T11:39:47.306096+00:00"
+    },
+    "Bäckelundsgatan 1, 781 70 Borlänge": {
+      "coordinate": [
+        15.4128657,
+        60.4793126
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/316728143",
+      "postcode": "78170",
+      "city": "Borlänge",
+      "street": "Bäckelundsgatan",
+      "house_number": "1",
+      "osm_type": "way",
+      "osm_id": 316728143,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/316728143"
+    },
+    "Bäverstigen 1, 777 34 Smedjebacken": {
+      "coordinate": [
+        15.402021038065582,
+        60.134550604436164
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 2679",
+      "geometry": "source_address_point"
+    },
+    "Bäverstigen 2, 777 34 Smedjebacken": {
+      "coordinate": [
+        15.403230576331325,
+        60.134949698375245
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 7126",
+      "geometry": "source_address_point"
+    },
+    "Centralgatan 1, 795 30 Rättvik": {
+      "coordinate": [
+        15.1154247,
+        60.8887095
+      ],
+      "status": "review",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Postnummer avviker – kontrollera träffen",
+      "source": "OpenStreetMap way/313487012",
+      "postcode": "79532",
+      "city": "Rättvik",
+      "street": "Centralgatan",
+      "house_number": "1",
+      "osm_type": "way",
+      "osm_id": 313487012,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/313487012"
+    },
+    "Centralvägen 6, 791 46 Falun": {
+      "coordinate": [
+        15.7417585,
+        60.5907295
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/141110716",
+      "source_url": "https://www.openstreetmap.org/way/141110716",
+      "display_name": "Centralvägen, Hosjö industriområde, Karlsvik, Falun, Falu kommun, Dalarnas län, 791 46, Sverige",
+      "postcode": "79146",
+      "osm_type": "way",
+      "osm_id": 141110716,
+      "query": "Centralvägen 6, 791 46 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:49.195892+00:00"
+    },
+    "Dag Hammarskjölds Väg 18, 752 37 Uppsala": {
+      "coordinate": [
+        17.6386335,
+        59.8428089
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/109710366",
+      "source_url": "https://www.openstreetmap.org/way/109710366",
+      "display_name": "Dag Hammarskjölds väg, Polacksbacken, Uppsala, Uppsala kommun, Uppsala län, 752 37, Sverige",
+      "postcode": "75237",
+      "osm_type": "way",
+      "osm_id": 109710366,
+      "query": "Dag Hammarskjölds Väg 18, 752 37 Uppsala",
+      "retrieved_at_utc": "2026-10-13T11:39:52.067471+00:00"
+    },
+    "Dahls väg 2, 791 31 Falun": {
+      "coordinate": [
+        15.6469119,
+        60.6076257
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1425566692",
+      "source_url": "https://www.openstreetmap.org/way/1425566692",
+      "display_name": "Dahls väg, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1425566692,
+      "query": "Dahls väg 2, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:58.521734+00:00"
+    },
+    "Dahls väg 4, 791 31 Falun": {
+      "coordinate": [
+        15.6469119,
+        60.6076257
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1425566692",
+      "source_url": "https://www.openstreetmap.org/way/1425566692",
+      "display_name": "Dahls väg, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1425566692,
+      "query": "Dahls väg 4, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:53.980259+00:00"
+    },
+    "Dahls väg 6, 791 31 Falun": {
+      "coordinate": [
+        15.6469119,
+        60.6076257
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1425566692",
+      "source_url": "https://www.openstreetmap.org/way/1425566692",
+      "display_name": "Dahls väg, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1425566692,
+      "query": "Dahls väg 6, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:56.739483+00:00"
+    },
+    "Dahls väg 8, 791 31 Falun": {
+      "coordinate": [
+        15.6469119,
+        60.6076257
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1425566692",
+      "source_url": "https://www.openstreetmap.org/way/1425566692",
+      "display_name": "Dahls väg, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1425566692,
+      "query": "Dahls väg 8, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:14.183753+00:00"
+    },
+    "Dalgatan 86, 796 31 Älvdalen": {
+      "coordinate": [
+        14.0619111,
+        61.2077557
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/212865359",
+      "source_url": "https://www.openstreetmap.org/way/212865359",
+      "display_name": "Dalgatan, Mjågen, Märbäck, Älvdalen, Älvdalens kommun, Dalarnas län, 796 31, Sverige",
+      "postcode": "79631",
+      "osm_type": "way",
+      "osm_id": 212865359,
+      "query": "Dalgatan 86, 796 31 Älvdalen",
+      "retrieved_at_utc": "2026-10-13T11:39:58.675182+00:00"
+    },
+    "Daljunkaregatan 10B, 791 37 Falun": {
+      "coordinate": [
+        15.6351527,
+        60.6102943
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/22870890",
+      "source_url": "https://www.openstreetmap.org/way/22870890",
+      "display_name": "Daljunkaregatan, Lustigknopp, Falun, Falu kommun, Dalarnas län, 791 37, Sverige",
+      "postcode": "79137",
+      "osm_type": "way",
+      "osm_id": 22870890,
+      "query": "Daljunkaregatan 10B, 791 37 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:22.653552+00:00"
+    },
+    "Drottningvägen 23, 790 20 Grycksbo": {
+      "coordinate": [
+        15.484461774123595,
+        60.68740365238921
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 3212",
+      "geometry": "source_address_point"
+    },
+    "E4, 743 91 Storvreta": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Engelbrektsgatan 1, 771 30 Ludvika": {
+      "coordinate": [
+        15.1858386,
+        60.1490759
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/14506181",
+      "source_url": "https://www.openstreetmap.org/way/14506181",
+      "display_name": "Engelbrektsgatan, Ludvika, Ludvika kommun, Dalarnas län, 771 30, Sverige",
+      "postcode": "77130",
+      "osm_type": "way",
+      "osm_id": 14506181,
+      "query": "Engelbrektsgatan 1, 771 30 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:40:03.417195+00:00"
+    },
+    "Engelbrektsgatan 18, 774 40 Avesta": {
+      "coordinate": [
+        16.1770819,
+        60.1409383
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/56226646",
+      "source_url": "https://www.openstreetmap.org/way/56226646",
+      "display_name": "Engelbrektsgatan, Domarhagen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 41, Sverige",
+      "postcode": "77441",
+      "osm_type": "way",
+      "osm_id": 56226646,
+      "query": "Engelbrektsgatan 18, 774 40 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:42:56.949711+00:00"
+    },
+    "Engelbrektsgatan 20, 771 30 Ludvika": {
+      "coordinate": [
+        15.1858386,
+        60.1490759
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/14506181",
+      "source_url": "https://www.openstreetmap.org/way/14506181",
+      "display_name": "Engelbrektsgatan, Ludvika, Ludvika kommun, Dalarnas län, 771 30, Sverige",
+      "postcode": "77130",
+      "osm_type": "way",
+      "osm_id": 14506181,
+      "query": "Engelbrektsgatan 20, 771 30 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:37:01.437259+00:00"
+    },
+    "Engelbrektsgatan 36, 791 60 Falun": {
+      "coordinate": [
+        15.6244957,
+        60.6073795
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/71166181",
+      "source_url": "https://www.openstreetmap.org/way/71166181",
+      "display_name": "Engelbrektsgatan, Falun, Falu kommun, Dalarnas län, 791 60, Sverige",
+      "postcode": "79160",
+      "osm_type": "way",
+      "osm_id": 71166181,
+      "query": "Engelbrektsgatan 36, 791 60 Falun",
+      "retrieved_at_utc": "2026-10-13T11:40:05.986219+00:00"
+    },
+    "Eriksgatan 22, 771 31 Ludvika": {
+      "coordinate": [
+        15.1860852,
+        60.1512456
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/14506212",
+      "source_url": "https://www.openstreetmap.org/way/14506212",
+      "display_name": "Eriksgatan, Ludvika, Ludvika kommun, Dalarnas län, 771 31, Sverige",
+      "postcode": "77131",
+      "osm_type": "way",
+      "osm_id": 14506212,
+      "query": "Eriksgatan 22, 771 31 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:37:03.341113+00:00"
+    },
+    "Fabriksvägen 11, 786 33 Vansbro": {
+      "coordinate": [
+        14.2410145,
+        60.5037991
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/609609911",
+      "source_url": "https://www.openstreetmap.org/way/609609911",
+      "display_name": "Fabriksvägen, Grönalid, Bomled, Vansbro, Vansbro kommun, Dalarnas län, 786 33, Sverige",
+      "postcode": "78633",
+      "osm_type": "way",
+      "osm_id": 609609911,
+      "query": "Fabriksvägen 11, 786 33 Vansbro",
+      "retrieved_at_utc": "2026-10-13T11:37:58.615322+00:00"
+    },
+    "Filipstadsvägen 36, 770 10 Fredriksberg": {
+      "coordinate": [
+        14.3702873,
+        60.1365259
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/260818582",
+      "source_url": "https://www.openstreetmap.org/way/260818582",
+      "display_name": "Filipstadsvägen, Älgsjökullen, Fredriksberg, Ludvika kommun, Dalarnas län, Sverige",
+      "postcode": "",
+      "osm_type": "way",
+      "osm_id": 260818582,
+      "query": "Filipstadsvägen 36, 770 10 Fredriksberg",
+      "retrieved_at_utc": "2026-10-13T11:35:46.420134+00:00"
+    },
+    "Fisktorget Falun, Kristinegatan, 791 71 Falun": {
+      "coordinate": [
+        15.6279243,
+        60.6069219
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Fisktorget. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Fisktorget",
+      "source": "OpenStreetMap Nominatim way/142923454",
+      "source_url": "https://www.openstreetmap.org/way/142923454",
+      "display_name": "Fisktorget, Kristinegatan, Gamla Herrgården, Falun, Falu kommun, Dalarnas län, 791 71, Sverige",
+      "osm_type": "way",
+      "osm_id": 142923454,
+      "query": "Fisktorget Falun, Kristinegatan, 791 71 Falun",
+      "retrieved_at_utc": "2026-10-13T11:37:23.085137+00:00"
+    },
+    "Folkaregatan 76, 775 70 Krylbo": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Fredsgatan 16A, 771 30 Ludvika": {
+      "coordinate": [
+        15.1868641,
+        60.1488958
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/14506160",
+      "source_url": "https://www.openstreetmap.org/way/14506160",
+      "display_name": "Fredsgatan, Magnet, Ludvika, Ludvika kommun, Dalarnas län, 771 30, Sverige",
+      "postcode": "77130",
+      "osm_type": "way",
+      "osm_id": 14506160,
+      "query": "Fredsgatan 16A, 771 30 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:37:05.961616+00:00"
+    },
+    "Fredsgatan 3, 771 31 Ludvika": {
+      "coordinate": [
+        15.1922047,
+        60.1522892
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/2011852",
+      "source_url": "https://www.openstreetmap.org/way/2011852",
+      "display_name": "Fredsgatan, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 31, Sverige",
+      "postcode": "77131",
+      "osm_type": "way",
+      "osm_id": 2011852,
+      "query": "Fredsgatan 3, 771 31 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:40:08.358226+00:00"
+    },
+    "Furuvägen 12, 796 30 Älvdalen": {
+      "coordinate": [
+        14.0406059,
+        61.2314217
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/182237233",
+      "postcode": "79630",
+      "city": "Älvdalen",
+      "street": "Furuvägen",
+      "house_number": "12",
+      "osm_type": "way",
+      "osm_id": 182237233,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/182237233"
+    },
+    "Furuvägen 3, 796 30 Älvdalen": {
+      "coordinate": [
+        14.0385558,
+        61.2311867
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/182217891",
+      "source_url": "https://www.openstreetmap.org/way/182217891",
+      "display_name": "Furuvägen, Kyrkbyn, Kåtilla, Älvdalen, Älvdalens kommun, Dalarnas län, 796 30, Sverige",
+      "postcode": "79630",
+      "osm_type": "way",
+      "osm_id": 182217891,
+      "query": "Furuvägen 3, 796 30 Älvdalen",
+      "retrieved_at_utc": "2026-10-13T11:38:40.598305+00:00"
+    },
+    "Gamla Bangatan 54, 771 53 Ludvika": {
+      "coordinate": [
+        15.21059,
+        60.14874
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Gamla Bangatan 54. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Gamla Bangatan 54",
+      "source": "OpenStreetMap Nominatim node/10742263732",
+      "source_url": "https://www.openstreetmap.org/node/10742263732",
+      "display_name": "Gamla Bangatan 54, Gamla Bangatan, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 53, Sverige",
+      "osm_type": "node",
+      "osm_id": 10742263732,
+      "query": "Gamla Bangatan 54, 771 53 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:43:01.699001+00:00"
+    },
+    "Gamla Gruvgatan 39, 791 62 Falun": {
+      "coordinate": [
+        15.6227392,
+        60.6024168
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/2460573256",
+      "postcode": "",
+      "city": "",
+      "street": "Gamla Gruvgatan",
+      "house_number": "39",
+      "osm_type": "node",
+      "osm_id": 2460573256,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/2460573256"
+    },
+    "Georg Karlssons gata 1, 781 70 Borlänge": {
+      "coordinate": [
+        15.414678093950743,
+        60.48182477844707
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 5255",
+      "geometry": "source_address_point"
+    },
+    "Glimmervägen 1E, 771 41 Ludvika": {
+      "coordinate": [
+        15.1546959,
+        60.1342318
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/261442059",
+      "source_url": "https://www.openstreetmap.org/way/261442059",
+      "display_name": "Glimmervägen, Lyvikens Handelsområde, Finnäset, Ludvika, Ludvika kommun, Dalarnas län, 771 41, Sverige",
+      "postcode": "77141",
+      "osm_type": "way",
+      "osm_id": 261442059,
+      "query": "Glimmervägen 1E, 771 41 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:40:10.755557+00:00"
+    },
+    "Godsvägen 16, 784 72 Borlänge": {
+      "coordinate": [
+        15.4733979,
+        60.4861502
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/42092400",
+      "source_url": "https://www.openstreetmap.org/way/42092400",
+      "display_name": "Godsvägen, Islingby industriområde, Söpnarby, Borlänge, Borlänge kommun, Dalarnas län, 784 72, Sverige",
+      "postcode": "78472",
+      "osm_type": "way",
+      "osm_id": 42092400,
+      "query": "Godsvägen 16, 784 72 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:40:13.170088+00:00"
+    },
+    "Grådö såg rv 70, 776 92 Hedemora": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Gussarvsgatan 23B, 776 30 Hedemora": {
+      "coordinate": [
+        15.9878026,
+        60.2807116
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/268232019",
+      "source_url": "https://www.openstreetmap.org/way/268232019",
+      "display_name": "Gussarvsgatan, Gussarvet, Hälla, Hedemora, Hedemora kommun, Dalarnas län, 776 30, Sverige",
+      "postcode": "77630",
+      "osm_type": "way",
+      "osm_id": 268232019,
+      "query": "Gussarvsgatan 23B, 776 30 Hedemora",
+      "retrieved_at_utc": "2026-10-13T11:40:18.468860+00:00"
+    },
+    "Gyllehemsvägen 10, 784 60 Borlänge": {
+      "coordinate": [
+        15.4555498,
+        60.4727417
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1419588449",
+      "postcode": "78460",
+      "city": "Borlänge",
+      "street": "Gyllehemsvägen",
+      "house_number": "10",
+      "osm_type": "node",
+      "osm_id": 1419588449,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1419588449"
+    },
+    "Gyllehemsvägen 12A, 784 60 Borlänge": {
+      "coordinate": [
+        15.4516207,
+        60.4722588
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/9893886",
+      "source_url": "https://www.openstreetmap.org/way/9893886",
+      "display_name": "Gyllehemsvägen, Gylle, Borlänge, Borlänge kommun, Dalarnas län, 784 60, Sverige",
+      "postcode": "78460",
+      "osm_type": "way",
+      "osm_id": 9893886,
+      "query": "Gyllehemsvägen 12A, 784 60 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:34.699968+00:00"
+    },
+    "Gyllehemsvägen 21, 784 60 Borlänge": {
+      "coordinate": [
+        15.4516207,
+        60.4722588
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/9893886",
+      "source_url": "https://www.openstreetmap.org/way/9893886",
+      "display_name": "Gyllehemsvägen, Gylle, Borlänge, Borlänge kommun, Dalarnas län, 784 60, Sverige",
+      "postcode": "78460",
+      "osm_type": "way",
+      "osm_id": 9893886,
+      "query": "Gyllehemsvägen 21, 784 60 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:37:30.296178+00:00"
+    },
+    "Gyllehemsvägen 35, 784 37 Borlänge": {
+      "coordinate": [
+        15.4624126,
+        60.4753975
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/84598553",
+      "source_url": "https://www.openstreetmap.org/way/84598553",
+      "display_name": "Gyllehemsvägen, Årby, Söpnarby, Borlänge, Borlänge kommun, Dalarnas län, 784 37, Sverige",
+      "postcode": "78437",
+      "osm_type": "way",
+      "osm_id": 84598553,
+      "query": "Gyllehemsvägen 35, 784 37 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:10.310654+00:00"
+    },
+    "Gymnasiegatan 2, 733 40 Sala": {
+      "coordinate": [
+        16.6182395,
+        59.911383
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/639594477",
+      "postcode": "73340",
+      "city": "Sala",
+      "street": "Gymnasiegatan",
+      "house_number": "2",
+      "osm_type": "node",
+      "osm_id": 639594477,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/639594477"
+    },
+    "HJULTORGET 11, 793 41 Insjön": {
+      "coordinate": [
+        15.0899298,
+        60.6744626
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Hjultorget. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Hjultorget",
+      "source": "OpenStreetMap Nominatim way/220204860",
+      "source_url": "https://www.openstreetmap.org/way/220204860",
+      "display_name": "Hjultorget, Insjön, Leksands kommun, Dalarnas län, Sverige",
+      "osm_type": "way",
+      "osm_id": 220204860,
+      "query": "HJULTORGET 11, 793 41 Insjön",
+      "retrieved_at_utc": "2026-10-13T11:40:20.241518+00:00"
+    },
+    "Hagvägen 6R, 780 67 Sälen": {
+      "coordinate": [
+        13.2684306,
+        61.1549443
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48069851",
+      "source_url": "https://www.openstreetmap.org/way/48069851",
+      "display_name": "Hagvägen, Sälen, Malung-Sälens kommun, Dalarnas län, Sverige",
+      "postcode": "",
+      "osm_type": "way",
+      "osm_id": 48069851,
+      "query": "Hagvägen 6R, 780 67 Sälen",
+      "retrieved_at_utc": "2026-10-13T11:40:22.774037+00:00"
+    },
+    "Hagvägen 8, 780 67 Sälen": {
+      "coordinate": [
+        13.2687116,
+        61.1557062
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/400388963",
+      "postcode": "78067",
+      "city": "Sälen",
+      "street": "Hagvägen",
+      "house_number": "8",
+      "osm_type": "way",
+      "osm_id": 400388963,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/400388963"
+    },
+    "Hantverkaregatan 14, 792 31 Mora": {
+      "coordinate": [
+        14.5369913,
+        61.0038998
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1157652360",
+      "source_url": "https://www.openstreetmap.org/way/1157652360",
+      "display_name": "Hantverkaregatan, Morastrand, Mora, Mora kommun, Dalarnas län, 792 22, Sverige",
+      "postcode": "79222",
+      "osm_type": "way",
+      "osm_id": 1157652360,
+      "query": "Hantverkaregatan 14, 792 31 Mora",
+      "retrieved_at_utc": "2026-10-13T11:36:24.739572+00:00"
+    },
+    "Hedensbergsvägen 141, 752 67 Uppsala": {
+      "coordinate": [
+        17.5622774,
+        59.8496822
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/80880380",
+      "source_url": "https://www.openstreetmap.org/way/80880380",
+      "display_name": "Hedensbergsvägen, Herrhagen, Stenhagen, Uppsala, Uppsala kommun, Uppsala län, 752 69, Sverige",
+      "postcode": "75269",
+      "osm_type": "way",
+      "osm_id": 80880380,
+      "query": "Hedensbergsvägen 141, 752 67 Uppsala",
+      "retrieved_at_utc": "2026-10-13T11:40:25.004116+00:00"
+    },
+    "Hedvägen 10A, 786 94 Äppelbo": {
+      "coordinate": [
+        14.0067253,
+        60.4819139
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1138649173",
+      "source_url": "https://www.openstreetmap.org/way/1138649173",
+      "display_name": "Hedvägen, Ovanheden, Nyåkern, Äppelbo, Vansbro kommun, Dalarnas län, 786 94, Sverige",
+      "postcode": "78694",
+      "osm_type": "way",
+      "osm_id": 1138649173,
+      "query": "Hedvägen 10A, 786 94 Äppelbo",
+      "retrieved_at_utc": "2026-10-13T11:40:28.076648+00:00"
+    },
+    "Hemgatan 28, 784 73 Borlänge": {
+      "coordinate": [
+        15.4697345,
+        60.5066852
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/44104215",
+      "source_url": "https://www.openstreetmap.org/way/44104215",
+      "display_name": "Hemgatan, Bergeby, Borlänge, Borlänge kommun, Dalarnas län, 784 73, Sverige",
+      "postcode": "78473",
+      "osm_type": "way",
+      "osm_id": 44104215,
+      "query": "Hemgatan 28, 784 73 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:40:30.403911+00:00"
+    },
+    "Hemgatan 30, 784 73 Borlänge": {
+      "coordinate": [
+        15.4697345,
+        60.5066852
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/44104215",
+      "source_url": "https://www.openstreetmap.org/way/44104215",
+      "display_name": "Hemgatan, Bergeby, Borlänge, Borlänge kommun, Dalarnas län, 784 73, Sverige",
+      "postcode": "78473",
+      "osm_type": "way",
+      "osm_id": 44104215,
+      "query": "Hemgatan 30, 784 73 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:12.831529+00:00"
+    },
+    "Hemgatan 32, 784 73 Borlänge": {
+      "coordinate": [
+        15.4697345,
+        60.5066852
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/44104215",
+      "source_url": "https://www.openstreetmap.org/way/44104215",
+      "display_name": "Hemgatan, Bergeby, Borlänge, Borlänge kommun, Dalarnas län, 784 73, Sverige",
+      "postcode": "78473",
+      "osm_type": "way",
+      "osm_id": 44104215,
+      "query": "Hemgatan 32, 784 73 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:35:58.317180+00:00"
+    },
+    "Hemgatan 34, 784 73 Borlänge": {
+      "coordinate": [
+        15.4697345,
+        60.5066852
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/44104215",
+      "source_url": "https://www.openstreetmap.org/way/44104215",
+      "display_name": "Hemgatan, Bergeby, Borlänge, Borlänge kommun, Dalarnas län, 784 73, Sverige",
+      "postcode": "78473",
+      "osm_type": "way",
+      "osm_id": 44104215,
+      "query": "Hemgatan 34, 784 73 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:37:25.095794+00:00"
+    },
+    "Hosjöjungfrustigen 10, 791 46 Falun": {
+      "coordinate": [
+        15.7314494,
+        60.5912062
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/860334500",
+      "source_url": "https://www.openstreetmap.org/way/860334500",
+      "display_name": "Hosjöjungfrustigen, Korsnäs, Karlsvik, Falun, Falu kommun, Dalarnas län, 791 47, Sverige",
+      "postcode": "79147",
+      "osm_type": "way",
+      "osm_id": 860334500,
+      "query": "Hosjöjungfrustigen 10, 791 46 Falun",
+      "retrieved_at_utc": "2026-10-13T11:40:32.427093+00:00"
+    },
+    "Hovslagaregatan 35, 777 30 Smedjebacken": {
+      "coordinate": [
+        15.4207522,
+        60.1435854
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/59164415",
+      "source_url": "https://www.openstreetmap.org/way/59164415",
+      "display_name": "Hovslagaregatan, Vikersvik, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 31, Sverige",
+      "postcode": "77731",
+      "osm_type": "way",
+      "osm_id": 59164415,
+      "query": "Hovslagaregatan 35, 777 30 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:40:34.695271+00:00"
+    },
+    "Hugo Hedströms väg 28, 781 72 Borlänge": {
+      "coordinate": [
+        15.4608972,
+        60.4676624
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/649739090",
+      "source_url": "https://www.openstreetmap.org/way/649739090",
+      "display_name": "Hugo Hedströms väg, Åselby Industriområde, Gruvkarlby, Borlänge, Borlänge kommun, Dalarnas län, 781 72, Sverige",
+      "postcode": "78172",
+      "osm_type": "way",
+      "osm_id": 649739090,
+      "query": "Hugo Hedströms väg 28, 781 72 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:40:37.565756+00:00"
+    },
+    "Humanistgatan 4, 781 70 Borlänge": {
+      "coordinate": [
+        15.4164388,
+        60.4837541
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/33997484",
+      "source_url": "https://www.openstreetmap.org/way/33997484",
+      "display_name": "Humanistgatan, Hagalund, Borlänge, Borlänge kommun, Dalarnas län, 781 29, Sverige",
+      "postcode": "78129",
+      "osm_type": "way",
+      "osm_id": 33997484,
+      "query": "Humanistgatan 4, 781 70 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:36.992406+00:00"
+    },
+    "Hyttgatan 37C, 791 60 Falun": {
+      "coordinate": [
+        15.6252528,
+        60.6043606
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4254408",
+      "source_url": "https://www.openstreetmap.org/way/4254408",
+      "display_name": "Hyttgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 60, Sverige",
+      "postcode": "79160",
+      "osm_type": "way",
+      "osm_id": 4254408,
+      "query": "Hyttgatan 37C, 791 60 Falun",
+      "retrieved_at_utc": "2026-10-13T11:40:39.631111+00:00"
+    },
+    "Hyttgatan 39, 791 60 Falun": {
+      "coordinate": [
+        15.6226241,
+        60.6065289
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/94498459",
+      "postcode": "",
+      "city": "",
+      "street": "Hyttgatan",
+      "house_number": "39",
+      "osm_type": "way",
+      "osm_id": 94498459,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/94498459"
+    },
+    "Hyttgatan 39A, 791 60 Falun": {
+      "coordinate": [
+        15.6252528,
+        60.6043606
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4254408",
+      "source_url": "https://www.openstreetmap.org/way/4254408",
+      "display_name": "Hyttgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 60, Sverige",
+      "postcode": "79160",
+      "osm_type": "way",
+      "osm_id": 4254408,
+      "query": "Hyttgatan 39A, 791 60 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:43.166118+00:00"
+    },
+    "Hälsinggårdsvägen 9, 791 43 Falun": {
+      "coordinate": [
+        15.68541,
+        60.5905011
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1004737379",
+      "source_url": "https://www.openstreetmap.org/way/1004737379",
+      "display_name": "Hälsinggårdsvägen, Hälsinggården, Falun, Falu kommun, Dalarnas län, 791 45, Sverige",
+      "postcode": "79145",
+      "osm_type": "way",
+      "osm_id": 1004737379,
+      "query": "Hälsinggårdsvägen 9, 791 43 Falun",
+      "retrieved_at_utc": "2026-10-13T11:40:42.414254+00:00"
+    },
+    "Hökargatan 34, 776 30 Hedemora": {
+      "coordinate": [
+        15.9918545,
+        60.2800074
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/268163391",
+      "source_url": "https://www.openstreetmap.org/way/268163391",
+      "display_name": "Hökargatan, Gussarvet, Hälla, Hedemora, Hedemora kommun, Dalarnas län, 776 30, Sverige",
+      "postcode": "77630",
+      "osm_type": "way",
+      "osm_id": 268163391,
+      "query": "Hökargatan 34, 776 30 Hedemora",
+      "retrieved_at_utc": "2026-10-13T11:40:44.249979+00:00"
+    },
+    "Ingarvsvägen 9, 791 77 Falun": {
+      "coordinate": [
+        15.5986321,
+        60.6069489
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/89210146",
+      "postcode": "79177",
+      "city": "Falun",
+      "street": "Ingarvsvägen",
+      "house_number": "9",
+      "osm_type": "way",
+      "osm_id": 89210146,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/89210146"
+    },
+    "Ingarvsvägen 9b, 791 77 Falun": {
+      "coordinate": [
+        15.5986778,
+        60.6077277
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/984844187",
+      "source_url": "https://www.openstreetmap.org/way/984844187",
+      "display_name": "Ingarvsvägen, Ingarvet, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 984844187,
+      "query": "Ingarvsvägen 9b, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:01.106985+00:00"
+    },
+    "Jaxtorget 7, 784 53 Borlänge": {
+      "coordinate": [
+        15.4029556,
+        60.4835788
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/178115949",
+      "postcode": "78453",
+      "city": "Borlänge",
+      "street": "Jaxtorget",
+      "house_number": "7",
+      "osm_type": "way",
+      "osm_id": 178115949,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/178115949"
+    },
+    "Johan Ahlbäcks plats 2, 777 30 Smedjebacken": {
+      "coordinate": [
+        15.4146593,
+        60.1415957
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/59166863",
+      "source_url": "https://www.openstreetmap.org/way/59166863",
+      "display_name": "Johan Ahlbäcks Plats, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 30, Sverige",
+      "postcode": "77730",
+      "osm_type": "way",
+      "osm_id": 59166863,
+      "query": "Johan Ahlbäcks plats 2, 777 30 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:40:46.666549+00:00"
+    },
+    "Johan Ahlbäcks plats 7, 777 30 Smedjebacken": {
+      "coordinate": [
+        15.4146593,
+        60.1415957
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/59166863",
+      "source_url": "https://www.openstreetmap.org/way/59166863",
+      "display_name": "Johan Ahlbäcks Plats, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 30, Sverige",
+      "postcode": "77730",
+      "osm_type": "way",
+      "osm_id": 59166863,
+      "query": "Johan Ahlbäcks plats 7, 777 30 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:40:49.125576+00:00"
+    },
+    "Jungfruvägen 151A, 791 34 Falun": {
+      "coordinate": [
+        15.6172862,
+        60.6281067
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/142696946",
+      "source_url": "https://www.openstreetmap.org/way/142696946",
+      "display_name": "Jungfruvägen, Bojsenburg, Falun, Falu kommun, Dalarnas län, 791 34, Sverige",
+      "postcode": "79134",
+      "osm_type": "way",
+      "osm_id": 142696946,
+      "query": "Jungfruvägen 151A, 791 34 Falun",
+      "retrieved_at_utc": "2026-10-13T11:43:03.764080+00:00"
+    },
+    "Jungfruvägen 151C, 791 34 Falun": {
+      "coordinate": [
+        15.6172862,
+        60.6281067
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/142696946",
+      "source_url": "https://www.openstreetmap.org/way/142696946",
+      "display_name": "Jungfruvägen, Bojsenburg, Falun, Falu kommun, Dalarnas län, 791 34, Sverige",
+      "postcode": "79134",
+      "osm_type": "way",
+      "osm_id": 142696946,
+      "query": "Jungfruvägen 151C, 791 34 Falun",
+      "retrieved_at_utc": "2026-10-13T11:43:06.080713+00:00"
+    },
+    "Järnavägen 11, 793 33 Leksand": {
+      "coordinate": [
+        14.996570584956801,
+        60.72502136789309
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 7959",
+      "geometry": "source_address_point"
+    },
+    "Jönshyttevägen 10, 783 32 Säter": {
+      "coordinate": [
+        15.7213,
+        60.3448671
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/18449346",
+      "source_url": "https://www.openstreetmap.org/way/18449346",
+      "display_name": "Jönshyttevägen, Skönvik, Säter, Säters kommun, Dalarnas län, 783 22, Sverige",
+      "postcode": "78322",
+      "osm_type": "way",
+      "osm_id": 18449346,
+      "query": "Jönshyttevägen 10, 783 32 Säter",
+      "retrieved_at_utc": "2026-10-13T11:40:51.629810+00:00"
+    },
+    "Jönshyttevägen 9, 783 32 Säter": {
+      "coordinate": [
+        15.7157387,
+        60.3409001
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/3021476406",
+      "postcode": "",
+      "city": "Säter",
+      "street": "Jönshyttevägen",
+      "house_number": "9",
+      "osm_type": "node",
+      "osm_id": 3021476406,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/3021476406"
+    },
+    "Kaplansgatan 19, 794 30 Orsa": {
+      "coordinate": [
+        14.6160308,
+        61.1189501
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/25446361",
+      "source_url": "https://www.openstreetmap.org/way/25446361",
+      "display_name": "Kaplansgatan, Centrum, Orsa, Orsa kommun, Dalarnas län, 794 30, Sverige",
+      "postcode": "79430",
+      "osm_type": "way",
+      "osm_id": 25446361,
+      "query": "Kaplansgatan 19, 794 30 Orsa",
+      "retrieved_at_utc": "2026-10-13T11:36:39.259772+00:00"
+    },
+    "Kaserngården 4, 791 40 Falun": {
+      "coordinate": [
+        15.6503072,
+        60.6059033
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/4906580204",
+      "postcode": "",
+      "city": "Falun",
+      "street": "Kaserngården",
+      "house_number": "4",
+      "osm_type": "node",
+      "osm_id": 4906580204,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/4906580204"
+    },
+    "Kisvägen 28A, 791 51 Falun": {
+      "coordinate": [
+        15.6298301,
+        60.5994707
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/8780662165",
+      "postcode": "79151",
+      "city": "Falun",
+      "street": "Kisvägen",
+      "house_number": "28A",
+      "osm_type": "node",
+      "osm_id": 8780662165,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/8780662165"
+    },
+    "Koppardalsvägen 1, 774 41 Avesta": {
+      "coordinate": [
+        16.1883874,
+        60.1462135
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/132486081",
+      "source_url": "https://www.openstreetmap.org/way/132486081",
+      "display_name": "Koppardalsvägen, Koppardalen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 41, Sverige",
+      "postcode": "77441",
+      "osm_type": "way",
+      "osm_id": 132486081,
+      "query": "Koppardalsvägen 1, 774 41 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:37:08.246653+00:00"
+    },
+    "Koppartorget 1, 791 43 Falun": {
+      "coordinate": [
+        15.68693,
+        60.5928414
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/371935844",
+      "postcode": "",
+      "city": "",
+      "street": "Koppartorget",
+      "house_number": "1",
+      "osm_type": "way",
+      "osm_id": 371935844,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/371935844"
+    },
+    "Kopparvägen 29, 791 42 Falun": {
+      "coordinate": [
+        15.6672444,
+        60.5977222
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1835546394",
+      "postcode": "79142",
+      "city": "Falun",
+      "street": "Kopparvägen",
+      "house_number": "29",
+      "osm_type": "node",
+      "osm_id": 1835546394,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1835546394"
+    },
+    "Kopparvägen 29H, 791 42 Falun": {
+      "coordinate": [
+        15.6623728,
+        60.5999358
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/235337268",
+      "source_url": "https://www.openstreetmap.org/way/235337268",
+      "display_name": "Kopparvägen, Norslund, Falun, Falu kommun, Dalarnas län, 791 42, Sverige",
+      "postcode": "79142",
+      "osm_type": "way",
+      "osm_id": 235337268,
+      "query": "Kopparvägen 29H, 791 42 Falun",
+      "retrieved_at_utc": "2026-10-13T11:37:32.202229+00:00"
+    },
+    "Kopparvägen 31, 791 42 Falun": {
+      "coordinate": [
+        15.6663622,
+        60.5973913
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/313926368",
+      "postcode": "",
+      "city": "",
+      "street": "Kopparvägen",
+      "house_number": "31",
+      "osm_type": "way",
+      "osm_id": 313926368,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/313926368"
+    },
+    "Kraftgatan 8, 776 33 Hedemora": {
+      "coordinate": [
+        15.9816733,
+        60.2895433
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45948965",
+      "source_url": "https://www.openstreetmap.org/way/45948965",
+      "display_name": "Kraftgatan, Hedemora, Hedemora kommun, Dalarnas län, 776 33, Sverige",
+      "postcode": "77633",
+      "osm_type": "way",
+      "osm_id": 45948965,
+      "query": "Kraftgatan 8, 776 33 Hedemora",
+      "retrieved_at_utc": "2026-10-13T11:37:10.557039+00:00"
+    },
+    "Kristinebergsgatan 1, 792 32 Mora": {
+      "coordinate": [
+        14.561553539706756,
+        61.01049922736491
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 4509",
+      "geometry": "source_address_point"
+    },
+    "Kristinegatan 28, 791 60 Falun": {
+      "coordinate": [
+        15.6252088,
+        60.6065096
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/22870961",
+      "source_url": "https://www.openstreetmap.org/way/22870961",
+      "display_name": "Kristinegatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 60, Sverige",
+      "postcode": "79160",
+      "osm_type": "way",
+      "osm_id": 22870961,
+      "query": "Kristinegatan 28, 791 60 Falun",
+      "retrieved_at_utc": "2026-10-13T11:37:34.524376+00:00"
+    },
+    "Kronbergsparken, Nybrogatan, 791 72 Falun": {
+      "coordinate": [
+        15.6209375,
+        60.6074543
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4556515",
+      "source_url": "https://www.openstreetmap.org/way/4556515",
+      "display_name": "Nybrogatan, Gamla Herrgården, Falun, Falu kommun, Dalarnas län, 791 73, Sverige",
+      "postcode": "79173",
+      "osm_type": "way",
+      "osm_id": 4556515,
+      "query": "Nybrogatan, Falun, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:52.898696+00:00"
+    },
+    "Kundtjänst och återvinningscentral. Öppettiderna visar ÅVC öppettider, Skyfallsvägen 20, 791 77 Falun": {
+      "coordinate": [
+        15.5770498,
+        60.6132163
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn och hela husnumret matchar; geografiskt kontrollerad mot ortankaret",
+      "geometry": "geocoder_address_point",
+      "source": "OpenStreetMap Nominatim way/221522775",
+      "source_url": "https://www.openstreetmap.org/way/221522775",
+      "display_name": "Falu återvinning, 20, Skyfallsvägen, Lilla Kårarvet, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 221522775,
+      "query": "Skyfallsvägen 20, Falun, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:57.707173+00:00"
+    },
+    "Kung Gustavs väg 1, 794 30 Orsa": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Kyrkallén 3, 793 31 Leksand": {
+      "coordinate": [
+        14.9900292,
+        60.7316816
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/202316546",
+      "source_url": "https://www.openstreetmap.org/way/202316546",
+      "display_name": "Kyrkallén, Leksand, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 31, Sverige",
+      "postcode": "79331",
+      "osm_type": "way",
+      "osm_id": 202316546,
+      "query": "Kyrkallén 3, 793 31 Leksand",
+      "retrieved_at_utc": "2026-10-13T11:37:37.463794+00:00"
+    },
+    "Kyrkbyn 114B, 780 64 Lima": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Kyrkogatan 25, 792 30 Mora": {
+      "coordinate": [
+        14.5375931,
+        61.0041293
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/11080718407",
+      "postcode": "79230",
+      "city": "Mora",
+      "street": "Kyrkogatan",
+      "house_number": "25",
+      "osm_type": "node",
+      "osm_id": 11080718407,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/11080718407"
+    },
+    "Kyrkogatan 25C, 792 30 Mora": {
+      "coordinate": [
+        14.5380361,
+        61.0046437
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1324691900",
+      "source_url": "https://www.openstreetmap.org/way/1324691900",
+      "display_name": "Kyrkogatan, Morastrand, Mora, Mora kommun, Dalarnas län, 792 22, Sverige",
+      "postcode": "79222",
+      "osm_type": "way",
+      "osm_id": 1324691900,
+      "query": "Kyrkogatan 25C, 792 30 Mora",
+      "retrieved_at_utc": "2026-10-13T11:39:17.400635+00:00"
+    },
+    "Kyrkogatan 27, 792 30 Mora": {
+      "coordinate": [
+        14.5373948,
+        61.0038829
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 2,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/448882242",
+      "postcode": "79230",
+      "city": "Mora",
+      "street": "Kyrkogatan",
+      "house_number": "27",
+      "osm_type": "node",
+      "osm_id": 448882242,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/448882242"
+    },
+    "Kyrkogatan 27B, 792 30 Mora": {
+      "coordinate": [
+        14.5395935,
+        61.0059828
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/23166481",
+      "source_url": "https://www.openstreetmap.org/way/23166481",
+      "display_name": "Kyrkogatan, Morastrand, Mora, Mora kommun, Dalarnas län, 792 31, Sverige",
+      "postcode": "79231",
+      "osm_type": "way",
+      "osm_id": 23166481,
+      "query": "Kyrkogatan 27B, 792 30 Mora",
+      "retrieved_at_utc": "2026-10-13T11:43:09.228738+00:00"
+    },
+    "Källviksvägen 5, 791 52 Falun": {
+      "coordinate": [
+        15.645153809445318,
+        60.59446847165497
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 4727",
+      "geometry": "source_address_point"
+    },
+    "Köpingsvägen, 737 92 Fagersta": {
+      "coordinate": [
+        15.8087184,
+        59.9839164
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/195657996",
+      "source_url": "https://www.openstreetmap.org/way/195657996",
+      "display_name": "Köpingsvägen, Risbron, Fagersta, Fagersta kommun, Västmanlands län, 737 32, Sverige",
+      "postcode": "73732",
+      "osm_type": "way",
+      "osm_id": 195657996,
+      "query": "Köpingsvägen, 737 92 Fagersta",
+      "retrieved_at_utc": "2026-10-13T11:40:59.204536+00:00"
+    },
+    "Köpmangatan 20, 774 30 Avesta": {
+      "coordinate": [
+        16.1714216,
+        60.1454819
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/84198878",
+      "source_url": "https://www.openstreetmap.org/way/84198878",
+      "display_name": "Köpmangatan, Domarhagen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 30, Sverige",
+      "postcode": "77430",
+      "osm_type": "way",
+      "osm_id": 84198878,
+      "query": "Köpmangatan 20, 774 30 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:43:10.879856+00:00"
+    },
+    "Köpmangatan 20A, 774 30 Avesta": {
+      "coordinate": [
+        16.1714216,
+        60.1454819
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/84198878",
+      "source_url": "https://www.openstreetmap.org/way/84198878",
+      "display_name": "Köpmangatan, Domarhagen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 30, Sverige",
+      "postcode": "77430",
+      "osm_type": "way",
+      "osm_id": 84198878,
+      "query": "Köpmangatan 20A, 774 30 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:01.740678+00:00"
+    },
+    "Köpmangatan 20B, 774 30 Avesta": {
+      "coordinate": [
+        16.1714216,
+        60.1454819
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/84198878",
+      "source_url": "https://www.openstreetmap.org/way/84198878",
+      "display_name": "Köpmangatan, Domarhagen, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 30, Sverige",
+      "postcode": "77430",
+      "osm_type": "way",
+      "osm_id": 84198878,
+      "query": "Köpmangatan 20B, 774 30 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:03.638682+00:00"
+    },
+    "LASARETTSOMRÅDET 23A, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 23A, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:38:48.304892+00:00"
+    },
+    "LASARETTSOMRÅDET 25, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 25, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:36:18.010303+00:00"
+    },
+    "LASARETTSOMRÅDET 28B, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 28B, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:39:19.080776+00:00"
+    },
+    "LASARETTSOMRÅDET 4, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 4, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:43:13.207722+00:00"
+    },
+    "LASARETTSOMRÅDET 5, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 5, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:39:21.451073+00:00"
+    },
+    "LASARETTSOMRÅDET 6, 792 51 Mora": {
+      "coordinate": [
+        14.5843697,
+        61.0155814
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/48955525",
+      "source_url": "https://www.openstreetmap.org/way/48955525",
+      "display_name": "Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "postcode": "79251",
+      "osm_type": "way",
+      "osm_id": 48955525,
+      "query": "LASARETTSOMRÅDET 6, 792 51 Mora",
+      "retrieved_at_utc": "2026-10-13T11:35:53.539577+00:00"
+    },
+    "Landsvägsbacken 1, 771 92 Ludvika": {
+      "coordinate": [
+        15.127649,
+        60.2067332
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/436229345",
+      "source_url": "https://www.openstreetmap.org/way/436229345",
+      "display_name": "Landsvägsbacken, Brunnsvik, Sörvik, Ludvika kommun, Dalarnas län, 771 92, Sverige",
+      "postcode": "77192",
+      "osm_type": "way",
+      "osm_id": 436229345,
+      "query": "Landsvägsbacken 1, 771 92 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:41:06.040217+00:00"
+    },
+    "Lasarettsvägen 10, 791 82 Falun": {
+      "coordinate": [
+        15.6440602,
+        60.608512
+      ],
+      "status": "review",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Postnummer avviker – kontrollera träffen",
+      "source": "OpenStreetMap node/2930829285",
+      "postcode": "79131",
+      "city": "Falun",
+      "street": "Lasarettsvägen",
+      "house_number": "10",
+      "osm_type": "node",
+      "osm_id": 2930829285,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/2930829285"
+    },
+    "Lasarettsvägen 11, 791 31 Falun": {
+      "coordinate": [
+        15.6486153,
+        60.6070857
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1262823178",
+      "source_url": "https://www.openstreetmap.org/way/1262823178",
+      "display_name": "Lasarettsvägen, Falun, Falu kommun, Dalarnas län, 791 31, Sverige",
+      "postcode": "79131",
+      "osm_type": "way",
+      "osm_id": 1262823178,
+      "query": "Lasarettsvägen 11, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:41:08.405649+00:00"
+    },
+    "Lekattvägen 4, 793 30 Leksand": {
+      "coordinate": [
+        14.9991371,
+        60.7363676
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/26197314",
+      "source_url": "https://www.openstreetmap.org/way/26197314",
+      "display_name": "Lekattvägen, Leksand, Leksands kommun, Dalarnas län, 793 30, Sverige",
+      "postcode": "79330",
+      "osm_type": "way",
+      "osm_id": 26197314,
+      "query": "Lekattvägen 4, 793 30 Leksand",
+      "retrieved_at_utc": "2026-10-13T11:36:03.202833+00:00"
+    },
+    "Leksandsvägen 24, 793 31 Leksand": {
+      "coordinate": [
+        14.997403409624665,
+        60.73322671837225
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 1181",
+      "geometry": "source_address_point"
+    },
+    "Limsjöänget 9, 793 31 Leksand": {
+      "coordinate": [
+        15.002600607865332,
+        60.73772933661009
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 7102",
+      "geometry": "source_address_point"
+    },
+    "Lindsnäsvägen 4, 774 41 Avesta": {
+      "coordinate": [
+        16.198246,
+        60.1426609
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1135720243",
+      "source_url": "https://www.openstreetmap.org/way/1135720243",
+      "display_name": "Lindsnäsvägen, Lindsnäs, Krylbo, Avesta, Avesta kommun, Dalarnas län, 774 61, Sverige",
+      "postcode": "77461",
+      "osm_type": "way",
+      "osm_id": 1135720243,
+      "query": "Lindsnäsvägen 4, 774 41 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:11.191604+00:00"
+    },
+    "Lindsnäsvägen 6A, 774 41 Avesta": {
+      "coordinate": [
+        16.198246,
+        60.1426609
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1135720243",
+      "source_url": "https://www.openstreetmap.org/way/1135720243",
+      "display_name": "Lindsnäsvägen, Lindsnäs, Krylbo, Avesta, Avesta kommun, Dalarnas län, 774 61, Sverige",
+      "postcode": "77461",
+      "osm_type": "way",
+      "osm_id": 1135720243,
+      "query": "Lindsnäsvägen 6A, 774 41 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:13.357255+00:00"
+    },
+    "Lindsnäsvägen 6C, 774 41 Avesta": {
+      "coordinate": [
+        16.198246,
+        60.1426609
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1135720243",
+      "source_url": "https://www.openstreetmap.org/way/1135720243",
+      "display_name": "Lindsnäsvägen, Lindsnäs, Krylbo, Avesta, Avesta kommun, Dalarnas län, 774 61, Sverige",
+      "postcode": "77461",
+      "osm_type": "way",
+      "osm_id": 1135720243,
+      "query": "Lindsnäsvägen 6C, 774 41 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:15.559202+00:00"
+    },
+    "Lindsnäsvägen 82, 774 82 Avesta": {
+      "coordinate": [
+        16.198246,
+        60.1426609
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1135720243",
+      "source_url": "https://www.openstreetmap.org/way/1135720243",
+      "display_name": "Lindsnäsvägen, Lindsnäs, Krylbo, Avesta, Avesta kommun, Dalarnas län, 774 61, Sverige",
+      "postcode": "77461",
+      "osm_type": "way",
+      "osm_id": 1135720243,
+      "query": "Lindsnäsvägen 82, 774 82 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:36:05.510314+00:00"
+    },
+    "Lisagatan 32B, 782 31 Malung": {
+      "coordinate": [
+        13.711266,
+        60.6858243
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/8250428",
+      "source_url": "https://www.openstreetmap.org/way/8250428",
+      "display_name": "Lisagatan, Södra Mon, Malung, Malung-Sälens kommun, Dalarnas län, 782 31, Sverige",
+      "postcode": "78231",
+      "osm_type": "way",
+      "osm_id": 8250428,
+      "query": "Lisagatan 32B, 782 31 Malung",
+      "retrieved_at_utc": "2026-10-13T11:37:40.171904+00:00"
+    },
+    "Lisagatan 53, 782 30 Malung": {
+      "coordinate": [
+        13.7235708,
+        60.6800985
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/202974452",
+      "source_url": "https://www.openstreetmap.org/way/202974452",
+      "display_name": "Lisagatan, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 30, Sverige",
+      "postcode": "78230",
+      "osm_type": "way",
+      "osm_id": 202974452,
+      "query": "Lisagatan 53, 782 30 Malung",
+      "retrieved_at_utc": "2026-10-13T11:38:50.146520+00:00"
+    },
+    "Lugnetvägen 11, 791 31 Falun": {
+      "coordinate": [
+        15.652956,
+        60.6192554
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1178015138",
+      "source_url": "https://www.openstreetmap.org/way/1178015138",
+      "display_name": "Lugnetvägen, Lugnet, Lilla Hälla, Falun, Falu kommun, Dalarnas län, 791 31, Sverige",
+      "postcode": "79131",
+      "osm_type": "way",
+      "osm_id": 1178015138,
+      "query": "Lugnetvägen 11, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:41:17.955755+00:00"
+    },
+    "Malmgatan 5, 777 31 Smedjebacken": {
+      "coordinate": [
+        15.422763,
+        60.1459943
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/45928653",
+      "source_url": "https://www.openstreetmap.org/way/45928653",
+      "display_name": "Malmgatan, Öhmans hage, Vikersvik, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 31, Sverige",
+      "postcode": "77731",
+      "osm_type": "way",
+      "osm_id": 45928653,
+      "query": "Malmgatan 5, 777 31 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:37:13.112898+00:00"
+    },
+    "Manhem, 791 31 Falun": {
+      "coordinate": [
+        15.6479691,
+        60.6119884
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Manhem. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Manhem",
+      "source": "OpenStreetMap Nominatim way/353178022",
+      "source_url": "https://www.openstreetmap.org/way/353178022",
+      "display_name": "Manhem, Värdshusvägen, Lustigknopp, Falun, Falu kommun, Dalarnas län, 791 31, Sverige",
+      "osm_type": "way",
+      "osm_id": 353178022,
+      "query": "Manhem, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:41:20.345505+00:00"
+    },
+    "Manhemsvägen 28, 791 31 Falun": {
+      "coordinate": [
+        15.6465574,
+        60.6127426
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/353178005",
+      "postcode": "",
+      "city": "Falun",
+      "street": "Manhemsvägen",
+      "house_number": "28",
+      "osm_type": "way",
+      "osm_id": 353178005,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/353178005"
+    },
+    "Markusgatan 1, 774 30 Avesta": {
+      "coordinate": [
+        16.1685324,
+        60.1446018
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/182614627",
+      "source_url": "https://www.openstreetmap.org/way/182614627",
+      "display_name": "Markusgatan, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 30, Sverige",
+      "postcode": "77430",
+      "osm_type": "way",
+      "osm_id": 182614627,
+      "query": "Markusgatan 1, 774 30 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:41:22.706438+00:00"
+    },
+    "Mejselgatan 9, 781 71 Borlänge": {
+      "coordinate": [
+        15.438526673359416,
+        60.46577160537165
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 3345",
+      "geometry": "source_address_point"
+    },
+    "Mjälgavägen 2, 784 37 Borlänge": {
+      "coordinate": [
+        15.447747914058274,
+        60.48262727783352
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 5862",
+      "geometry": "source_address_point"
+    },
+    "Moravägen 14, 782 31 Malung": {
+      "coordinate": [
+        13.7172925,
+        60.6840698
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4198769",
+      "source_url": "https://www.openstreetmap.org/way/4198769",
+      "display_name": "Moravägen, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 31, Sverige",
+      "postcode": "78231",
+      "osm_type": "way",
+      "osm_id": 4198769,
+      "query": "Moravägen 14, 782 31 Malung",
+      "retrieved_at_utc": "2026-10-13T11:38:06.329389+00:00"
+    },
+    "Moravägen 14A, 782 31 Malung": {
+      "coordinate": [
+        13.7172925,
+        60.6840698
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4198769",
+      "source_url": "https://www.openstreetmap.org/way/4198769",
+      "display_name": "Moravägen, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 31, Sverige",
+      "postcode": "78231",
+      "osm_type": "way",
+      "osm_id": 4198769,
+      "query": "Moravägen 14A, 782 31 Malung",
+      "retrieved_at_utc": "2026-10-13T11:37:15.446040+00:00"
+    },
+    "Moravägen 14B, 782 31 Malung": {
+      "coordinate": [
+        13.7172925,
+        60.6840698
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4198769",
+      "source_url": "https://www.openstreetmap.org/way/4198769",
+      "display_name": "Moravägen, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 31, Sverige",
+      "postcode": "78231",
+      "osm_type": "way",
+      "osm_id": 4198769,
+      "query": "Moravägen 14B, 782 31 Malung",
+      "retrieved_at_utc": "2026-10-13T11:41:25.699596+00:00"
+    },
+    "Moravägen 27, 786 33 Vansbro": {
+      "coordinate": [
+        14.2343731,
+        60.515716
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/361441445",
+      "source_url": "https://www.openstreetmap.org/way/361441445",
+      "display_name": "Moravägen, Saltvik, Vansbro, Vansbro kommun, Dalarnas län, 786 33, Sverige",
+      "postcode": "78633",
+      "osm_type": "way",
+      "osm_id": 361441445,
+      "query": "Moravägen 27, 786 33 Vansbro",
+      "retrieved_at_utc": "2026-10-13T11:36:27.180751+00:00"
+    },
+    "Myntgatan 2, 791 51 Falun": {
+      "coordinate": [
+        15.6336723,
+        60.600197
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/89353823",
+      "postcode": "",
+      "city": "",
+      "street": "Myntgatan",
+      "house_number": "2",
+      "osm_type": "way",
+      "osm_id": 89353823,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/89353823"
+    },
+    "Myntgatan 39, 791 60 Falun": {
+      "coordinate": [
+        15.6290626,
+        60.6047124
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/8628612495",
+      "postcode": "",
+      "city": "",
+      "street": "Myntgatan",
+      "house_number": "39",
+      "osm_type": "node",
+      "osm_id": 8628612495,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/8628612495"
+    },
+    "Myntgatan 39B, 791 60 Falun": {
+      "coordinate": [
+        15.6290805,
+        60.6047995
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/13319468125",
+      "postcode": "",
+      "city": "",
+      "street": "Myntgatan",
+      "house_number": "39B",
+      "osm_type": "node",
+      "osm_id": 13319468125,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/13319468125"
+    },
+    "Myntgatan 8, 791 51 Falun": {
+      "coordinate": [
+        15.6329048,
+        60.6027653
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap relation/1319264",
+      "postcode": "79151",
+      "city": "Falun",
+      "street": "Myntgatan",
+      "house_number": "8",
+      "osm_type": "relation",
+      "osm_id": 1319264,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/relation/1319264"
+    },
+    "Märkargatan 23, 784 66 Borlänge": {
+      "coordinate": [
+        15.411024,
+        60.5168088
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/36597872",
+      "source_url": "https://www.openstreetmap.org/way/36597872",
+      "display_name": "Märkargatan, Kvarnsveden, Nordanbäck, Borlänge, Borlänge kommun, Dalarnas län, 784 66, Sverige",
+      "postcode": "78466",
+      "osm_type": "way",
+      "osm_id": 36597872,
+      "query": "Märkargatan 23, 784 66 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:47.055455+00:00"
+    },
+    "Mästargatan 5, 781 71 Borlänge": {
+      "coordinate": [
+        15.4326825,
+        60.4743955
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/11144352775",
+      "postcode": "",
+      "city": "",
+      "street": "Mästargatan",
+      "house_number": "5",
+      "osm_type": "node",
+      "osm_id": 11144352775,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/11144352775"
+    },
+    "Mästargatan 6 A, 781 71 Borlänge": {
+      "coordinate": [
+        15.4303826,
+        60.4734381
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/11388844",
+      "source_url": "https://www.openstreetmap.org/way/11388844",
+      "display_name": "Mästargatan, Södra Backa, Borlänge, Borlänge kommun, Dalarnas län, 781 71, Sverige",
+      "postcode": "78171",
+      "osm_type": "way",
+      "osm_id": 11388844,
+      "query": "Mästargatan 6 A, 781 71 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:37:17.883244+00:00"
+    },
+    "Målaregatan 1, 784 33 Borlänge": {
+      "coordinate": [
+        15.4325402,
+        60.4872994
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/11838281629",
+      "postcode": "",
+      "city": "",
+      "street": "Målaregatan",
+      "house_number": "1",
+      "osm_type": "node",
+      "osm_id": 11838281629,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/11838281629"
+    },
+    "Nissers väg 8, 791 31 Falun": {
+      "coordinate": [
+        15.6409885,
+        60.60917
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1125769937",
+      "source_url": "https://www.openstreetmap.org/way/1125769937",
+      "display_name": "Nissers väg, Lustigknopp, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1125769937,
+      "query": "Nissers väg 8, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:43:15.608607+00:00"
+    },
+    "Norra Järnvägsgatan 18, 791 35 Falun": {
+      "coordinate": [
+        15.6225042,
+        60.6207363
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1562780508",
+      "postcode": "",
+      "city": "Falun",
+      "street": "Norra Järnvägsgatan",
+      "house_number": "18",
+      "osm_type": "node",
+      "osm_id": 1562780508,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1562780508"
+    },
+    "Norra Järnvägsgatan 20B, 791 35 Falun": {
+      "coordinate": [
+        15.6239195,
+        60.6184294
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1157861289",
+      "source_url": "https://www.openstreetmap.org/way/1157861289",
+      "display_name": "Norra Järnvägsgatan, Britsarvet, Falun, Falu kommun, Dalarnas län, 791 35, Sverige",
+      "postcode": "79135",
+      "osm_type": "way",
+      "osm_id": 1157861289,
+      "query": "Norra Järnvägsgatan 20B, 791 35 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:33.056634+00:00"
+    },
+    "Nybrogatan 43, 791 73 Falun": {
+      "coordinate": [
+        15.6209375,
+        60.6074543
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4556515",
+      "source_url": "https://www.openstreetmap.org/way/4556515",
+      "display_name": "Nybrogatan, Gamla Herrgården, Falun, Falu kommun, Dalarnas län, 791 73, Sverige",
+      "postcode": "79173",
+      "osm_type": "way",
+      "osm_id": 4556515,
+      "query": "Nybrogatan 43, 791 73 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:08.227284+00:00"
+    },
+    "Nybrogatan 7, 791 37 Falun": {
+      "coordinate": [
+        15.6337836,
+        60.610881
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/796892951",
+      "postcode": "",
+      "city": "",
+      "street": "Nybrogatan",
+      "house_number": "7",
+      "osm_type": "way",
+      "osm_id": 796892951,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/796892951"
+    },
+    "Nygårdsvägen 3, 781 70 Borlänge": {
+      "coordinate": [
+        15.4082043,
+        60.479261
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/34074824",
+      "source_url": "https://www.openstreetmap.org/way/34074824",
+      "display_name": "Nygårdsvägen, Jakobsgårdarna, Borlänge, Borlänge kommun, Dalarnas län, 781 70, Sverige",
+      "postcode": "78170",
+      "osm_type": "way",
+      "osm_id": 34074824,
+      "query": "Nygårdsvägen 3, 781 70 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:41:27.491968+00:00"
+    },
+    "Ovanbrogatan 38, 784 33 Borlänge": {
+      "coordinate": [
+        15.4324498,
+        60.4879912
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/39338404",
+      "source_url": "https://www.openstreetmap.org/way/39338404",
+      "display_name": "Ovanbrogatan, Hushagen, Borlänge, Borlänge kommun, Dalarnas län, 784 33, Sverige",
+      "postcode": "78433",
+      "osm_type": "way",
+      "osm_id": 39338404,
+      "query": "Ovanbrogatan 38, 784 33 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:38:10.699628+00:00"
+    },
+    "Ovanbrogatan 40, 784 33 Borlänge": {
+      "coordinate": [
+        15.4333195,
+        60.4875864
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/5598584642",
+      "postcode": "78433",
+      "city": "Borlänge",
+      "street": "Ovanbrogatan",
+      "house_number": "40",
+      "osm_type": "node",
+      "osm_id": 5598584642,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/5598584642"
+    },
+    "Ovanbrogatan 5, 784 33 Borlänge": {
+      "coordinate": [
+        15.4324498,
+        60.4879912
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/39338404",
+      "source_url": "https://www.openstreetmap.org/way/39338404",
+      "display_name": "Ovanbrogatan, Hushagen, Borlänge, Borlänge kommun, Dalarnas län, 784 33, Sverige",
+      "postcode": "78433",
+      "osm_type": "way",
+      "osm_id": 39338404,
+      "query": "Ovanbrogatan 5, 784 33 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:41:29.958041+00:00"
+    },
+    "P-plats Stigen V, 812 93 Kungsgården": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Parkgatan 19, 791 31 Falun": {
+      "coordinate": [
+        15.6425772,
+        60.6068734
+      ],
+      "status": "review",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Postnummer avviker – kontrollera träffen",
+      "source": "OpenStreetMap node/6629192791",
+      "postcode": "79182",
+      "city": "Falun",
+      "street": "Parkgatan",
+      "house_number": "19",
+      "osm_type": "node",
+      "osm_id": 6629192791,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/6629192791"
+    },
+    "Pell Annas Väg 3, 782 34 Malung": {
+      "coordinate": [
+        13.731984642909989,
+        60.67933439641302
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 66",
+      "geometry": "source_address_point"
+    },
+    "Pelle Bergs backe 3c, 791 50 Falun": {
+      "coordinate": [
+        15.6449605,
+        60.5979169
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/94238405",
+      "source_url": "https://www.openstreetmap.org/way/94238405",
+      "display_name": "Pelle Bergs backe, Kvarnberget, Falun, Falu kommun, Dalarnas län, 791 19, Sverige",
+      "postcode": "79119",
+      "osm_type": "way",
+      "osm_id": 94238405,
+      "query": "Pelle Bergs backe 3c, 791 50 Falun",
+      "retrieved_at_utc": "2026-10-13T11:37:42.011214+00:00"
+    },
+    "Permatsvägen 10, 796 31 Älvdalen": {
+      "coordinate": [
+        14.0410259,
+        61.2280945
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/182217887",
+      "source_url": "https://www.openstreetmap.org/way/182217887",
+      "display_name": "Permatsvägen, Kyrkbyn, Älvdalen, Älvdalens kommun, Dalarnas län, 796 30, Sverige",
+      "postcode": "79630",
+      "osm_type": "way",
+      "osm_id": 182217887,
+      "query": "Permatsvägen 10, 796 31 Älvdalen",
+      "retrieved_at_utc": "2026-10-13T11:41:34.804112+00:00"
+    },
+    "Postvägen 2, 780 67 Sälen": {
+      "coordinate": [
+        13.26568239204056,
+        61.15736478615204
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 7167",
+      "geometry": "source_address_point"
+    },
+    "Prostmyrsvägen 5, 776 30 Hedemora": {
+      "coordinate": [
+        15.99868,
+        60.2745842
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/499123963",
+      "source_url": "https://www.openstreetmap.org/way/499123963",
+      "display_name": "Prostmyrsvägen, Hälla, Hedemora, Hedemora kommun, Dalarnas län, 776 30, Sverige",
+      "postcode": "77630",
+      "osm_type": "way",
+      "osm_id": 499123963,
+      "query": "Prostmyrsvägen 5, 776 30 Hedemora",
+      "retrieved_at_utc": "2026-10-13T11:36:29.694043+00:00"
+    },
+    "Prästgärdet (Säter), 783 30 Säter": {
+      "coordinate": [
+        15.7470364,
+        60.3431482
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Prästgärdet. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Prästgärdet",
+      "source": "OpenStreetMap Nominatim node/5092577936",
+      "source_url": "https://www.openstreetmap.org/node/5092577936",
+      "display_name": "Prästgärdet, Gamla staden, Säter, Säters kommun, Dalarnas län, 783 30, Sverige",
+      "osm_type": "node",
+      "osm_id": 5092577936,
+      "query": "Prästgärdet (Säter), 783 30 Säter",
+      "retrieved_at_utc": "2026-10-13T11:41:37.618350+00:00"
+    },
+    "Psilanders väg 1, 791 31 Falun": {
+      "coordinate": [
+        15.6454901,
+        60.6092661
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/559793260",
+      "source_url": "https://www.openstreetmap.org/way/559793260",
+      "display_name": "Psilanders väg, Lustigknopp, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 559793260,
+      "query": "Psilanders väg 1, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:49.309388+00:00"
+    },
+    "Rastplats Van, 792 92 Mora": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Riksvägen 26, 795 32 Rättvik": {
+      "coordinate": [
+        15.113896688049277,
+        60.88693491281864
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 7665",
+      "geometry": "source_address_point"
+    },
+    "Riksvägen 27, 795 32 Rättvik": {
+      "coordinate": [
+        15.113098058898236,
+        60.888752190382434
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 6177",
+      "geometry": "source_address_point"
+    },
+    "Riksvägen, 792 77 Nusnäs": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Ritargatan 2, 781 70 Borlänge": {
+      "coordinate": [
+        15.4088671,
+        60.4754873
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/441126472",
+      "postcode": "78170",
+      "city": "",
+      "street": "Ritargatan",
+      "house_number": "2",
+      "osm_type": "node",
+      "osm_id": 441126472,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/441126472"
+    },
+    "Ryckepungsvägen 2A, 791 77 Falun": {
+      "coordinate": [
+        15.6054876,
+        60.6038074
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/868660516",
+      "source_url": "https://www.openstreetmap.org/way/868660516",
+      "display_name": "Ryckepungsvägen, Ingarvet, Nedre Dikarbacken, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 868660516,
+      "query": "Ryckepungsvägen 2A, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:13.081722+00:00"
+    },
+    "Ryckepungsvägen 4, 791 77 Falun": {
+      "coordinate": [
+        15.6054876,
+        60.6038074
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/868660516",
+      "source_url": "https://www.openstreetmap.org/way/868660516",
+      "display_name": "Ryckepungsvägen, Ingarvet, Nedre Dikarbacken, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 868660516,
+      "query": "Ryckepungsvägen 4, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:41:42.401869+00:00"
+    },
+    "Ryckepungsvägen 4A, 791 77 Falun": {
+      "coordinate": [
+        15.6054876,
+        60.6038074
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/868660516",
+      "source_url": "https://www.openstreetmap.org/way/868660516",
+      "display_name": "Ryckepungsvägen, Ingarvet, Nedre Dikarbacken, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 868660516,
+      "query": "Ryckepungsvägen 4A, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:55.531667+00:00"
+    },
+    "Rällsjön, 790 21 Bjursås": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Rättviksvägen 20A, 790 20 Grycksbo": {
+      "coordinate": [
+        15.4961254,
+        60.6867715
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1246314965",
+      "source_url": "https://www.openstreetmap.org/way/1246314965",
+      "display_name": "Rättviksvägen, Bengtsarvet, Grycksbo, Falu kommun, Dalarnas län, 790 20, Sverige",
+      "postcode": "79020",
+      "osm_type": "way",
+      "osm_id": 1246314965,
+      "query": "Rättviksvägen 20A, 790 20 Grycksbo",
+      "retrieved_at_utc": "2026-10-13T11:41:44.390698+00:00"
+    },
+    "Rättviksvägen 5, 790 20 Grycksbo": {
+      "coordinate": [
+        15.5060166,
+        60.6806135
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/75783218",
+      "source_url": "https://www.openstreetmap.org/way/75783218",
+      "display_name": "Rättviksvägen, Bengtsarvet, Grycksbo, Falu kommun, Dalarnas län, 790 20, Sverige",
+      "postcode": "79020",
+      "osm_type": "way",
+      "osm_id": 75783218,
+      "query": "Rättviksvägen 5, 790 20 Grycksbo",
+      "retrieved_at_utc": "2026-10-13T11:41:46.748441+00:00"
+    },
+    "Rågåkersgatan 12, 781 74 Borlänge": {
+      "coordinate": [
+        15.4282945,
+        60.462998
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/11388851",
+      "source_url": "https://www.openstreetmap.org/way/11388851",
+      "display_name": "Rågåkersgatan, Rågåkers industriområde, Rågåker, Borlänge, Borlänge kommun, Dalarnas län, 781 74, Sverige",
+      "postcode": "78174",
+      "osm_type": "way",
+      "osm_id": 11388851,
+      "query": "Rågåkersgatan 12, 781 74 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:41:49.612641+00:00"
+    },
+    "SJUKHUSOMRÅDET 10, 792 51 Mora": {
+      "coordinate": [
+        14.5826401,
+        61.0164238
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Mora lasarett BUP, Kurator",
+      "source": "OpenStreetMap Nominatim way/843006537",
+      "source_url": "https://www.openstreetmap.org/way/843006537",
+      "display_name": "Mora lasarett BUP, Kurator, Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "osm_type": "way",
+      "osm_id": 843006537,
+      "query": "Mora sjukhus, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:54.230656+00:00"
+    },
+    "SJUKHUSOMRÅDET 15, 792 51 Mora": {
+      "coordinate": [
+        14.5826401,
+        61.0164238
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Mora lasarett BUP, Kurator",
+      "source": "OpenStreetMap Nominatim way/843006537",
+      "source_url": "https://www.openstreetmap.org/way/843006537",
+      "display_name": "Mora lasarett BUP, Kurator, Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "osm_type": "way",
+      "osm_id": 843006537,
+      "query": "Mora sjukhus, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:54.230656+00:00"
+    },
+    "SJUKHUSOMRÅDET 23, 792 51 Mora": {
+      "coordinate": [
+        14.5826401,
+        61.0164238
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Mora lasarett BUP, Kurator",
+      "source": "OpenStreetMap Nominatim way/843006537",
+      "source_url": "https://www.openstreetmap.org/way/843006537",
+      "display_name": "Mora lasarett BUP, Kurator, Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "osm_type": "way",
+      "osm_id": 843006537,
+      "query": "Mora sjukhus, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:54.230656+00:00"
+    },
+    "SJUKHUSOMRÅDET 26, 792 51 Mora": {
+      "coordinate": [
+        14.5826401,
+        61.0164238
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Mora lasarett BUP, Kurator",
+      "source": "OpenStreetMap Nominatim way/843006537",
+      "source_url": "https://www.openstreetmap.org/way/843006537",
+      "display_name": "Mora lasarett BUP, Kurator, Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "osm_type": "way",
+      "osm_id": 843006537,
+      "query": "Mora sjukhus, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:54.230656+00:00"
+    },
+    "SJUKHUSOMRÅDET 29, 792 51 Mora": {
+      "coordinate": [
+        14.5826401,
+        61.0164238
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Mora lasarett BUP, Kurator. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Mora lasarett BUP, Kurator",
+      "source": "OpenStreetMap Nominatim way/843006537",
+      "source_url": "https://www.openstreetmap.org/way/843006537",
+      "display_name": "Mora lasarett BUP, Kurator, Lasarettsområdet, Heden, Stormyren, Noret, Mora kommun, Dalarnas län, 792 51, Sverige",
+      "osm_type": "way",
+      "osm_id": 843006537,
+      "query": "Mora sjukhus, Sverige",
+      "retrieved_at_utc": "2026-10-13T12:44:54.230656+00:00"
+    },
+    "Sjukstugevägen 16B, 797 31 Särna": {
+      "coordinate": [
+        13.1257138,
+        61.6933386
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/42857778",
+      "source_url": "https://www.openstreetmap.org/way/42857778",
+      "display_name": "Sjukstugevägen, Färjan, Särna, Älvdalens kommun, Dalarnas län, 797 31, Sverige",
+      "postcode": "79731",
+      "osm_type": "way",
+      "osm_id": 42857778,
+      "query": "Sjukstugevägen 16B, 797 31 Särna",
+      "retrieved_at_utc": "2026-10-13T11:36:51.386618+00:00"
+    },
+    "Sjukstugevägen 3, 770 12 Sunnansjö": {
+      "coordinate": [
+        14.9547701,
+        60.2165485
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/360114861",
+      "source_url": "https://www.openstreetmap.org/way/360114861",
+      "display_name": "Sjukstugevägen, Botgärde, Sunnansjö, Ludvika kommun, Dalarnas län, 770 12, Sverige",
+      "postcode": "77012",
+      "osm_type": "way",
+      "osm_id": 360114861,
+      "query": "Sjukstugevägen 3, 770 12 Sunnansjö",
+      "retrieved_at_utc": "2026-10-13T11:37:44.672700+00:00"
+    },
+    "Skogsduvestigen 12, 784 68 Borlänge": {
+      "coordinate": [
+        15.3925467,
+        60.5148741
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/36590811",
+      "source_url": "https://www.openstreetmap.org/way/36590811",
+      "display_name": "Skogsduvestigen, Morbygge, Sör Amsberg, Borlänge, Borlänge kommun, Dalarnas län, 784 68, Sverige",
+      "postcode": "78468",
+      "osm_type": "way",
+      "osm_id": 36590811,
+      "query": "Skogsduvestigen 12, 784 68 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:41:58.761051+00:00"
+    },
+    "Skogsrundan 8, 771 51 Ludvika": {
+      "coordinate": [
+        15.2078583,
+        60.1550466
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/222723495",
+      "source_url": "https://www.openstreetmap.org/way/222723495",
+      "display_name": "Skogsrundan, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 222723495,
+      "query": "Skogsrundan 8, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:59.842184+00:00"
+    },
+    "Skogsrundan 8A, 771 51 Ludvika": {
+      "coordinate": [
+        15.2078583,
+        60.1550466
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/222723495",
+      "source_url": "https://www.openstreetmap.org/way/222723495",
+      "display_name": "Skogsrundan, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 222723495,
+      "query": "Skogsrundan 8A, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:18.049194+00:00"
+    },
+    "Skolvägen 1, 785 43 Mockfjärd": {
+      "coordinate": [
+        14.9666564,
+        60.5086881
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1938584934",
+      "postcode": "78543",
+      "city": "Mockfjärd",
+      "street": "Skolvägen",
+      "house_number": "1",
+      "osm_type": "node",
+      "osm_id": 1938584934,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1938584934"
+    },
+    "Skolvägen 12, 781 61 Gustafs": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Skomakargatan 18, 781 70 Borlänge": {
+      "coordinate": [
+        15.4146265,
+        60.4828614
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/365255298",
+      "source_url": "https://www.openstreetmap.org/way/365255298",
+      "display_name": "Skomakargatan, Hagalund, Borlänge, Borlänge kommun, Dalarnas län, 781 29, Sverige",
+      "postcode": "78129",
+      "osm_type": "way",
+      "osm_id": 365255298,
+      "query": "Skomakargatan 18, 781 70 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:39:02.193862+00:00"
+    },
+    "Skomakargatan 22, 781 70 Borlänge": {
+      "coordinate": [
+        15.4146265,
+        60.4828614
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/365255298",
+      "source_url": "https://www.openstreetmap.org/way/365255298",
+      "display_name": "Skomakargatan, Hagalund, Borlänge, Borlänge kommun, Dalarnas län, 781 29, Sverige",
+      "postcode": "78129",
+      "osm_type": "way",
+      "osm_id": 365255298,
+      "query": "Skomakargatan 22, 781 70 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:36:19.884351+00:00"
+    },
+    "Skyfallsvägen 20, 791 77 Falun": {
+      "coordinate": [
+        15.5774524,
+        60.6134519
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/221522775",
+      "postcode": "79177",
+      "city": "Falun",
+      "street": "Skyfallsvägen",
+      "house_number": "20",
+      "osm_type": "way",
+      "osm_id": 221522775,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/221522775"
+    },
+    "Skålmyrsvägen 36, 792 50 Mora": {
+      "coordinate": [
+        14.5837075,
+        61.007193
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/24145075",
+      "source_url": "https://www.openstreetmap.org/way/24145075",
+      "display_name": "Skålmyrsvägen, Stormyren, Noret, Mora kommun, Dalarnas län, 792 50, Sverige",
+      "postcode": "79250",
+      "osm_type": "way",
+      "osm_id": 24145075,
+      "query": "Skålmyrsvägen 36, 792 50 Mora",
+      "retrieved_at_utc": "2026-10-13T11:42:03.627328+00:00"
+    },
+    "Slätta Centrum 6A, 791 74 Falun": {
+      "coordinate": [
+        15.596747982040077,
+        60.62060607040581
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 3576",
+      "geometry": "source_address_point"
+    },
+    "Slättavägen 1, 791 75 Falun": {
+      "coordinate": [
+        15.6031445,
+        60.622695
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/371638889",
+      "postcode": "79175",
+      "city": "Falun",
+      "street": "Slättavägen",
+      "house_number": "1",
+      "osm_type": "way",
+      "osm_id": 371638889,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/371638889"
+    },
+    "Slättavägen, 791 75 Falun": {
+      "coordinate": [
+        15.6020675,
+        60.623433
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/26152565",
+      "source_url": "https://www.openstreetmap.org/way/26152565",
+      "display_name": "Slättavägen, Herrhagen, Falun, Falu kommun, Dalarnas län, 791 75, Sverige",
+      "postcode": "79175",
+      "osm_type": "way",
+      "osm_id": 26152565,
+      "query": "Slättavägen, 791 75 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:05.994480+00:00"
+    },
+    "Smedsvägen 11D, 772 40 Grängesberg": {
+      "coordinate": [
+        14.9818305,
+        60.0747509
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/161293419",
+      "source_url": "https://www.openstreetmap.org/way/161293419",
+      "display_name": "Smedsvägen, Ormberget, Grängesberg västra, Ludvika kommun, Dalarnas län, 772 90, Sverige",
+      "postcode": "77290",
+      "osm_type": "way",
+      "osm_id": 161293419,
+      "query": "Smedsvägen 11D, 772 40 Grängesberg",
+      "retrieved_at_utc": "2026-10-13T11:42:08.412300+00:00"
+    },
+    "Sockenvägen 139, 784 60 Borlänge": {
+      "coordinate": [
+        15.449565,
+        60.4754177
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/343898287",
+      "source_url": "https://www.openstreetmap.org/way/343898287",
+      "display_name": "Sockenvägen, Gylletäppan, Borlänge, Borlänge kommun, Dalarnas län, 784 60, Sverige",
+      "postcode": "78460",
+      "osm_type": "way",
+      "osm_id": 343898287,
+      "query": "Sockenvägen 139, 784 60 Borlänge",
+      "retrieved_at_utc": "2026-10-13T11:42:10.826224+00:00"
+    },
+    "Soldatvägen 3, 791 40 Falun": {
+      "coordinate": [
+        15.6528005,
+        60.6060683
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/10939728123",
+      "postcode": "",
+      "city": "",
+      "street": "Soldatvägen",
+      "house_number": "3",
+      "osm_type": "node",
+      "osm_id": 10939728123,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/10939728123"
+    },
+    "Solhemsvägen 11, 776 71 Långshyttan": {
+      "coordinate": [
+        16.050769,
+        60.4581012
+      ],
+      "status": "review",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Postnummer avviker – kontrollera träffen",
+      "source": "OpenStreetMap node/2379092840",
+      "postcode": "77070",
+      "city": "Långshyttan",
+      "street": "Solhemsvägen",
+      "house_number": "11",
+      "osm_type": "node",
+      "osm_id": 2379092840,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/2379092840"
+    },
+    "Spanskvägen 4B, 792 37 Mora": {
+      "coordinate": [
+        14.5258417,
+        61.0012389
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/24054715",
+      "source_url": "https://www.openstreetmap.org/way/24054715",
+      "display_name": "Spanskvägen, Morkarlby, Morastrand, Mora, Mora kommun, Dalarnas län, 792 37, Sverige",
+      "postcode": "79237",
+      "osm_type": "way",
+      "osm_id": 24054715,
+      "query": "Spanskvägen 4B, 792 37 Mora",
+      "retrieved_at_utc": "2026-10-13T11:38:27.587730+00:00"
+    },
+    "Sparbanksgatan 1, 793 31 Leksand": {
+      "coordinate": [
+        14.9959485,
+        60.7314211
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1881886",
+      "source_url": "https://www.openstreetmap.org/way/1881886",
+      "display_name": "Sparbanksgatan, Leksand, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 31, Sverige",
+      "postcode": "79331",
+      "osm_type": "way",
+      "osm_id": 1881886,
+      "query": "Sparbanksgatan 1, 793 31 Leksand",
+      "retrieved_at_utc": "2026-10-13T11:42:13.604945+00:00"
+    },
+    "Stampersvägen 27, 733 36 Sala": {
+      "coordinate": [
+        16.5487073,
+        59.9076515
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/51974124",
+      "source_url": "https://www.openstreetmap.org/way/51974124",
+      "display_name": "Stampersvägen, Stora Stampers, Stampers, Sala, Sala kommun, Västmanlands län, 733 36, Sverige",
+      "postcode": "73336",
+      "osm_type": "way",
+      "osm_id": 51974124,
+      "query": "Stampersvägen 27, 733 36 Sala",
+      "retrieved_at_utc": "2026-10-13T11:42:16.021662+00:00"
+    },
+    "Stenuddsvägen 2C, 792 34 Mora": {
+      "coordinate": [
+        14.5460508,
+        61.0008997
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/24811876",
+      "source_url": "https://www.openstreetmap.org/way/24811876",
+      "display_name": "Stenuddsvägen, Saxnäs, Mora, Mora kommun, Dalarnas län, 792 36, Sverige",
+      "postcode": "79236",
+      "osm_type": "way",
+      "osm_id": 24811876,
+      "query": "Stenuddsvägen 2C, 792 34 Mora",
+      "retrieved_at_utc": "2026-10-13T11:42:18.114533+00:00"
+    },
+    "Stigaregatan 17, 791 73 Falun": {
+      "coordinate": [
+        15.618811972563917,
+        60.60298947970331
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 2626",
+      "geometry": "source_address_point"
+    },
+    "Stora Vägen, 785 43 Dala-Floda": {
+      "coordinate": [
+        14.8293938,
+        60.5079486
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1125557405",
+      "source_url": "https://www.openstreetmap.org/way/1125557405",
+      "display_name": "Stora vägen, Syrholen, Dala-Floda, Gagnefs kommun, Dalarnas län, 785 44, Sverige",
+      "postcode": "78544",
+      "osm_type": "way",
+      "osm_id": 1125557405,
+      "query": "Stora Vägen, 785 43 Dala-Floda",
+      "retrieved_at_utc": "2026-10-13T11:42:20.344608+00:00"
+    },
+    "Storgatan 16, 771 30 Ludvika": {
+      "coordinate": [
+        15.1876756,
+        60.1516602
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1992149515",
+      "postcode": "77130",
+      "city": "Ludvika",
+      "street": "Storgatan",
+      "house_number": "16",
+      "osm_type": "node",
+      "osm_id": 1992149515,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1992149515"
+    },
+    "Storgatan 2, 795 30 Rättvik": {
+      "coordinate": [
+        15.1214353,
+        60.8818607
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/12909769419",
+      "postcode": "79530",
+      "city": "Rättvik",
+      "street": "Storgatan",
+      "house_number": "2",
+      "osm_type": "node",
+      "osm_id": 12909769419,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/12909769419"
+    },
+    "Storgatan 23, 771 30 Ludvika": {
+      "coordinate": [
+        15.1859941,
+        60.1501533
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/14506169",
+      "source_url": "https://www.openstreetmap.org/way/14506169",
+      "display_name": "Storgatan, Ludvika, Ludvika kommun, Dalarnas län, 771 30, Sverige",
+      "postcode": "77130",
+      "osm_type": "way",
+      "osm_id": 14506169,
+      "query": "Storgatan 23, 771 30 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:38:30.594709+00:00"
+    },
+    "Stortallsvägen 2A, 791 55 Falun": {
+      "coordinate": [
+        15.6101677,
+        60.5752858
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/936621037",
+      "postcode": "79155",
+      "city": "Falun",
+      "street": "Stortallsvägen",
+      "house_number": "2A",
+      "osm_type": "way",
+      "osm_id": 936621037,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/936621037"
+    },
+    "Sturegatan 30, 791 51 Falun": {
+      "coordinate": [
+        15.6312861,
+        60.600328
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/29293535",
+      "source_url": "https://www.openstreetmap.org/way/29293535",
+      "display_name": "Sturegatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 51, Sverige",
+      "postcode": "79151",
+      "osm_type": "way",
+      "osm_id": 29293535,
+      "query": "Sturegatan 30, 791 51 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:53.746474+00:00"
+    },
+    "Sveagatan 15, 784 33 Borlänge": {
+      "coordinate": [
+        15.432803,
+        60.4874536
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 2,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/925117864",
+      "postcode": "78433",
+      "city": "Borlänge",
+      "street": "Sveagatan",
+      "house_number": "15",
+      "osm_type": "node",
+      "osm_id": 925117864,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/925117864"
+    },
+    "Sveagatan 3, 784 33 Borlänge": {
+      "coordinate": [
+        15.4317176,
+        60.4864439
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/1228940387",
+      "postcode": "78433",
+      "city": "Borlänge",
+      "street": "Sveagatan",
+      "house_number": "3",
+      "osm_type": "way",
+      "osm_id": 1228940387,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/1228940387"
+    },
+    "Sveagatan 4, 784 33 Borlänge": {
+      "coordinate": [
+        15.431794,
+        60.4862189
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/4225346354",
+      "postcode": "78433",
+      "city": "Borlänge",
+      "street": "Sveagatan",
+      "house_number": "4",
+      "osm_type": "node",
+      "osm_id": 4225346354,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/4225346354"
+    },
+    "Svärdsjögatan 19, 791 31 Falun": {
+      "coordinate": [
+        15.6392382,
+        60.6097349
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/352955227",
+      "postcode": "",
+      "city": "",
+      "street": "Svärdsjögatan",
+      "house_number": "19",
+      "osm_type": "way",
+      "osm_id": 352955227,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/352955227"
+    },
+    "Sälenvägen 13, 780 67 Sälen": {
+      "coordinate": [
+        13.2614723,
+        61.1639099
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/119960919",
+      "source_url": "https://www.openstreetmap.org/way/119960919",
+      "display_name": "Sälenvägen, Fallet, Sälen, Malung-Sälens kommun, Dalarnas län, Sverige",
+      "postcode": "",
+      "osm_type": "way",
+      "osm_id": 119960919,
+      "query": "Sälenvägen 13, 780 67 Sälen",
+      "retrieved_at_utc": "2026-10-13T11:39:04.581869+00:00"
+    },
+    "Sälenvägen 15, 780 67 Sälen": {
+      "coordinate": [
+        13.26679151113316,
+        61.155780573802346
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 1592",
+      "geometry": "source_address_point"
+    },
+    "Sälenvägen 23, 780 67 Sälen": {
+      "coordinate": [
+        13.265267,
+        61.1579515
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/1243847672",
+      "postcode": "",
+      "city": "",
+      "street": "Sälenvägen",
+      "house_number": "23",
+      "osm_type": "way",
+      "osm_id": 1243847672,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/1243847672"
+    },
+    "Södra Industrivägen 14, 785 61 Djurås": {
+      "coordinate": [
+        15.1352053,
+        60.5607903
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1080657040",
+      "source_url": "https://www.openstreetmap.org/way/1080657040",
+      "display_name": "Södra Industrivägen, Färjbacken, Djurås, Gagnefs kommun, Dalarnas län, 780 41, Sverige",
+      "postcode": "78041",
+      "osm_type": "way",
+      "osm_id": 1080657040,
+      "query": "Södra Industrivägen 14, 785 61 Djurås",
+      "retrieved_at_utc": "2026-10-13T11:42:22.715057+00:00"
+    },
+    "Södra Industrivägen 8, 785 61 Djurås": {
+      "coordinate": [
+        15.136959202229333,
+        60.55976410460331
+      ],
+      "status": "matched",
+      "precision": "address",
+      "reason": "Gatunamn, hela husnumret och postnummer matchar en befintlig lokal adresskoordinat",
+      "source": "Servicepunkter_2026_Dalarna.xlsx, kluster 5971",
+      "geometry": "source_address_point"
+    },
+    "Södra Mariegatan 18C, 791 70 Falun": {
+      "coordinate": [
+        15.6198845,
+        60.6114593
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/22870955",
+      "source_url": "https://www.openstreetmap.org/way/22870955",
+      "display_name": "Södra Mariegatan, Born, Falun, Falu kommun, Dalarnas län, 791 70, Sverige",
+      "postcode": "79170",
+      "osm_type": "way",
+      "osm_id": 22870955,
+      "query": "Södra Mariegatan 18C, 791 70 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:25.268603+00:00"
+    },
+    "Södra Mariegatan 18D, 791 70 Falun": {
+      "coordinate": [
+        15.6198845,
+        60.6114593
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/22870955",
+      "source_url": "https://www.openstreetmap.org/way/22870955",
+      "display_name": "Södra Mariegatan, Born, Falun, Falu kommun, Dalarnas län, 791 70, Sverige",
+      "postcode": "79170",
+      "osm_type": "way",
+      "osm_id": 22870955,
+      "query": "Södra Mariegatan 18D, 791 70 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:27.608565+00:00"
+    },
+    "Södra Vagnvägen 49, 782 30 Malung": {
+      "coordinate": [
+        13.7249621,
+        60.6830876
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/143613570",
+      "source_url": "https://www.openstreetmap.org/way/143613570",
+      "display_name": "Södra Vagnvägen, Åsbyn, Holarna, Malung, Malung-Sälens kommun, Dalarnas län, 782 30, Sverige",
+      "postcode": "78230",
+      "osm_type": "way",
+      "osm_id": 143613570,
+      "query": "Södra Vagnvägen 49, 782 30 Malung",
+      "retrieved_at_utc": "2026-10-13T11:38:20.181517+00:00"
+    },
+    "Tibble Lyckavägen 2A, 793 36 Leksand": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Timmermansvägen 21, 771 51 Ludvika": {
+      "coordinate": [
+        15.2061821,
+        60.1550461
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/15223295",
+      "source_url": "https://www.openstreetmap.org/way/15223295",
+      "display_name": "Timmermansvägen, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 15223295,
+      "query": "Timmermansvägen 21, 771 51 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:37:49.069520+00:00"
+    },
+    "Torkils väg 41H, 791 52 Falun": {
+      "coordinate": [
+        15.6534616,
+        60.5888335
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/40856264",
+      "source_url": "https://www.openstreetmap.org/way/40856264",
+      "display_name": "Torkils väg, Östra Främby, Falun, Falu kommun, Dalarnas län, 791 50, Sverige",
+      "postcode": "79150",
+      "osm_type": "way",
+      "osm_id": 40856264,
+      "query": "Torkils väg 41H, 791 52 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:07.006799+00:00"
+    },
+    "Trotzgatan 25, 791 71 Falun": {
+      "coordinate": [
+        15.6304324,
+        60.6094916
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/8845995057",
+      "postcode": "",
+      "city": "",
+      "street": "Trotzgatan",
+      "house_number": "25",
+      "osm_type": "node",
+      "osm_id": 8845995057,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/8845995057"
+    },
+    "Trotzgatan 2F, 791 30 Falun": {
+      "coordinate": [
+        15.6339354,
+        60.6067458
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/201327461",
+      "source_url": "https://www.openstreetmap.org/way/201327461",
+      "display_name": "Trotzgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 30, Sverige",
+      "postcode": "79130",
+      "osm_type": "way",
+      "osm_id": 201327461,
+      "query": "Trotzgatan 2F, 791 30 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:30.138267+00:00"
+    },
+    "Trotzgatan 2G, 791 30 Falun": {
+      "coordinate": [
+        15.6339354,
+        60.6067458
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/201327461",
+      "source_url": "https://www.openstreetmap.org/way/201327461",
+      "display_name": "Trotzgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 30, Sverige",
+      "postcode": "79130",
+      "osm_type": "way",
+      "osm_id": 201327461,
+      "query": "Trotzgatan 2G, 791 30 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:32.860728+00:00"
+    },
+    "Vansbro Medborgarhus, Norra Allégatan 30, 786 31 Vansbro": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Vasagatan 1 A, 791 31 Falun": {
+      "coordinate": [
+        15.6454139,
+        60.6045254
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1617148835",
+      "postcode": "79131",
+      "city": "Falun",
+      "street": "Vasagatan",
+      "house_number": "1A",
+      "osm_type": "node",
+      "osm_id": 1617148835,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1617148835"
+    },
+    "Vasagatan 10, 791 31 Falun": {
+      "coordinate": [
+        15.6459779,
+        60.6048679
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1262823219",
+      "source_url": "https://www.openstreetmap.org/way/1262823219",
+      "display_name": "Vasagatan, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1262823219,
+      "query": "Vasagatan 10, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:35:51.112932+00:00"
+    },
+    "Vasagatan 12, 791 31 Falun": {
+      "coordinate": [
+        15.6459779,
+        60.6048679
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1262823219",
+      "source_url": "https://www.openstreetmap.org/way/1262823219",
+      "display_name": "Vasagatan, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1262823219,
+      "query": "Vasagatan 12, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:35:48.953710+00:00"
+    },
+    "Vasagatan 13B, 777 30 Smedjebacken": {
+      "coordinate": [
+        15.4123315,
+        60.1419257
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/73150913",
+      "source_url": "https://www.openstreetmap.org/way/73150913",
+      "display_name": "Vasagatan, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 30, Sverige",
+      "postcode": "77730",
+      "osm_type": "way",
+      "osm_id": 73150913,
+      "query": "Vasagatan 13B, 777 30 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:42:34.943559+00:00"
+    },
+    "Vasagatan 14, 791 31 Falun": {
+      "coordinate": [
+        15.6398466,
+        60.6084166
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/10904947349",
+      "postcode": "",
+      "city": "",
+      "street": "Vasagatan",
+      "house_number": "14",
+      "osm_type": "node",
+      "osm_id": 10904947349,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/10904947349"
+    },
+    "Vasagatan 16, 791 31 Falun": {
+      "coordinate": [
+        15.6459779,
+        60.6048679
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1262823219",
+      "source_url": "https://www.openstreetmap.org/way/1262823219",
+      "display_name": "Vasagatan, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1262823219,
+      "query": "Vasagatan 16, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:15.614901+00:00"
+    },
+    "Vasagatan 18, 791 31 Falun": {
+      "coordinate": [
+        15.6394405,
+        60.6088462
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/10961421428",
+      "postcode": "",
+      "city": "",
+      "street": "Vasagatan",
+      "house_number": "18",
+      "osm_type": "node",
+      "osm_id": 10961421428,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/10961421428"
+    },
+    "Vasagatan 24, 791 31 Falun": {
+      "coordinate": [
+        15.6459779,
+        60.6048679
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1262823219",
+      "source_url": "https://www.openstreetmap.org/way/1262823219",
+      "display_name": "Vasagatan, Falun, Falu kommun, Dalarnas län, 791 82, Sverige",
+      "postcode": "79182",
+      "osm_type": "way",
+      "osm_id": 1262823219,
+      "query": "Vasagatan 24, 791 31 Falun",
+      "retrieved_at_utc": "2026-10-13T11:38:22.636940+00:00"
+    },
+    "Vasagatan 27, 791 37 Falun": {
+      "coordinate": [
+        15.6369983,
+        60.6107015
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/4254531",
+      "source_url": "https://www.openstreetmap.org/way/4254531",
+      "display_name": "Vasagatan, Lustigknopp, Falun, Falu kommun, Dalarnas län, 791 37, Sverige",
+      "postcode": "79137",
+      "osm_type": "way",
+      "osm_id": 4254531,
+      "query": "Vasagatan 27, 791 37 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:09.418388+00:00"
+    },
+    "Vasagatan 8, 791 31 Falun": {
+      "coordinate": [
+        15.6410078,
+        60.6078648
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/509991154",
+      "postcode": "",
+      "city": "",
+      "street": "Vasagatan",
+      "house_number": "8",
+      "osm_type": "way",
+      "osm_id": 509991154,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/509991154"
+    },
+    "Verkstadsvägen 26C, 774 67 Horndal": {
+      "coordinate": [
+        16.3989225,
+        60.2929471
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/171487700",
+      "source_url": "https://www.openstreetmap.org/way/171487700",
+      "display_name": "Verkstadsvägen, Villahed, Maskbo, Horndal, Avesta kommun, Dalarnas län, 774 68, Sverige",
+      "postcode": "77468",
+      "osm_type": "way",
+      "osm_id": 171487700,
+      "query": "Verkstadsvägen 26C, 774 67 Horndal",
+      "retrieved_at_utc": "2026-10-13T11:42:37.199639+00:00"
+    },
+    "Verkstadsvägen 4, 771 53 Ludvika": {
+      "coordinate": [
+        15.2096682,
+        60.1478894
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/19210889",
+      "source_url": "https://www.openstreetmap.org/way/19210889",
+      "display_name": "Verkstadsvägen, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 51, Sverige",
+      "postcode": "77151",
+      "osm_type": "way",
+      "osm_id": 19210889,
+      "query": "Verkstadsvägen 4, 771 53 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:43:20.464712+00:00"
+    },
+    "Västermalmsvägen 13 B, 791 77 Falun": {
+      "coordinate": [
+        15.600807,
+        60.6095117
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/795268372",
+      "source_url": "https://www.openstreetmap.org/way/795268372",
+      "display_name": "Västermalmsvägen, Ingarvet, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 795268372,
+      "query": "Västermalmsvägen 13 B, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:43:22.905624+00:00"
+    },
+    "Västermalmsvägen 13B, 791 77 Falun": {
+      "coordinate": [
+        15.600807,
+        60.6095117
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/795268372",
+      "source_url": "https://www.openstreetmap.org/way/795268372",
+      "display_name": "Västermalmsvägen, Ingarvet, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 795268372,
+      "query": "Västermalmsvägen 13B, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:35:56.268440+00:00"
+    },
+    "Västermalmsvägen 28, 791 77 Falun": {
+      "coordinate": [
+        15.5950125,
+        60.6130899
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/89210133",
+      "postcode": "79177",
+      "city": "Falun",
+      "street": "Västermalmsvägen",
+      "house_number": "28",
+      "osm_type": "way",
+      "osm_id": 89210133,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/89210133"
+    },
+    "Västermalmsvägen 3, 791 77 Falun": {
+      "coordinate": [
+        15.600807,
+        60.6095117
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/795268372",
+      "source_url": "https://www.openstreetmap.org/way/795268372",
+      "display_name": "Västermalmsvägen, Ingarvet, Falun, Falu kommun, Dalarnas län, 791 77, Sverige",
+      "postcode": "79177",
+      "osm_type": "way",
+      "osm_id": 795268372,
+      "query": "Västermalmsvägen 3, 791 77 Falun",
+      "retrieved_at_utc": "2026-10-13T11:36:07.948205+00:00"
+    },
+    "Västermalmsvägen 30, 791 77 Falun": {
+      "coordinate": [
+        15.5933414,
+        60.6130192
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/89210173",
+      "postcode": "79177",
+      "city": "Falun",
+      "street": "Västermalmsvägen",
+      "house_number": "30",
+      "osm_type": "way",
+      "osm_id": 89210173,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/89210173"
+    },
+    "Vårdcentralen Smedjebacken, 777 32 Smedjebacken": {
+      "coordinate": [
+        15.41159,
+        60.14612
+      ],
+      "status": "review",
+      "precision": "poi",
+      "reason": "Plats-/verksamhetsträff: Vårdcentralen Smedjebacken. Ursprunglig adress och entré behöver verifieras",
+      "geometry": "named_place_point",
+      "place_name": "Vårdcentralen Smedjebacken",
+      "source": "OpenStreetMap Nominatim node/10742263765",
+      "source_url": "https://www.openstreetmap.org/node/10742263765",
+      "display_name": "Vårdcentralen Smedjebacken, Bergslagsvägen, Smedjebacken, Smedjebackens kommun, Dalarnas län, 777 31, Sverige",
+      "osm_type": "node",
+      "osm_id": 10742263765,
+      "query": "Vårdcentralen Smedjebacken, 777 32 Smedjebacken",
+      "retrieved_at_utc": "2026-10-13T11:42:39.606229+00:00"
+    },
+    "Vårdcentralen Sunnansjö, 770 12 Sunnansjö": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Yxhammargatan 7, 791 73 Falun": {
+      "coordinate": [
+        15.6201633,
+        60.6070398
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/11085013248",
+      "postcode": "79173",
+      "city": "Falun",
+      "street": "Yxhammargatan",
+      "house_number": "7",
+      "osm_type": "node",
+      "osm_id": 11085013248,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/11085013248"
+    },
+    "Älvdalen Älvdalsskolan, 796 31 Älvdalen": {
+      "coordinate": null,
+      "status": "unmatched",
+      "precision": "unmapped",
+      "candidates": 0,
+      "reason": "Ingen säker adress- eller gatuträff efter Nominatim-uppslag",
+      "source": "OpenStreetMap, lokal adressmatchning"
+    },
+    "Älvuddsvägen 42, 785 61 Djurås": {
+      "coordinate": [
+        15.1291717,
+        60.5525166
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/583176196",
+      "postcode": "78561",
+      "city": "Djurås",
+      "street": "Älvuddsvägen",
+      "house_number": "42",
+      "osm_type": "way",
+      "osm_id": 583176196,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/583176196"
+    },
+    "Åkrerondellen 7, 781 71 Borlänge": {
+      "coordinate": [
+        15.4363076,
+        60.4770767
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/162363518",
+      "postcode": "",
+      "city": "Borlänge",
+      "street": "Åkrerondellen",
+      "house_number": "7",
+      "osm_type": "way",
+      "osm_id": 162363518,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/162363518"
+    },
+    "Åsenvägen 2, 783 30 Säter": {
+      "coordinate": [
+        15.7497867,
+        60.3438416
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/1183025522",
+      "source_url": "https://www.openstreetmap.org/way/1183025522",
+      "display_name": "Åsenvägen, Åsgårdarna, Säter, Säters kommun, Dalarnas län, 783 30, Sverige",
+      "postcode": "78330",
+      "osm_type": "way",
+      "osm_id": 1183025522,
+      "query": "Åsenvägen 2, 783 30 Säter",
+      "retrieved_at_utc": "2026-10-13T11:42:46.742519+00:00"
+    },
+    "Åsgatan 30, 791 71 Falun": {
+      "coordinate": [
+        15.6325761,
+        60.6063464
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/993282209",
+      "source_url": "https://www.openstreetmap.org/way/993282209",
+      "display_name": "Åsgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 71, Sverige",
+      "postcode": "79171",
+      "osm_type": "way",
+      "osm_id": 993282209,
+      "query": "Åsgatan 30, 791 71 Falun",
+      "retrieved_at_utc": "2026-10-13T11:39:11.943688+00:00"
+    },
+    "Åsgatan 43, 791 71 Falun": {
+      "coordinate": [
+        15.6325761,
+        60.6063464
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/993282209",
+      "source_url": "https://www.openstreetmap.org/way/993282209",
+      "display_name": "Åsgatan, Elsborg, Falun, Falu kommun, Dalarnas län, 791 71, Sverige",
+      "postcode": "79171",
+      "osm_type": "way",
+      "osm_id": 993282209,
+      "query": "Åsgatan 43, 791 71 Falun",
+      "retrieved_at_utc": "2026-10-13T11:42:49.680972+00:00"
+    },
+    "Åsgatan 6, 774 41 Avesta": {
+      "coordinate": [
+        16.1893618,
+        60.1426513
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/64690360",
+      "source_url": "https://www.openstreetmap.org/way/64690360",
+      "display_name": "Åsgatan, Bergsnäs, Skogsbo, Avesta, Avesta kommun, Dalarnas län, 774 41, Sverige",
+      "postcode": "77441",
+      "osm_type": "way",
+      "osm_id": 64690360,
+      "query": "Åsgatan 6, 774 41 Avesta",
+      "retrieved_at_utc": "2026-10-13T11:38:25.482154+00:00"
+    },
+    "Örjesbovägen 32, 790 20 Grycksbo": {
+      "coordinate": [
+        15.4942665,
+        60.6859278
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/785827356",
+      "postcode": "79020",
+      "city": "Grycksbo",
+      "street": "Örjesbovägen",
+      "house_number": "32",
+      "osm_type": "way",
+      "osm_id": 785827356,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/785827356"
+    },
+    "Östra Hamngatan 24, 791 71 Falun": {
+      "coordinate": [
+        15.6283799,
+        60.6071538
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap node/1617035882",
+      "postcode": "79171",
+      "city": "Falun",
+      "street": "Östra Hamngatan",
+      "house_number": "24",
+      "osm_type": "node",
+      "osm_id": 1617035882,
+      "geometry": "address_node",
+      "source_url": "https://www.openstreetmap.org/node/1617035882"
+    },
+    "Östra Storgatan 22, 771 50 Ludvika": {
+      "coordinate": [
+        15.1936307,
+        60.1544908
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/60574607",
+      "source_url": "https://www.openstreetmap.org/way/60574607",
+      "display_name": "Östra Storgatan, Marnäs, Ludvika, Ludvika kommun, Dalarnas län, 771 50, Sverige",
+      "postcode": "77150",
+      "osm_type": "way",
+      "osm_id": 60574607,
+      "query": "Östra Storgatan 22, 771 50 Ludvika",
+      "retrieved_at_utc": "2026-10-13T11:42:51.655925+00:00"
+    },
+    "Övermo Backåkersvägen 1, 793 35 Leksand": {
+      "coordinate": [
+        15.0128352,
+        60.7213268
+      ],
+      "status": "matched",
+      "precision": "address",
+      "candidates": 1,
+      "reason": "Gatunamn och hela husnumret matchar; platsen kontrollerad mot ortankaret",
+      "source": "OpenStreetMap way/965149360",
+      "postcode": "",
+      "city": "",
+      "street": "Övermo Backåkersvägen",
+      "house_number": "1",
+      "osm_type": "way",
+      "osm_id": 965149360,
+      "geometry": "bounding_box_center",
+      "source_url": "https://www.openstreetmap.org/way/965149360"
+    },
+    "Övermo Backåkersvägen 9, 793 35 Leksand": {
+      "coordinate": [
+        15.0150333,
+        60.7212271
+      ],
+      "status": "review",
+      "precision": "street",
+      "reason": "Gatunivå: hela husnumret saknas i kartträffen; punkten är inte en säker adressposition",
+      "geometry": "representative_street_point",
+      "source": "OpenStreetMap Nominatim way/105575801",
+      "source_url": "https://www.openstreetmap.org/way/105575801",
+      "display_name": "Övermo Backåkersvägen, Tibble, Leksand, Leksands kommun, Dalarnas län, 793 35, Sverige",
+      "postcode": "79335",
+      "osm_type": "way",
+      "osm_id": 105575801,
+      "query": "Övermo Backåkersvägen 9, 793 35 Leksand",
+      "retrieved_at_utc": "2026-10-13T11:42:54.030678+00:00"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://geodata.scb.se/geoserver/stat/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=stat%3ATatorter_2023&outputFormat=application%2Fjson&srsName=EPSG%3A3006&CQL_FILTER=tatort+IN+%28%27Fagersta%27%2C%27Kungsg%C3%A5rden%27%2C%27Sala%27%2C%27Storvik%27%2C%27Storvreta%27%2C%27Uppsala%27%29",
+  "source": "SCB stat:Tatorter_2023",
+  "crs": "EPSG:3006",
+  "reference_year": 2023,
+  "retrieved_at_utc": "2026-10-13T09:30:15.093415+00:00",
+  "sha256": "3fc963672307ef099c3e0a35e15b2ca378e2fd736e87aeb1ccfa440b898fc69e"
+}
