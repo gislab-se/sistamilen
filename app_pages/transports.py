@@ -19,7 +19,7 @@ st.info(
     'ledig lastkapacitet eller att paket har transporterats.'
 )
 with st.container(horizontal=True):
-    st.page_link('app_pages/waste_routes.py', label='Jämför med sophämtning', icon=':material/recycling:')
+    st.page_link('app_pages/comparison.py', label='Sophämtning + transporter + service', icon=':material/layers:')
     st.page_link('app_pages/simulation.py', label='Jämför med tillgänglighet och bortfall', icon=':material/science:')
 
 try:
@@ -39,6 +39,7 @@ with st.expander('Hur transportanalysen kan komplettera bortfallsanalysen'):
         '3. Pröva samordning som ett separat scenario med tider, möjlig omväg '
         'och bekräftad kapacitet. Befolknings- och tillgänglighetsmåtten behåller '
         'sina ursprungliga definitioner.\n\n'
-        'Denna sida lägger till transportunderlaget för granskning. '
+        'Den gemensamma jämförelsen finns på fliken Sophämtning + transporter + service; ort-/datumöverlapp '
+        'visar var publicerad hämtning och registrerade besök sammanfaller. '
         'Den räknar ännu inte ut samordningspotential eller ändrar bortfallsresultaten.'
     )

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Sophämtningskarta · DVA 2026</title>
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/leaflet.js"></script>
+  <script defer src="data/dva-places.js"></script>
+  <script defer src="data/geography.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <aside>
+    <div class="eyebrow">DVA / PUBLICERAT SCHEMA 2026</div>
+    <h1>Sophämtningskarta</h1>
+    <p class="lead">Orter och gator i Gagnef, Leksand, Rättvik och Vansbro. Utforska trakter och återkommande hämtning.</p>
+    <p class="notice">Punkterna visar namngivna orter och gator, inte hämtställen, körvägar eller traktgränser. Grå reserver ligger vid traktens ankarpunkt.</p>
+    <div class="stats" aria-live="polite">
+      <div><strong id="tract-count">—</strong><span>visade trakter</span></div>
+      <div><strong id="place-count">—</strong><span>platsbeskrivningar</span></div>
+      <div><strong id="located-count">—</strong><span>ort-/gatuträffar</span></div>
+      <div><strong id="reserve-count">—</strong><span>reserver vid traktankare</span></div>
+    </div>
+    <label for="municipality">Kommun</label><select id="municipality"><option value="">Alla fyra kommuner</option></select>
+    <fieldset><legend>Traktens angivna veckodag</legend><div id="weekdays" class="chips"></div></fieldset>
+    <label for="waste-type">Avfallsslag</label><select id="waste-type"><option value="">Alla avfallsslag</option></select>
+    <label for="pickup-date">Hämtningsdatum</label><input id="pickup-date" type="date" min="2026-01-01" max="2026-12-31">
+    <button id="reset" class="text-button" type="button">Återställ filter och trakter</button>
+    <div class="layer-heading"><h2>Traktlager</h2><span id="layer-count"></span></div>
+    <div class="actions"><button id="all-tracts" type="button">Tänd alla</button><button id="no-tracts" type="button">Släck alla</button></div>
+    <div id="tract-layers"></div>
+    <label class="check"><input id="show-nodes" type="checkbox" checked><span>Visa paketservicenoder som referens</span></label>
+    <label class="check"><input id="single-nodes" type="checkbox"><span>Endast paketnoder med en observerad aktör</span></label>
+    <label class="check"><input id="show-rings" type="checkbox" checked><span>Illustrativ 7 km-ring per traktankare · inte täckningsområde</span></label>
+    <label class="check"><input id="basemap" type="checkbox" checked><span>Bakgrundskarta · OpenStreetMap</span></label>
+    <p id="map-status" class="map-status" role="status"></p>
+    <div class="actions"><button id="fit" type="button">Visa hela utsnittet</button><button id="export" type="button">Ladda ned valda platser</button></div>
+    <p id="selection-summary" class="selection-summary"></p>
+    <div class="legend"><span>◯ Kommunfärg: namngiven ort/plats</span><span>◯ Orange: osäker/tolkad träff</span><span>◌ Grå: reserv vid traktankare</span><span>● Blå/orange: paketservicenod</span></div>
+    <details id="quality"><summary id="quality-summary">Platsmatchningar att granska</summary><div class="quality-scroll"><table><thead><tr><th>Trakt / plats</th><th>Granskningsbehov</th></tr></thead><tbody id="quality-rows"></tbody></table></div></details>
+    <footer>Geografisk screening från <a href="https://www.dalavattenavfall.se/avfall-och-atervinning/sophamtningsschema.html" target="_blank" rel="noreferrer">DVA:s schema 2026</a>, SCB och OpenStreetMap.<br><a href="README.md">Metod och källor</a></footer>
+  </aside>
+  <main id="map" role="region" aria-label="Karta över sophämtningsplatser och paketservicenoder" tabindex="0"></main>
+</body>
+</html>

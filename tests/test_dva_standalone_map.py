@@ -42,13 +42,13 @@ class DvaStandaloneMapTest(unittest.TestCase):
             self.assertIsInstance(anchor["lat"], float)
             self.assertIsInstance(anchor["lon"], float)
 
-    def test_map_contains_embedded_tracts_and_nodes(self):
+    def test_map_is_independent_and_retains_improved_tract_controls(self):
         content = MAP_HTML.read_text(encoding="utf-8")
-        self.assertIn("const tracts = [", content)
-        self.assertIn("const serviceNodes = [", content)
+        self.assertIn('id="tract-layers"', content)
+        self.assertNotIn('vehicle-layers', content)
         self.assertNotIn("__TRACT_DATA__", content)
-        self.assertIn('href="vendor/leaflet.css"', content)
-        self.assertIn('src="vendor/leaflet.js"', content)
+        self.assertIn('src="data/dva-places.js"', content)
+        self.assertNotIn('review-data', content)
         self.assertTrue((VENDOR_DIR / "LICENSE").exists())
         self.assertEqual(len(read_service_nodes()), 47)
 

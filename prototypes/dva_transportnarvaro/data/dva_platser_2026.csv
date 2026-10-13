@@ -1,0 +1,294 @@
+﻿tract_id,municipality,name,source_text,status,precision,lon,lat,reason,source
+gagnef-1,Gagnef,Färmsnäs,Färmsnäs,matched,place,14.9837337,60.5215281,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/647702459 · Färmsnäs
+gagnef-1,Gagnef,Högsveden,Högsveden,fallback,tract_anchor,14.9837337,60.5215281,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-1,Gagnef,Borgsheden,Borgsheden,matched,place,14.9251702,60.496294,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1500568557 · Borgsheden
+gagnef-1,Gagnef,Nordanholen,Nordanholen,matched,place,14.9471928,60.5070397,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1864047459 · Nordanholen
+gagnef-1,Gagnef,Heden,Heden,fallback,tract_anchor,14.9837337,60.5215281,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-1,Gagnef,Högberget,Högberget Skampervägen,review,street,14.941528414285713,60.50396834285714,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/616498386 · Högberget
+gagnef-1,Gagnef,Skampervägen,Högberget Skampervägen,review,street,14.958593933333333,60.50858683333333,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/175847429 · Skampervägen
+gagnef-1,Gagnef,Lassas Hage,Lassas Hage,review,street,14.9570475,60.50732735,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/232388909 · Lassas Hage
+gagnef-1,Gagnef,Lindbyn,Lindbyn,matched,place,14.9904196,60.513493,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap Nominatim way/405574149 · Lindbyn
+gagnef-1,Gagnef,Nordanbyn,Nordanbyn,fallback,tract_anchor,14.9837337,60.5215281,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-1,Gagnef,Nyåkern,Nyåkern,fallback,tract_anchor,14.9837337,60.5215281,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-2,Gagnef,Björbo Centrum,Björbo Centrum,review,locality,14.715522149611115,60.459448533696,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Björbo
+gagnef-2,Gagnef,Holarna,Holarna,matched,place,15.0047612,60.5131027,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465113933 · Holarna
+gagnef-2,Gagnef,Nybyn,Nybyn,matched,place,14.6880971,60.4652578,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/5580669417 · Nybyn
+gagnef-2,Gagnef,Gybäcksholan,Gybäcksholan,review,street,14.7387215,60.4580017,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/23342879 · Gybäcksholan
+gagnef-2,Gagnef,Handbacken,Handbacken,matched,place,14.6900468,60.4573855,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/59686086 · Handbacken
+gagnef-2,Gagnef,Forsen,Forsen,matched,place,14.6827004,60.4599689,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1801910881 · Forsen
+gagnef-2,Gagnef,Gåsholmen,Gåsholmen,matched,place,14.727094,60.4525464,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/59686061 · Gåsholmen
+gagnef-2,Gagnef,Källbäcken,Källbäcken,matched,place,14.7698461,60.446271,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1814209702 · Källbäcken
+gagnef-3,Gagnef,Djurås Centrum,Djurås Centrum,review,locality,15.139340514736375,60.5550399,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Djurås
+gagnef-3,Gagnef,Skogen,Skogen,fallback,tract_anchor,15.1318023,60.5603155,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-3,Gagnef,Tägtvägen,Tägtvägen,review,street,15.1277833,60.560643,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/61694094 · Tägtvägen
+gagnef-3,Gagnef,Fagervägen,Fagervägen,review,street,15.127030075,60.563380575,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/973058009 · Fagervägen
+gagnef-3,Gagnef,Skogsvägen,Skogsvägen,review,street,15.13032294,60.56152641999999,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/524989846 · Skogsvägen
+gagnef-3,Gagnef,Djurås By,Djurås By,review,locality,15.139340514736375,60.5550399,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Djurås
+gagnef-3,Gagnef,Färjbacken,Färjbacken,matched,place,15.1391182,60.5524696,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7528373935 · Färjbacken
+gagnef-3,Gagnef,Kiltäppan,Kiltäppan,fallback,tract_anchor,15.1318023,60.5603155,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-4,Gagnef,Gräv,Gräv,matched,place,15.048735,60.6166722,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2918640845 · Gräv
+gagnef-4,Gagnef,Gråda,Gråda,matched,place,15.0381837,60.6061809,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/8075786791 · Gråda
+gagnef-4,Gagnef,Gärde,Gärde,review,street,15.0463055,60.6014571,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/50764073 · Gärde
+gagnef-4,Gagnef,Österfors,Österfors,matched,place,15.0295013,60.598465,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/567197381 · Österfors
+gagnef-4,Gagnef,Nedre Tjärna,Nedre Tjärna,matched,place,15.0529382,60.5952164,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/946546309 · Nedre Tjärna
+gagnef-4,Gagnef,Kyrkbyn,Kyrkbyn,fallback,tract_anchor,15.048735,60.6166722,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-4,Gagnef,Kyrkbyvägen,Kyrkbyvägen,review,street,15.06360245,60.591688875,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/1132131091 · Kyrkbyvägen
+gagnef-4,Gagnef,Tegelbruksvägen,Tegelbruksvägen,review,street,15.07791165,60.5960941,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/44700479 · Tegelbruksvägen
+gagnef-4,Gagnef,Rännarhedsvägen,Rännarhedsvägen,review,street,15.067861899999999,60.59832275,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/81243631 · Rännarhedsvägen
+gagnef-4,Gagnef,Wernervägen,Wernervägen,fallback,tract_anchor,15.048735,60.6166722,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-4,Gagnef,Sörbyn,Sörbyn,fallback,tract_anchor,15.048735,60.6166722,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-4,Gagnef,Tallbacken,Tallbacken,matched,place,14.7646814,60.3178828,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap Nominatim node/765331009 · Tallbacken
+gagnef-5,Gagnef,Benarvet,Benarvet,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-5,Gagnef,Jugasåkern,Jugasåkern,matched,place,14.94279,60.4932845,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7462052142 · Jugasåkern
+gagnef-5,Gagnef,Västanbäcken,Västanbäcken,matched,place,14.9494272,60.4892972,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7461947473 · Västanbäcken
+gagnef-5,Gagnef,Myrholen,Myrholen,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-5,Gagnef,Heden,Heden,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-5,Gagnef,Björka,Björka,matched,place,15.0826398,60.5324845,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2850515128 · Björka
+gagnef-5,Gagnef,By,By,matched,place,15.0607213,60.530471,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465088067 · By
+gagnef-5,Gagnef,Ellheden,Ellheden,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-5,Gagnef,Nysäl,Nysäl,matched,place,15.0313859,60.5209694,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465111097 · Nysäl
+gagnef-5,Gagnef,Bröttjärna,Bröttjärna,matched,place,15.0217519,60.5038182,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2915929695 · Bröttjärna
+gagnef-5,Gagnef,Holarna,Holarna,matched,place,15.0047612,60.5131027,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465113933 · Holarna
+gagnef-5,Gagnef,Stängsla,Stängsla,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-5,Gagnef,Backen,Backen,matched,place,14.9793484,60.5015469,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7087006040 · Backen
+gagnef-5,Gagnef,Ersholen,Ersholen,fallback,tract_anchor,15.0826398,60.5324845,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-6,Gagnef,Mjälgen,Mjälgen,matched,place,15.1097482,60.5543357,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+gagnef-6,Gagnef,Bodarna,Bodarna,matched,place,15.1289836,60.5463175,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/771389970 · Bodarna
+gagnef-6,Gagnef,Myrheden,Myrheden,matched,place,15.129139,60.5352897,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/4267774444 · Myrheden
+gagnef-6,Gagnef,Arvslindan,Arvslindan,matched,place,15.1561483,60.5344678,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/567267896 · Arvslindan
+gagnef-6,Gagnef,Bäsna,Bäsna,matched,locality,15.209710165721136,60.53965672095585,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Bäsna
+gagnef-7,Gagnef,Djurmo,Djurmo,matched,place,15.1895956,60.5495726,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/321490232 · Djurmo
+gagnef-7,Gagnef,Bäckan,Bäckan,review,street,15.16980145,60.5545179,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/784396326 · Bäckan
+gagnef-7,Gagnef,Sifferbo,Sifferbo,matched,locality,15.22543374415521,60.558364127897825,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Sifferbo
+gagnef-8,Gagnef,Syrholen,Syrholen,matched,place,14.8072939,60.511934,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1810647831 · Syrholen
+gagnef-8,Gagnef,Risholn,Risholn,fallback,tract_anchor,14.8072939,60.511934,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-8,Gagnef,Mossel,Mossel,matched,place,14.7761377,60.5189659,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465107258 · Mossel
+gagnef-8,Gagnef,Bäckbyn,Bäckbyn,review,street,14.8318892,60.5076791,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/4704312523 · Bäckbyn
+gagnef-8,Gagnef,Svedjebyn,Svedjebyn,review,street,14.839176850000001,60.5068961,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/4704312532 · Svedjebyn
+gagnef-8,Gagnef,Sälje,Sälje Forsgärdet,review,place,14.8511952,60.4965894,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/7464989460 · Sälje
+gagnef-8,Gagnef,Forsgärdet,Sälje Forsgärdet,review,place,14.7934279,60.4976516,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/1810647668 · Forsgärdet
+gagnef-8,Gagnef,Hagen,Hagen,matched,place,14.8323779,60.4949574,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1810647734 · Hagen
+gagnef-8,Gagnef,Holsåker,Holsåker,matched,place,14.790853,60.5035707,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1810647752 · Holsåker
+gagnef-9,Gagnef,Övre Tjärna,Övre Tjärna,matched,place,15.0630233,60.6026112,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/946546306 · Övre Tjärna
+gagnef-9,Gagnef,Tjärna,Tjärna,fallback,tract_anchor,15.0630233,60.6026112,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-9,Gagnef,Stationsområdet,Stationsområdet,fallback,tract_anchor,15.0630233,60.6026112,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-9,Gagnef,Moje,Moje,matched,place,15.0858113,60.6007574,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/946546303 · Moje
+gagnef-9,Gagnef,Gröntuv,Gröntuv,matched,place,15.1045868,60.5845161,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/946546316 · Gröntuv
+gagnef-9,Gagnef,Hampgårdarna,Hampgårdarna,matched,place,15.1212907,60.5844035,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465500966 · Hampgårdarna
+gagnef-9,Gagnef,Holen,Holen,matched,place,15.1310156,60.5756304,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465518474 · Holen
+gagnef-9,Gagnef,Prosgårdarna,Prosgårdarna,matched,place,15.1256496,60.5766983,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465526711 · Prosgårdarna
+gagnef-10,Gagnef,Rista,Rista,matched,place,15.0240634,60.5316701,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465102415 · Rista
+gagnef-10,Gagnef,Mon,Mon,matched,place,15.0536329,60.5409234,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/650007093 · Mon
+gagnef-10,Gagnef,Lindan,Lindan,fallback,tract_anchor,15.0240634,60.5316701,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-10,Gagnef,Djur,Djur,matched,place,15.0927717,60.5369025,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/650005545 · Djur
+gagnef-10,Gagnef,Svedjan,Svedjan,matched,place,15.1112897,60.5466004,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/650005546 · Svedjan
+gagnef-10,Gagnef,Näset,Näset,matched,place,15.1159952,60.5575315,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/8480955782 · Näset
+gagnef-10,Gagnef,Snobbrännan,Snobbrännan,fallback,tract_anchor,15.0240634,60.5316701,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+gagnef-10,Gagnef,Överbacka,Överbacka,matched,place,15.1129802,60.5696303,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465523889 · Överbacka
+gagnef-10,Gagnef,Östtjärna,Östtjärna,matched,place,15.0932009,60.5674953,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/650004658 · Östtjärna
+gagnef-10,Gagnef,Västtjärna,Västtjärna,matched,place,15.0844676,60.5658609,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/650004659 · Västtjärna
+gagnef-10,Gagnef,Bomsarvet,Bomsarvet,matched,place,15.0849495,60.5614162,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465109769 · Bomsarvet
+gagnef-10,Gagnef,Dunkarbacken,Dunkarbacken,matched,place,15.0811188,60.5572464,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2456216985 · Dunkarbacken
+gagnef-10,Gagnef,Gruvan,Gruvan,matched,place,15.0895505,60.5719898,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2819445101 · Gruvan
+gagnef-10,Gagnef,Nordåker,Nordåker,matched,place,15.0725049,60.5762061,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2977288587 · Nordåker
+gagnef-10,Gagnef,Gagnefsbyn,Gagnefsbyn,matched,place,15.0662825,60.578537,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1394718922 · Gagnefsbyn
+gagnef-10,Gagnef,Nordbäck,Nordbäck,matched,place,15.0553051,60.5809671,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/567199965 · Nordbäck
+gagnef-10,Gagnef,Västerfors,Västerfors,matched,place,15.0181055,60.5857451,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/567194820 · Västerfors
+gagnef-10,Gagnef,Älvnäs,Älvnäs,matched,place,15.0689182,60.5867724,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/771398844 · Älvnäs
+leksand-1,Leksand,Insjön,Insjön Tunsta,review,locality,15.094475998200064,60.67675467408897,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Insjön
+leksand-1,Leksand,Tunsta,Insjön Tunsta,review,street,15.083672,60.6782559,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/4705009557 · Tunsta
+leksand-1,Leksand,Holsåkern,Holsåkern,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Ålbyn,Ålbyn,matched,place,15.1104525,60.6852712,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465109337 · Ålbyn
+leksand-1,Leksand,Lustholen,Lustholen,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Åhl-Sätra,Åhl-Sätra,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Faluvägen,Faluvägen,review,street,15.101869900000002,60.68018586666667,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/25389209 · Faluvägen
+leksand-1,Leksand,Holen,Holen,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Ål-Tällberg,Ål-Tällberg Nedre Heden,review,place,15.324188,60.6990208,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/468725615 · Åhl-Tällberg
+leksand-1,Leksand,Nedre Heden,Ål-Tällberg Nedre Heden,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Knippboheden,Knippboheden,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Övre Heden,Övre Heden,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Knippbodarna,Knippbodarna,fallback,tract_anchor,15.0923237,60.6794193,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-1,Leksand,Lövladbo,Lövladbo,matched,place,15.2559727,60.7927669,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7387172939 · Lövladbo
+leksand-2,Leksand,Övermo,Övermo,matched,place,15.0175979,60.7267794,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/8710656026 · Övermo
+leksand-2,Leksand,Edshult,Edshult,fallback,tract_anchor,15.0175979,60.7267794,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-2,Leksand,Åkerö,Åkerö,matched,place,14.9935476,60.7239637,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/4723195986 · Åkerö
+leksand-2,Leksand,Lisselby,Lisselby,fallback,tract_anchor,15.0175979,60.7267794,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-2,Leksand,Insjövägen,Insjövägen,review,street,15.010106833333333,60.722984233333335,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/126442692 · Insjövägen
+leksand-3,Leksand,Byggningen,Byggningen,matched,place,14.976895,60.7602284,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465125798 · Byggningen
+leksand-3,Leksand,Bränngärdet,Bränngärdet,review,street,14.9694795,60.76248375,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/220200198 · Bränngärdet
+leksand-3,Leksand,Hjortnäsheden,Hjortnäsheden,fallback,tract_anchor,14.976895,60.7602284,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-3,Leksand,Sunnanäng,Sunnanäng,matched,place,14.967572,60.7794829,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465100726 · Sunnanäng
+leksand-3,Leksand,Hjortnäs,Hjortnäs,matched,place,14.9674658,60.7949183,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/321492520 · Hjortnäs
+leksand-3,Leksand,Dalsberget,Dalsberget,matched,place,14.9898111,60.7848262,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/3455402646 · Dalsberg
+leksand-3,Leksand,Sandåsarna,Sandåsarna,fallback,tract_anchor,14.976895,60.7602284,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-3,Leksand,Tällberg,Tällberg,matched,locality,15.00390701449549,60.82443538952457,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Tällberg
+leksand-3,Leksand,Plintsberg,Plintsberg,matched,place,15.0280119,60.8104374,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/138006919 · Plintsberg
+leksand-4,Leksand,Moskogen,Moskogen,matched,place,15.0069569,60.7198151,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+leksand-4,Leksand,Källberget,Källberget,matched,place,15.0038734,60.7174893,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap Nominatim node/8082233301 · Källberget
+leksand-4,Leksand,Yttermo,Yttermo,matched,place,15.0205685,60.7112366,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488453 · Yttermo
+leksand-4,Leksand,Mjälgen,Mjälgen,matched,place,15.0304391,60.7026696,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488452 · Mjälgen
+leksand-4,Leksand,Gärde,Gärde,matched,place,15.043657,60.7006115,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488451 · Gärde
+leksand-4,Leksand,Ytteråkerö,Ytteråkerö,matched,place,15.0606256,60.701324,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2293765168 · Ytteråkerö
+leksand-4,Leksand,Smedby,Smedby,matched,place,15.0528409,60.6936382,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488448 · Smedby
+leksand-4,Leksand,Västannor,Västannor,matched,place,15.0526692,60.6876719,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488458 · Västannor
+leksand-4,Leksand,Hagen,Hagen,review,place,15.0471761,60.6958648,Flera liknamniga platser i kommunen. Närmaste traktankare används och behöver granskas.,OpenStreetMap node/616488450 · Hagen
+leksand-5,Leksand,Djura,Djura,matched,locality,15.005293349212627,60.61028699633295,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Djura
+leksand-5,Leksand,Styrsjöbo,Styrsjöbo,matched,place,14.948404,60.704747,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/450786269 · Styrsjöbo
+leksand-5,Leksand,Heden,Heden,matched,place,14.9764258,60.6999541,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1185713680 · Heden
+leksand-5,Leksand,Hästberg,Hästberg,matched,place,14.9717883,60.6813797,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/771402127 · Hästberg
+leksand-5,Leksand,Jonheden,Jonheden,matched,place,14.9963173,60.6464826,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465122858 · Jonheden
+leksand-5,Leksand,Knutsgårdarna,Knutsgårdarna,matched,place,15.005689,60.6428281,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465124728 · Knutsgårdarna
+leksand-5,Leksand,Rälta,Rälta,fallback,tract_anchor,15.0054703,60.612263,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-5,Leksand,Rältlindor,Rältlindor,matched,place,14.9781714,60.6501112,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2302399061 · Rältlindor
+leksand-6,Leksand,Noret,Noret,matched,place,14.9973408,60.7311979,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/4723195984 · Noret
+leksand-6,Leksand,Siljansvägen,Siljansvägen,review,street,14.981714,60.745093180000005,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/14329285 · Siljansvägen
+leksand-6,Leksand,Lima,Lima,matched,place,15.0059086,60.7497503,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/12245051991 · Lima
+leksand-6,Leksand,Kärringberget,Kärringberget,fallback,tract_anchor,14.9973408,60.7311979,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-6,Leksand,Limhagen,Limhagen,matched,place,14.9983973,60.7457613,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap Nominatim way/26197863 · Limhagen
+leksand-7,Leksand,Norsbro,Norsbro,matched,place,15.0153359,60.7316926,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/542566382 · Norsbro
+leksand-7,Leksand,Lycka,Lycka,matched,place,15.0280787,60.7387698,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488456 · Lycka
+leksand-7,Leksand,Tibble,Tibble,matched,place,15.0293622,60.7301533,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777176 · Tibble
+leksand-7,Leksand,Ullvi,Ullvi,matched,place,15.0557562,60.7151392,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777177 · Ullvi
+leksand-7,Leksand,Hälla,Hälla,matched,place,15.0764446,60.7180849,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777179 · Hälla
+leksand-7,Leksand,Romma,Romma,matched,place,15.0847631,60.71715,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777181 · Romma
+leksand-7,Leksand,Berg,Berg,matched,place,15.0954152,60.7092486,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777182 · Berg
+leksand-7,Leksand,Rönnäs,Rönnäs,matched,place,15.1242767,60.7032364,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777185 · Västra Rönnäs
+leksand-7,Leksand,Helgnäs,Helgnäs,fallback,tract_anchor,15.0153359,60.7316926,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-7,Leksand,Brenäs,Brenäs,matched,place,15.1438059,60.672388,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/447777189 · Brenäs
+leksand-8,Leksand,Almo,Almo,matched,place,14.8507352,60.755484,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/771404927 · Almo
+leksand-8,Leksand,Alvik,Alvik,matched,locality,14.852959281207422,60.7522369,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Alvik
+leksand-8,Leksand,Räckselbackarna,Räckselbackarna,fallback,tract_anchor,14.8507352,60.755484,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+leksand-8,Leksand,Gassarvet,Gassarvet,matched,place,14.9136399,60.7685014,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2978964242 · Gassarvet
+leksand-8,Leksand,Tasbäck,Tasbäck,matched,place,14.9008159,60.7720098,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2978964245 · Tasbäck
+leksand-8,Leksand,Karlsarvet,Karlsarvet,matched,place,14.9691901,60.7177032,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2978964243 · Karlsarvet
+leksand-8,Leksand,Västanvik,Västanvik,matched,locality,14.951946514153466,60.73126248272974,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Västanvik
+leksand-8,Leksand,Grytnäs,Grytnäs,matched,place,14.9407167,60.7446712,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/283666092 · Grytnäs
+leksand-8,Leksand,Sundsnäs,Sundsnäs,matched,place,14.9435571,60.7513457,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2978964244 · Sundsnäs
+leksand-9,Leksand,Siljansnäs,Siljansnäs,matched,locality,14.877027383579863,60.77465442052883,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Siljansnäs
+leksand-10,Leksand,Laknäs,Laknäs,matched,place,14.982183,60.8357056,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+leksand-10,Leksand,Östanhol,Östanhol,matched,place,15.0187624,60.8337615,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/276713385 · Östanhol
+leksand-10,Leksand,Kullsbjörken,Kullsbjörken,matched,place,15.0681518,60.8321348,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/276713387 · Kullsbjörken
+leksand-10,Leksand,Leksboda,Leksboda,matched,place,15.0246287,60.7776644,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465145385 · Leksboda
+leksand-10,Leksand,Sjugare,Sjugare,matched,place,15.0620248,60.8011986,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/616488461 · Sjugare
+leksand-10,Leksand,Torrberg,Torrberg,matched,place,15.0617673,60.7785379,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/542566504 · Torrberg
+leksand-10,Leksand,Norr Bergsäng,Norr och Söder Bergsäng,review,place,15.0619389,60.8150133,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/616488460 · Norr Bergsäng
+leksand-10,Leksand,Söder Bergsäng,Norr och Söder Bergsäng,review,place,15.0788476,60.8057204,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/616488459 · Söder Bergsäng
+leksand-10,Leksand,Västberg,Västberg,matched,place,15.0457312,60.8056214,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/3579931319 · Västberg
+rattvik-1,Rättvik,Furudal,Furudal,matched,locality,15.125332064258245,61.170607501602646,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Furudal
+rattvik-1,Rättvik,Furudalsbruk,Furudalsbruk,matched,place,15.1731727,61.1953974,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277895432 · Furudals bruk
+rattvik-1,Rättvik,Näset,Näset,matched,place,15.1071242,61.1863409,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2895070255 · Näset
+rattvik-1,Rättvik,Böle,Böle,matched,place,15.4141639,61.2141054,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/339535079 · Böle
+rattvik-1,Rättvik,Dalfors,Dalfors,matched,place,15.4039755,61.2128209,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/330458560 · Dalfors
+rattvik-1,Rättvik,Norrboda,Norrboda,matched,place,15.2493188,61.1192758,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277904294 · Norrboda
+rattvik-1,Rättvik,Sörboda,Sörboda,matched,place,15.2507564,61.1052572,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277904293 · Sörboda
+rattvik-1,Rättvik,Sunnanhed,Sunnanhed,matched,place,15.2320527,61.1302242,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277904295 · Sunnanhed
+rattvik-1,Rättvik,Östansjö,Östansjö,matched,place,15.189914,61.1500509,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7462242024 · Östansjö
+rattvik-1,Rättvik,Östanvik,Östanvik,matched,place,15.2179616,61.1585226,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277904296 · Östanvik
+rattvik-2,Rättvik,Hjortgården,Hjortgården,fallback,tract_anchor,15.0237761,60.9106397,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-2,Rättvik,Kalkbackarna,Kalkbackarna,fallback,tract_anchor,15.0237761,60.9106397,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-2,Rättvik,Granmor,Granmor,matched,place,15.0382497,60.931662,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465142826 · Granmor
+rattvik-2,Rättvik,Vikarbyn N om RV 70 fram till Röjeråsv.,Vikarbyn N om RV 70 fram till Röjeråsv.,review,locality,15.016800663859105,60.911505484879875,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Vikarbyn
+rattvik-2,Rättvik,Röjeråsvägen,Röjeråsvägen,review,street,14.989976133333334,60.918003666666664,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/71377627 · Röjeråsvägen
+rattvik-2,Rättvik,Västbjörka,Västbjörka,matched,place,14.982408,60.9217496,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/907327396 · Västbjörka
+rattvik-2,Rättvik,Röjeråsen,Röjeråsen,matched,place,14.9798574,60.9444864,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/847011230 · Röjeråsen
+rattvik-2,Rättvik,Tammeråsen,Tammeråsen,matched,place,14.9212497,60.9769366,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/847000471 · Tammeråsen
+rattvik-2,Rättvik,Öja,Öja,fallback,tract_anchor,15.0237761,60.9106397,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-3,Rättvik,Västanå,Västanå,matched,place,15.2002799,60.982882,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7466129998 · Västanå
+rattvik-3,Rättvik,Solberga,Solberga,matched,place,15.2201167,60.9782372,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898799 · Solberga
+rattvik-3,Rättvik,Ovanmyra,Ovanmyra,matched,place,15.2230055,60.9964969,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/9006311193 · Ovanmyra
+rattvik-3,Rättvik,Lenåsen,Lenåsen,matched,place,15.2444537,61.0050788,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7466119078 · Lenåsen
+rattvik-3,Rättvik,Östra Boda,Östra Boda,fallback,tract_anchor,15.2002799,60.982882,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-3,Rättvik,Österängarna,Österängarna,matched,place,15.1800951,60.9014524,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465945126 · Österängarna
+rattvik-3,Rättvik,Baggetorp,Baggetorp,review,street,15.2088893,60.9207644,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/5012821990 · Baggetorp
+rattvik-3,Rättvik,Nedre Gärdsjö,Nedre Gärdsjö,matched,locality,15.242730337455512,60.93355185,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Nedre Gärdsjö
+rattvik-3,Rättvik,Övre Gärdsjö,Övre Gärdsjö,matched,place,15.2427833,60.9317346,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898798 · Övre Gärdsjö
+rattvik-3,Rättvik,Ingels,Ingels,matched,place,15.2368584,60.9456776,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277998477 · Ingels
+rattvik-3,Rättvik,Lisskog,Lisskog,matched,place,15.2991251,60.8745172,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465930396 · Lisskog
+rattvik-3,Rättvik,Blecket,Blecket,matched,place,15.2780939,60.9227547,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898796 · Blecket
+rattvik-3,Rättvik,Born,Born,matched,place,15.2660191,60.9599503,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277998425 · Born
+rattvik-3,Rättvik,Stenbacken,Stenbacken,fallback,tract_anchor,15.2002799,60.982882,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Hedslund,Hedslund/Nyheden,fallback,tract_anchor,15.1226783,60.8837542,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Nyheden,Hedslund/Nyheden,review,place,15.1224809,60.8914677,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap way/313487011 · Nyheden
+rattvik-4,Rättvik,Altsarbyn,Altsarbyn,matched,place,15.1241403,60.8571931,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7551866273 · Altsarbyn
+rattvik-4,Rättvik,Vidablick,Vidablick,matched,place,15.1230114,60.8643497,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap Nominatim node/1384336537 · Vidablick
+rattvik-4,Rättvik,Hagas väg,Hagas väg,review,street,15.1176839,60.8632166,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/25501766 · Hagas väg
+rattvik-4,Rättvik,Börjesväg,Börjesväg,review,street,15.1189227,60.8632503,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/25501767 · Börjes väg
+rattvik-4,Rättvik,Bäck,Bäck,matched,place,15.1209174,60.8484874,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7551883519 · Bäck
+rattvik-4,Rättvik,Mårtanberg,Mårtanberg,matched,place,15.2274552,60.8260933,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2584850992 · Mårtanberg
+rattvik-4,Rättvik,Söderåsbacken RV 69,Söderåsbacken RV 69,review,place,15.1237549,60.8450345,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/256947375 · Söderås
+rattvik-4,Rättvik,Centrum,Centrum,review,locality,15.116178023068242,60.8727501578808,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Rättvik
+rattvik-4,Rättvik,Söderås,Söderås,matched,place,15.1237549,60.8450345,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/256947375 · Söderås
+rattvik-4,Rättvik,Utanåker,Utanåker,fallback,tract_anchor,15.1226783,60.8837542,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Östergrav,Östergrav,fallback,tract_anchor,15.1226783,60.8837542,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Västergrav,Västergrav,fallback,tract_anchor,15.1226783,60.8837542,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Västgärde,Västgärde,fallback,tract_anchor,15.1226783,60.8837542,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-4,Rättvik,Utby,Utby,matched,place,15.0990911,60.8485644,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1373691739 · Utby
+rattvik-5,Rättvik,Backa,Backa,matched,place,15.1208281,60.9240204,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/35205998 · Backa
+rattvik-5,Rättvik,Östbjörka,Östbjörka,matched,place,15.137518,60.9684497,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/907294347 · Östbjörka
+rattvik-5,Rättvik,Sätra,Sätra,matched,place,15.0956656,60.9162528,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1849458578 · Sätra
+rattvik-5,Rättvik,Västberg,Västberg,matched,place,15.086106,60.9275796,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/800939853 · Västberg
+rattvik-5,Rättvik,Rovgärdet,Rovgärdet,fallback,tract_anchor,15.1208281,60.9240204,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-5,Rättvik,Nittsjö,Nittsjö,matched,place,15.073686,60.91949,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/847845876 · Nittsjö
+rattvik-5,Rättvik,Templet,Templet,fallback,tract_anchor,15.1208281,60.9240204,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-5,Rättvik,Lugnet,Lugnet,matched,place,15.1020463,60.9061652,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7465148504 · Lugnet
+rattvik-6,Rättvik,Änderåsen,Änderåsen,matched,place,15.1979355,61.0413261,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898800 · Änderåsen
+rattvik-6,Rättvik,Kärvsåsen,Kärvsåsen,matched,place,15.1994733,61.054927,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/2625751850 · Kärvsåsen
+rattvik-6,Rättvik,Osmundsberg,Osmundsberg,matched,place,15.2092543,61.0474178,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7466136812 · Osmundsberg
+rattvik-6,Rättvik,Gulleråsen,Gulleråsen,matched,locality,15.206465509414548,61.0574307,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Gulleråsen
+rattvik-6,Rättvik,Dalbyn,Dalbyn,matched,place,15.1660027,61.1127498,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898806 · Dalbyn
+rattvik-6,Rättvik,Arvet,Arvet,matched,place,15.1376659,61.1423549,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277898807 · Arvet
+rattvik-6,Rättvik,Boda,Boda,matched,locality,15.218708516627775,61.007468356458055,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Boda
+rattvik-6,Rättvik,Silverberg,Silverberg,review,street,15.2086489,61.0272466,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/277895823 · Silverberg
+rattvik-7,Rättvik,Sjurberg,Sjurberg,matched,place,15.0674079,60.9022682,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277882724 · Sjurberg
+rattvik-7,Rättvik,Vikarbystrand,Vikarbystrand,review,street,15.046102600000001,60.91114735,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/1128401557 · Vikarbystrand
+rattvik-7,Rättvik,Stumsnäs,Stumsnäs,matched,place,14.9472425,60.8785837,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/706064375 · Stumsnäs
+rattvik-7,Rättvik,Ickholmen,Ickholmen,review,street,14.960467,60.9060558,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/5859050793 · Ickholmen
+rattvik-7,Rättvik,Vikarbyn söder om RV 70,Vikarbyn söder om RV 70,review,locality,15.016800663859105,60.911505484879875,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Vikarbyn
+rattvik-8,Rättvik,Faluvägen,Faluvägen,review,street,15.105510406666667,60.86020155333333,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+rattvik-8,Rättvik,Siljansvägen,Siljansvägen,review,street,15.108066950000001,60.873161999999994,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/206336357 · Siljansvägen
+rattvik-8,Rättvik,Östlundsväg,Östlundsväg,review,street,15.1187859,60.8778631,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/220177441 · Östlunds väg
+rattvik-8,Rättvik,Slöjdvägen,Slöjdvägen,review,street,15.1148756,60.8756403,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/1086422284 · Slöjdvägen
+rattvik-8,Rättvik,Gärdebyn,Gärdebyn,matched,place,15.1128536,60.862615,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7551866272 · Gärdebyn
+rattvik-8,Rättvik,Gärdebygatan,Gärdebygatan,review,street,15.111263466666665,60.86780083333334,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/25389214 · Gärdebygatan
+rattvik-8,Rättvik,Wallenkampfsväg,Wallenkampfsväg,fallback,tract_anchor,15.1076096,60.8576628,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-8,Rättvik,Lerdal,Lerdal,matched,place,15.1236296,60.8750142,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7551866271 · Lerdal
+rattvik-8,Rättvik,Vålsveden,Vålsveden,fallback,tract_anchor,15.1076096,60.8576628,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+rattvik-8,Rättvik,Persslogsväg,Persslogsväg,review,street,15.1361512,60.8880042,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/173916626 · Persslogs väg
+vansbro-1,Vansbro,Dala-Järna,Dala-Järna,matched,place,14.3679875,60.5480476,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+vansbro-2,Vansbro,Vansbro C,Vansbro C,review,locality,14.227419345677909,60.50997446015752,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",SCB Tätort 2023 · Vansbro
+vansbro-2,Vansbro,Söderåsen,Söderåsen,fallback,tract_anchor,14.2255613,60.5102674,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+vansbro-2,Vansbro,Källbacken,Källbacken,review,street,14.1902387,60.50932525,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap Nominatim node/4706374927 · Källbacken
+vansbro-3,Vansbro,Skamhed,Skamhed,matched,place,14.2815562,60.5205474,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/27259639 · Skamhed
+vansbro-3,Vansbro,Saltvik,Saltvik,matched,place,14.2356395,60.5187271,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464750454 · Saltvik
+vansbro-3,Vansbro,Dalasågen,Dalasågen Nordanåker,review,place,14.2079623,60.527923,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/7464709304 · Dalasågen
+vansbro-3,Vansbro,Nordanåker,Dalasågen Nordanåker,review,place,14.3327788,60.5567449,"Tolkad traktbeskrivning; punkten anger orten, inte angiven del eller hämtställe.",OpenStreetMap node/5562045080 · Nordanåker
+vansbro-3,Vansbro,Hulån,Hulån,matched,place,14.3077162,60.5442549,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/27259642 · Hulån
+vansbro-3,Vansbro,Duvnäs,Duvnäs,matched,place,14.3089879,60.5382226,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/1185713605 · Duvnäs
+vansbro-3,Vansbro,Skålö,Skålö,matched,locality,14.302858841559777,60.55422559665104,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Skålö
+vansbro-3,Vansbro,Ilbäcken,Ilbäcken,matched,place,14.2950855,60.5459214,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464752962 · Ilbäcken
+vansbro-4,Vansbro,Snöån,Snöån,matched,place,14.4469395,60.5302856,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",Sparad DVA-ortmatchning · OpenStreetMap Nominatim
+vansbro-4,Vansbro,Strömsheden,Strömsheden,matched,place,14.4556417,60.5036664,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464750125 · Strömsheden
+vansbro-4,Vansbro,Nås,Nås,matched,place,14.4975126,60.4557881,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/27259646 · Nås
+vansbro-5,Vansbro,Malmsta,Malmsta,matched,place,14.4676844,60.4745489,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/4434641931 · Malmsta
+vansbro-5,Vansbro,Storbyn,Storbyn,review,place,14.3540512,60.5510636,Flera liknamniga platser i kommunen. Närmaste traktankare används och behöver granskas.,OpenStreetMap node/7464765175 · Storbyn
+vansbro-5,Vansbro,Närsjö,Närsjö,matched,place,14.5092034,60.4107076,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464803880 · Närsjö
+vansbro-5,Vansbro,Orsala,Orsala,matched,place,14.47846,60.4037401,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/13614627913 · Orsala
+vansbro-5,Vansbro,Lindesnäs,Lindesnäs,matched,place,14.5305977,60.3301477,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/277928803 · Lindesnäs
+vansbro-5,Vansbro,Närsen,Närsen,matched,place,14.4126698,60.3133067,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/3053801803 · Närsen
+vansbro-5,Vansbro,Sågen,Sågen,matched,place,14.1346945,60.260631,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/640469882 · Sågen
+vansbro-5,Vansbro,Kroktorp,Kroktorp,matched,place,14.2010286,60.3267058,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/30756848 · Kroktorp
+vansbro-5,Vansbro,Örskogen,Örskogen,matched,place,14.2003568,60.3494648,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464878505 · Örskogen
+vansbro-5,Vansbro,Eldforsen,Eldforsen,matched,place,14.2341988,60.4343538,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/30756858 · Eldforsen
+vansbro-5,Vansbro,Heden,Heden,fallback,tract_anchor,14.4676844,60.4745489,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+vansbro-6,Vansbro,Äppelbo,Äppelbo,matched,locality,14.064530675463475,60.47991425,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",SCB Tätort 2023 · Äppelbo
+vansbro-7,Vansbro,Grönalid,Grönalid,matched,place,14.2341171,60.5038009,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/4528169028 · Grönalid
+vansbro-7,Vansbro,Bomled,Bomled,matched,place,14.2510507,60.4996259,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464757648 · Bomled
+vansbro-7,Vansbro,Rutån,Rutån,matched,place,14.3095869,60.4931683,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464783839 · Rutån
+vansbro-7,Vansbro,Skiffsforsen,Skiffsforsen,fallback,tract_anchor,14.2341171,60.5038009,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+vansbro-7,Vansbro,Sandbäcken,Sandbäcken,fallback,tract_anchor,14.2341171,60.5038009,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim
+vansbro-7,Vansbro,Uppsälje,Uppsälje,matched,place,14.3281578,60.5065162,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464763820 · Uppsälje
+vansbro-7,Vansbro,Strandvägen,Strandvägen,review,street,14.243451499999999,60.5109402,Ungefärlig gatupunkt. Hämtställen och vilken del av gatan som ingår är okända.,OpenStreetMap way/421158834 · Strandvägen
+vansbro-7,Vansbro,Västgård,Västgård,matched,place,14.3593081,60.5443616,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464787710 · Västgård
+vansbro-7,Vansbro,Grånäs,Grånäs,matched,place,14.3574411,60.5331382,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464783926 · Grånäs
+vansbro-7,Vansbro,Snöborg,Snöborg,matched,place,14.4141877,60.5248497,"Namngiven ort/plats i rätt kommun; ungefärlig ortpunkt, inte hämtställe.",OpenStreetMap node/7464783092 · Snöborg
+vansbro-7,Vansbro,Högosta,Högosta,fallback,tract_anchor,14.2341171,60.5038009,"Platsen saknar entydig träff. Reserv vid traktens befintliga ortankare, inte platsens läge.",DVA-traktens sparade ortankare · OpenStreetMap Nominatim

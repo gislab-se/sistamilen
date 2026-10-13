@@ -7,6 +7,14 @@ GitHub-projektet `gislab-se/sistamilen`; ingen uppladdning eller publicering har
 Samma karta finns nu som **Transportanalys** i huvudappen på lokal port 8503,
 med länkar till sophämtningskartan och tillgänglighets-/bortfallsanalysen.
 Huvudappen bäddar in kartans lokala filer och kräver inte servern på port 8765.
+Transportanalys och Sophämtningskarta är separata vyer. Den nya fliken
+**Sophämtning + transporter + service** på <http://127.0.0.1:8503/samordning>
+använder den gemensamma kartan med DVA:s 35 traktlager, 293 namngivna platser/gator,
+paketnoder och fordonsrutter. För lokal HTML-visning kan `index.html?compare=1`
+öppna samma gemensamma vy. Den egna sophämtningskartan ligger i DVA-prototypen.
+Gemensamt datum- och kommunfilter styr båda; avfalls- och traktfilter styr DVA.
+Ort-/datumträffar använder SCB:s tätort/småort eller matchat ortnamn inom kommunen,
+utan att tolka rutternas vägpassager som besök. Se DVA-prototypens README för metod.
 
 ## Öppna
 

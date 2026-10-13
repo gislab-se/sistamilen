@@ -30,10 +30,15 @@ Dashboarden skiljer genomgående mellan:
 - **Screening:** befolkningsviktade avstånd från 1 km-rutor till första nod,
   andra nod och alternativ aktör samt ett separat redundansgap, utan sammanslaget index.
 - **Platsfall:** Bingsjö och By, med fakta och verifieringsbehov åtskilda.
-- **Sophämtningskarta:** DVA:s schema med geokodade ortankare och paketservicenoder.
+- **Sophämtningskarta:** DVA:s 35 traktlager med 293 ort-/gatubeskrivningar,
+  datumfilter, granskningslista och valbara paketnoder som referens. Egen karta
+  och eget offentligt dataset utan transportloggar.
 - **Transportanalys:** 20 namngivna fordonslager, detaljresor, geografisk precision,
   beräknade NVDB-vägrutter och tidsordnad dagsvy. Lokal granskningssida med länkar
-  till sophämtning och bortfall; ingen gemensam samordningsberäkning ännu.
+  till den gemensamma fliken och bortfall.
+- **Sophämtning + transporter + service:** separat gemensam karta med DVA-trakter,
+  fordonslager och paketnoder, gemensamt datum-/kommunfilter och ort-/datumöverlapp.
+  Överlapp är screening, inte beräknad samordningskapacitet.
 
 Under **Underlag** finns **Geografiska lager** med DeSO och historiska
 platslager samt **Metod och status** med uppdragsfrågor, RUS-spårbarhet och
@@ -94,6 +99,7 @@ automatiskt funktionella upptagningsområden.
 - `dashboard_data.py` – datakontrakt och härledningar.
 - `dashboard_ui.py` – cachad laddning och kartfunktioner.
 - `transport_review.py` – paketerar transportkartan med lokala resurser för huvudappen.
+- `waste_review.py` – paketerar den egna sophämtningskartan med enbart offentliga data.
 - `scripts/build_phase1_outputs.py` – fysiska noder och arbetsregister.
 - `scripts/fetch_scb_deso.py` – reproducerbar SCB-hämtning.
 - `scripts/fetch_scb_place_areas.py` – tätort/småort 2023 och fritidshusområde 2020.

@@ -3,6 +3,8 @@
   'use strict';
   const data = window.REVIEW_DATA, model = window.ReviewModel;
   const routes = window.REVIEW_ROUTES;
+  const waste=window.REVIEW_WASTE,wasteModel=window.WasteModel,combinedContext=window.REVIEW_CONTEXT==='combined'||new URLSearchParams(location.search).get('compare')==='1';
+  document.body.dataset.reviewContext=combinedContext?'combined':'transport';
   const vehicleProfiles=new Map((data.vehicles||[]).map(v=>[v.id,v]));
   let enabledVehicles=new Set(vehicleProfiles.keys());
   const vehicleName=id=>vehicleProfiles.get(id)?.label||id;
@@ -11,6 +13,7 @@
   if (!data || !window.L) { byId('map-summary').textContent = 'Kartdata eller Leaflet saknas. Bygg om enligt README.'; return; }
   const nf = new Intl.NumberFormat('sv-SE', {maximumFractionDigits: 1});
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+  const metricCards=[...document.querySelectorAll('.metrics article')],metricTemplate=metricCards.map(card=>[card.querySelector('span').textContent,card.querySelector('small').textContent]);
   const asLatLng = coordinates => [coordinates[1], coordinates[0]];
   const map = L.map('map', {scrollWheelZoom:true,zoomControl:false,maxZoom:19}).setView([60.65, 14.8], 8);
   L.control.zoom({zoomInTitle:'Zooma in',zoomOutTitle:'Zooma ut'}).addTo(map);
@@ -26,6 +29,9 @@
   map.createPane('relations'); map.getPane('relations').style.zIndex = '390';
   const services = L.layerGroup(), selected = L.layerGroup().addTo(map), roadLines=L.featureGroup().addTo(map), stops=L.layerGroup().addTo(map);
   const routeArrows=L.layerGroup().addTo(map);
+  const wasteMarks=L.featureGroup().addTo(map),wasteRings=L.layerGroup().addTo(map),overlapMarks=L.layerGroup().addTo(map);
+  let enabledTracts=new Set((waste?.tracts||[]).map(t=>t.tract_id)),visibleWaste=[],currentOverlaps=[];
+  const wasteNodes=new Map((waste?.nodes||[]).map(n=>[n.id,n]));
   const vehicleLayers=new Map([...vehicleProfiles.keys()].map(id=>[id,L.featureGroup()]));
   let roadDrawings=[],selectedDrawing=null;
   if(routes)map.attributionControl.addAttribution('Vägrutter: Trafikverket NVDB 2026-08-18 · CC0');
@@ -136,23 +142,45 @@
       const option = document.createElement('option'); option.value = value; option.textContent = labels(value); byId(id).append(option);
     }
   }
-  fillSelect('date', data.trips.map(t => t.date), value => new Intl.DateTimeFormat('sv-SE', {weekday:'short', day:'numeric', month:'short', timeZone:'UTC'}).format(new Date(value+'T12:00:00Z')));
+  fillSelect('date', [...data.trips.map(t => t.date),...(combinedContext?(waste?.tracts||[]).flatMap(t=>Object.values(t.dates).flat()):[])], value => new Intl.DateTimeFormat('sv-SE', {weekday:'short', day:'numeric', month:'short', timeZone:'UTC'}).format(new Date(value+'T12:00:00Z')));
   fillSelect('vehicle', data.trips.map(t => t.vehicle),vehicleName);
   fillSelect('locality', Object.values(data.addresses).map(a => a.locality).filter(Boolean));
+  if(waste){
+    fillSelect('waste-municipality',waste.municipalities);fillSelect('waste-type',waste.waste_types);
+    byId('tract-layers').innerHTML=waste.municipalities.map(m=>`<details class="tract-municipality"><summary>${esc(m)}</summary><label class="check"><input type="checkbox" data-municipality-layer="${esc(m)}" checked><span>Alla trakter i ${esc(m)}</span></label>${waste.tracts.filter(t=>t.municipality===m).map(t=>`<label class="check tract-toggle"><input type="checkbox" data-tract-layer="${esc(t.tract_id)}" checked><i style="background:${esc(t.color)}"></i><span>${esc(t.label)} · ${esc(t.weekday.slice(0,3))}</span></label>`).join('')}</details>`).join('');
+  }
+  if(combinedContext){
+    byId('waste-settings').open=true;
+    byId('show-waste').checked=true;byId('nodes').checked=true;
+    byId('date').options[0].textContent='Alla datum · DVA 2026';
+    document.querySelector('h1').innerHTML='Sophämtning och transporter<span>.</span>';
+    document.querySelector('.eyebrow').textContent='DVA 2026 / REGISTRERADE RESOR 21–27 SEPTEMBER';
+    document.querySelector('.page-header p').textContent='Jämför planerad sophämtning, observerade resor och paketservicenoder.';
+  }else{
+    byId('date').options[0].textContent='Hela reseveckan · 21–27 september';
+    document.querySelector('label[for="date"]').textContent='Datum';
+  }
+  function selectTrips(filters){return waste&&wasteModel?wasteModel.filterMunicipality(model.filterTrips(data,filters),waste,byId('waste-municipality').value):model.filterTrips(data,filters);}
   byId('vehicle-layers').innerHTML=[...vehicleProfiles.values()].map(v=>`<label class="vehicle-layer" data-layer-id="${esc(v.id)}"><input type="checkbox" data-vehicle-layer="${esc(v.id)}" checked><i class="vehicle-swatch" style="background:${esc(v.color)}"></i><span class="vehicle-name">${esc(v.label)}</span><small></small></label>`).join('');
   function renderVehicleLayers(filters) {
     const counts=new Map();
-    for(const t of model.filterTrips(data,{...filters,vehicle:'',vehicles:undefined}))counts.set(t.vehicle,(counts.get(t.vehicle)||0)+1);
+    for(const t of selectTrips({...filters,vehicle:'',vehicles:undefined}))counts.set(t.vehicle,(counts.get(t.vehicle)||0)+1);
     for(const label of byId('vehicle-layers').children){const id=label.dataset.layerId,count=counts.get(id)||0;label.dataset.count=String(count);label.querySelector('input').checked=enabledVehicles.has(id);label.querySelector('small').textContent=String(count);label.title=`${vehicleName(id)} · ${count} resor med aktuella datum-/orts-/sökfilter`;}
     byId('vehicle-layer-count').textContent=`${enabledVehicles.size} / ${vehicleProfiles.size} tända`;
   }
-  for (const node of data.nodes) {
-    L.circleMarker(asLatLng(node.coordinate), {radius:4, color:'#fff', weight:1.5, fillColor:'#416c8b', fillOpacity:.95})
-      .bindPopup(`<h3>${esc(node.name.trim())}</h3><p>${esc(node.address)}, ${esc(node.locality)}</p><p>${esc(node.actors)}</p><p class="popup-source">Observerad paketservicenod 2026. Visar inte att en resa eller paketleverans stannat här.</p>`).addTo(services);
+  function drawServices(){
+    services.clearLayers();const municipality=byId('waste-municipality').value;
+    for(const node of data.nodes){
+      const extra=wasteNodes.get(node.id),single=extra?extra.one_operator:new Set(node.actors.split(';').map(s=>s.trim()).filter(Boolean)).size===1;
+      if((municipality&&extra?.municipality!==municipality)||(byId('single-nodes').checked&&!single))continue;
+      L.circleMarker(asLatLng(node.coordinate), {radius:single?4:5.5, color:'#fff', weight:1.5, fillColor:single?'#d0643b':'#416c8b', fillOpacity:.95})
+        .bindPopup(`<h3>${esc(node.name.trim())}</h3><p>${esc(node.address)}, ${esc(node.locality)}</p><p>${esc(node.actors)}</p><p><strong>Servicetyp:</strong> ${esc(node.service_types || extra?.service_types || 'Uppgift saknas')}</p>${extra?`<p>${extra.operator_count} observerade aktörer</p>`:''}<p class="popup-source">Observerad paketservicenod 2026. Visar inte att en resa eller paketleverans stannat här.</p>`).addTo(services);
+    }
+    if(byId('nodes').checked)services.addTo(map);else map.removeLayer(services);
   }
   function fit() {
-    if (marks.getLayers().length) {
-      const bounds=marks.getBounds();if(roadLines.getLayers().length)bounds.extend(roadLines.getBounds());
+    if (marks.getLayers().length||wasteMarks.getLayers().length) {
+      const bounds=L.latLngBounds([]);if(marks.getLayers().length)bounds.extend(marks.getBounds());if(wasteMarks.getLayers().length)bounds.extend(wasteMarks.getBounds());if(roadLines.getLayers().length)bounds.extend(roadLines.getBounds());
       map.fitBounds(bounds.pad(.15), {maxZoom:mode()==='address'?17:11});
     }
     else {
@@ -187,7 +215,8 @@
       for(const trip of current){const r=routeFor(trip),path=pathFor(trip),key=trip.vehicle+':'+r?.path;if(path&&!drawn.has(key)){drawRoad(path,vehicleLayers.get(trip.vehicle),false,trip);drawn.add(key);}}
       for(const layer of vehicleLayers.values())if(layer.getLayers().length)layer.addTo(roadLines);
     }
-    byId('road-legend').hidden=!roadsOn();byId('schematic-legend').hidden=roadsOn();
+    byId('road-legend').hidden=!roadsOn()||!current.length;byId('schematic-legend').hidden=roadsOn()||!current.length;
+    byId('route-note').hidden=!current.length;
     byId('road-legend').innerHTML=vehicleColors()?'<span>Linjer och pilar följer fordonslagrens färger i sidpanelen.</span><span>Färdriktningar visas parallellt · pilar anpassas efter zoom</span>':'<span><i style="background:#285b83"></i> Vägklass 0–3</span><span><i style="background:#4b887f"></i> Vägklass 4–6</span><span><i style="background:#ab8a53"></i> Vägklass 7–9</span><span>Färdriktningar visas parallellt · pilar anpassas efter zoom</span>';
     const routed=current.filter(t=>routeFor(t)?.status==='routed').length,same=current.filter(t=>routeFor(t)?.status==='same_point').length;
     byId('route-note').textContent=roadsOn()?`${nf.format(routed)} av ${nf.format(current.length)} resor har beräknad vägrutt. ${nf.format(same)} har samma kartpunkt; ${nf.format(current.length-routed-same)} saknar möjlig rutt i länsuttaget. Klass 0 är högst prioriterad, 9 lägst. Ruttning från adress-/reservpunkter, även i ortvyn. Modell för lätt motorfordon; tungfordonskrav och tidsvillkor behöver granskas. Ingen faktisk körväg eller depå antas.`:'Schematiska relationer slår ihop resor i båda riktningarna. Linjerna följer inte vägnätet.';
@@ -202,7 +231,47 @@
     byId('mode-hint').textContent=mode()==='address'?'Gröna matchningar, orange osäkra träffar. Grå reservpunkter ligger vid ortens centrum.':'En gemensam, ungefärlig kartpunkt per ort.';
     byId('map').setAttribute('aria-label',mode()==='address'?'Karta med adresspunkter':'Karta med ortankare');
     renderItinerary();
+    drawWaste();drawServices();
     refreshRoads();
+  }
+  function drawWaste(){
+    wasteMarks.clearLayers();wasteRings.clearLayers();overlapMarks.clearLayers();visibleWaste=[];currentOverlaps=[];
+    const shown=Boolean(waste&&wasteModel&&byId('show-waste').checked);
+    byId('waste-comparison').hidden=!shown;byId('waste-map-note').hidden=!shown;
+    byId('waste-map-legend').hidden=!shown;
+    for(const input of document.querySelectorAll('[data-tract-layer]'))input.checked=enabledTracts.has(input.dataset.tractLayer);
+    for(const input of document.querySelectorAll('[data-municipality-layer]')){const ids=waste.tracts.filter(t=>t.municipality===input.dataset.municipalityLayer).map(t=>t.tract_id),n=ids.filter(id=>enabledTracts.has(id)).length;input.checked=n===ids.length;input.indeterminate=n>0&&n<ids.length;}
+    byId('waste-layer-count').textContent=`${enabledTracts.size} / ${waste?.tracts.length||0}`;
+    if(!shown)return;
+    visibleWaste=wasteModel.visibleTracts(waste,{tracts:[...enabledTracts],municipality:byId('waste-municipality').value,weekday:byId('waste-weekday').value,wasteType:byId('waste-type').value,date:byId('date').value});
+    if(byId('show-waste-rings').checked)for(const t of visibleWaste){if(t.anchor?.lat!=null)L.circle([t.anchor.lat,t.anchor.lon],{pane:'relations',radius:7000,color:t.color,weight:1,dashArray:'5 7',fillOpacity:.02,interactive:false}).addTo(wasteRings);}
+    const points=visibleWaste.flatMap(t=>t.points),located=wasteModel.pointGroups(visibleWaste),reserves=points.filter(p=>p.status==='fallback'),review=visibleWaste.flatMap(t=>t.points.filter(p=>p.status!=='matched').map(p=>({tract:t,point:p})));
+    for(const group of located.values()){
+      const content=`<h3>${group.status==='fallback'?'Reserv vid traktankare':'Plats enligt sophämtningsschema'}</h3><ul class="waste-popup-list">${group.points.map(({point:p,tract:t})=>`<li><strong>${esc(p.name)}</strong> · ${esc(t.label)}<br>${esc(p.reason)}<br><small>Källa: ${esc(p.source)}</small>${t.source_flags.length?`<br><small>Schemaflaggor: ${esc(t.source_flags.join('; '))}</small>`:''}</li>`).join('')}</ul><p class="popup-source">Schemapunkt, inte hämtställe, fordonsposition eller traktgräns.</p>`;
+      L.circleMarker(asLatLng(group.coordinate),{radius:6,color:group.status==='review'?'#a87720':group.status==='fallback'?'#777f86':group.color,weight:2.5,fillColor:'#fff',fillOpacity:.8,dashArray:group.status==='fallback'?'3 3':null}).bindTooltip(esc(group.points.slice(0,3).map(e=>e.point.name).join(' / ')),{className:'place-label'}).bindPopup(content,{maxWidth:420}).addTo(wasteMarks);
+    }
+    currentOverlaps=wasteModel.overlaps(data,waste,visibleWaste,current,byId('waste-type').value);
+    if(combinedContext){
+      const labels=['SOPHÄMTNINGSTRAKTER','PLACERADE PLATSBESKRIVNINGAR','RESERVER VID TRAKTANKARE','ORT/DATUM MED ÖVERLAPP'],hints=[byId('date').value||'Publicerat schema 2026','Ort-/gatuträffar · inte hämtställen','Saknar entydig platsmatchning','Schema och registrerade besök'];
+      metricCards.forEach((card,i)=>{card.querySelector('span').textContent=labels[i];card.querySelector('small').textContent=hints[i];});
+      [visibleWaste.length,points.length-reserves.length,reserves.length,currentOverlaps.length].forEach((n,i)=>metricCards[i].querySelector('strong').textContent=nf.format(n));
+      document.querySelector('.metrics').setAttribute('aria-label','Nyckeltal för sophämtning och ort-/datumjämförelse');
+    }
+    if(byId('show-overlaps').checked)for(const match of currentOverlaps){
+      L.circleMarker(asLatLng(match.coordinate),{radius:12,color:'#aa4785',weight:3,fillOpacity:0}).bindPopup(`<h3>${esc(match.locality)} · ${esc(match.date)}</h3><p>Publicerad sophämtning: ${[...match.tracts].map(esc).join('; ')}</p><p>Registrerade start/stoppadresser: ${[...match.vehicles].map(id=>esc(vehicleName(id))).join('; ')} · ${match.trips.size} detaljresor.</p><p>Samma ort och datum. Exakt plats, tid och kapacitet är inte verifierade.${match.review?' Ortmatchningen behöver granskas.':''}</p>`).addTo(overlapMarks);
+    }
+    byId('waste-map-note').textContent=`${visibleWaste.length} trakter · ${points.length} platsbeskrivningar på ${located.size} kartpunkter · ${reserves.length} reservpunkter vid traktankare. ${currentOverlaps.length} ort/datum med publicerad sophämtning och observerat besök. Kommunfiltret gäller också resornas start/stoppadresser och paketnoder. Sophämtning gäller fyra kommuner; reseloggen finns 21–27 september.`;
+    byId('waste-summary').textContent=`${visibleWaste.length} tända och filtrerade trakter · ${points.length} namngivna platser/gator · ${current.length} valda detaljresor`;
+    byId('overlap-summary').textContent=`Samma ort och datum · ${currentOverlaps.length} träffar`;
+    byId('overlap-rows').innerHTML=currentOverlaps.map((m,i)=>`<tr><td><button type="button" class="trip-link" data-overlap="${i}">${esc(m.date)}</button></td><td>${esc(m.locality)} / ${esc(m.municipality)}<br><small>${esc(m.method)}${m.review?' · ungefärliga punkter, granska':''}</small></td><td>${[...m.tracts].map(esc).join('<br>')}</td><td>${[...m.vehicles].map(id=>esc(vehicleName(id))).join('<br>')}</td><td class="numeric">${m.trips.size}</td></tr>`).join('')||'<tr><td colspan="5" class="empty-row">Inga jämförbara ort-/datumträffar i urvalet. Tänd fordonslager för att jämföra. Reseloggen omfattar endast 21–27 september 2026.</td></tr>';
+    byId('waste-quality-summary').textContent=`Platsmatchningar att granska · ${review.length}`;
+    byId('waste-quality-rows').innerHTML=review.map(({tract:t,point:p})=>`<tr><td>${esc(t.label)}</td><td>${esc(p.name)}${p.interpreted?`<br><small>Källtext: ${esc(p.source_text)}</small>`:''}</td><td>${p.status==='fallback'?'Reserv vid traktankare':p.precision==='street'?'Ungefärlig gatupunkt':'Ort-/platsträff att granska'}</td><td>${esc(p.reason)}</td></tr>`).join('')||'<tr><td colspan="4" class="empty-row">Inga platsmatchningar att granska i urvalet.</td></tr>';
+    if(!current.length){
+      byId('map-summary').textContent=`${visibleWaste.length} sophämtningstrakter · ${located.size} plats-/reservpunkter · inga valda detaljresor`;
+      byId('precision-text').textContent='Sophämtningspunkter anger ungefärliga orter och gator, inte hämtställen. Grått: reserv vid traktankare. Orange kant: osäker/tolkad matchning. Granska platslistan nedan.';
+      byId('unmapped-label').textContent='';
+      byId('map').setAttribute('aria-label','Karta med sophämtningsplatser och paketservicenoder');
+    }
   }
   function updateLabels() {
     if (!groups) return;
@@ -298,8 +367,10 @@
     byId('month-rows').innerHTML = month.map(r=>`<tr><td>${esc(vehicleName(r.vehicle))}</td><td class="numeric">${nf.format(r.trip_count)}</td><td class="numeric">${nf.format(r.distance_km)}</td><td class="numeric">${nf.format(r.co2_source)}</td></tr>`).join('');
   }
   function update(autoFit = true) {
+    metricCards.forEach((card,i)=>{card.querySelector('span').textContent=metricTemplate[i][0];card.querySelector('small').textContent=metricTemplate[i][1];});
+    document.querySelector('.metrics').setAttribute('aria-label','Nyckeltal för valda detaljresor');
     const filters = {date:byId('date').value,vehicle:byId('vehicle').value,vehicles:[...enabledVehicles],locality:byId('locality').value,search:byId('search').value,fred};
-    current = model.filterTrips(data,filters);
+    current = selectTrips(filters);
     const summary = model.summarize(current);
     byId('trip-count').textContent = nf.format(summary.count); byId('distance').textContent = nf.format(summary.distance);
     byId('vehicle-count').textContent = nf.format(summary.vehicles); byId('fred-count').textContent = nf.format(summary.fred);
@@ -310,18 +381,27 @@
   byId('filters').addEventListener('submit',event=>event.preventDefault());
   ['date','locality'].forEach(id=>byId(id).addEventListener('change',()=>update()));
   let timer; byId('search').addEventListener('input',()=>{clearTimeout(timer); timer=setTimeout(()=>update(),150);});
-  byId('fredriksberg').addEventListener('click',()=>{fred=!fred; if(fred){byId('filters').reset();enabledVehicles=new Set(vehicleProfiles.keys());}update();});
-  byId('reset-filters').addEventListener('click',()=>{byId('filters').reset();fred=false;enabledVehicles=new Set(vehicleProfiles.keys());update();});
-  byId('pilot-day').addEventListener('click',()=>{const pilot=[...vehicleProfiles.values()].find(v=>v.fredriksberg);if(!pilot)return;byId('filters').reset();fred=false;enabledVehicles=new Set([pilot.id]);byId('date').value='2026-09-23';byId('vehicle').value=pilot.id;byId('route-mode').value='roads';byId('map-mode').value='address';byId('relations').checked=true;update();});
+  byId('fredriksberg').addEventListener('click',()=>{fred=!fred; if(fred){byId('filters').reset();byId('waste-municipality').value='';enabledVehicles=new Set(vehicleProfiles.keys());}update();});
+  byId('reset-filters').addEventListener('click',()=>{byId('filters').reset();fred=false;enabledVehicles=new Set(vehicleProfiles.keys());enabledTracts=new Set((waste?.tracts||[]).map(t=>t.tract_id));['waste-municipality','waste-weekday','waste-type'].forEach(id=>byId(id).value='');update();});
+  byId('pilot-day').addEventListener('click',()=>{const pilot=[...vehicleProfiles.values()].find(v=>v.fredriksberg);if(!pilot)return;byId('filters').reset();['waste-municipality','waste-weekday','waste-type'].forEach(id=>byId(id).value='');fred=false;enabledVehicles=new Set([pilot.id]);byId('date').value='2026-09-23';byId('vehicle').value=pilot.id;byId('route-mode').value='roads';byId('map-mode').value='address';byId('relations').checked=true;update();});
   byId('vehicle-layers').addEventListener('change',event=>{const id=event.target.dataset.vehicleLayer;if(!id)return;if(event.target.checked)enabledVehicles.add(id);else enabledVehicles.delete(id);byId('vehicle').value='';update(false);});
   byId('all-vehicles').addEventListener('click',()=>{enabledVehicles=new Set(vehicleProfiles.keys());byId('vehicle').value='';update(false);});
+  byId('compare-transports').addEventListener('click',()=>{enabledVehicles=new Set(vehicleProfiles.keys());byId('vehicle').value='';fred=false;byId('show-waste').checked=true;byId('waste-settings').open=true;update();});
   byId('no-vehicles').addEventListener('click',()=>{enabledVehicles.clear();byId('vehicle').value='';update(false);});
   byId('vehicle').addEventListener('change',()=>{if(byId('vehicle').value)enabledVehicles.add(byId('vehicle').value);update();});
   byId('map-colors').addEventListener('change',()=>drawMap());
+  ['show-waste','show-overlaps','show-waste-rings','waste-weekday','waste-type'].forEach(id=>byId(id).addEventListener('change',()=>update(false)));
+  byId('waste-municipality').addEventListener('change',()=>update());
+  byId('tract-layers').addEventListener('change',event=>{const input=event.target;if(input.dataset.tractLayer){if(input.checked)enabledTracts.add(input.dataset.tractLayer);else enabledTracts.delete(input.dataset.tractLayer);}else if(input.dataset.municipalityLayer){for(const t of waste.tracts.filter(t=>t.municipality===input.dataset.municipalityLayer)){if(input.checked)enabledTracts.add(t.tract_id);else enabledTracts.delete(t.tract_id);}}update(false);});
+  byId('all-tracts').addEventListener('click',()=>{enabledTracts=new Set(waste.tracts.map(t=>t.tract_id));byId('show-waste').checked=true;update(false);});
+  byId('no-tracts').addEventListener('click',()=>{enabledTracts.clear();update(false);});
+  byId('overlap-rows').addEventListener('click',event=>{const button=event.target.closest('[data-overlap]'),match=button&&currentOverlaps[Number(button.dataset.overlap)];if(match){map.setView(asLatLng(match.coordinate),13);L.popup().setLatLng(asLatLng(match.coordinate)).setContent(`<h3>${esc(match.locality)} · ${esc(match.date)}</h3><p>${[...match.tracts].map(esc).join('; ')}</p><p>${[...match.vehicles].map(id=>esc(vehicleName(id))).join('; ')}</p><p>Ort-/datumöverlapp, inte verifierad samordning.</p>`).openOn(map);}});
+  byId('export-waste-points').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([wasteModel.pointsCSV(visibleWaste)],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='sophamtningsplatser-granskning.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   byId('route-mode').addEventListener('change',()=>{drawMap();fit();});
   byId('relations').addEventListener('change',()=>drawMap());
   byId('direction-arrows').addEventListener('change',refreshArrows);
-  byId('nodes').addEventListener('change',()=>{if(byId('nodes').checked)services.addTo(map);else map.removeLayer(services);});
+  byId('nodes').addEventListener('change',drawServices);
+  byId('single-nodes').addEventListener('change',drawServices);
   function toggleBasemap() {
     if(byId('basemap').checked){tileErrors=0;if(geography)map.removeLayer(geography);background.addTo(map);}
     else {map.removeLayer(background);if(geography)geography.addTo(map);byId('basemap-status').textContent='Lokal SCB-bakgrund · utan internet';}

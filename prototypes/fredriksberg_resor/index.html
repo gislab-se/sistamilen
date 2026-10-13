@@ -10,11 +10,14 @@
   <link rel="stylesheet" href="map-controls.css">
   <link rel="stylesheet" href="routes.css">
   <link rel="stylesheet" href="vehicles.css">
+  <link rel="stylesheet" href="waste.css">
   <script defer src="vendor/leaflet.js"></script>
   <script defer src="data/review-data.js"></script>
   <script defer src="data/geography.js"></script>
   <script defer src="data/road-routes.js"></script>
+  <script defer src="data/waste-data.js"></script>
   <script defer src="model.js"></script>
+  <script defer src="waste-model.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -24,15 +27,33 @@
     <h2>Välj ditt utsnitt</h2>
     <p class="side-intro">Observerade resor, platser och möjliga samband med paketservice.</p>
     <form id="filters">
-      <label for="date">Datum</label><select id="date"><option value="">Hela veckan · 21–27 sep</option></select>
+      <label for="date">Gemensamt datum</label><select id="date"><option value="">Alla datum · resevecka / DVA 2026</option></select>
       <label for="vehicle">Fokusera på ett fordon</label><select id="vehicle"><option value="">Alla tända fordonslager</option></select>
       <label for="locality">Besökt ort</label><select id="locality"><option value="">Alla orter</option></select>
       <label for="search">Sök i resorna</label><input id="search" type="search" placeholder="Adress, ort eller fordon…">
       <div class="quick-label">SNABBVAL</div>
+      <button id="compare-transports" class="quick-button" type="button">Jämför sophämtning och fordon ↗</button>
       <button id="fredriksberg" class="quick-button" type="button" aria-pressed="false"><span>◎</span> Resor till / från Fredriksberg <span>↗</span></button>
       <button id="pilot-day" class="quick-button" type="button">Pilot: Fredriksberg · 23 september ↗</button>
       <button id="reset-filters" type="button" class="text-button">Återställ filter</button>
     </form>
+    <div class="side-divider"></div>
+    <section class="waste-controls" aria-labelledby="waste-heading">
+      <details id="waste-settings">
+      <summary>
+      <div class="vehicle-layer-heading"><h3 id="waste-heading">Sophämtning · DVA 2026</h3><span id="waste-layer-count"></span></div>
+      </summary>
+      <label class="check"><input id="show-waste" type="checkbox"><span>Visa sophämtningsplatser</span></label>
+      <label class="mode-label" for="waste-municipality">Gemensamt kommunfilter</label><select id="waste-municipality"><option value="">Alla kommuner</option></select>
+      <label class="mode-label" for="waste-weekday">Traktens angivna veckodag</label><select id="waste-weekday"><option value="">Alla veckodagar</option><option>Måndag</option><option>Tisdag</option><option>Onsdag</option><option>Torsdag</option><option>Fredag</option></select>
+      <label class="mode-label" for="waste-type">Avfallsslag</label><select id="waste-type"><option value="">Alla avfallsslag</option></select>
+      <div class="vehicle-layer-actions"><button id="all-tracts" type="button">Tänd alla trakter</button><button id="no-tracts" type="button">Släck alla</button></div>
+      <div id="tract-layers"></div>
+      <p class="mode-hint">Orter och gator ur schemat, inte körvägar eller hämtställen. Grått anger reserv vid traktankare. Datum högst upp gäller båda underlagen; reseloggen finns 21–27 september.</p>
+      <label class="check"><input id="show-overlaps" type="checkbox" checked><span>Markera samma ort och datum</span></label>
+      <label class="check"><input id="show-waste-rings" type="checkbox" checked><span>Illustrativ 7 km-ring per traktankare · inte täckningsområde</span></label>
+      </details>
+    </section>
     <div class="side-divider"></div>
     <section class="vehicle-layers" aria-labelledby="vehicle-layer-heading">
       <div class="vehicle-layer-heading"><h3 id="vehicle-layer-heading">Fordonslager</h3><span id="vehicle-layer-count"></span></div>
@@ -51,6 +72,7 @@
     <label class="check"><input id="relations" type="checkbox" checked><span>Visa förbindelser</span></label>
     <label class="check"><input id="direction-arrows" type="checkbox" checked><span>Visa riktningspilar</span></label>
     <label class="check"><input id="nodes" type="checkbox"><span>Visa paketservicenoder 2026</span></label>
+    <label class="check"><input id="single-nodes" type="checkbox"><span>Paketnoder med en observerad aktör</span></label>
     <label class="check"><input id="basemap" type="checkbox" checked><span>Bakgrundskarta · OpenStreetMap</span></label>
     <div class="local-note"><span class="status-dot"></span> LOKAL GRANSKNINGSVERSION<p>Underlag från Excel. Vägrutter beräknas med funktionell vägklass. De visar möjliga körvägar.</p></div>
     <a class="side-link" href="README.md">Metod och källor ↗</a>
@@ -70,7 +92,15 @@
       <div class="map-legend"><span><i class="legend-point"></i> <span id="point-legend">Adress-/platsmatchning</span></span><span id="review-legend"><i class="legend-review"></i> Osäker/gatuträff</span><span id="fallback-legend"><i class="legend-fallback"></i> Ortcentroid · reserv</span><span id="schematic-legend"><i class="legend-line"></i> Resrelation · inte körväg</span><span><i class="legend-node"></i> Paketservicenod</span><span id="unmapped-label"></span></div>
       <div id="road-legend" class="road-legend"><span><i style="background:#285b83"></i> Vägklass 0–3</span><span><i style="background:#4b887f"></i> Vägklass 4–6</span><span><i style="background:#ab8a53"></i> Vägklass 7–9</span><span>Färdriktningar visas parallellt · pilar anpassas efter zoom</span></div>
       <div class="route-note" id="route-note" role="status"></div>
+      <div id="waste-map-note" class="waste-map-note" hidden></div>
+      <div id="waste-map-legend" class="road-legend" hidden><span class="waste-legend"><i></i> Sophämtningsplats · ort/gata</span><span class="overlap-legend"><i></i> Samma ort och datum</span><span>Grå, streckad punkt: reserv vid traktankare · orange kant: osäker träff</span></div>
       <div class="precision-note"><strong>Geografisk precision</strong><span id="precision-text">Adresspunkterna matchas lokalt mot kartdata. De är inte GPS-positioner. Saknade eller tvetydiga träffar visas under Datakvalitet.</span></div>
+    </section>
+    <section id="waste-comparison" class="detail-card waste-comparison" hidden aria-label="Jämförelse av sophämtning och registrerade resor">
+      <div class="card-heading"><div><h2>Sophämtning och observerad transportnärvaro</h2><p id="waste-summary"></p></div><button id="export-waste-points" class="outline-button" type="button">Ladda ned valda platser ↓</button></div>
+      <p class="comparison-hint">Överlapp betyder publicerad sophämtning och en registrerad start/stoppadress inom samma SCB-tätort/småort 2023 och datum, eller med samma ortnamn inom kommunen. By- och stadsdelsnamn kopplas till den SCB-ort där kartpunkten ligger. Det visar inte gemensam besöksadress, samtidighet, ledig kapacitet eller paketleverans. Reservpunkter för sophämtning och vägrutternas passager ingår inte.</p>
+      <details open><summary id="overlap-summary">Samma ort och datum</summary><div class="table-scroll"><table><thead><tr><th>Datum</th><th>Ort / kommun</th><th>Sophämtningstrakter</th><th>Observerade fordonslager</th><th class="numeric">Detaljresor</th></tr></thead><tbody id="overlap-rows"></tbody></table></div></details>
+      <details><summary id="waste-quality-summary">Platsmatchningar att granska</summary><div class="table-scroll"><table><thead><tr><th>Trakt</th><th>Plats enligt schemat</th><th>Kartläge</th><th>Granskningsbehov</th></tr></thead><tbody id="waste-quality-rows"></tbody></table></div></details>
     </section>
     <section class="detail-card itinerary-card" aria-label="Tidsordnad reskedja">
       <div class="card-heading"><div><h2>Ett fordon, en dag</h2><p id="itinerary-summary">Välj ett fordon och ett datum, eller öppna pilotdagen.</p></div></div>

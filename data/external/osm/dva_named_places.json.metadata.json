@@ -1,0 +1,9 @@
+{
+  "source": "OpenStreetMap via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:180];area[\"ISO3166-2\"=\"SE-W\"][\"admin_level\"=\"4\"]->.county;(nwr[\"place\"][\"name\"](area.county);way[\"highway\"][\"name\"](area.county););out center tags;",
+  "retrieved_at_utc": "2026-10-13T16:41:35.330410+00:00",
+  "sha256": "3e8b36367b3696942d8ab0262949d3e72ff805470226009afe0bda5a01851d9a",
+  "elements": 31688,
+  "license": "ODbL 1.0"
+}

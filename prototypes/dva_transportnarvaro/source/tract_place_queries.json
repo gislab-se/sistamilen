@@ -1,0 +1,2698 @@
+{
+  "Gagnef|Benarvet": {
+    "query": "Benarvet, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:09.046528+00:00",
+    "results": []
+  },
+  "Gagnef|Bäckbyn": {
+    "query": "Bäckbyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:09.810662+00:00",
+    "results": [
+      {
+        "place_id": 161641824,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4704312523,
+        "lat": "60.5076791",
+        "lon": "14.8318892",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "highway",
+        "name": "Bäckbyn",
+        "display_name": "Bäckbyn, Stora vägen, Syrholen, Dala-Floda, Gagnefs kommun, Dalarnas län, 785 44, Sverige",
+        "address": {
+          "highway": "Bäckbyn",
+          "road": "Stora vägen",
+          "hamlet": "Syrholen",
+          "village": "Dala-Floda",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 44",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5076291",
+          "60.5077291",
+          "14.8318392",
+          "14.8319392"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Ellheden": {
+    "query": "Ellheden, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:10.952664+00:00",
+    "results": []
+  },
+  "Gagnef|Ersholen": {
+    "query": "Ersholen, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:12.160508+00:00",
+    "results": []
+  },
+  "Gagnef|Gybäcksholan": {
+    "query": "Gybäcksholan, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:13.822178+00:00",
+    "results": [
+      {
+        "place_id": 161883213,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 23342879,
+        "lat": "60.4580017",
+        "lon": "14.7387215",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "highway",
+        "name": "Gybäcksholan",
+        "display_name": "Gybäcksholan, 66, Gybäcksholn, Björbo, Gagnefs kommun, Dalarnas län, 786 97, Sverige",
+        "address": {
+          "highway": "Gybäcksholan",
+          "road": "66",
+          "hamlet": "Gybäcksholn",
+          "village": "Björbo",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "786 97",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.4579517",
+          "60.4580517",
+          "14.7386715",
+          "14.7387715"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Heden": {
+    "query": "Heden, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:15.117957+00:00",
+    "results": []
+  },
+  "Gagnef|Högsveden": {
+    "query": "Högsveden, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:15.799903+00:00",
+    "results": []
+  },
+  "Gagnef|Kiltäppan": {
+    "query": "Kiltäppan, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:16.975503+00:00",
+    "results": []
+  },
+  "Gagnef|Kyrkbyn": {
+    "query": "Kyrkbyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:18.220771+00:00",
+    "results": [
+      {
+        "place_id": 160893778,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 946546312,
+        "lat": "60.5906353",
+        "lon": "15.0678244",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "hamlet",
+        "name": "Gagnefs Kyrkby",
+        "display_name": "Gagnefs Kyrkby, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "hamlet": "Gagnefs Kyrkby",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5706353",
+          "60.6106353",
+          "15.0478244",
+          "15.0878244"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Lindan": {
+    "query": "Lindan, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:19.465479+00:00",
+    "results": [
+      {
+        "place_id": 161890557,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 650007095,
+        "lat": "60.5423480",
+        "lon": "15.0729877",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "hamlet",
+        "name": "Lindan",
+        "display_name": "Lindan, Djurås, Gagnefs kommun, Dalarnas län, 785 60, Sverige",
+        "address": {
+          "hamlet": "Lindan",
+          "town": "Djurås",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 60",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5223480",
+          "60.5623480",
+          "15.0529877",
+          "15.0929877"
+        ]
+      },
+      {
+        "place_id": 162346724,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7465110646,
+        "lat": "60.5327828",
+        "lon": "14.8991861",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "hamlet",
+        "name": "Lindan",
+        "display_name": "Lindan, Gagnefs kommun, Dalarnas län, 785 42, Sverige",
+        "address": {
+          "hamlet": "Lindan",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 42",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5127828",
+          "60.5527828",
+          "14.8791861",
+          "14.9191861"
+        ]
+      },
+      {
+        "place_id": 162448598,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4704312583,
+        "lat": "60.5503171",
+        "lon": "15.0836644",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "highway",
+        "name": "Lindan",
+        "display_name": "Lindan, E 16, Näset, Kilen, Djurås, Gagnefs kommun, Dalarnas län, 785 43, Sverige",
+        "address": {
+          "highway": "Lindan",
+          "road": "E 16",
+          "neighbourhood": "Näset",
+          "hamlet": "Kilen",
+          "town": "Djurås",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 43",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5502671",
+          "60.5503671",
+          "15.0836144",
+          "15.0837144"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Lindbyn": {
+    "query": "Lindbyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:21.111258+00:00",
+    "results": [
+      {
+        "place_id": 161143329,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 178387870,
+        "lat": "60.5135281",
+        "lon": "14.9895532",
+        "category": "waterway",
+        "type": "dam",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "dam",
+        "name": "Lindbyn (damm)",
+        "display_name": "Lindbyn (damm), Stängslen, Mockfjärd, Gagnefs kommun, Dalarnas län, 785 42, Sverige",
+        "address": {
+          "dam": "Lindbyn (damm)",
+          "hamlet": "Stängslen",
+          "village": "Mockfjärd",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 42",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5133201",
+          "60.5137360",
+          "14.9885648",
+          "14.9905416"
+        ]
+      },
+      {
+        "place_id": 159686590,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 405574149,
+        "lat": "60.5134930",
+        "lon": "14.9904196",
+        "category": "building",
+        "type": "industrial",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "building",
+        "name": "Lindbyn",
+        "display_name": "Lindbyn, W 583, Backen, Stängslen, Mockfjärd, Gagnefs kommun, Dalarnas län, 785 42, Sverige",
+        "address": {
+          "building": "Lindbyn",
+          "road": "W 583",
+          "neighbourhood": "Backen",
+          "hamlet": "Stängslen",
+          "village": "Mockfjärd",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 42",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5133785",
+          "60.5136075",
+          "14.9900971",
+          "14.9907421"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Myrholen": {
+    "query": "Myrholen, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:21.931735+00:00",
+    "results": [
+      {
+        "place_id": 161904936,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2921665411,
+        "lat": "60.4848424",
+        "lon": "14.9354820",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.24632300460320036,
+        "addresstype": "hamlet",
+        "name": "Myrholn",
+        "display_name": "Myrholn, Gagnefs kommun, Dalarnas län, 785 42, Sverige",
+        "address": {
+          "hamlet": "Myrholn",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 42",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.4648424",
+          "60.5048424",
+          "14.9154820",
+          "14.9554820"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Nordanbyn": {
+    "query": "Nordanbyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:22.992754+00:00",
+    "results": []
+  },
+  "Gagnef|Nyåkern": {
+    "query": "Nyåkern, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:24.178039+00:00",
+    "results": []
+  },
+  "Gagnef|Risholn": {
+    "query": "Risholn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:25.438292+00:00",
+    "results": []
+  },
+  "Gagnef|Skogen": {
+    "query": "Skogen, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:27.158776+00:00",
+    "results": []
+  },
+  "Gagnef|Snobbrännan": {
+    "query": "Snobbrännan, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:27.902963+00:00",
+    "results": []
+  },
+  "Gagnef|Stationsområdet": {
+    "query": "Stationsområdet, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:29.084915+00:00",
+    "results": []
+  },
+  "Gagnef|Stängsla": {
+    "query": "Stängsla, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:30.212928+00:00",
+    "results": [
+      {
+        "place_id": 160906102,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 474679262,
+        "lat": "60.5566006",
+        "lon": "15.2290864",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533878530556191,
+        "addresstype": "road",
+        "name": "Stängslavägen",
+        "display_name": "Stängslavägen, Hessinggårdarna, Sifferbo, Gagnefs kommun, Dalarnas län, 785 63, Sverige",
+        "address": {
+          "road": "Stängslavägen",
+          "hamlet": "Hessinggårdarna",
+          "village": "Sifferbo",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 63",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5557400",
+          "60.5573664",
+          "15.2282927",
+          "15.2299461"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Svedjebyn": {
+    "query": "Svedjebyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:31.520328+00:00",
+    "results": [
+      {
+        "place_id": 161514427,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4704312531,
+        "lat": "60.5068141",
+        "lon": "14.8399388",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "highway",
+        "name": "Svedjebyn",
+        "display_name": "Svedjebyn, E 16, Gagnefs kommun, Dalarnas län, 785 44, Sverige",
+        "address": {
+          "highway": "Svedjebyn",
+          "road": "E 16",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 44",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5067641",
+          "60.5068641",
+          "14.8398888",
+          "14.8399888"
+        ]
+      },
+      {
+        "place_id": 161540840,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4704312532,
+        "lat": "60.5069781",
+        "lon": "14.8384149",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.451972228575597e-05,
+        "addresstype": "highway",
+        "name": "Svedjebyn",
+        "display_name": "Svedjebyn, Stora vägen, Syrholen, Dala-Floda, Gagnefs kommun, Dalarnas län, 785 44, Sverige",
+        "address": {
+          "highway": "Svedjebyn",
+          "road": "Stora vägen",
+          "hamlet": "Syrholen",
+          "village": "Dala-Floda",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 44",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5069281",
+          "60.5070281",
+          "14.8383649",
+          "14.8384649"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Sörbyn": {
+    "query": "Sörbyn, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:32.641624+00:00",
+    "results": []
+  },
+  "Gagnef|Tallbacken": {
+    "query": "Tallbacken, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:33.814012+00:00",
+    "results": [
+      {
+        "place_id": 160148569,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 765331009,
+        "lat": "60.3178828",
+        "lon": "14.7646814",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.1600545197222858,
+        "addresstype": "peak",
+        "name": "Tallbacken",
+        "display_name": "Tallbacken, Gagnefs kommun, Dalarnas län, Sverige",
+        "address": {
+          "peak": "Tallbacken",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.3178328",
+          "60.3179328",
+          "14.7646314",
+          "14.7647314"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Tjärna": {
+    "query": "Tjärna, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:35.020458+00:00",
+    "results": [
+      {
+        "place_id": 162229925,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 946546306,
+        "lat": "60.6026112",
+        "lon": "15.0630233",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "hamlet",
+        "name": "Övre Tjärna",
+        "display_name": "Övre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "hamlet": "Övre Tjärna",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5826112",
+          "60.6226112",
+          "15.0430233",
+          "15.0830233"
+        ]
+      },
+      {
+        "place_id": 161134158,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 946546309,
+        "lat": "60.5952164",
+        "lon": "15.0529382",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338785305561912,
+        "addresstype": "hamlet",
+        "name": "Nedre Tjärna",
+        "display_name": "Nedre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "hamlet": "Nedre Tjärna",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5752164",
+          "60.6152164",
+          "15.0329382",
+          "15.0729382"
+        ]
+      },
+      {
+        "place_id": 161955652,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 81242975,
+        "lat": "60.6024979",
+        "lon": "15.0597747",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533878530556191,
+        "addresstype": "road",
+        "name": "Övre Tjärnavägen",
+        "display_name": "Övre Tjärnavägen, Övre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "road": "Övre Tjärnavägen",
+          "hamlet": "Övre Tjärna",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6008870",
+          "60.6050381",
+          "15.0530552",
+          "15.0669411"
+        ]
+      },
+      {
+        "place_id": 161258685,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 44700291,
+        "lat": "60.5998268",
+        "lon": "15.0531717",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.0533878530556191,
+        "addresstype": "road",
+        "name": "Nedre Tjärna",
+        "display_name": "Nedre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "road": "Nedre Tjärna",
+          "hamlet": "Nedre Tjärna",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5960353",
+          "60.6023886",
+          "15.0487255",
+          "15.0553250"
+        ]
+      },
+      {
+        "place_id": 161154467,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 39230619,
+        "lat": "60.5994683",
+        "lon": "15.0727884",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533878530556191,
+        "addresstype": "road",
+        "name": "Tjärnavägen",
+        "display_name": "Tjärnavägen, Dooria, Övre Tjärna, Gagnef, Gagnefs kommun, Dalarnas län, 785 30, Sverige",
+        "address": {
+          "road": "Tjärnavägen",
+          "industrial": "Dooria",
+          "hamlet": "Övre Tjärna",
+          "village": "Gagnef",
+          "municipality": "Gagnefs kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 30",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5974640",
+          "60.6009126",
+          "15.0666937",
+          "15.0787944"
+        ]
+      }
+    ]
+  },
+  "Gagnef|Wernervägen": {
+    "query": "Wernervägen, Gagnef kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:36.196914+00:00",
+    "results": []
+  },
+  "Leksand|Edshult": {
+    "query": "Edshult, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:37.472361+00:00",
+    "results": [
+      {
+        "place_id": 162064343,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4705149896,
+        "lat": "60.7236410",
+        "lon": "15.0022761",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.534676127255692e-05,
+        "addresstype": "highway",
+        "name": "Leksand Edshult",
+        "display_name": "Leksand Edshult, Insjövägen, Åkerö, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 35, Sverige",
+        "address": {
+          "highway": "Leksand Edshult",
+          "road": "Insjövägen",
+          "neighbourhood": "Åkerö",
+          "suburb": "Karlsarvet",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 35",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7235910",
+          "60.7236910",
+          "15.0022261",
+          "15.0023261"
+        ]
+      }
+    ]
+  },
+  "Leksand|Helgnäs": {
+    "query": "Helgnäs, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:38.626940+00:00",
+    "results": [
+      {
+        "place_id": 161682052,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2657432074,
+        "lat": "60.6613198",
+        "lon": "15.1610004",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338868009460592,
+        "addresstype": "hamlet",
+        "name": "Nedre Helgnäs",
+        "display_name": "Nedre Helgnäs, Leksands kommun, Dalarnas län, 793 40, Sverige",
+        "address": {
+          "hamlet": "Nedre Helgnäs",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 40",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6413198",
+          "60.6813198",
+          "15.1410004",
+          "15.1810004"
+        ]
+      },
+      {
+        "place_id": 162049836,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7465675701,
+        "lat": "60.6616961",
+        "lon": "15.1588046",
+        "category": "place",
+        "type": "isolated_dwelling",
+        "place_rank": 22,
+        "importance": 0.10672201342793924,
+        "addresstype": "isolated_dwelling",
+        "name": "Övre Helgnäs",
+        "display_name": "Övre Helgnäs, Nedre Helgnäs, Leksands kommun, Dalarnas län, 793 40, Sverige",
+        "address": {
+          "isolated_dwelling": "Övre Helgnäs",
+          "hamlet": "Nedre Helgnäs",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 40",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6616461",
+          "60.6617461",
+          "15.1587546",
+          "15.1588546"
+        ]
+      }
+    ]
+  },
+  "Leksand|Hjortnäsheden": {
+    "query": "Hjortnäsheden, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:39.829611+00:00",
+    "results": [
+      {
+        "place_id": 162457082,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118928007,
+        "lat": "60.7663597",
+        "lon": "14.9685141",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Hjortnäsheden Sundsbäcksbacken",
+        "display_name": "Hjortnäsheden Sundsbäcksbacken, Leksand, Leksands kommun, Dalarnas län, 793 22, Sverige",
+        "address": {
+          "road": "Hjortnäsheden Sundsbäcksbacken",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 22",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7663583",
+          "60.7664146",
+          "14.9666847",
+          "14.9703419"
+        ]
+      },
+      {
+        "place_id": 161754936,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118926093,
+        "lat": "60.7701613",
+        "lon": "14.9684281",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Hjortnäsheden Stenbacken",
+        "display_name": "Hjortnäsheden Stenbacken, Sunnanäng, Leksands kommun, Dalarnas län, 793 22, Sverige",
+        "address": {
+          "road": "Hjortnäsheden Stenbacken",
+          "hamlet": "Sunnanäng",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 22",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7700915",
+          "60.7708894",
+          "14.9656987",
+          "14.9709031"
+        ]
+      },
+      {
+        "place_id": 161767337,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118930323,
+        "lat": "60.7637302",
+        "lon": "14.9679600",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04005534676127259,
+        "addresstype": "road",
+        "name": "Hjortnäsheden Brännholen",
+        "display_name": "Hjortnäsheden Brännholen, Leksand, Leksands kommun, Dalarnas län, 793 22, Sverige",
+        "address": {
+          "road": "Hjortnäsheden Brännholen",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 22",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7635270",
+          "60.7638936",
+          "14.9672151",
+          "14.9687150"
+        ]
+      },
+      {
+        "place_id": 161938354,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118928688,
+        "lat": "60.7644014",
+        "lon": "14.9669041",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04005534676127259,
+        "addresstype": "road",
+        "name": "Hjortnäsheden Lissgärdet",
+        "display_name": "Hjortnäsheden Lissgärdet, Leksand, Leksands kommun, Dalarnas län, 793 22, Sverige",
+        "address": {
+          "road": "Hjortnäsheden Lissgärdet",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 22",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7643150",
+          "60.7645797",
+          "14.9659270",
+          "14.9679753"
+        ]
+      },
+      {
+        "place_id": 162027509,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118926772,
+        "lat": "60.7695615",
+        "lon": "14.9670369",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04005534676127259,
+        "addresstype": "road",
+        "name": "Hjortnäsheden Emmas väg",
+        "display_name": "Hjortnäsheden Emmas väg, Leksands kommun, Dalarnas län, 793 22, Sverige",
+        "address": {
+          "road": "Hjortnäsheden Emmas väg",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 22",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7690832",
+          "60.7695649",
+          "14.9655184",
+          "14.9680636"
+        ]
+      }
+    ]
+  },
+  "Leksand|Holen": {
+    "query": "Holen, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:40.964110+00:00",
+    "results": []
+  },
+  "Leksand|Holsåkern": {
+    "query": "Holsåkern, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:42.180708+00:00",
+    "results": []
+  },
+  "Leksand|Knippbodarna": {
+    "query": "Knippbodarna, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:43.780034+00:00",
+    "results": []
+  },
+  "Leksand|Knippboheden": {
+    "query": "Knippboheden, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:45.044644+00:00",
+    "results": []
+  },
+  "Leksand|Källberget": {
+    "query": "Källberget, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:45.831685+00:00",
+    "results": [
+      {
+        "place_id": 161883190,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8082233301,
+        "lat": "60.7174893",
+        "lon": "15.0038734",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.1600553467612726,
+        "addresstype": "peak",
+        "name": "Källberget",
+        "display_name": "Källberget, Leksand, Leksands kommun, Dalarnas län, 793 35, Sverige",
+        "address": {
+          "peak": "Källberget",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 35",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7174393",
+          "60.7175393",
+          "15.0038234",
+          "15.0039234"
+        ]
+      }
+    ]
+  },
+  "Leksand|Kärringberget": {
+    "query": "Kärringberget, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:47.532430+00:00",
+    "results": []
+  },
+  "Leksand|Limhagen": {
+    "query": "Limhagen, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:48.254791+00:00",
+    "results": [
+      {
+        "place_id": 162356753,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 26197863,
+        "lat": "60.7457613",
+        "lon": "14.9983973",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08005534676127257,
+        "addresstype": "industrial",
+        "name": "Limhagen",
+        "display_name": "Limhagen, Lima, Leksand, Leksands kommun, Dalarnas län, Sverige",
+        "address": {
+          "industrial": "Limhagen",
+          "hamlet": "Lima",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7411677",
+          "60.7504025",
+          "14.9914594",
+          "15.0051269"
+        ]
+      },
+      {
+        "place_id": 162286627,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6299701166,
+        "lat": "60.7437577",
+        "lon": "15.0001652",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.534676127255692e-05,
+        "addresstype": "highway",
+        "name": "Limhagen",
+        "display_name": "Limhagen, Limavägen, Limhagen, Lima, Leksand, Leksands kommun, Dalarnas län, 793 32, Sverige",
+        "address": {
+          "highway": "Limhagen",
+          "road": "Limavägen",
+          "industrial": "Limhagen",
+          "hamlet": "Lima",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 32",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7437077",
+          "60.7438077",
+          "15.0001152",
+          "15.0002152"
+        ]
+      }
+    ]
+  },
+  "Leksand|Lisselby": {
+    "query": "Lisselby, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:49.409077+00:00",
+    "results": [
+      {
+        "place_id": 162099741,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 49524945,
+        "lat": "60.7210179",
+        "lon": "14.9983973",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Lisselbyvägen",
+        "display_name": "Lisselbyvägen, Åkerö, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 33, Sverige",
+        "address": {
+          "road": "Lisselbyvägen",
+          "neighbourhood": "Åkerö",
+          "suburb": "Karlsarvet",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 33",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7185104",
+          "60.7216418",
+          "14.9928943",
+          "15.0043987"
+        ]
+      },
+      {
+        "place_id": 162100033,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 181070452,
+        "lat": "60.7177381",
+        "lon": "14.9918003",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Lisselbyvägen",
+        "display_name": "Lisselbyvägen, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 33, Sverige",
+        "address": {
+          "road": "Lisselbyvägen",
+          "suburb": "Karlsarvet",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 33",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7174121",
+          "60.7183974",
+          "14.9907911",
+          "14.9926269"
+        ]
+      },
+      {
+        "place_id": 161138128,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 181070453,
+        "lat": "60.7184539",
+        "lon": "14.9927606",
+        "category": "highway",
+        "type": "cycleway",
+        "place_rank": 27,
+        "importance": 0.04005534676127259,
+        "addresstype": "road",
+        "name": "Lisselbyvägen",
+        "display_name": "Lisselbyvägen, Karlsarvet, Leksand, Leksands kommun, Dalarnas län, 793 33, Sverige",
+        "address": {
+          "road": "Lisselbyvägen",
+          "suburb": "Karlsarvet",
+          "town": "Leksand",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 33",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.7183974",
+          "60.7185104",
+          "14.9926269",
+          "14.9928943"
+        ]
+      }
+    ]
+  },
+  "Leksand|Lustholen": {
+    "query": "Lustholen, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:50.531948+00:00",
+    "results": []
+  },
+  "Leksand|Nedre Heden": {
+    "query": "Nedre Heden, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:52.331886+00:00",
+    "results": []
+  },
+  "Leksand|Räckselbackarna": {
+    "query": "Räckselbackarna, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:52.946109+00:00",
+    "results": []
+  },
+  "Leksand|Rälta": {
+    "query": "Rälta, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:54.693190+00:00",
+    "results": [
+      {
+        "place_id": 161803833,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 721206187,
+        "lat": "60.6348152",
+        "lon": "15.0165653",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.25352702198722055,
+        "addresstype": "hamlet",
+        "name": "Söder Rälta",
+        "display_name": "Söder Rälta, Leksands kommun, Dalarnas län, 785 50, Sverige",
+        "address": {
+          "hamlet": "Söder Rälta",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 50",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6148152",
+          "60.6548152",
+          "14.9965653",
+          "15.0365653"
+        ]
+      },
+      {
+        "place_id": 161917193,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2302399066,
+        "lat": "60.6440084",
+        "lon": "15.0006676",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13338868009460592,
+        "addresstype": "hamlet",
+        "name": "Norr Rälta",
+        "display_name": "Norr Rälta, Leksands kommun, Dalarnas län, 785 50, Sverige",
+        "address": {
+          "hamlet": "Norr Rälta",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 50",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6240084",
+          "60.6640084",
+          "14.9806676",
+          "15.0206676"
+        ]
+      },
+      {
+        "place_id": 161814154,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 835990289,
+        "lat": "60.6383095",
+        "lon": "15.0111078",
+        "category": "highway",
+        "type": "living_street",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Söder Rälta Gamla vägen",
+        "display_name": "Söder Rälta Gamla vägen, Knutsgårdarna, Leksands kommun, Dalarnas län, 785 50, Sverige",
+        "address": {
+          "road": "Söder Rälta Gamla vägen",
+          "hamlet": "Knutsgårdarna",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 50",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6377635",
+          "60.6427155",
+          "15.0033537",
+          "15.0200784"
+        ]
+      },
+      {
+        "place_id": 159698038,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 221227857,
+        "lat": "60.6292182",
+        "lon": "15.0094735",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Söder Rälta Djuravägen",
+        "display_name": "Söder Rälta Djuravägen, Söder Rälta, Djura, Leksands kommun, Dalarnas län, 785 50, Sverige",
+        "address": {
+          "road": "Söder Rälta Djuravägen",
+          "hamlet": "Söder Rälta",
+          "village": "Djura",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 50",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6247769",
+          "60.6334534",
+          "15.0059684",
+          "15.0132734"
+        ]
+      },
+      {
+        "place_id": 161856557,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 44601246,
+        "lat": "60.6352092",
+        "lon": "15.0142941",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Rältavägen",
+        "display_name": "Rältavägen, Söder Rälta, Leksands kommun, Dalarnas län, 785 50, Sverige",
+        "address": {
+          "road": "Rältavägen",
+          "hamlet": "Söder Rälta",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "785 50",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6350885",
+          "60.6353159",
+          "15.0140887",
+          "15.0144915"
+        ]
+      }
+    ]
+  },
+  "Leksand|Sandåsarna": {
+    "query": "Sandåsarna, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:55.352906+00:00",
+    "results": []
+  },
+  "Leksand|Tunsta": {
+    "query": "Tunsta, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:57.103919+00:00",
+    "results": [
+      {
+        "place_id": 159683682,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4705009557,
+        "lat": "60.6782559",
+        "lon": "15.0836720",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.534676127255692e-05,
+        "addresstype": "highway",
+        "name": "Tunsta",
+        "display_name": "Tunsta, 70, Insjön, Leksands kommun, Dalarnas län, 793 41, Sverige",
+        "address": {
+          "highway": "Tunsta",
+          "road": "70",
+          "village": "Insjön",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 41",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6782059",
+          "60.6783059",
+          "15.0836220",
+          "15.0837220"
+        ]
+      },
+      {
+        "place_id": 161825130,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 150874196,
+        "lat": "60.6819579",
+        "lon": "15.0791610",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533886800946059,
+        "addresstype": "road",
+        "name": "Tunstavägen",
+        "display_name": "Tunstavägen, Insjön, Leksands kommun, Dalarnas län, 793 41, Sverige",
+        "address": {
+          "road": "Tunstavägen",
+          "village": "Insjön",
+          "municipality": "Leksands kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "793 41",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.6813398",
+          "60.6837657",
+          "15.0778013",
+          "15.0813730"
+        ]
+      }
+    ]
+  },
+  "Leksand|Åhl-Sätra": {
+    "query": "Åhl-Sätra, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:58.008441+00:00",
+    "results": []
+  },
+  "Leksand|Övre Heden": {
+    "query": "Övre Heden, Leksand kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:44:59.202208+00:00",
+    "results": []
+  },
+  "Rättvik|Baggetorp": {
+    "query": "Baggetorp, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:00.185122+00:00",
+    "results": [
+      {
+        "place_id": 161423561,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5012821990,
+        "lat": "60.9207644",
+        "lon": "15.2088893",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.55436026550243e-05,
+        "addresstype": "highway",
+        "name": "Baggetorp",
+        "display_name": "Baggetorp, Furudalsvägen, Nedre Gärdsjö, Rättviks kommun, Dalarnas län, 795 33, Sverige",
+        "address": {
+          "highway": "Baggetorp",
+          "road": "Furudalsvägen",
+          "village": "Nedre Gärdsjö",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 33",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9207144",
+          "60.9208144",
+          "15.2088393",
+          "15.2089393"
+        ]
+      },
+      {
+        "place_id": 161164493,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 968395992,
+        "lat": "60.9214235",
+        "lon": "15.2125437",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Baggetorp Södra Holgatu",
+        "display_name": "Baggetorp Södra Holgatu, Nedre Gärdsjö, Rättviks kommun, Dalarnas län, 795 92, Sverige",
+        "address": {
+          "road": "Baggetorp Södra Holgatu",
+          "village": "Nedre Gärdsjö",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 92",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9198115",
+          "60.9230524",
+          "15.2125423",
+          "15.2136816"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Hedslund": {
+    "query": "Hedslund, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:01.350427+00:00",
+    "results": []
+  },
+  "Rättvik|Hjortgården": {
+    "query": "Hjortgården, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:02.636280+00:00",
+    "results": []
+  },
+  "Rättvik|Ickholmen": {
+    "query": "Ickholmen, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:03.754874+00:00",
+    "results": [
+      {
+        "place_id": 161408689,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5859050793,
+        "lat": "60.9060558",
+        "lon": "14.9604670",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.55436026550243e-05,
+        "addresstype": "highway",
+        "name": "Ickholmen",
+        "display_name": "Ickholmen, 70, Rättviks kommun, Dalarnas län, 795 95, Sverige",
+        "address": {
+          "highway": "Ickholmen",
+          "road": "70",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 95",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9060058",
+          "60.9061058",
+          "14.9604170",
+          "14.9605170"
+        ]
+      },
+      {
+        "place_id": 161751579,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 331838749,
+        "lat": "60.9057813",
+        "lon": "14.9490167",
+        "category": "building",
+        "type": "industrial",
+        "place_rank": 30,
+        "importance": 5.55436026550243e-05,
+        "addresstype": "building",
+        "name": "Ickholmens gård",
+        "display_name": "Ickholmens gård, 70, Rättviks kommun, Dalarnas län, 792 98, Sverige",
+        "address": {
+          "building": "Ickholmens gård",
+          "road": "70",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "792 98",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9053552",
+          "60.9062072",
+          "14.9488202",
+          "14.9492132"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Kalkbackarna": {
+    "query": "Kalkbackarna, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:04.983261+00:00",
+    "results": []
+  },
+  "Rättvik|Rovgärdet": {
+    "query": "Rovgärdet, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:06.673986+00:00",
+    "results": []
+  },
+  "Rättvik|Silverberg": {
+    "query": "Silverberg, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:07.559534+00:00",
+    "results": [
+      {
+        "place_id": 162001905,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 277895823,
+        "lat": "61.0272466",
+        "lon": "15.2086489",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.55436026550243e-05,
+        "addresstype": "highway",
+        "name": "Silverberg",
+        "display_name": "Silverberg, 301, Änderåsen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "highway": "Silverberg",
+          "road": "301",
+          "hamlet": "Änderåsen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0271966",
+          "61.0272966",
+          "15.2085989",
+          "15.2086989"
+        ]
+      },
+      {
+        "place_id": 161701119,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 257759289,
+        "lat": "61.0226910",
+        "lon": "15.2193844",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Silverberg Södra vägen",
+        "display_name": "Silverberg Södra vägen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Silverberg Södra vägen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0219532",
+          "61.0246116",
+          "15.2156556",
+          "15.2225799"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Stenbacken": {
+    "query": "Stenbacken, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:09.125657+00:00",
+    "results": [
+      {
+        "place_id": 161892091,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1135665769,
+        "lat": "60.9382163",
+        "lon": "15.2557811",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Stenbacken stensgatu",
+        "display_name": "Stenbacken stensgatu, Övre Gärdsjö, Nedre Gärdsjö, Rättviks kommun, Dalarnas län, 795 92, Sverige",
+        "address": {
+          "road": "Stenbacken stensgatu",
+          "hamlet": "Övre Gärdsjö",
+          "village": "Nedre Gärdsjö",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 92",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9378010",
+          "60.9389636",
+          "15.2503763",
+          "15.2611610"
+        ]
+      },
+      {
+        "place_id": 161859937,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1135665427,
+        "lat": "60.9388568",
+        "lon": "15.2511992",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Stenbacken pellasgatu",
+        "display_name": "Stenbacken pellasgatu, Övre Gärdsjö, Nedre Gärdsjö, Rättviks kommun, Dalarnas län, 795 92, Sverige",
+        "address": {
+          "road": "Stenbacken pellasgatu",
+          "hamlet": "Övre Gärdsjö",
+          "village": "Nedre Gärdsjö",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 92",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9380459",
+          "60.9396419",
+          "15.2501526",
+          "15.2522770"
+        ]
+      },
+      {
+        "place_id": 161948417,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 645945015,
+        "lat": "60.9368981",
+        "lon": "15.2514203",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04005554360265506,
+        "addresstype": "road",
+        "name": "Stenbacken årängsgatu",
+        "display_name": "Stenbacken årängsgatu, Övre Gärdsjö, Nedre Gärdsjö, Rättviks kommun, Dalarnas län, 795 92, Sverige",
+        "address": {
+          "road": "Stenbacken årängsgatu",
+          "hamlet": "Övre Gärdsjö",
+          "village": "Nedre Gärdsjö",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 92",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9357801",
+          "60.9380264",
+          "15.2503763",
+          "15.2524888"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Templet": {
+    "query": "Templet, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:09.997629+00:00",
+    "results": [
+      {
+        "place_id": 160934634,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 220542937,
+        "lat": "60.9031454",
+        "lon": "15.0806286",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Tempelvägen",
+        "display_name": "Tempelvägen, Sjurberg, Rättvik, Rättviks kommun, Dalarnas län, 795 91, Sverige",
+        "address": {
+          "road": "Tempelvägen",
+          "hamlet": "Sjurberg",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 91",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8990780",
+          "60.9080665",
+          "15.0734673",
+          "15.0885445"
+        ]
+      },
+      {
+        "place_id": 161976413,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 283942534,
+        "lat": "60.9121628",
+        "lon": "15.0719578",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Tempelvägen",
+        "display_name": "Tempelvägen, Nittsjö, Rättvik, Rättviks kommun, Dalarnas län, 795 91, Sverige",
+        "address": {
+          "road": "Tempelvägen",
+          "hamlet": "Nittsjö",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 91",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9080665",
+          "60.9164611",
+          "15.0704096",
+          "15.0734673"
+        ]
+      },
+      {
+        "place_id": 161851966,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 451849944,
+        "lat": "60.9003383",
+        "lon": "15.0900814",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Tempelvägen",
+        "display_name": "Tempelvägen, Rättvik, Rättviks kommun, Dalarnas län, 795 32, Sverige",
+        "address": {
+          "road": "Tempelvägen",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 32",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8989345",
+          "60.9003575",
+          "15.0887913",
+          "15.0919102"
+        ]
+      },
+      {
+        "place_id": 161839632,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 25501786,
+        "lat": "60.9040593",
+        "lon": "15.0721499",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Rönningsvägen",
+        "display_name": "Rönningsvägen, Sjurberg, Rättvik, Rättviks kommun, Dalarnas län, 795 91, Sverige",
+        "address": {
+          "road": "Rönningsvägen",
+          "hamlet": "Sjurberg",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 91",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9040212",
+          "60.9042316",
+          "15.0714351",
+          "15.0729094"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Utanåker": {
+    "query": "Utanåker, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:11.061532+00:00",
+    "results": [
+      {
+        "place_id": 161997192,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 121607492,
+        "lat": "60.8340327",
+        "lon": "15.1230962",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Utanåker sommarbacken",
+        "display_name": "Utanåker sommarbacken, Söderås, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Utanåker sommarbacken",
+          "hamlet": "Söderås",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8339992",
+          "60.8361897",
+          "15.1188115",
+          "15.1279670"
+        ]
+      },
+      {
+        "place_id": 161137281,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118380588,
+        "lat": "60.8348752",
+        "lon": "15.1154646",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Utanåker bystugevägen",
+        "display_name": "Utanåker bystugevägen, Söderås, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Utanåker bystugevägen",
+          "hamlet": "Söderås",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8340443",
+          "60.8362599",
+          "15.1123992",
+          "15.1182431"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Vidablick": {
+    "query": "Vidablick, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:12.726226+00:00",
+    "results": [
+      {
+        "place_id": 161900060,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1384338915,
+        "lat": "60.8640980",
+        "lon": "15.1244331",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.16005554360265506,
+        "addresstype": "peak",
+        "name": "Vidablick",
+        "display_name": "Vidablick, Rättvik, Rättviks kommun, Dalarnas län, 795 36, Sverige",
+        "address": {
+          "peak": "Vidablick",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 36",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8640480",
+          "60.8641480",
+          "15.1243831",
+          "15.1244831"
+        ]
+      },
+      {
+        "place_id": 161152310,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1384336537,
+        "lat": "60.8643497",
+        "lon": "15.1230114",
+        "category": "man_made",
+        "type": "tower",
+        "place_rank": 30,
+        "importance": 0.10540294855860563,
+        "addresstype": "man_made",
+        "name": "Vidablick",
+        "display_name": "Vidablick, Vidablicksvägen, Altsarbyn, Rättvik, Rättviks kommun, Dalarnas län, 795 36, Sverige",
+        "address": {
+          "man_made": "Vidablick",
+          "road": "Vidablicksvägen",
+          "hamlet": "Altsarbyn",
+          "town": "Rättvik",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 36",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8642997",
+          "60.8643997",
+          "15.1229614",
+          "15.1230614"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Västergrav": {
+    "query": "Västergrav, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:13.450632+00:00",
+    "results": [
+      {
+        "place_id": 160821907,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118381698,
+        "lat": "60.8328208",
+        "lon": "15.1242483",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västergrav täppgatan",
+        "display_name": "Västergrav täppgatan, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västergrav täppgatan",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8320189",
+          "60.8340036",
+          "15.1232207",
+          "15.1246873"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Västgärde": {
+    "query": "Västgärde, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:14.701838+00:00",
+    "results": [
+      {
+        "place_id": 161903815,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 62028819,
+        "lat": "60.8366750",
+        "lon": "15.1050387",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västgärde Byväg",
+        "display_name": "Västgärde Byväg, Utby, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västgärde Byväg",
+          "hamlet": "Utby",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8317843",
+          "60.8418881",
+          "15.1007474",
+          "15.1100678"
+        ]
+      },
+      {
+        "place_id": 161131295,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 386479162,
+        "lat": "60.8331868",
+        "lon": "15.1163696",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västgärde ramsgatan",
+        "display_name": "Västgärde ramsgatan, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västgärde ramsgatan",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8319476",
+          "60.8340716",
+          "15.1106636",
+          "15.1222712"
+        ]
+      },
+      {
+        "place_id": 161684495,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 253782182,
+        "lat": "60.8304107",
+        "lon": "15.0952986",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västgärde lötvägen",
+        "display_name": "Västgärde lötvägen, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västgärde lötvägen",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8299488",
+          "60.8306338",
+          "15.0905459",
+          "15.1000953"
+        ]
+      },
+      {
+        "place_id": 161997079,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 62028457,
+        "lat": "60.8297460",
+        "lon": "15.1108363",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västgärde lindbergsvägen",
+        "display_name": "Västgärde lindbergsvägen, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västgärde lindbergsvägen",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8288036",
+          "60.8298861",
+          "15.1086301",
+          "15.1128197"
+        ]
+      },
+      {
+        "place_id": 170094753,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118833918,
+        "lat": "60.8282219",
+        "lon": "15.1140363",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Västgärde lindbergsvägen",
+        "display_name": "Västgärde lindbergsvägen, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Västgärde lindbergsvägen",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8278192",
+          "60.8288036",
+          "15.1128197",
+          "15.1152797"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Vålsveden": {
+    "query": "Vålsveden, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:16.110045+00:00",
+    "results": []
+  },
+  "Rättvik|Wallenkampfs väg": {
+    "query": "Wallenkampfs väg, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:17.149421+00:00",
+    "results": []
+  },
+  "Rättvik|Öja": {
+    "query": "Öja, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:18.975554+00:00",
+    "results": [
+      {
+        "place_id": 161960385,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 71377629,
+        "lat": "60.9127334",
+        "lon": "14.9866927",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Öjavägen",
+        "display_name": "Öjavägen, Gärdet, Vikarbyn, Rättviks kommun, Dalarnas län, 795 95, Sverige",
+        "address": {
+          "road": "Öjavägen",
+          "hamlet": "Gärdet",
+          "village": "Vikarbyn",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 95",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9075256",
+          "60.9178625",
+          "14.9833752",
+          "14.9897558"
+        ]
+      },
+      {
+        "place_id": 160793973,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 71377624,
+        "lat": "60.9055494",
+        "lon": "14.9935955",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Öjavägen",
+        "display_name": "Öjavägen, Vikarbyn, Rättviks kommun, Dalarnas län, 795 95, Sverige",
+        "address": {
+          "road": "Öjavägen",
+          "village": "Vikarbyn",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 95",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9053617",
+          "60.9057371",
+          "14.9931323",
+          "14.9940587"
+        ]
+      },
+      {
+        "place_id": 161816619,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1135695148,
+        "lat": "60.9006720",
+        "lon": "14.9994996",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04005554360265506,
+        "addresstype": "road",
+        "name": "Öja Badvägen",
+        "display_name": "Öja Badvägen, Vikarbyn, Rättviks kommun, Dalarnas län, 795 95, Sverige",
+        "address": {
+          "road": "Öja Badvägen",
+          "village": "Vikarbyn",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 95",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9003370",
+          "60.9007180",
+          "14.9984137",
+          "15.0005169"
+        ]
+      },
+      {
+        "place_id": 160633649,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 3684658429,
+        "lat": "60.9054628",
+        "lon": "14.9938912",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.55436026550243e-05,
+        "addresstype": "highway",
+        "name": "Öja majstången",
+        "display_name": "Öja majstången, Öjavägen, Vikarbyn, Rättviks kommun, Dalarnas län, 795 95, Sverige",
+        "address": {
+          "highway": "Öja majstången",
+          "road": "Öjavägen",
+          "village": "Vikarbyn",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 95",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.9054128",
+          "60.9055128",
+          "14.9938412",
+          "14.9939412"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Östergrav": {
+    "query": "Östergrav, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:19.426366+00:00",
+    "results": [
+      {
+        "place_id": 161812371,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118381191,
+        "lat": "60.8353859",
+        "lon": "15.1312701",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Östergrav Anisvägen",
+        "display_name": "Östergrav Anisvägen, Söderås, Rättviks kommun, Dalarnas län, 795 90, Sverige",
+        "address": {
+          "road": "Östergrav Anisvägen",
+          "hamlet": "Söderås",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 90",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.8344513",
+          "60.8365641",
+          "15.1279670",
+          "15.1344697"
+        ]
+      }
+    ]
+  },
+  "Rättvik|Östra Boda": {
+    "query": "Östra Boda, Rättvik kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:20.668415+00:00",
+    "results": [
+      {
+        "place_id": 161546428,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 146639230,
+        "lat": "61.0052401",
+        "lon": "15.2195035",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Östra Boda Furudalsvägen",
+        "display_name": "Östra Boda Furudalsvägen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Östra Boda Furudalsvägen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0043426",
+          "61.0062058",
+          "15.2191040",
+          "15.2196264"
+        ]
+      },
+      {
+        "place_id": 161854385,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 706510121,
+        "lat": "61.0137605",
+        "lon": "15.2283055",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Histombvägen",
+        "display_name": "Histombvägen, Jugasskär, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Histombvägen",
+          "hamlet": "Jugasskär",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0110559",
+          "61.0175496",
+          "15.2253136",
+          "15.2295904"
+        ]
+      },
+      {
+        "place_id": 161621465,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1125705046,
+        "lat": "61.0096745",
+        "lon": "15.2283858",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Lenåsvägen",
+        "display_name": "Lenåsvägen, Lenåsen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Lenåsvägen",
+          "hamlet": "Lenåsen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0080790",
+          "61.0110559",
+          "15.2253136",
+          "15.2313538"
+        ]
+      },
+      {
+        "place_id": 162860883,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401818696,
+        "lat": "61.0098177",
+        "lon": "15.2199878",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Dahlvägen",
+        "display_name": "Dahlvägen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Dahlvägen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0091143",
+          "61.0105322",
+          "15.2181693",
+          "15.2219583"
+        ]
+      },
+      {
+        "place_id": 161504339,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 294312223,
+        "lat": "61.0105753",
+        "lon": "15.2213419",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053388876935988365,
+        "addresstype": "road",
+        "name": "Lenåsvägen",
+        "display_name": "Lenåsvägen, Boda, Rättviks kommun, Dalarnas län, 795 96, Sverige",
+        "address": {
+          "road": "Lenåsvägen",
+          "village": "Boda",
+          "municipality": "Rättviks kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "795 96",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "61.0105322",
+          "61.0110559",
+          "15.2173703",
+          "15.2253136"
+        ]
+      }
+    ]
+  },
+  "Vansbro|Heden": {
+    "query": "Heden, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:21.930673+00:00",
+    "results": []
+  },
+  "Vansbro|Högosta": {
+    "query": "Högosta, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:23.029457+00:00",
+    "results": []
+  },
+  "Vansbro|Källbacken": {
+    "query": "Källbacken, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:24.291304+00:00",
+    "results": [
+      {
+        "place_id": 162315511,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4706374929,
+        "lat": "60.5090717",
+        "lon": "14.1895504",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.550545510028256e-05,
+        "addresstype": "highway",
+        "name": "Källbacken",
+        "display_name": "Källbacken, E 16;66, Västra Vansbro, Vansbro, Vansbro kommun, Dalarnas län, 786 32, Sverige",
+        "address": {
+          "highway": "Källbacken",
+          "road": "E 16;66",
+          "neighbourhood": "Västra Vansbro",
+          "town": "Vansbro",
+          "municipality": "Vansbro kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "786 32",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5090217",
+          "60.5091217",
+          "14.1895004",
+          "14.1896004"
+        ]
+      },
+      {
+        "place_id": 162081593,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4706374927,
+        "lat": "60.5095788",
+        "lon": "14.1909270",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.550545510028256e-05,
+        "addresstype": "highway",
+        "name": "Källbacken",
+        "display_name": "Källbacken, Äppelbovägen, Västra Vansbro, Vansbro, Vansbro kommun, Dalarnas län, 786 32, Sverige",
+        "address": {
+          "highway": "Källbacken",
+          "road": "Äppelbovägen",
+          "neighbourhood": "Västra Vansbro",
+          "town": "Vansbro",
+          "municipality": "Vansbro kommun",
+          "county": "Dalarnas län",
+          "ISO3166-2-lvl4": "SE-W",
+          "postcode": "786 32",
+          "country": "Sverige",
+          "country_code": "se"
+        },
+        "boundingbox": [
+          "60.5095288",
+          "60.5096288",
+          "14.1908770",
+          "14.1909770"
+        ]
+      }
+    ]
+  },
+  "Vansbro|Sandbäcken": {
+    "query": "Sandbäcken, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:25.860434+00:00",
+    "results": []
+  },
+  "Vansbro|Skiffsforsen": {
+    "query": "Skiffsforsen, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:26.595652+00:00",
+    "results": []
+  },
+  "Vansbro|Söderåsen": {
+    "query": "Söderåsen, Vansbro kommun, Sverige",
+    "retrieved_at_utc": "2026-10-13T16:45:27.829552+00:00",
+    "results": []
+  }
+}

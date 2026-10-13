@@ -49,6 +49,12 @@ page = st.navigation(
                 icon=":material/route:",
                 url_path="transportanalys",
             ),
+            st.Page(
+                "app_pages/comparison.py",
+                title="Sophämtning + transporter + service",
+                icon=":material/layers:",
+                url_path="samordning",
+            ),
         ],
         "Underlag": [
             st.Page(

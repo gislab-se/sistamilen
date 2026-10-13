@@ -29742,6 +29742,7 @@
       "address": "Myntgatan 5",
       "locality": "Avesta",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         16.17393460674599,
         60.145520680257604
@@ -29753,6 +29754,7 @@
       "address": "Get Johannas väg 22",
       "locality": "Avesta",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         16.197400806517127,
         60.15256268970152
@@ -29764,6 +29766,7 @@
       "address": "Myntgatan 12",
       "locality": "Avesta",
       "actors": "UPS",
+      "service_types": "Ombud",
       "coordinate": [
         16.1744263045117,
         60.14631632445693
@@ -29775,6 +29778,7 @@
       "address": "Kungsgatan 22",
       "locality": "Avesta",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         16.169882248590575,
         60.145696608918726
@@ -29786,6 +29790,7 @@
       "address": "Prästgatan 26",
       "locality": "Avesta",
       "actors": "Bring; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.160226242948287,
         60.14262714728228
@@ -29797,6 +29802,7 @@
       "address": "Rutboleden 1",
       "locality": "Avesta",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.176277906767268,
         60.156755482783716
@@ -29808,6 +29814,7 @@
       "address": "Myntgatan 3",
       "locality": "Avesta",
       "actors": "Bring; PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         16.174541851795574,
         60.145480931011456
@@ -29819,6 +29826,7 @@
       "address": "Markustorget 1",
       "locality": "Avesta",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         16.16825344022994,
         60.14588147768135
@@ -29830,6 +29838,7 @@
       "address": "Axel Johnsons väg 99",
       "locality": "Avesta",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         16.161839650001966,
         60.141061369753295
@@ -29841,6 +29850,7 @@
       "address": "Arvidsgatan 2A",
       "locality": "Avesta",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         16.157528765140903,
         60.141579936622655
@@ -29852,6 +29862,7 @@
       "address": "Högbostigen 4",
       "locality": "Avesta",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         16.17638605876147,
         60.15398400170769
@@ -29863,6 +29874,7 @@
       "address": "Bruksvägen 14",
       "locality": "Fors",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.308739799438552,
         60.20728003548216
@@ -29874,6 +29886,7 @@
       "address": "Stora vägen 47",
       "locality": "Horndal",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.404325404511052,
         60.29409962599792
@@ -29885,6 +29898,7 @@
       "address": "Folkaregatan 50",
       "locality": "Krylbo",
       "actors": "Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.241742794269605,
         60.11954137739445
@@ -29896,6 +29910,7 @@
       "address": "Järnvägsgatan 16",
       "locality": "Krylbo",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.21344502294376,
         60.13072521380206
@@ -29907,6 +29922,7 @@
       "address": "Norrskensgatan 6B",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.404764025577538,
         60.48329420834708
@@ -29918,6 +29934,7 @@
       "address": "Mjälgavägen 2",
       "locality": "Borlänge",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.447747914058274,
         60.48262727783352
@@ -29929,6 +29946,7 @@
       "address": "Hagavägen 23",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.423796989263055,
         60.48827581087653
@@ -29940,6 +29958,7 @@
       "address": "Bygatan 33A",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.437185443263301,
         60.47859355478155
@@ -29951,6 +29970,7 @@
       "address": "Bragegatan 6",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.431159028689358,
         60.49658060039815
@@ -29962,6 +29982,7 @@
       "address": "Planerargatan 9",
       "locality": "Borlänge",
       "actors": "DHL",
+      "service_types": "Egen regi",
       "coordinate": [
         15.404777147234057,
         60.466062521219754
@@ -29973,6 +29994,7 @@
       "address": "Jaxtorget 11",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Schenker; UPS",
+      "service_types": "Ombud",
       "coordinate": [
         15.404432185012947,
         60.483825632448756
@@ -29984,6 +30006,7 @@
       "address": "Tångringsgatan 29",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.423448808651425,
         60.48915172218455
@@ -29995,6 +30018,7 @@
       "address": "Hammargatan 8",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.441175377699599,
         60.47113970999407
@@ -30006,6 +30030,7 @@
       "address": "Kvarnforsgatan 2",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.414722806255863,
         60.51676302648981
@@ -30017,6 +30042,7 @@
       "address": "Jönisgatan 9",
       "locality": "Borlänge",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.45609356618223,
         60.50089343085234
@@ -30028,6 +30054,7 @@
       "address": "Allfarvägen 91",
       "locality": "Borlänge",
       "actors": "Bring; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.413453041288648,
         60.50283013723798
@@ -30039,6 +30066,7 @@
       "address": "Kupolen 1",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.417970758137754,
         60.48416639132171
@@ -30050,6 +30078,7 @@
       "address": "Borganäsvägen 20B",
       "locality": "Borlänge",
       "actors": "Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.431246123876225,
         60.48446272827794
@@ -30061,6 +30090,7 @@
       "address": "Norra Backagatan 5C",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.418680073137617,
         60.47827824191286
@@ -30072,6 +30102,7 @@
       "address": "Torsångsvägen 119",
       "locality": "Borlänge",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.541423418778848,
         60.50866813887788
@@ -30083,6 +30114,7 @@
       "address": "Allfarvägen 61",
       "locality": "Borlänge",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.420730508939434,
         60.49578652327387
@@ -30094,6 +30126,7 @@
       "address": "Bondegatan 8D",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.417401905615165,
         60.496464407923675
@@ -30105,6 +30138,7 @@
       "address": "Allfarvägen 73B",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.41670515771423,
         60.49872015081269
@@ -30116,6 +30150,7 @@
       "address": "Engelbrektsgatan 22",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.424715940114758,
         60.4872918556373
@@ -30127,6 +30162,7 @@
       "address": "Sockenvägen 130A",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.453658526583045,
         60.471407487889515
@@ -30138,6 +30174,7 @@
       "address": "Hästhovsgatan 7A",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.416123809523071,
         60.509236998120585
@@ -30149,6 +30186,7 @@
       "address": "Karlsgårdsgatan 13A",
       "locality": "Borlänge",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.449751069468395,
         60.47344460482366
@@ -30160,6 +30198,7 @@
       "address": "Klöverstigen 16",
       "locality": "Borlänge",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.402668237832431,
         60.49271091288293
@@ -30171,6 +30210,7 @@
       "address": "Sveaborgsgatan 34A",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.405609319118705,
         60.51614366161373
@@ -30182,6 +30222,7 @@
       "address": "Georg Karlssons gata 1",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.414678093950743,
         60.48182477844707
@@ -30193,6 +30234,7 @@
       "address": "Stånggatan 27A",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.396840083031806,
         60.47788305085164
@@ -30204,6 +30246,7 @@
       "address": "Nävgatan 1AA",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.417882214858846,
         60.48916948846163
@@ -30215,6 +30258,7 @@
       "address": "Sahlstedtsgatan 2A",
       "locality": "Borlänge",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.436029590376453,
         60.486611148852695
@@ -30226,6 +30270,7 @@
       "address": "Gös Eriks väg 135",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.368512529447338,
         60.46571331162028
@@ -30237,6 +30282,7 @@
       "address": "Kalles väg 9B",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.381031858091573,
         60.471739822244245
@@ -30248,6 +30294,7 @@
       "address": "Stånggatan 25E",
       "locality": "Borlänge",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.396366612664895,
         60.47803226616587
@@ -30259,6 +30306,7 @@
       "address": "Tyllsnäsvägen 4",
       "locality": "Borlänge",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.476336180544816,
         60.462478203562746
@@ -30270,6 +30318,7 @@
       "address": "Gamla landsvägen 12A",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.452379482230604,
         60.46530706005216
@@ -30281,6 +30330,7 @@
       "address": "Ingebjörnsgatan 3",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.434139220269062,
         60.48100835082833
@@ -30292,6 +30342,7 @@
       "address": "Bondegatan 11A",
       "locality": "Borlänge",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.41671927338056,
         60.49596341030543
@@ -30303,6 +30354,7 @@
       "address": "Stationsgatan 18",
       "locality": "Borlänge",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.434447602502237,
         60.484258152653595
@@ -30314,6 +30366,7 @@
       "address": "Mejselgatan 9",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         15.438526673359416,
         60.46577160537165
@@ -30325,6 +30378,7 @@
       "address": "Godsvägen 13",
       "locality": "Borlänge",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.47350304319451,
         60.487152379950594
@@ -30336,6 +30390,7 @@
       "address": "Sör Sellnäs 231",
       "locality": "Borlänge",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.381263045609444,
         60.40939097753002
@@ -30347,6 +30402,7 @@
       "address": "Rommevägen 10",
       "locality": "Borlänge",
       "actors": "DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.491973828268339,
         60.4409450907512
@@ -30358,6 +30414,7 @@
       "address": "Maskinistgatan 6",
       "locality": "Borlänge",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.41516369080394,
         60.4861695362601
@@ -30369,6 +30426,7 @@
       "address": "Maskinistgatan 4",
       "locality": "Borlänge",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.415637600087651,
         60.485928337947364
@@ -30380,6 +30438,7 @@
       "address": "Bjursåsvägen 2",
       "locality": "Bjursås",
       "actors": "Bring; DHL; Instabee; UPS",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.439314513235468,
         60.733763590312265
@@ -30391,6 +30450,7 @@
       "address": "Mårtsbovägen 1",
       "locality": "Bjursås",
       "actors": "PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.443167515569378,
         60.73959921763638
@@ -30402,6 +30462,7 @@
       "address": "Tornvägen 5",
       "locality": "Enviken",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.756395381776565,
         60.80953281843593
@@ -30413,6 +30474,7 @@
       "address": "Tängervägen 1",
       "locality": "Enviken",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.757366116231157,
         60.808348968785715
@@ -30424,6 +30486,7 @@
       "address": "Holmtorget 5",
       "locality": "Falun",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.632430893868989,
         60.60545828023434
@@ -30435,6 +30498,7 @@
       "address": "Norra Järnvägsgatan 31C",
       "locality": "Falun",
       "actors": "Instabee; PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.618588033419067,
         60.62249216361621
@@ -30446,6 +30510,7 @@
       "address": "Herrhagsvägen 3A",
       "locality": "Falun",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         15.610856961228555,
         60.618956401289175
@@ -30457,6 +30522,7 @@
       "address": "Stortallsvägen 3A",
       "locality": "Falun",
       "actors": "Bring; DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.608076212097613,
         60.57652646600817
@@ -30468,6 +30534,7 @@
       "address": "Källviksvägen 5",
       "locality": "Falun",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.645153809445318,
         60.59446847165497
@@ -30479,6 +30546,7 @@
       "address": "Trotzgatan 14",
       "locality": "Falun",
       "actors": "Bring; Bussgods; DHL; PostNord; Schenker; UPS",
+      "service_types": "Ombud; Utlämning",
       "coordinate": [
         15.634249053867416,
         60.60685172588952
@@ -30490,6 +30558,7 @@
       "address": "Holmgatan 16",
       "locality": "Falun",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.633875564732211,
         60.60499345522672
@@ -30501,6 +30570,7 @@
       "address": "Stortallsvägen 3C",
       "locality": "Falun",
       "actors": "Instabee; PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.607791433433567,
         60.577349845364154
@@ -30512,6 +30582,7 @@
       "address": "Centralvägen 7",
       "locality": "Falun",
       "actors": "Bring; DHL; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.732832457010858,
         60.589958885216376
@@ -30523,6 +30594,7 @@
       "address": "Bataljonsvägen 11",
       "locality": "Falun",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.658565584781144,
         60.607006804229904
@@ -30534,6 +30606,7 @@
       "address": "Bataljonsvägen 9",
       "locality": "Falun",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.656794720474663,
         60.60724367590887
@@ -30545,6 +30618,7 @@
       "address": "Stigaregatan 17",
       "locality": "Falun",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.618811972563917,
         60.60298947970331
@@ -30556,6 +30630,7 @@
       "address": "Vikavägen 133",
       "locality": "Falun",
       "actors": "Bring; DHL; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.714674209359597,
         60.51430184461598
@@ -30567,6 +30642,7 @@
       "address": "Trossvägen 8",
       "locality": "Falun",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         15.663464783237496,
         60.60589022619159
@@ -30578,6 +30654,7 @@
       "address": "Gruvgatan 19",
       "locality": "Falun",
       "actors": "Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.626008798172151,
         60.60308428026647
@@ -30589,6 +30666,7 @@
       "address": "Falugatan 7",
       "locality": "Falun",
       "actors": "Bring; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.629283221651363,
         60.60619893960486
@@ -30600,6 +30678,7 @@
       "address": "Vallavägen 27D",
       "locality": "Falun",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.6624211733327,
         60.59701647400238
@@ -30611,6 +30690,7 @@
       "address": "Bataljonsvägen 1",
       "locality": "Falun",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.654136382224097,
         60.60874204217899
@@ -30622,6 +30702,7 @@
       "address": "Glimmerstigen 2",
       "locality": "Falun",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.634217811872647,
         60.5858889369862
@@ -30633,6 +30714,7 @@
       "address": "Herrhagsvägen 225",
       "locality": "Falun",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.595597543472374,
         60.6257167717183
@@ -30644,6 +30726,7 @@
       "address": "Flädervägen 1A",
       "locality": "Falun",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.687807771313345,
         60.589147416530054
@@ -30655,6 +30738,7 @@
       "address": "Magasinsgatan 14B",
       "locality": "Falun",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.62729111487977,
         60.61160278858031
@@ -30666,6 +30750,7 @@
       "address": "Sturegatan 68",
       "locality": "Falun",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.624295542876093,
         60.606512854272324
@@ -30677,6 +30762,7 @@
       "address": "Ryckepungsvägen 2B",
       "locality": "Falun",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         15.605124576269665,
         60.60415617798332
@@ -30688,6 +30774,7 @@
       "address": "Slätta centrum 6A",
       "locality": "Falun",
       "actors": "Bring; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.596747982040077,
         60.62060607040581
@@ -30699,6 +30786,7 @@
       "address": "Tryckerivägen 1",
       "locality": "Falun",
       "actors": "Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.692905933473243,
         60.59507951084366
@@ -30710,6 +30798,7 @@
       "address": "Norra Järnvägsgatan 25",
       "locality": "Falun",
       "actors": "PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.621191682102205,
         60.619581032140616
@@ -30721,6 +30810,7 @@
       "address": "Drottningvägen 23",
       "locality": "Grycksbo",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.484461774123595,
         60.68740365238921
@@ -30732,6 +30822,7 @@
       "address": "Lingvägen 82",
       "locality": "Linghed",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.858918139651278,
         60.783009467684195
@@ -30743,6 +30834,7 @@
       "address": "Blomstervägen 1",
       "locality": "Sundborn",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud; Utlämning",
       "coordinate": [
         15.774063977353432,
         60.65317673476974
@@ -30754,6 +30846,7 @@
       "address": "Blomstervägen 4",
       "locality": "Sundborn",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.775401847503009,
         60.6531925794392
@@ -30765,6 +30858,7 @@
       "address": "Centrumvägen 2",
       "locality": "Svärdsjö",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.905141929242555,
         60.7415460321426
@@ -30776,6 +30870,7 @@
       "address": "Borgärdesvägen 40",
       "locality": "Svärdsjö",
       "actors": "Bring; DHL; Instabee; Schenker; UPS",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.905123915488462,
         60.74058630957458
@@ -30787,6 +30882,7 @@
       "address": "Centrumvägen 4",
       "locality": "Svärdsjö",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.904491935999213,
         60.741586098916265
@@ -30798,6 +30894,7 @@
       "address": "Vidåsvägen 1",
       "locality": "Sågmyra",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.296512516046418,
         60.71386525896133
@@ -30809,6 +30906,7 @@
       "address": "Björbovägen 18",
       "locality": "Björbo",
       "actors": "Bring; DHL; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.730461533164858,
         60.456359683800066
@@ -30820,6 +30918,7 @@
       "address": "Stora vägen 38",
       "locality": "Dala-Floda",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.801789591786438,
         60.509683043576366
@@ -30831,6 +30930,7 @@
       "address": "Centrumvägen 11",
       "locality": "Djurås",
       "actors": "DHL; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.130856444160846,
         60.56072811917812
@@ -30842,6 +30942,7 @@
       "address": "Södra Industrivägen 8",
       "locality": "Djurås",
       "actors": "Bring; Instabee",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.136959202229333,
         60.55976410460331
@@ -30853,6 +30954,7 @@
       "address": "Södra Industrivägen 2",
       "locality": "Djurås",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.135067152757491,
         60.56045468220511
@@ -30864,6 +30966,7 @@
       "address": "Tyskens väg 2",
       "locality": "Gagnef",
       "actors": "Bring; PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.082186496268106,
         60.59521770942527
@@ -30875,6 +30978,7 @@
       "address": "Gröntuv 191",
       "locality": "Gagnef",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.087275361017282,
         60.59042551804294
@@ -30886,6 +30990,7 @@
       "address": "Tarkovägen 6",
       "locality": "Mockfjärd",
       "actors": "Bring; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.969374710142691,
         60.512812609416976
@@ -30897,6 +31002,7 @@
       "address": "Tarkovägen 4",
       "locality": "Mockfjärd",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         14.968221596613391,
         60.51206864539205
@@ -30908,6 +31014,7 @@
       "address": "Smedbyvägen 14",
       "locality": "Dala-Husby",
       "actors": "DHL; Schenker; TVV",
+      "service_types": "Butik (stöd); Ombud",
       "coordinate": [
         15.998385268142757,
         60.39040205482127
@@ -30919,6 +31026,7 @@
       "address": "Guldleden 1",
       "locality": "Garpenberg",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         16.194847750483305,
         60.317118495467625
@@ -30930,6 +31038,7 @@
       "address": "Åsgatan 64",
       "locality": "Hedemora",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.985314502615068,
         60.27768967240007
@@ -30941,6 +31050,7 @@
       "address": "Gussarvsgatan 23",
       "locality": "Hedemora",
       "actors": "Bring; DHL; Instabee",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.9900740596066,
         60.28319053242864
@@ -30952,6 +31062,7 @@
       "address": "Åkargatan 11",
       "locality": "Hedemora",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.994441888757507,
         60.28206821246768
@@ -30963,6 +31074,7 @@
       "address": "Gussarvsgatan 27",
       "locality": "Hedemora",
       "actors": "PostNord; Schenker",
+      "service_types": "Ombud; Utlämning",
       "coordinate": [
         15.991743978237546,
         60.283393586318624
@@ -30974,6 +31086,7 @@
       "address": "Callerholmsgatan 10",
       "locality": "Hedemora",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.99044946796442,
         60.28479516271594
@@ -30985,6 +31098,7 @@
       "address": "Björkallén 1",
       "locality": "Långshyttan",
       "actors": "Bring; DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         16.03287740006971,
         60.45430061952125
@@ -30996,6 +31110,7 @@
       "address": "Hyttgatan 5",
       "locality": "Långshyttan",
       "actors": "Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         16.03198861952532,
         60.4519147812811
@@ -31007,6 +31122,7 @@
       "address": "Bruksallén 22",
       "locality": "Stjärnsund",
       "actors": "PostNord; TVV",
+      "service_types": "Butik (stöd); Ombud",
       "coordinate": [
         16.207944935747136,
         60.43363495390881
@@ -31018,6 +31134,7 @@
       "address": "Hjultorget 30",
       "locality": "Insjön",
       "actors": "Bring; Instabee; PostNord; Schenker; UPS",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.089829424355825,
         60.67538059150351
@@ -31029,6 +31146,7 @@
       "address": "Faluvägen 15",
       "locality": "Insjön",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         15.09307424898424,
         60.68002107949968
@@ -31040,6 +31158,7 @@
       "address": "Limsjöänget 4",
       "locality": "Leksand",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         15.004923096081098,
         60.736927627886516
@@ -31051,6 +31170,7 @@
       "address": "Leksandsvägen 4",
       "locality": "Leksand",
       "actors": "PostNord",
+      "service_types": "Utlämning",
       "coordinate": [
         14.997836976172865,
         60.730772518980366
@@ -31062,6 +31182,7 @@
       "address": "Faluvägen 17",
       "locality": "Leksand",
       "actors": "Bring; DHL; Instabee",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.998295434800154,
         60.73149384638508
@@ -31073,6 +31194,7 @@
       "address": "Leksandsvägen 24",
       "locality": "Leksand",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.997403409624665,
         60.73322671837225
@@ -31084,6 +31206,7 @@
       "address": "Limsjöänget 9",
       "locality": "Leksand",
       "actors": "Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.002600607865332,
         60.73772933661009
@@ -31095,6 +31218,7 @@
       "address": "Hagagatan 8A",
       "locality": "Leksand",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.001620951318808,
         60.73183170004304
@@ -31106,6 +31230,7 @@
       "address": "Hagagatan 8",
       "locality": "Leksand",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.001556709899777,
         60.73213240629689
@@ -31117,6 +31242,7 @@
       "address": "Järnavägen 11",
       "locality": "Leksand",
       "actors": "PostNord",
+      "service_types": "Egen regi; Paketbox/skåp",
       "coordinate": [
         14.996570584956801,
         60.72502136789309
@@ -31128,6 +31254,7 @@
       "address": "Björkbergsvägen 54",
       "locality": "Siljansnäs",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         14.864743794835476,
         60.776342573433766
@@ -31139,6 +31266,7 @@
       "address": "Björkbergsvägen 60",
       "locality": "Siljansnäs",
       "actors": "Bring; DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.860276281255643,
         60.77814803879715
@@ -31150,6 +31278,7 @@
       "address": "Plintsberg Tällbergsvägen 132",
       "locality": "Tällberg",
       "actors": "Bring; DHL; Instabee; Schenker; TVV",
+      "service_types": "Butik (stöd); Ombud; Paketbox/skåp",
       "coordinate": [
         15.019149128715386,
         60.817724112830206
@@ -31161,6 +31290,7 @@
       "address": "Filipstadsvägen 2",
       "locality": "Fredriksberg",
       "actors": "PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.372729957853375,
         60.14071932595552
@@ -31172,6 +31302,7 @@
       "address": "Ludvikavägen 4",
       "locality": "Fredriksberg",
       "actors": "Bring; DHL",
+      "service_types": "Ombud",
       "coordinate": [
         14.374331355027813,
         60.14070137091068
@@ -31183,6 +31314,7 @@
       "address": "Gamla vägen 31",
       "locality": "Grangärde",
       "actors": "Bring; DHL; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.977933178385392,
         60.26228494615505
@@ -31194,6 +31326,7 @@
       "address": "Kopparbergsvägen 54",
       "locality": "Grängesberg",
       "actors": "DHL; Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.007268233022904,
         60.07575352725476
@@ -31205,6 +31338,7 @@
       "address": "Stora Hagvägen 26",
       "locality": "Grängesberg",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.008262540689136,
         60.075490244849995
@@ -31216,6 +31350,7 @@
       "address": "Södra Hörksvägen 16",
       "locality": "Grängesberg",
       "actors": "Bussgods",
+      "service_types": "Ombud",
       "coordinate": [
         15.005603343290492,
         60.06235440043343
@@ -31227,6 +31362,7 @@
       "address": "Faluvägen 3",
       "locality": "Ludvika",
       "actors": "Bring; PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.19063044395706,
         60.15388812201118
@@ -31238,6 +31374,7 @@
       "address": "Lärkvägen 19",
       "locality": "Ludvika",
       "actors": "Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.18135998630684,
         60.13171816088555
@@ -31249,6 +31386,7 @@
       "address": "Vallaskogsvägen 1",
       "locality": "Ludvika",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.194176388823486,
         60.1513657498925
@@ -31260,6 +31398,7 @@
       "address": "Granitvägen 2",
       "locality": "Ludvika",
       "actors": "Bring; DHL; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.15631143213077,
         60.13569223975248
@@ -31271,6 +31410,7 @@
       "address": "Glimmervägen 1B",
       "locality": "Ludvika",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.155027538494465,
         60.13435895672313
@@ -31282,6 +31422,7 @@
       "address": "Gamla Bangatan 31",
       "locality": "Ludvika",
       "actors": "Instabee; PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.199418029574518,
         60.151873221925136
@@ -31293,6 +31434,7 @@
       "address": "Snöåvägen 18",
       "locality": "Ludvika",
       "actors": "PostNord; Schenker",
+      "service_types": "Ombud; Utlämning",
       "coordinate": [
         15.177514920683787,
         60.13070534358628
@@ -31304,6 +31446,7 @@
       "address": "Lärkvägen 28",
       "locality": "Ludvika",
       "actors": "Bring",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.181601530497124,
         60.130428724189755
@@ -31315,6 +31458,7 @@
       "address": "Bergslagsgatan 4",
       "locality": "Ludvika",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.184976349047165,
         60.152003794947255
@@ -31326,6 +31470,7 @@
       "address": "Gamla Bangatan 48",
       "locality": "Ludvika",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.20762351964689,
         60.14932673694618
@@ -31337,6 +31482,7 @@
       "address": "Verkstadsvägen 6",
       "locality": "Ludvika",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         15.210567949333566,
         60.14758857991536
@@ -31348,6 +31494,7 @@
       "address": "Tunnelgatan 2",
       "locality": "Ludvika",
       "actors": "DHL; Schenker; UPS",
+      "service_types": "Ombud",
       "coordinate": [
         15.179722358671905,
         60.14426003924298
@@ -31359,6 +31506,7 @@
       "address": "Botbergsvägen 3",
       "locality": "Sunnansjö",
       "actors": "DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.957811288915424,
         60.21647431344085
@@ -31370,6 +31518,7 @@
       "address": "Kyrkbyn 114C",
       "locality": "Lima",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         13.359848522518845,
         60.936241093529866
@@ -31381,6 +31530,7 @@
       "address": "Kyrkbyn 114A",
       "locality": "Lima",
       "actors": "DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         13.359912897016397,
         60.93600142174274
@@ -31392,6 +31542,7 @@
       "address": "Grönlandsvägen 23",
       "locality": "Malung",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         13.711494992663651,
         60.68491844085463
@@ -31403,6 +31554,7 @@
       "address": "Grönlandsvägen 30",
       "locality": "Malung",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         13.712194451506237,
         60.68345252636161
@@ -31414,6 +31566,7 @@
       "address": "Pell Annas väg 3",
       "locality": "Malung",
       "actors": "DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         13.731984642909989,
         60.67933439641302
@@ -31425,6 +31578,7 @@
       "address": "Gamla Råbergsvägen 1A",
       "locality": "Malungsfors",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         13.55763885773651,
         60.73459788261906
@@ -31436,6 +31590,7 @@
       "address": "Rörbäcksnäs 71",
       "locality": "Rörbäcksnäs",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         12.811198295136926,
         61.13314317008772
@@ -31447,6 +31602,7 @@
       "address": "Sälenvägen 15",
       "locality": "Sälen",
       "actors": "DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         13.26679151113316,
         61.155780573802346
@@ -31458,6 +31614,7 @@
       "address": "Sälenvägen 17",
       "locality": "Sälen",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         13.266690017728711,
         61.1562210218422
@@ -31469,6 +31626,7 @@
       "address": "Postvägen 2",
       "locality": "Sälen",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         13.26568239204056,
         61.15736478615204
@@ -31480,6 +31638,7 @@
       "address": "Orrlidsvägen 3",
       "locality": "Sälen",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         12.990013327175792,
         61.17948712461276
@@ -31491,6 +31650,7 @@
       "address": "Dalenvägen 118",
       "locality": "Sörsjön",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         13.084000266292659,
         61.410801102881884
@@ -31502,6 +31662,7 @@
       "address": "Siljanssågsvägen 2",
       "locality": "MORA",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.587659108595053,
         61.008749533654516
@@ -31513,6 +31674,7 @@
       "address": "Kristinebergsgatan 2",
       "locality": "Mora",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.562705014007086,
         61.00991164375965
@@ -31524,6 +31686,7 @@
       "address": "Brudtallsvägen 2",
       "locality": "Mora",
       "actors": "Bring; DHL; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.538310763093284,
         61.014909460564944
@@ -31535,6 +31698,7 @@
       "address": "Tingsnäsvägen 13",
       "locality": "Mora",
       "actors": "DHL",
+      "service_types": "Egen regi",
       "coordinate": [
         14.55392271664251,
         61.00771976399394
@@ -31546,6 +31710,7 @@
       "address": "Kyrkogatan 25B",
       "locality": "Mora",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.537598219513267,
         61.00412438423452
@@ -31557,6 +31722,7 @@
       "address": "Kyrkogatan 12",
       "locality": "Mora",
       "actors": "DHL; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.538561305318472,
         61.005294828631655
@@ -31568,6 +31734,7 @@
       "address": "Tingsnäsvägen 9",
       "locality": "Mora",
       "actors": "Bussgods",
+      "service_types": "Ombud",
       "coordinate": [
         14.551497023313432,
         61.00737272767804
@@ -31579,6 +31746,7 @@
       "address": "Kristinebergsgatan 1",
       "locality": "Mora",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.561553539706756,
         61.01049922736491
@@ -31590,6 +31758,7 @@
       "address": "Skålmyrsvägen 33",
       "locality": "Mora",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         14.58776179955337,
         61.00851768485151
@@ -31601,6 +31770,7 @@
       "address": "Siljanssågsvägen 15",
       "locality": "Mora",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.596003157679855,
         61.006100681244405
@@ -31612,6 +31782,7 @@
       "address": "Kyrkogatan 14",
       "locality": "Mora",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.538324954605292,
         61.00501570042023
@@ -31623,6 +31794,7 @@
       "address": "Yvradsvägen 2",
       "locality": "Mora",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         14.539497014865322,
         61.00096879788333
@@ -31634,6 +31806,7 @@
       "address": "Svedjärnsvägen 1",
       "locality": "Mora",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.522143512805634,
         60.992532054447466
@@ -31645,6 +31818,7 @@
       "address": "Tingsnäsvägen 5",
       "locality": "Mora",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         14.549165211496337,
         61.007521509054754
@@ -31656,6 +31830,7 @@
       "address": "Soldvägen 11B",
       "locality": "Sollerön",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         14.617325860125218,
         60.917232971651416
@@ -31667,6 +31842,7 @@
       "address": "Soldvägen 11A",
       "locality": "Sollerön",
       "actors": "DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.617087638177772,
         60.91710660075822
@@ -31678,6 +31854,7 @@
       "address": "Tennängsvägen 5",
       "locality": "Venjan",
       "actors": "Bring; DHL; PostNord; Schenker; TVV",
+      "service_types": "Butik (stöd); Ombud",
       "coordinate": [
         13.908099037949121,
         60.953653590655435
@@ -31689,6 +31866,7 @@
       "address": "Våmhusvägen 40",
       "locality": "Våmhus",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         14.47358732534026,
         61.113797513318474
@@ -31700,6 +31878,7 @@
       "address": "Lissvägen 2",
       "locality": "Orsa",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.626374448500203,
         61.11570555401019
@@ -31711,6 +31890,7 @@
       "address": "Järnvägsgatan 3",
       "locality": "Orsa",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.619789342169952,
         61.118476900718484
@@ -31722,6 +31902,7 @@
       "address": "Blästgatan 7",
       "locality": "Orsa",
       "actors": "Bring; DHL; Instabee",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.628792405681537,
         61.11698774904855
@@ -31733,6 +31914,7 @@
       "address": "Moravägen 14",
       "locality": "Orsa",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.625309589521285,
         61.11605130805822
@@ -31744,6 +31926,7 @@
       "address": "Landsvägen 500",
       "locality": "Skattungbyn",
       "actors": "DHL; Schenker; TVV",
+      "service_types": "Butik (stöd); Ombud",
       "coordinate": [
         14.859532372858682,
         61.18620932774216
@@ -31755,6 +31938,7 @@
       "address": "Boda Björkallén 62",
       "locality": "Boda kyrkby",
       "actors": "DHL; Schenker; TVV",
+      "service_types": "Butik (stöd); Ombud",
       "coordinate": [
         15.212314701843344,
         61.01168938107103
@@ -31766,6 +31950,7 @@
       "address": "Bingsjö Lambornsvägen 15",
       "locality": "Enviken",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         15.64771367376135,
         61.024605854823484
@@ -31777,6 +31962,7 @@
       "address": "Dalfors Dalforsvägen 20",
       "locality": "Furudal",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         15.404513730799014,
         61.2145269053787
@@ -31788,6 +31974,7 @@
       "address": "Furudal Furudalsvägen 831",
       "locality": "Furudal",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.1345280298275,
         61.167489381548165
@@ -31799,6 +31986,7 @@
       "address": "Riksvägen 38",
       "locality": "Rättvik",
       "actors": "Bring; UPS",
+      "service_types": "Ombud",
       "coordinate": [
         15.115591876685173,
         60.88510779499708
@@ -31810,6 +31998,7 @@
       "address": "Vasagatan 2",
       "locality": "Rättvik",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.118409901071457,
         60.884233726792175
@@ -31821,6 +32010,7 @@
       "address": "Riksvägen 26",
       "locality": "Rättvik",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.113896688049277,
         60.88693491281864
@@ -31832,6 +32022,7 @@
       "address": "Riksvägen 27",
       "locality": "Rättvik",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.113098058898236,
         60.888752190382434
@@ -31843,6 +32034,7 @@
       "address": "Faluvägen 117",
       "locality": "Rättvik",
       "actors": "DHL; Iboxen",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.10422560487488,
         60.860960642418206
@@ -31854,6 +32046,7 @@
       "address": "Riksvägen 23",
       "locality": "Rättvik",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.112229643876853,
         60.88881474031808
@@ -31865,6 +32058,7 @@
       "address": "Storgatan 11",
       "locality": "Rättvik",
       "actors": "Bring; DHL; Instabee",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.11930957477596,
         60.88299271008266
@@ -31876,6 +32070,7 @@
       "address": "Storgatan 10",
       "locality": "Rättvik",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.120406429542024,
         60.88291117285302
@@ -31887,6 +32082,7 @@
       "address": "Stora vägen 21",
       "locality": "Vikarbyn",
       "actors": "Bring; DHL; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.021887472474388,
         60.91002891882123
@@ -31898,6 +32094,7 @@
       "address": "Johan Ahlbäcks plats 10",
       "locality": "Smedjebacken",
       "actors": "Bring; PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         15.413667040501016,
         60.14165383117704
@@ -31909,6 +32106,7 @@
       "address": "Bäverstigen 1",
       "locality": "Smedjebacken",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         15.402021038065582,
         60.134550604436164
@@ -31920,6 +32118,7 @@
       "address": "Nya Ågatan 10",
       "locality": "Smedjebacken",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.402347917210848,
         60.14311426291588
@@ -31931,6 +32130,7 @@
       "address": "Vasagatan 13",
       "locality": "Smedjebacken",
       "actors": "Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.412458202486901,
         60.142278232679445
@@ -31942,6 +32142,7 @@
       "address": "Bäverstigen 2",
       "locality": "Smedjebacken",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.403230576331325,
         60.134949698375245
@@ -31953,6 +32154,7 @@
       "address": "Bärkevägen 29",
       "locality": "Söderbärke",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.557319244501706,
         60.07003842707567
@@ -31964,6 +32166,7 @@
       "address": "Bärkevägen 30",
       "locality": "Söderbärke",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         15.557449052986684,
         60.069628366502116
@@ -31975,6 +32178,7 @@
       "address": "Jaansvägen 2",
       "locality": "Gustafs",
       "actors": "Bring; Instabee; PostNord; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.591509976152418,
         60.41330574834068
@@ -31986,6 +32190,7 @@
       "address": "Landsvägen 30",
       "locality": "Stora Skedvi",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud; Utlämning",
       "coordinate": [
         15.808627737315538,
         60.40428280034929
@@ -31997,6 +32202,7 @@
       "address": "Gränsgatan 3A",
       "locality": "Säter",
       "actors": "Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.752560052865979,
         60.34628286197451
@@ -32008,6 +32214,7 @@
       "address": "Bergslagsgatan 32",
       "locality": "Säter",
       "actors": "DHL",
+      "service_types": "Ombud",
       "coordinate": [
         15.747385424980363,
         60.350343935946604
@@ -32019,6 +32226,7 @@
       "address": "Torggatan 2",
       "locality": "Säter",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         15.746754736097705,
         60.34943135027407
@@ -32030,6 +32238,7 @@
       "address": "Torggatan 8",
       "locality": "Säter",
       "actors": "Bring; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         15.75031941904829,
         60.34743587445304
@@ -32041,6 +32250,7 @@
       "address": "Stationsvägen 2L",
       "locality": "Dala-Järna",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.364677083225299,
         60.54765749226718
@@ -32052,6 +32262,7 @@
       "address": "Myrbacka 88",
       "locality": "Dala-Järna",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.366973868002987,
         60.5487427889637
@@ -32063,6 +32274,7 @@
       "address": "Myrbacka 80",
       "locality": "Dala-Järna",
       "actors": "Bring; DHL; PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.366256223481534,
         60.547514678465916
@@ -32074,6 +32286,7 @@
       "address": "Sveden 54",
       "locality": "Nås",
       "actors": "PostNord; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.500427868232343,
         60.45296641805109
@@ -32085,6 +32298,7 @@
       "address": "Sågvägen 1A",
       "locality": "Vansbro",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         14.232832127718128,
         60.50986933661787
@@ -32096,6 +32310,7 @@
       "address": "Bryggaregatan 2",
       "locality": "Vansbro",
       "actors": "Bussgods",
+      "service_types": "Ombud",
       "coordinate": [
         14.22576524103615,
         60.50835061153842
@@ -32107,6 +32322,7 @@
       "address": "Älvgatan 2",
       "locality": "Vansbro",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         14.22942748227469,
         60.50828621539761
@@ -32118,6 +32334,7 @@
       "address": "Äppelbovägen 60",
       "locality": "Vansbro",
       "actors": "PostNord",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.173581717755313,
         60.5058468978963
@@ -32129,6 +32346,7 @@
       "address": "Järnvägsgatan 25",
       "locality": "Vansbro",
       "actors": "PostNord",
+      "service_types": "Egen regi",
       "coordinate": [
         14.226237741307388,
         60.51088154745391
@@ -32140,6 +32358,7 @@
       "address": "Norra Allégatan 26",
       "locality": "Vansbro",
       "actors": "DHL; Instabee; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.222715243318131,
         60.511461292909395
@@ -32151,6 +32370,7 @@
       "address": "Sågvägen 1B",
       "locality": "Vansbro",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.233187133317326,
         60.50995488092501
@@ -32162,6 +32382,7 @@
       "address": "Rågsveden 204",
       "locality": "Äppelbo",
       "actors": "Bring; DHL; Instabee; PostNord; Schenker; UPS",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.074689638341544,
         60.47681771831059
@@ -32173,6 +32394,7 @@
       "address": "Byvägen 23A",
       "locality": "Idre",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         12.72678396147554,
         61.857552053742374
@@ -32184,6 +32406,7 @@
       "address": "Grövelsjövägen 378",
       "locality": "Idre",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         12.317799819144692,
         62.061798993292115
@@ -32195,6 +32418,7 @@
       "address": "Flötningen 144",
       "locality": "Idre",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         12.21397690800872,
         61.862234377018204
@@ -32206,6 +32430,7 @@
       "address": "Byvägen 24",
       "locality": "Idre",
       "actors": "Bussgods",
+      "service_types": "Ombud",
       "coordinate": [
         12.723303380897159,
         61.858200388197716
@@ -32217,6 +32442,7 @@
       "address": "Hsb-Vägen 1A",
       "locality": "Idre",
       "actors": "Bring; DHL; Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         12.720635534922682,
         61.85794194008756
@@ -32228,6 +32454,7 @@
       "address": "Särnavägen 121B",
       "locality": "Särna",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         13.141482144185177,
         61.692911857651644
@@ -32239,6 +32466,7 @@
       "address": "Särnavägen 121C",
       "locality": "Särna",
       "actors": "DHL; PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         13.141036823854312,
         61.69308540669739
@@ -32250,6 +32478,7 @@
       "address": "Särnavägen 114",
       "locality": "Särna",
       "actors": "Schenker",
+      "service_types": "Ombud",
       "coordinate": [
         13.141812800295863,
         61.69339226131103
@@ -32261,6 +32490,7 @@
       "address": "Vasaloppsvägen 1359",
       "locality": "Älvdalen",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         13.956042190994788,
         61.13437157265379
@@ -32272,6 +32502,7 @@
       "address": "Dalgatan 81G",
       "locality": "Älvdalen",
       "actors": "Instabee; Schenker",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.036201455434835,
         61.22951726278779
@@ -32283,6 +32514,7 @@
       "address": "Dalgatan 81F",
       "locality": "Älvdalen",
       "actors": "Bring",
+      "service_types": "Ombud",
       "coordinate": [
         14.036953728847136,
         61.229651087433524
@@ -32294,6 +32526,7 @@
       "address": "Dalgatan 81A",
       "locality": "Älvdalen",
       "actors": "PostNord",
+      "service_types": "Ombud",
       "coordinate": [
         14.037394023812437,
         61.2294988000956
@@ -32305,6 +32538,7 @@
       "address": "Vasaloppsvägen 1357D",
       "locality": "Älvdalen",
       "actors": "TVV",
+      "service_types": "Butik (stöd)",
       "coordinate": [
         13.95593258156324,
         61.13431685571249
@@ -32316,6 +32550,7 @@
       "address": "Dalgatan 94",
       "locality": "Älvdalen",
       "actors": "Bussgods; DHL; PostNord",
+      "service_types": "Ombud; Paketbox/skåp",
       "coordinate": [
         14.03925580401653,
         61.22848362455956
@@ -32327,6 +32562,7 @@
       "address": "Dalgatan 75A",
       "locality": "Älvdalen",
       "actors": "Instabee",
+      "service_types": "Paketbox/skåp",
       "coordinate": [
         14.038432433427332,
         61.22842877510573

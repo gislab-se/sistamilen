@@ -315,6 +315,7 @@ def build(source, coordinates=None):
         for row in csv.DictReader(stream):
             nodes.append({"id": row["kluster_id"], "name": row["nodnamn"], "address": row["adress"],
                           "locality": row["postort"], "actors": row["aktorer"],
+                          "service_types": row["servicetyper"],
                           "coordinate": [float(row["lon"]), float(row["lat"])]})
     precision = Counter(a["precision"] for a in addresses.values())
     vehicles = name_vehicle_profiles(trips, reports, flags)

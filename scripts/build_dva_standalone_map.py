@@ -442,155 +442,8 @@ def json_for_script(value: Any) -> str:
 
 
 def build_map_html(tracts: list[dict[str, Any]], nodes: list[dict[str, Any]]) -> str:
-    template = MAP_TEMPLATE
-    replacements = {
-        "__TRACT_DATA__": json_for_script(tracts),
-        "__NODE_DATA__": json_for_script(nodes),
-        "__SOURCE_URL__": html.escape(SOURCE_URL, quote=True),
-        "__BUILT_AT__": datetime.now().astimezone().isoformat(timespec="minutes"),
-    }
-    for marker, value in replacements.items():
-        template = template.replace(marker, value)
-    return template
+    return (OUTPUT_DIR/'index.template.html').read_text(encoding='utf-8')
 
-
-MAP_TEMPLATE = r'''<!doctype html>
-<html lang="sv">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Transportnärvaro – DVA:s sophämtning 2026</title>
-  <link rel="preconnect" href="https://tile.openstreetmap.org">
-  <link rel="stylesheet" href="vendor/leaflet.css">
-  <style>
-    :root { --ink:#14201c; --muted:#62716b; --paper:#f7f5ef; --panel:#fffefa;
-      --line:#dcded7; --green:#16705a; --orange:#d0643b; --blue:#23669b; --focus:#f4c95d; }
-    * { box-sizing:border-box; }
-    html,body { height:100%; margin:0; color:var(--ink); background:var(--paper);
-      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
-    body { display:grid; grid-template-columns:minmax(320px,390px) 1fr; overflow:hidden; }
-    aside { height:100%; overflow:auto; padding:24px 22px 28px; background:var(--panel);
-      border-right:1px solid var(--line); box-shadow:8px 0 24px rgba(20,32,28,.06); z-index:1001; }
-    #map { height:100%; width:100%; background:#e9eee9; }
-    .eyebrow { position:relative; z-index:1; color:#16705a; font-size:.74rem; font-weight:800; letter-spacing:.12em;
-      text-transform:uppercase; }
-    h1 { position:relative; z-index:1; margin:7px 0 8px; color:#14201c; font-size:1.72rem; line-height:1.08; letter-spacing:-.035em; }
-    .lead { margin:0 0 18px; color:var(--muted); font-size:.94rem; line-height:1.47; }
-    .notice { padding:12px 13px; border:1px solid #e6c99e; border-radius:12px;
-      background:#fff7e8; color:#65491d; font-size:.8rem; line-height:1.42; }
-    .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:16px 0 20px; }
-    .stat { padding:10px; border:1px solid var(--line); border-radius:11px; background:#fff; }
-    .stat strong { display:block; font-size:1.13rem; }
-    .stat span { color:var(--muted); font-size:.68rem; }
-    fieldset { padding:0; margin:0 0 16px; border:0; }
-    legend,.label { display:block; margin-bottom:7px; font-size:.72rem; font-weight:800;
-      letter-spacing:.06em; text-transform:uppercase; }
-    select,input[type=date] { width:100%; height:42px; border:1px solid #bdc7c1;
-      border-radius:9px; padding:0 10px; color:var(--ink); background:#fff; font:inherit; }
-    select:focus,input:focus,button:focus-visible { outline:3px solid color-mix(in srgb,var(--focus) 68%,transparent); outline-offset:1px; }
-    .chips { display:flex; flex-wrap:wrap; gap:6px; }
-    .chip { border:1px solid #c8d0cc; border-radius:999px; background:#fff; padding:7px 10px;
-      color:var(--ink); cursor:pointer; font-size:.76rem; }
-    .chip[aria-pressed=true] { border-color:var(--green); background:var(--green); color:#fff; }
-    .check { display:flex; align-items:flex-start; gap:9px; margin:9px 0; color:#34443e; font-size:.82rem; }
-    .check input { width:17px; height:17px; margin-top:1px; accent-color:var(--green); }
-    .result { margin:18px 0; padding:13px; border-radius:12px; background:#edf5f1; }
-    .result strong { display:block; margin-bottom:4px; font-size:.92rem; }
-    .result span { color:#4f655d; font-size:.78rem; line-height:1.4; }
-    .legend { display:grid; grid-template-columns:auto 1fr; gap:7px 9px; align-items:center;
-      color:var(--muted); font-size:.76rem; }
-    .swatch { width:15px; height:15px; border-radius:50%; background:var(--green); }
-    .swatch.node { width:11px; height:11px; background:var(--blue); }
-    .swatch.ring { background:transparent; border:2px dashed var(--green); }
-    footer { margin-top:22px; padding-top:14px; border-top:1px solid var(--line);
-      color:var(--muted); font-size:.7rem; line-height:1.45; }
-    footer a { color:var(--green); }
-    .leaflet-popup-content-wrapper { border-radius:13px; box-shadow:0 9px 30px rgba(20,32,28,.18); }
-    .popup h2 { margin:0 0 5px; font-size:1.08rem; }
-    .popup .meta { color:#53635d; font-size:.77rem; }
-    .popup p { margin:9px 0; font-size:.8rem; line-height:1.42; }
-    .popup dl { display:grid; grid-template-columns:auto 1fr; gap:4px 9px; margin:10px 0 0; font-size:.76rem; }
-    .popup dt { color:#68766f; } .popup dd { margin:0; font-weight:650; }
-    .flag { display:inline-block; margin-top:8px; padding:4px 7px; border-radius:6px;
-      color:#754b17; background:#fff0d6; font-size:.68rem; }
-    @media (max-width:760px) {
-      body { display:block; overflow:auto; }
-      aside { height:auto; max-height:none; border-right:0; border-bottom:1px solid var(--line); }
-      #map { height:68vh; min-height:480px; }
-    }
-  </style>
-</head>
-<body>
-  <aside>
-    <div class="eyebrow">Fristående testkarta · scenario</div>
-    <h1>Transportnärvaro från sophämtning</h1>
-    <p class="lead">Undersök var DVA:s återkommande hämtning sammanfaller med paketservice i Gagnef, Leksand, Rättvik och Vansbro.</p>
-    <div class="notice"><strong>Inte faktiska rutter.</strong> Ringarna visar geokodade ankarorter för trakter. DVA:s publika sida saknar körväg, stoppordning, exakta hämtställen och ankomsttider. Publicerat tidsfönster är endast kärl ute senast 06.00 och möjlig hämtning fram till 22.00.</div>
-    <div class="stats">
-      <div class="stat"><strong id="tractCount">35</strong><span>visade trakter</span></div>
-      <div class="stat"><strong id="nodeCount">0</strong><span>paketnoder</span></div>
-      <div class="stat"><strong>2026</strong><span>referensår</span></div>
-    </div>
-
-    <fieldset><label class="label" for="municipality">Kommun</label><select id="municipality"><option value="">Alla fyra kommuner</option></select></fieldset>
-    <fieldset><legend>Veckodag</legend><div class="chips" id="weekdayChips"></div></fieldset>
-    <fieldset><label class="label" for="wasteType">Avfallsslag</label><select id="wasteType"></select></fieldset>
-    <fieldset><label class="label" for="pickupDate">Hämtning ett visst datum</label><input type="date" id="pickupDate" min="2026-01-01" max="2026-12-31"></fieldset>
-    <label class="check"><input type="checkbox" id="showNodes" checked><span>Visa befintliga paketombud och paketboxar</span></label>
-    <label class="check"><input type="checkbox" id="onlySingle"><span>Visa bara paketnoder med en observerad aktör</span></label>
-    <label class="check"><input type="checkbox" id="showRings" checked><span>Visa illustrativ 7 km-ring runt traktens ankarort</span></label>
-    <div class="result"><strong id="resultTitle">Alla trakter</strong><span id="resultText">Välj filter och klicka sedan på en trakt eller paketnod.</span></div>
-    <div class="legend">
-      <span class="swatch"></span><span>Geokodad traktankare</span>
-      <span class="swatch ring"></span><span>Illustrativ närzon, inte traktgräns</span>
-      <span class="swatch node"></span><span>Observerad paketservicenod 2026</span>
-    </div>
-    <footer>Källor: <a href="__SOURCE_URL__" target="_blank" rel="noreferrer">DVA:s sophämtningsschema 2026</a>, projektets observerade servicenoder 2026 och OpenStreetMap för bakgrund/geokodning. Byggd __BUILT_AT__. Kartan är ett screening- och diskussionsunderlag.</footer>
-  </aside>
-  <main id="map" aria-label="Interaktiv karta över ungefärlig transportnärvaro och paketservicenoder"></main>
-  <script src="vendor/leaflet.js"></script>
-  <script>
-    const tracts = __TRACT_DATA__;
-    const serviceNodes = __NODE_DATA__;
-    const wasteTypes = ["Matavfall","Restavfall","Plastförpackningar","Pappersförpackningar"];
-    const weekdays = ["Måndag","Tisdag","Onsdag","Torsdag","Fredag"];
-    const colors = {Gagnef:"#16705a",Leksand:"#a65f12",Rättvik:"#8b3e78",Vansbro:"#4967a8"};
-    const map = L.map("map", {zoomControl:false}).setView([60.73,14.85], 9);
-    L.control.zoom({position:"bottomright"}).addTo(map);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-    const tractLayer = L.layerGroup().addTo(map), ringLayer = L.layerGroup().addTo(map), nodeLayer = L.layerGroup().addTo(map);
-    const municipality = document.querySelector("#municipality"), wasteType = document.querySelector("#wasteType"), pickupDate = document.querySelector("#pickupDate");
-    [...new Set(tracts.map(d=>d.municipality))].forEach(v=>municipality.add(new Option(v,v)));
-    wasteTypes.forEach(v=>wasteType.add(new Option(v,v))); wasteType.value="Matavfall";
-    weekdays.forEach(day=>{ const b=document.createElement("button"); b.className="chip"; b.type="button"; b.textContent=day.slice(0,3); b.dataset.value=day; b.setAttribute("aria-pressed","false"); b.title=day; b.onclick=()=>{b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")!=="true"); render();}; document.querySelector("#weekdayChips").append(b); });
-    const today=(()=>{const d=new Date(); const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,"0"),day=String(d.getDate()).padStart(2,"0"); return `${y}-${m}-${day}`;})();
-    const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-    const fmt=d=>new Intl.DateTimeFormat("sv-SE",{day:"numeric",month:"short"}).format(new Date(d+"T12:00:00"));
-    function tractPopup(t){ const dates=t.dates[wasteType.value]||[]; const upcoming=dates.filter(d=>d>=today).slice(0,5); return `<div class="popup"><h2>${esc(t.municipality)} · trakt ${t.tract}</h2><div class="meta">${esc(t.weekday)}, ${esc(t.week_parity.toLowerCase())} veckor · ankare: ${esc(t.anchor?.query_place||"saknas")}</div><p><strong>Platser enligt källan:</strong><br>${esc(t.places)}</p><dl><dt>Valt avfall</dt><dd>${esc(wasteType.value)}</dd><dt>Kommande källdatum</dt><dd>${upcoming.length?upcoming.map(fmt).join(", "):`Inga från ${fmt(today)}`}</dd></dl>${t.source_flags.length?`<span class="flag">Källkontroll behövs: ${esc(t.source_flags.join(", "))}</span>`:""}</div>`; }
-    function nodePopup(n){ return `<div class="popup"><h2>${esc(n.name)}</h2><div class="meta">${esc(n.address)} · ${esc(n.municipality)}</div><dl><dt>Aktörer</dt><dd>${esc(n.operators)}</dd><dt>Servicetyp</dt><dd>${esc(n.service_types)}</dd><dt>Observerade aktörer</dt><dd>${n.operator_count}</dd><dt>Leveransdagar</dt><dd>${n.median_delivery_days??"saknas"} per vecka (median)</dd></dl></div>`; }
-    function render(){
-      tractLayer.clearLayers(); ringLayer.clearLayers(); nodeLayer.clearLayers();
-      const selectedDays=[...document.querySelectorAll(".chip[aria-pressed=true]")].map(b=>b.dataset.value);
-      const chosenDate=pickupDate.value, chosenWaste=wasteType.value;
-      const visible=tracts.filter(t=>(!municipality.value||t.municipality===municipality.value)&&(!selectedDays.length||selectedDays.includes(t.weekday))&&(!chosenDate||(t.dates[chosenWaste]||[]).includes(chosenDate)));
-      visible.forEach(t=>{ if(t.anchor?.lat==null)return; const color=colors[t.municipality];
-        if(document.querySelector("#showRings").checked)L.circle([t.anchor.lat,t.anchor.lon],{radius:7000,color,weight:1.5,dashArray:"6 7",fillColor:color,fillOpacity:.035,interactive:false}).addTo(ringLayer);
-        L.circleMarker([t.anchor.lat,t.anchor.lon],{radius:8,color:"#fff",weight:2,fillColor:color,fillOpacity:.95}).bindPopup(tractPopup(t),{maxWidth:340}).addTo(tractLayer);
-      });
-      let visibleNodes=[];
-      if(document.querySelector("#showNodes").checked){ visibleNodes=serviceNodes.filter(n=>(!municipality.value||n.municipality===municipality.value)&&(!document.querySelector("#onlySingle").checked||n.one_operator)); visibleNodes.forEach(n=>L.circleMarker([n.lat,n.lon],{radius:n.one_operator?4.5:6,color:"#fff",weight:1.2,fillColor:n.one_operator?"#d0643b":"#23669b",fillOpacity:.9}).bindPopup(nodePopup(n),{maxWidth:320}).addTo(nodeLayer)); }
-      document.querySelector("#tractCount").textContent=visible.length; document.querySelector("#nodeCount").textContent=visibleNodes.length;
-      document.querySelector("#resultTitle").textContent=chosenDate?`${visible.length} trakter med ${chosenWaste.toLowerCase()} ${fmt(chosenDate)}`:`${visible.length} trakter i urvalet`;
-      document.querySelector("#resultText").textContent=`${visibleNodes.length} paketnoder visas. Ringarna är en illustrativ närzon och får inte tolkas som hämtningsområde eller rutt.`;
-    }
-    [municipality,wasteType,pickupDate,document.querySelector("#showNodes"),document.querySelector("#onlySingle"),document.querySelector("#showRings")].forEach(el=>el.addEventListener("change",render));
-    render();
-  </script>
-</body>
-</html>
-'''
 
 
 def main() -> None:
@@ -616,6 +469,12 @@ def main() -> None:
 
     ensure_leaflet_assets(refresh=args.refresh_leaflet)
     write_csv_outputs(tracts, schedule)
+    # Keep place points and dates synchronized with the same source snapshot.
+    import sys
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from scripts.build_dva_place_points import build as build_place_points
+    build_place_points()
     nodes = read_service_nodes()
     MAP_HTML.parent.mkdir(parents=True, exist_ok=True)
     MAP_HTML.write_text(build_map_html(tracts, nodes), encoding="utf-8")

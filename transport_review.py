@@ -24,7 +24,8 @@ def asset_signature():
     html = (MAP_ROOT / 'index.html').read_text(encoding='utf-8')
     names = ['index.html', 'README.md', 'data/adressmatchning.csv'] + LINK.findall(html) + SCRIPT.findall(html)
     names += [p.relative_to(MAP_ROOT).as_posix() for p in (MAP_ROOT / 'vendor/images').glob('*') if p.is_file()]
-    return tuple((name, local_asset(name).stat().st_mtime_ns, local_asset(name).stat().st_size) for name in names)
+    dva_method=ROOT/'prototypes/dva_transportnarvaro/README.md'
+    return tuple((name, local_asset(name).stat().st_mtime_ns, local_asset(name).stat().st_size) for name in names) + (('dva-method',dva_method.stat().st_mtime_ns,dva_method.stat().st_size),)
 
 
 def data_url(path):
@@ -32,8 +33,10 @@ def data_url(path):
     return 'data:' + mime + ';base64,' + base64.b64encode(path.read_bytes()).decode('ascii')
 
 
-def embedded_map_html():
+def embedded_map_html(context='transport'):
     """Inline trusted local assets, keeping script execution after DOM creation."""
+    if context not in ('transport', 'combined'):
+        raise ValueError('Unknown review context')
     html = (MAP_ROOT / 'index.html').read_text(encoding='utf-8')
 
     def stylesheet(match):
@@ -53,6 +56,8 @@ def embedded_map_html():
     html = LINK.sub(stylesheet, html)
     html = SCRIPT.sub(script, html)
     html = html.replace('href="./index.html"', 'href="#map"')
-    html = html.replace('href="README.md"', 'download="Metod-transportanalys.md" href="' + data_url(MAP_ROOT / 'README.md') + '"')
+    method_path=ROOT/'prototypes/dva_transportnarvaro/README.md' if context=='combined' else MAP_ROOT/'README.md'
+    html = html.replace('href="README.md"', 'download="Metod-granskningskarta.md" href="' + data_url(method_path) + '"')
     html = html.replace('href="data/adressmatchning.csv"', 'href="' + data_url(MAP_ROOT / 'data/adressmatchning.csv') + '"')
-    return html.replace('</body>', '\n'.join(scripts) + '\n</body>')
+    context_script = '<script>window.REVIEW_CONTEXT=' + repr(context) + ';</script>\n'
+    return html.replace('</body>', context_script + '\n'.join(scripts) + '\n</body>')

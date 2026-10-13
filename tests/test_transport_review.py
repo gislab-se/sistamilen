@@ -34,6 +34,13 @@ class TransportReviewTests(unittest.TestCase):
         original = import_archive(DEFAULT_SOURCE)[0] if DEFAULT_SOURCE.exists() else []
         self.assertFalse(any(t['vehicle'] in html for t in original))
 
+    def test_combined_context_uses_same_self_contained_map(self):
+        html=embedded_map_html(context='combined')
+        self.assertIn("window.REVIEW_CONTEXT='combined'",html)
+        self.assertIn('window.REVIEW_WASTE =',html)
+        self.assertIn('id="tract-layers"',html)
+        self.assertNotRegex(html,r'<script[^>]*src=')
+
 
 if __name__=='__main__':
     unittest.main()
